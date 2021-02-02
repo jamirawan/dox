@@ -11,8 +11,8 @@
 | source          | link                                                           |
 | --------------- | -------------------------------------------------------------- |
 Website 
-| * Ref 1 | URL |
-| ** Ref 2 | URL |
+| 1.  Ref 1 | URL |
+| 2. Ref 2 | URL |
 
 
 <!-- prettier-ignore-end -->
