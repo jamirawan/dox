@@ -1,4 +1,4 @@
-# Basic Markdown Cheatsheet (example of Heading 1)
+# Basic Markdown Cheatsheet
 
 ## 1. Heading (example of Heading 2)
 
