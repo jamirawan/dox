@@ -1,5 +1,0 @@
-# Index
-
-## Drupal
-## Wordpress
-## Joomla
