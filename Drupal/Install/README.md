@@ -1,3 +1,0 @@
-# Installing in local
-## DDEV
-
