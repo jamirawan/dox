@@ -1,3 +1,3 @@
-# Codeigniter manual
+# Codeigniter
 
 {% include list.liquid %}
