@@ -346,7 +346,7 @@ This is inline `code`.
 For a block of codes add three backward single quotes
 
 ***Makdown***
-````
+````md
 
 ``` javascript
 var s = "JavaScript syntax highlighting";
@@ -370,24 +370,8 @@ alert(s);
 s = "Python syntax highlighting"
 print s
 ```
- 
-
-
-***Makdown***
-
-```md
-    <html>
-      <head>
-        <title>Test</title>
-      </head>
-```
-
-***Rendered output***
-
-    <html>
-      <head>
-        <title>Test</title>
-      </head>
+## Escaping markdown code block
+To escape block code as above in Markdown with three backticks, use either four backticks or three ~~~ 
 
 ---
 ## 9. Links
@@ -442,47 +426,12 @@ It was a [hobbit-hole][hh], and that means comfort.
 
 ```md
 ![Irawan's Image](https://irawan.io/og/irawan-io.png
-![Image Alt Text](https://irawan.io/og/irawan-io.png "Irawan's logo")
-![Image Alt Text](https://irawan.io/og/irawan-io.png "Image specified with width and height" =800x600)
-![Image Alt Text](https://irawan.io/og/irawan-io.png=800x600)
-![Image Alt Text](https://irawan.io/og/irawan-io.png"Image specified with width" =800x)
-![Image Alt Text](https://irawan.io/og/irawan-io.png"Image specified with height" =x600)
 ```
 
 ***Rendered output***
 
 ![Irawan's Image](https://irawan.io/og/irawan-io.png)
-![Image Alt Text](https://irawan.io/og/irawan-io.png "Irawan's logo")
-![Image Alt Text](https://irawan.io/og/irawan-io.png "Image specified with width and height" =800x600)
-![Image Alt Text](https://irawan.io/og/irawan-io.png=800x600)
-![Image Alt Text](https://irawan.io/og/irawan-io.png"Image specified with width" =800x)
-![Image Alt Text](https://irawan.io/og/irawan-io.png"Image specified with height" =x600)
 
-
-## 12. Emphasis 
-
-### Bold
-Two asterisks around the words will make it bold
-
-***Markdown***
-```md
-This **word** is bold. 
-
-```
-***Rendered output***
-
-This **word** is bold. 
-
-### Italic
-
-One asterisk will make it italic
-
-```md
-This *word* is italic
-```
-
-***Rendered output***
-This *word* is italic
 
 ## 12 Horizontal lines
 
