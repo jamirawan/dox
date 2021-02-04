@@ -1,3 +1,3 @@
-# Git documentation
+# Git
 
 {% include list.liquid %}
