@@ -2,7 +2,7 @@
 
 ## 1. Heading (example of Heading 2)
 
-***Syntaxes***
+***Makdown***
 
 ```md
 # h1 Heading
@@ -13,7 +13,7 @@
 ###### h6 Heading
 ```
 
-***Showcases***
+***Markdown***
 
 ### h3 Heading
 #### h4 Heading
@@ -28,7 +28,7 @@
 - To create paragraphs, use a blank line to separate one or more lines of text.
 - Don't ident paragraphs with spaces or tabs
 
-***Syntaxes***
+***Markdown***
 
 ```md
 This is the first paragraph.
@@ -36,7 +36,7 @@ This is the first paragraph.
 This is the second paragraph
 ```
 
-***Showcases***
+***Rendered output:***
 
 This is the first paragraph.
 
@@ -49,26 +49,26 @@ This is the second paragraph
 - To create a line break, end a line with two or more spaces, and then type return
 - *Or* use the `<br>` HTML tag
 
-***Syntaxes***
+***Markdown***
 
 ```md
 This is the first line. 
 And this is the second line.
 ```
 
-***Showcases***
+***On browser:***
 
 This is the first line.  
 And this is the second line.
 
-***Alternative Syntaxes***
+***Alternative Makdown***
 
 ```md
 First line with the HTML tag after.<br>
 And the next line.
 ```
 
-***Showcases***
+***Rendered output***
 
 First line with the HTML tag after.<br>
 And the next line.
@@ -76,7 +76,7 @@ And the next line.
 ---
 ## 4. Emphasis
 
-***Syntaxes***
+***Makdown***
 
 ```md
 **This is bold text**
@@ -90,7 +90,7 @@ This text is __*really important*__
 This text is **_really important_**
 ```
 
-***Showcases***
+***Rendered output***
 
 **This is bold text**  
 __This is bold text__  
@@ -112,7 +112,7 @@ This text is **_really important_**
 - Blockquotes can contain multiple paragraphs. Add a >  between the paragraphs.
 - Blockquotes can contain other Markdown formatted elements. But not all elements can be used.
 
-***Syntaxes***
+***Makdown***
 
 ```md
 > Blockquotes can also be nested...
@@ -120,13 +120,13 @@ This text is **_really important_**
 > > > ...or with spaces between arrows.
 ```
 
-***Showcases***
+***Rendered output***
 
 > Blockquotes can also be nested...
 >> ...by using additional greater-than signs right next to each other...
 > > > ...or with spaces between arrows.
 
-***Syntaxes***
+***Makdown***
 
 ```md
 > Dorothy followed her through many of the beautiful rooms in her castle.
@@ -134,13 +134,13 @@ This text is **_really important_**
 > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 ```
 
-***Showcases***
+***Rendered output***
 
 > Dorothy followed her through many of the beautiful rooms in her castle.
 >
 > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 
-***Syntaxes***
+***Makdown***
 
 ```md
 > #### The quarterly results look great!
@@ -151,7 +151,7 @@ This text is **_really important_**
 >  *Everything* is going according to **plan**.
 ```
 
-***Showcases***
+***Rendered output***
 
 > #### The quarterly results look great!
 >
@@ -164,7 +164,7 @@ This text is **_really important_**
 ## 6. Lists
 ### 6.1. Unordered
 
-***Syntaxes***
+***Makdown***
 
 ```md
 
@@ -181,7 +181,7 @@ This is a text under an item. Notice that there are two spaces at the end above.
 To end a list, there should be one empty line above.
 ```
 
-***Showcases***
+***Rendered output***
 
 + To start a list, there should be an empty line above
 + Create a list by starting a line with `+`, `-`, or `*`
@@ -197,7 +197,7 @@ To end a list, there should be one empty line above.
 
 ### 6.2. Ordered
 
-***Syntaxes***
+***Makdown***
 
 ```md
 1. Item 1
@@ -211,7 +211,7 @@ Notice that there are two spaces at the end above to make a new text under item.
 8. Any number for item 4
 ```
 
-***Showcases***
+***Rendered output***
 
 1. Item 1
 1. Item 2  
@@ -223,14 +223,14 @@ Notice that there are two spaces at the end above to make a new text under item.
     2. Item 3b
 8. Any number for item 4
 
-***Syntaxes***
+***Makdown***
 
 ```md
 57. will started with offset 57
 1. so it will be 58
 ```
 
-***Showcases***
+***Rendered output***
 
 57. will started with offset 57
 1. so it will be 58
@@ -242,7 +242,7 @@ Notice that there are two spaces at the end above to make a new text under item.
 *Notes:*
 - To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab
 
-***Syntaxes***
+***Makdown***
 
 ```md
 * This is the first list item.
@@ -251,7 +251,7 @@ Notice that there are two spaces at the end above to make a new text under item.
 * And here's the third list item.
 ```
 
-***Showcases***
+***Rendered output***
 
 * This is the first list item.
 * Here's the second list item.
@@ -259,7 +259,7 @@ Notice that there are two spaces at the end above to make a new text under item.
 * And here's the third list item.
 
 
-***Showcases***
+***Rendered output***
 
 *   This is the first list item.
 *   Here's the second list item.
@@ -268,7 +268,7 @@ Notice that there are two spaces at the end above to make a new text under item.
 
 *   And here's the third list item.
 
-***Showcases***
+***Rendered output***
 
 *   This is the first list item.
 *   Here's the second list item.
@@ -278,7 +278,7 @@ Notice that there are two spaces at the end above to make a new text under item.
 *   And here's the third list item.
 
 
-***Syntaxes***
+***Makdown***
 
 ```md
 1.  Open the file containing the Linux mascot.
@@ -287,7 +287,7 @@ Notice that there are two spaces at the end above to make a new text under item.
 3.  Tux is cool.
 ```
 
-***Showcases***
+***Rendered output***
 
 1.  Open the file containing the Linux mascot.
 2.  Linux mascot called Tux.
@@ -333,17 +333,17 @@ Notice that there are two spaces at the end above to make a new text under item.
 - Inline codes is written inside \` \`
 - or idented by add four spaces or one tab before
 
-***Syntaxes***
+***Makdown***
 
 ```md
 This is inline `code`.
 ```
 
-***Showcases***
+***Rendered output***
 
 This is inline `code`.
 
-***Syntaxes***
+***Makdown***
 
 ```md
     // Some comments
@@ -352,14 +352,14 @@ This is inline `code`.
     line 3 of code
 ```
 
-***Showcases***
+***Rendered output***
 
     // Some comments
     line 1 of code
     line 2 of code
     line 3 of code
 
-***Syntaxes***
+***Makdown***
 
 ```md
     <html>
@@ -368,7 +368,7 @@ This is inline `code`.
       </head>
 ```
 
-***Showcases***
+***Rendered output***
 
     <html>
       <head>
@@ -380,8 +380,8 @@ This is inline `code`.
 
 **Example**
 
-This is [link](https://example.com/)  
-This is [link with title](https://example.com/ "title text!")
+This is [link](https://irawan.io))  
+This is [link with title](https://irawan.io "Irawan's site")
 
 *Or, directly put the link*
 
@@ -399,20 +399,12 @@ fake@example.com
 
 *Or add emphasize*
 
-I love supporting the **[EFF](https://eff.org)**.  
 This is the *[Markdown Guide](https://www.markdownguide.org)*.  
 See the section on [`code`](#code).
 
-## 10. Reference-style Links
 
 
-I know [Indonesia][1]  
-I also know [etymology of Indonesia][2]  
-I knew [History of Indonesia][3]
 
-[1]: <https://en.wikipedia.org/wiki/Indonesia>
-[2]: https://en.wikipedia.org/wiki/Indonesia#Etymology "Etymology of Indonesia"
-[3]: https://en.wikipedia.org/wiki/Indonesia#History 'History of Indonesia'
 
 *Or, put reference in text*
 
@@ -432,66 +424,67 @@ It was a [hobbit-hole][hh], and that means comfort.
 - It is not recommended to use image links in reference format. Some apps will not preview those images.
 - Specifying size of image is supported only in some extended markdown (such as *markdown-it*).
 
-***Syntaxes***
+***Makdown***
 
 ```md
-![Image Alt Text](/url/to/image.png "Optional Text")
-![Image Alt Text](/url/to/image.png "Image specified with width and height" =800x600)
-![Image Alt Text](/url/to/image.png =800x600)
-![Image Alt Text](/url/to/image.png "Image specified with width" =800x)
-![Image Alt Text](/url/to/image.png "Image specified with height" =x600)
+![Irawan's Image](https://irawan.io/og/irawan-io.png
+![Image Alt Text](https://irawan.io/og/irawan-io.png "Irawan's logo")
+![Image Alt Text](https://irawan.io/og/irawan-io.png "Image specified with width and height" =800x600)
+![Image Alt Text](https://irawan.io/og/irawan-io.png=800x600)
+![Image Alt Text](https://irawan.io/og/irawan-io.png"Image specified with width" =800x)
+![Image Alt Text](https://irawan.io/og/irawan-io.png"Image specified with height" =x600)
 ```
 
-***Showcases***
+***Rendered output***
 
-![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Wikipedia_Logo_1.0.png/240px-Wikipedia_Logo_1.0.png)  
-![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Wikipedia_Logo_1.0.png/240px-Wikipedia_Logo_1.0.png "Wikipedia logo with specific size" =60x60)  
+![Irawan's Image](https://irawan.io/og/irawan-io.png)
+![Image Alt Text](https://irawan.io/og/irawan-io.png "Irawan's logo")
+![Image Alt Text](https://irawan.io/og/irawan-io.png "Image specified with width and height" =800x600)
+![Image Alt Text](https://irawan.io/og/irawan-io.png=800x600)
+![Image Alt Text](https://irawan.io/og/irawan-io.png"Image specified with width" =800x)
+![Image Alt Text](https://irawan.io/og/irawan-io.png"Image specified with height" =x600)
 
-***Syntaxes***
+
+## 12. Emphasis 
+
+### Bold
+Two asterisks around the words will make it bold
+
+***Markdown***
 ```md
-![Image Alt Text][id1]  
-![Image Alt Text][id2]
+This **word** is bold. 
 
-[id1]: /url/to/image.png "Optional Text"
-[id2]: /url/to/image.png
+```
+***Rendered output***
+
+This **word** is bold. 
+
+### Italic
+
+One asterisk will make it italic
+
+```md
+This *word* is italic
 ```
 
-***Showcases***
+***Rendered output***
+This *word* is italic
 
-![Wikipedia][id1]  
-![Wikipedia Logo][id2]
+## 12 Horizontal lines
 
-[id1]: https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Wikipedia_Logo_1.0.png/240px-Wikipedia_Logo_1.0.png  "Wikipedia Logo"
-[id2]: https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Wikipedia_Logo_1.0.png/240px-Wikipedia_Logo_1.0.png
-
----
-## 12. Escaping Characters
-*Note:*
-- add a backslash `\` in front of the character.
-
-**Example**
-
-\* star  
-\\ backslash itself  
-\` backtick  
-\{ \} curly braces  
-\! exclamation mark
-
----
-## 13. HTML Code
-
-**Example**
-
-This **word** is bold. This <em>word</em> is italic.
-
----
-
-## 14. Horizontal Rules
-
-**Example**
-
+***Markdown***
+```md
 ___
 
 ---
 
 ***
+
+```
+
+***Rendered output***
+
+___
+---
+***
+```
