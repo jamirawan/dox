@@ -346,7 +346,7 @@ This is inline `code`.
 For a block of codes add three backward single quotes
 
 ***Makdown***
-``
+````
 
 ``` javascript
 var s = "JavaScript syntax highlighting";
@@ -357,7 +357,7 @@ alert(s);
 s = "Python syntax highlighting"
 print s
 ```
-``
+````
 
 ***Rendered output***
 
