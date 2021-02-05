@@ -35,5 +35,4 @@ If you dont want the phpunit or just wanting to install the framework, add `--no
 ```
 composer create-project codeigniter4/appstarter webapp --no-dev
 ```
-###
 
