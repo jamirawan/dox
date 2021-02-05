@@ -12,7 +12,6 @@ git config --global user.name "USER_NAME"
 ```
 2. Add email address that you have the access to remote:
 ```
-```
 git config --global user.email "Name.of.email@email.com"
 ```
 ## Setup the local folder different from global configuration, remove the `--global`:
