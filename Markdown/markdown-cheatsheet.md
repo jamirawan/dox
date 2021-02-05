@@ -281,19 +281,18 @@ Notice that there are two spaces at the end above to make a new text under item.
 ***Makdown***
 
 ```md
-1.  Open the file containing the Linux mascot.
-2.  Linux mascot called Tux.
-    ![Tux, the Linux mascot](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tux.png/220px-Tux.png)
-3.  Tux is cool.
+1.  This list will include image
+2.  This is Irawan's logo
+    ![Irawan](https://irawan.io/og/irawan-io.png)
+3.  So that's a logo
 ```
 
 ***Rendered output***
 
-1.  Open the file containing the Linux mascot.
-2.  Linux mascot called Tux.
-    ![Tux, the Linux mascot](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tux.png/220px-Tux.png)
-3.  Tux is cool.
-
+1.  This list will include image
+2.  This is Irawan's logo
+    ![Irawan](https://irawan.io/og/irawan-io.png)
+3.  So that's a logo
 
 *But, for text element in ordered list, add five spaces*
 
@@ -425,7 +424,7 @@ It was a [hobbit-hole][hh], and that means comfort.
 ***Makdown***
 
 ```md
-![Irawan's Image](https://irawan.io/og/irawan-io.png
+![Irawan's Image](https://irawan.io/og/irawan-io.png)
 ```
 
 ***Rendered output***
