@@ -1,12 +1,10 @@
 # Welcome! 
 
 1. [Here's my landing page](https://irawan.io)
-2. and here's to visit this [documentation page in case you don't know](https://jamirawan.github.io/docs/)
-2. This page is built for some documentation from mostly issues I found during development and document them
-3. Will be continously updating
+2. This page is built based on what I know and been throughwith issues I found during web development and documented them for my own reference and others my faind these useful
+3. This doc is continously updated as I go
 
-## References
-Where I got these knowledges from
+Feel free to coment or correct me if you find any docs that are no longer relevant.
 
 
 
