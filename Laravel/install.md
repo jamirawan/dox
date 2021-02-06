@@ -12,8 +12,11 @@ curl -s https://laravel.build/web-app | bash
 Go to the directory `cd web-app` after the installation done and we can start running the Laravel Sail that providfe a simple CLI for interacting with Laravel's default Docker configuration:
 
 ```terminal
-./vendor/bin/sail up
+docker-compose up -d
+#or
+./vendor/bin/sail up - d
 ```
+
 
 Ensure that the port you are using, by default it's :80, is not in use by other Docker containers. If it's already used and the following error came up, you can change the port number or kill other containers first:
 
