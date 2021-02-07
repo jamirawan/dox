@@ -69,4 +69,4 @@ This may take a few minutes but you'll see this line where you can check your we
 laravel.test_1  | Starting Laravel development server: http://0.0.0.0:80
 ```
 
-So your project web local web app is: `http://0.0.0.0:80`
+So your project web local web app is: `http://0.0.0.0:80` or just `localhost`
