@@ -3,9 +3,22 @@
 # On Mac
 
 ## Install
+
+### Install With `curl`
 As long as you have Docker in your Mac you can run simple `CURL` command to start creating project. `web-app` is an example of your project URL you can customise:
 ```terminal
 curl -s https://laravel.build/web-app | bash
+```
+### Install with Composer
+
+```terminal
+composer create-project laravel/laravel 
+# or with Laravel Installer web-app
+composer global require laravel/installer
+laravel new web-app
+# then go to the web-ap folder
+cd web-app
+php artisan serve
 ```
 
 ## Sail up!
@@ -17,7 +30,7 @@ docker-compose up -d
 ./vendor/bin/sail up - d
 ```
 
-With alias setup: `sail up -d` 
+With alias setup: `sail up -d` (refer to 'Sail' section for alias setup)
 
 
 Ensure that the port you are using, by default it's :80, is not in use by other Docker containers. If it's already used and the following error came up, you can change the port number or kill other containers first:
