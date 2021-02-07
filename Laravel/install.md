@@ -4,7 +4,7 @@
 
 ## Install
 As long as you have Docker in your Mac you can run simple `CURL` command to start creating project. `web-app` is an example of your project URL you can customise:
-```
+```Mac-CLI
 curl -s https://laravel.build/web-app | bash
 ```
 
