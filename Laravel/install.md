@@ -4,7 +4,7 @@
 
 ## Install
 As long as you have Docker in your Mac you can run simple `CURL` command to start creating project. `web-app` is an example of your project URL you can customise:
-```Mac-CLI
+```terminal
 curl -s https://laravel.build/web-app | bash
 ```
 
@@ -25,7 +25,7 @@ Ensure that the port you are using, by default it's :80, is not in use by other 
 ### Check who uses port (number)
 Run this to check who's using the port number you wish to list:
 
-```
+```terminal
 sudo lsof -i -P -n | grep <port number> 
 ```
 
@@ -45,14 +45,14 @@ And try to use port 8084 instaed `http://localhost:8084`
 
 ### Stop and remove containers
 
-```
+```terminal
 docker-compose down  # Stop container on current dir if there is a docker-compose.yml
 ```
 
 And then run the up the sail again: `./vendor/bin/sail up` or `sail up -d` if you have your alias setup. 
 
 This may take a few minutes but you'll see this line where you can check your web app:
-```
+```terminal
 laravel.test_1  | Starting Laravel development server: http://0.0.0.0:80
 ```
 
