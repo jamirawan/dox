@@ -17,6 +17,8 @@ docker-compose up -d
 ./vendor/bin/sail up - d
 ```
 
+With alias setup: `sail up -d` 
+
 
 Ensure that the port you are using, by default it's :80, is not in use by other Docker containers. If it's already used and the following error came up, you can change the port number or kill other containers first:
 
@@ -47,4 +49,11 @@ And try to use port 8084 instaed `http://localhost:8084`
 docker-compose down  # Stop container on current dir if there is a docker-compose.yml
 ```
 
-And then run the up the sail again: `./vendor/bin/sail up`
+And then run the up the sail again: `./vendor/bin/sail up` or `sail up -d` if you have your alias setup. 
+
+This may take a few minutes but you'll see this line where you can check your web app:
+```
+laravel.test_1  | Starting Laravel development server: http://0.0.0.0:80
+```
+
+So your project web local web app is: `http://0.0.0.0:80`
