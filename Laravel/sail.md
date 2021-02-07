@@ -19,8 +19,9 @@ By default, to run the sail it's : `.vendor/bin/sail up -d`
 
 ## Alias
 
-Instead of typing all those path, you should make an alias on the bash profile:
+Instead of typing all those path, you should make an alias on the bash profile. Run these command and you don't have to edit the .bash profile:
 
 ```
+export COMPOSE_FILE=docker-compose.yml
 alias sail='bash vendor/bin/sail'
 ```
