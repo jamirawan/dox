@@ -24,17 +24,29 @@ Add Ruby path on your terminal:
 
 ```
 # If you're using Zsh
-echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
-
+echo 'export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/X.X.X/bin:$PATH"' >> ~/.zshrc
 # If you're using Bash
-echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
-
+echo 'export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/X.X.X/bin:$PATH"' >> ~/.bash_profile
 # Unsure which shell you are using? Type
 echo $SHELL
 ```
+Refresh your shell
 
+```
+source ~/.zshrc
+# or
+source ~/.bash_profile
+```
 check the path and you shoud see anything other than: `/usr/local/bin/ruby` 
 and check the version and it should be the latest:
+```
+which ruby
+'''
+Mine would be:
+```
+/usr/local/opt/ruby/bin/ruby
+```
+Check ruby version
 
 ```
 ruby -v
@@ -44,8 +56,7 @@ ruby -v
 
 Install the Bundler:
 
-```
-gem install --user-install bundler jekyll
+```gem install --user-install bundler jekyll
 ```
 
 ### Create a new Jekyll site
