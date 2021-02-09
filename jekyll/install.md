@@ -57,7 +57,9 @@ ruby -v
 
 Install the Bundler:
 
-```gem install --user-install bundler jekyll
+```
+gem install --user-install bundler jekyll
+
 ```
 
 ### Create a new Jekyll site
