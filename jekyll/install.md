@@ -41,7 +41,8 @@ check the path and you shoud see anything other than: `/usr/local/bin/ruby`
 and check the version and it should be the latest:
 ```
 which ruby
-'''
+```
+
 Mine would be:
 ```
 /usr/local/opt/ruby/bin/ruby
