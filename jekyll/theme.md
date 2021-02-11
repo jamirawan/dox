@@ -2,9 +2,9 @@
 
 ## Theme structure
 
-Theme file structure will be like this
+Theme file structure will be like this. Example theme name Irawan
 ```
-.
+irawan
 ├── Gemfile
 ├── LICENSE.txt
 ├── README.md
