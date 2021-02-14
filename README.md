@@ -1,4 +1,12 @@
-# Welcome! 
+---
+layout: home
+title: Welcome
+nav_order: 1
+has_children: true
+--- 
+
+
+# Work in progress 
 
 1. [Here's my landing page](https://irawan.io)
 2. This page is built based on what I know and been throughwith issues I found during web development and documented them for my own reference and others my faind these useful

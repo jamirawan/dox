@@ -1,0 +1,194 @@
+{"0": {
+    "doc": "Install Codeigniter4",
+    "title": "Install",
+    "content": " ",
+    "url": "http://localhost:4000/Codeigniter/Install.html#install",
+    "relUrl": "/Codeigniter/Install.html#install"
+  },"1": {
+    "doc": "Install Codeigniter4",
+    "title": "Reqirements",
+    "content": ". | PHP 7.3 or later | PHP extensions installed: intl and mbstring extension are installed | PHP extension enabled: php-json, php-mysqlnd, and php-xml` | libcurl installed for CURL requests | . +A database is required for most web application programming. Currently supported databases are: . | MySQL (5.1+) via the MySQLi driver | PostgreSQL via the Postgre driver | SQLite3 via the SQLite3 driver | MSSQL via the SQLSRV driver (version 2005 and above only) | . +Not all of the drivers have been converted/rewritten for CodeIgniter4. The list below shows the outstanding ones. | MySQL (5.1+) via the pdo driver | Oracle via the oci8 and pdo drivers | PostgreSQL via the pdo driver | MSSQL via the pdo driver | SQLite via the sqlite (version 2) and pdo drivers | CUBRID via the cubrid and pdo drivers | Interbase/Firebird via the ibase and pdo drivers | ODBC via the odbc and pdo drivers (you should know that ODBC is actually an abstraction layer) | . ",
+    "url": "http://localhost:4000/Codeigniter/Install.html#reqirements",
+    "relUrl": "/Codeigniter/Install.html#reqirements"
+  },"2": {
+    "doc": "Install Codeigniter4",
+    "title": "Install with composer",
+    "content": "Setup Installation . For a new Codeigniter4 installation, you can use the App starter that holds a skeleton application, with a composer dependency on the latest released version of the framework. In the folder you wish to work on, run this command where webapp on this example will be your root project: . composer create-project codeigniter4/appstarter webapp . If you dont want the phpunit or just wanting to install the framework, add --no-dev at the end: . composer create-project codeigniter4/appstarter webapp --no-dev . ",
+    "url": "http://localhost:4000/Codeigniter/Install.html#install-with-composer",
+    "relUrl": "/Codeigniter/Install.html#install-with-composer"
+  },"3": {
+    "doc": "Install Codeigniter4",
+    "title": "Install Codeigniter4",
+    "content": " ",
+    "url": "http://localhost:4000/Codeigniter/Install.html",
+    "relUrl": "/Codeigniter/Install.html"
+  },"4": {
+    "doc": "Welcome",
+    "title": "Work in progress",
+    "content": ". | Here’s my landing page | This page is built based on what I know and been throughwith issues I found during web development and documented them for my own reference and others my faind these useful | Most of these docs are written as I go along practicing them | This doc is continously updated as I go | You may find that some docs are not finished as I do this on my spare time between fill time job, new baby and freelance work | . Feel free to coment or correct me if you find any docs that are no longer relevant. ",
+    "url": "http://localhost:4000/#work-in-progress",
+    "relUrl": "/#work-in-progress"
+  },"5": {
+    "doc": "Welcome",
+    "title": "Welcome",
+    "content": " ",
+    "url": "http://localhost:4000/",
+    "relUrl": "/"
+  },"6": {
+    "doc": "Codeigniter4",
+    "title": "Codeigniter4",
+    "content": "Codeigniter4 is a PHP based application development framework to build websites. It has uses so many libraries for commonly needed task as well as simple interface and logical structure to access these libraries. ",
+    "url": "http://localhost:4000/Codeigniter/",
+    "relUrl": "/Codeigniter/"
+  },"7": {
+    "doc": "Setup",
+    "title": "Setup",
+    "content": "# Setup ",
+    "url": "http://localhost:4000/Docker/setup.html",
+    "relUrl": "/Docker/setup.html"
+  },"8": {
+    "doc": "Install locally",
+    "title": "Install locally",
+    "content": "# Install locally ",
+    "url": "http://localhost:4000/Drupal/Install.html",
+    "relUrl": "/Drupal/Install.html"
+  },"9": {
+    "doc": "Theming",
+    "title": "Theming",
+    "content": "# Theming ",
+    "url": "http://localhost:4000/Drupal/Theming.html",
+    "relUrl": "/Drupal/Theming.html"
+  },"10": {
+    "doc": "Drush command lines",
+    "title": "Drush command lines",
+    "content": "# Drush command lines ",
+    "url": "http://localhost:4000/Drupal/drush.html",
+    "relUrl": "/Drupal/drush.html"
+  },"11": {
+    "doc": "Extend Drupal",
+    "title": "Extend Drupal",
+    "content": "# Extend Drupal ",
+    "url": "http://localhost:4000/Drupal/extend.html",
+    "relUrl": "/Drupal/extend.html"
+  },"12": {
+    "doc": "Understanding Twig",
+    "title": "Understanding Twig",
+    "content": "# Understanding Twig ",
+    "url": "http://localhost:4000/Drupal/twig.html",
+    "relUrl": "/Drupal/twig.html"
+  },"13": {
+    "doc": "Configuration",
+    "title": "Configuration",
+    "content": "# Configuration ## Configuring the username and email for commit In order to be able to commit on remote repositories, you will have to ensure that you configured your username and email address on your git local and have access to the remote repo 1. to check your git configuration run this on your command line either globally or on the specific folder you are working on:`cat .git/config` 2. If you haven't had any git configuration, you can add them globally or locally on the working folder ## Add globally: 1. Add username: on your command line, run: ``` git config --global user.name \"USER_NAME\" ``` 2. Add email address that you have the access to remote: ``` git config --global user.email \"Name.of.email@email.com\" ``` ## Setup the local folder different from global configuration, remove the `--global`: 1. Add username locally: ``` git config user.name \"USER_NAME\" ``` 2. Set your email address locally ``` git config user.email \"Name.of.email@email.com\" ``` 3. then check if all correct: ``` cat .git/config ``` ",
+    "url": "http://localhost:4000/Git/config.html",
+    "relUrl": "/Git/config.html"
+  },"14": {
+    "doc": "Multiple remotes",
+    "title": "Multiple remotes",
+    "content": "# Multiple remotes ",
+    "url": "http://localhost:4000/Git/multiple-remotes.html",
+    "relUrl": "/Git/multiple-remotes.html"
+  },"15": {
+    "doc": "Configuration",
+    "title": "Configuration",
+    "content": "# Configuration ",
+    "url": "http://localhost:4000/Laravel/configuration.html",
+    "relUrl": "/Laravel/configuration.html"
+  },"16": {
+    "doc": "Installation",
+    "title": "Installation",
+    "content": "# Installation # On Mac ## Install ### Install With `curl` As long as you have Docker in your Mac you can run simple `CURL` command to start creating project. `web-app` is an example of your project URL you can customise: ```terminal curl -s https://laravel.build/web-app | bash ``` ### Install with Composer ```terminal composer create-project laravel/laravel # or with Laravel Installer web-app composer global require laravel/installer laravel new web-app # then go to the web-ap folder cd web-app php artisan serve ``` ## Sail up! Go to the directory `cd web-app` after the installation done and we can start running the Laravel Sail that providfe a simple CLI for interacting with Laravel's default Docker configuration: ```terminal docker-compose up -d #or ./vendor/bin/sail up - d ``` With alias setup: `sail up -d` (refer to 'Sail' section for alias setup) Ensure that the port you are using, by default it's :80, is not in use by other Docker containers. If it's already used and the following error came up, you can change the port number or kill other containers first: ### Check who uses port (number) Run this to check who's using the port number you wish to list: ```terminal sudo lsof -i -P -n | grep ``` ### Change port ```terminal ERROR: for mailhog Cannot start service mailhog: driver failed programming external connectivity on endpoint web-app_mailhog_1 (ae8085daf269cf4a0f7eae07927d10a0975d5ae3a082659314663956afce36c1): Error starting userland proxy: listen tcp4 0.0.0.0:8025: bind: address already in use ERROR: for laravel.test Cannot start service laravel.test: Ports are not available: listen tcp 0.0.0.0:80: bind: address already in use ``` You can change the port number Change to other ports by editing the `docker-compose.yml` file: ```yml ports: - \"8084:80\" ``` And try to use port 8084 instaed `http://localhost:8084` ### Stop and remove containers ```terminal docker-compose down # Stop container on current dir if there is a docker-compose.yml ``` And then run the up the sail again: `./vendor/bin/sail up` or `sail up -d` if you have your alias setup. This may take a few minutes but you'll see this line where you can check your web app: ```terminal laravel.test_1 | Starting Laravel development server: http://0.0.0.0:80 ``` So your project web local web app is: `http://0.0.0.0:80` or just `localhost` ",
+    "url": "http://localhost:4000/Laravel/install.html",
+    "relUrl": "/Laravel/install.html"
+  },"17": {
+    "doc": "Sail",
+    "title": "Sail",
+    "content": "# Sail Sail is the `drush` or `wp-cli` equivalent for Laravel which is a light-weight CLI. `sail` is store in `docker-compose.yml` in the project root. ## Install Install `sail` with Composer: ```terminal composer require laravel/sail --dev ``` After Sail has been installed, you may run the sail:install Artisan command. This command will publish Sail's docker-compose.yml file to the root of your application: ```terminal php artisan sail:install ``` By default, to run the sail it's : `.vendor/bin/sail up -d` ## Setup alias Instead of typing all those path, you should make an alias on the bash profile. Run these command and you don't have to edit the .bash profile: ```terminal export COMPOSE_FILE=docker-compose.yml alias sail='bash vendor/bin/sail' ``` ## Commands ### Start & stop Start: ```terminal sail up ``` Start with `detached mode`: ```terminal sail up -d ``` To stop all containers: ```terminal sail down ``` ### Executing ",
+    "url": "http://localhost:4000/Laravel/sail.html",
+    "relUrl": "/Laravel/sail.html"
+  },"18": {
+    "doc": "Basic Markdown Cheatsheet",
+    "title": "Basic Markdown Cheatsheet",
+    "content": "# Basic Markdown Cheatsheet ## 1. Heading (example of Heading 2) ***Makdown*** ```md # h1 Heading ## h2 Heading ### h3 Heading #### h4 Heading ##### h5 Heading ###### h6 Heading ``` ***Markdown*** ### h3 Heading #### h4 Heading ##### h5 Heading ###### h6 Heading --- ## 2. Paragraphs *Notes:* - To create paragraphs, use a blank line to separate one or more lines of text. - Don't ident paragraphs with spaces or tabs ***Markdown*** ```md This is the first paragraph. This is the second paragraph ``` ***Rendered output:*** This is the first paragraph. This is the second paragraph --- ## 3 Line Break *Notes:* - To create a line break, end a line with two or more spaces, and then type return - *Or* use the `` HTML tag ***Markdown*** ```md This is the first line. And this is the second line. ``` ***On browser:*** This is the first line. And this is the second line. ***Alternative Makdown*** ```md First line with the HTML tag after. And the next line. ``` ***Rendered output*** First line with the HTML tag after. And the next line. --- ## 4. Emphasis ***Makdown*** ```md **This is bold text** __This is bold text__ *This is italic text* _This is italic text_ We have **bold***italic* This text is ***really important*** This text is ___really important___ This text is __*really important*__ This text is **_really important_** ``` ***Rendered output*** **This is bold text** __This is bold text__ *This is italic text* _This is italic text_ We have **bold***italic* This text is ***really important*** This text is ___really important___ This text is __*really important*__ This text is **_really important_** --- ## 5. Blockquotes *Notes:* - Space is needed after the marker `>`; - You could just add only one `>` at the first line; - Blockquotes can be nested - Blockquotes can contain multiple paragraphs. Add a > between the paragraphs. - Blockquotes can contain other Markdown formatted elements. But not all elements can be used. ***Makdown*** ```md > Blockquotes can also be nested... >> ...by using additional greater-than signs right next to each other... > > > ...or with spaces between arrows. ``` ***Rendered output*** > Blockquotes can also be nested... >> ...by using additional greater-than signs right next to each other... > > > ...or with spaces between arrows. ***Makdown*** ```md > Dorothy followed her through many of the beautiful rooms in her castle. > > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood. ``` ***Rendered output*** > Dorothy followed her through many of the beautiful rooms in her castle. > > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood. ***Makdown*** ```md > #### The quarterly results look great! > > - Revenue was off the chart. > - Profits were higher than ever. > > *Everything* is going according to **plan**. ``` ***Rendered output*** > #### The quarterly results look great! > > - Revenue was off the chart. > - Profits were higher than ever. > > *Everything* is going according to **plan**. --- ## 6. Lists ### 6.1. Unordered ***Makdown*** ```md + To start a list, there should be an empty line above + Create a list by starting a line with `+`, `-`, or `*` - Changing the sign will add a linespace + Add text under an item This is a text under an item. Notice that there are two spaces at the end above. - Sub-lists are made by indenting 2 spaces: * Item 2a * Item 2b * Item 3 To end a list, there should be one empty line above. ``` ***Rendered output*** + To start a list, there should be an empty line above + Create a list by starting a line with `+`, `-`, or `*` - Changing the sign will add a linespace + Add text under an item This is a text under an item. Notice that there are two spaces at the end above. - Sub-lists are made by indenting 2 spaces: * Item 2a * Item 2b * Item 3 To end a list, there should be one empty line above. ### 6.2. Ordered ***Makdown*** ```md 1. Item 1 1. Item 2 Notice that the sequence number is irrelevant. Markdown will change the sequence automatically when renderring. Notice that there are two spaces at the end above to make a new text under item. 3. Sub-lists are made by indenting 4 spaces 1. Item 3a 2. Item 3b 8. Any number for item 4 ``` ***Rendered output*** 1. Item 1 1. Item 2 Notice that the sequence number is irrelevant. Markdown will change the sequence automatically when renderring. Notice that there are two spaces at the end above to make a new text under item. 3. Sub-lists are made by indenting 4 spaces 1. Item 3a 2. Item 3b 8. Any number for item 4 ***Makdown*** ```md 57. will started with offset 57 1. so it will be 58 ``` ***Rendered output*** 57. will started with offset 57 1. so it will be 58 --- ## 7. Elements in Lists *Notes:* - To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab ***Makdown*** ```md * This is the first list item. * Here's the second list item. I need to add another paragraph below the second list item. * And here's the third list item. ``` ***Rendered output*** * This is the first list item. * Here's the second list item. I need to add another paragraph below the second list item. * And here's the third list item. ***Rendered output*** * This is the first list item. * Here's the second list item. I need to add another paragraph below the second list item. * And here's the third list item. ***Rendered output*** * This is the first list item. * Here's the second list item. > A blockquote would look great below the second list item. * And here's the third list item. ***Makdown*** ```md 1. This list will include image 2. This is Irawan's logo ![Irawan](https://irawan.io/og/irawan-io.png) 3. So that's a logo ``` ***Rendered output*** 1. This list will include image 2. This is Irawan's logo ![Irawan](https://irawan.io/og/irawan-io.png) 3. So that's a logo *But, for text element in ordered list, add five spaces* 1. This is the first list item. 2. Here's the second list item. I need to add another paragraph below the second list item. 3. And here's the third list item. *But, for quote in ordered list, add five spaces* 1. This is the first list item. 3. Here's the second list item. > A blockquote would look great below the second list item. 5. And here's the third list item. *But, for code blocks in the lists, add eight spaces or two tabs.* 1. Open the file. 2. Find the following code block on line 21: Test . 3. Update the title to match the name of your website. --- ## 8. Code *Notes:* - Inline codes is written inside \\` \\` - or idented by add four spaces or one tab before ***Makdown*** ```md This is inline `code`. ``` ***Rendered output*** This is inline `code`. For a block of codes add three backward single quotes ***Makdown*** ````md ``` javascript var s = \"JavaScript syntax highlighting\"; alert(s); ``` ```python s = \"Python syntax highlighting\" print s ``` ```` ***Rendered output*** ```javascript var s = \"JavaScript syntax highlighting\"; alert(s); ``` ```python s = \"Python syntax highlighting\" print s ``` ## Escaping markdown code block To escape block code as above in Markdown with three backticks, use either four backticks or three ~~~ --- ## 9. Links **Example** This is [link](https://irawan.io)) This is [link with title](https://irawan.io \"Irawan's site\") *Or, directly put the link* https://example.com/ fake@example.com *Or with ``* *But, to prevent automated linking* `https://www.example.com` *Or add emphasize* This is the *[Markdown Guide](https://www.markdownguide.org)*. See the section on [`code`](#code). *Or, put reference in text* It was a [hobbit-hole][hh], and that means comfort. [hh]: \"Hobbit lifestyles\" *But, be careful with spaces in the links, put `%20` as space* [example %20 link](https://www.example.com/my%20great%20page) [example without %20](https://www.example.com/my great page) --- ## 11. Images *Notes:* - It is not recommended to use image links in reference format. Some apps will not preview those images. - Specifying size of image is supported only in some extended markdown (such as *markdown-it*). ***Makdown*** ```md ![Irawan's Image](https://irawan.io/og/irawan-io.png) ``` ***Rendered output*** ![Irawan's Image](https://irawan.io/og/irawan-io.png) ## 12 Horizontal lines ***Markdown*** ```md ___ --- *** ``` ***Rendered output*** ___ --- *** ``` ",
+    "url": "http://localhost:4000/Markdown/markdown-cheatsheet.html",
+    "relUrl": "/Markdown/markdown-cheatsheet.html"
+  },"19": {
+    "doc": "Install",
+    "title": "Install",
+    "content": "# Install ## Installing on MacOS ### Install Ruby Ensure you install Ruby, not the ruby from the Apple default install. It will give you this error: ``` ERROR: While executing gem ... (Gem::FilePermissionError) You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory. ``` Use Homebrew to install latest Ruby. If you haven't had Homebrew installed: ``` /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\" ``` Then install Ruby ``` brew install ruby ``` Add Ruby path on your terminal: ``` # If you're using Zsh echo 'export PATH=\"/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/X.X.X/bin:$PATH\"' >> ~/.zshrc # If you're using Bash echo 'export PATH=\"/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/X.X.X/bin:$PATH\"' >> ~/.bash_profile # Unsure which shell you are using? Type echo $SHELL ``` Refresh your shell ``` source ~/.zshrc # or source ~/.bash_profile ``` check the path and you shoud see anything other than: `/usr/local/bin/ruby` and check the version and it should be the latest: ``` which ruby ``` Mine would be: ``` /usr/local/opt/ruby/bin/ruby ``` Check ruby version ``` ruby -v ``` ### Install Jekyll Install the Bundler: ``` gem install --user-install bundler jekyll ``` ### Create a new Jekyll site Once the Jekyll is installed, you can start creating the site e.g in `/blog` folder: ``` jekyll new blog ``` + In an indeal world you can just run `bundle exec jekyll serve` and will show you all details of configuration including the server you can go to in local, but since the following libraries are no longer bundled gems or standard libraries including `webrick`, this message will appear: ``` /usr/local/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/serve/servlet.rb:3:in `require': cannot load such file -- webrick (LoadError) ``` Then you need to run `bundle add webrick` providing you have `bundle` installed. This should let you run the `bundle exec jekyll serve` and the following message will appear: ``` Configuration file: /Users/irawan/dev/others/bloog/_config.yml Source: /Users/irawan/dev/others/bloog Destination: /Users/irawan/dev/others/bloog/_site Incremental build: disabled. Enable with --incremental Generating... Jekyll Feed: Generating feed for posts done in 0.465 seconds. Auto-regeneration: enabled for '/Users/irawan/dev/others/bloog' Server address: http://127.0.0.1:4000/ Server running... press ctrl-c to stop. ``` Where `Server address: http://127.0.0.1:4000/` is your localhost address of your Jeckyll site ",
+    "url": "http://localhost:4000/jekyll/install.html",
+    "relUrl": "/jekyll/install.html"
+  },"20": {
+    "doc": "Theme",
+    "title": "Theme",
+    "content": "# Theme ## Theme structure Theme file structure will be like this. Example theme name Irawan ``` irawan ├── Gemfile ├── LICENSE.txt ├── README.md ├── _includes ├── _layouts │   ├── default.html │   ├── page.html │   └── post.html ├── _sass ├── assets └── irawan.gemspec ``` ## Installing Jekyll theme ## Making your own theme ",
+    "url": "http://localhost:4000/jekyll/theme.html",
+    "relUrl": "/jekyll/theme.html"
+  },"21": {
+    "doc": "Docker",
+    "title": "Docker",
+    "content": "# Docker Working with Docker ",
+    "url": "http://localhost:4000/Docker/",
+    "relUrl": "/Docker/"
+  },"22": {
+    "doc": "Drupal docs",
+    "title": "Drupal docs",
+    "content": "# Drupal docs ",
+    "url": "http://localhost:4000/Drupal/",
+    "relUrl": "/Drupal/"
+  },"23": {
+    "doc": "Git",
+    "title": "Git",
+    "content": "# Git ",
+    "url": "http://localhost:4000/Git/",
+    "relUrl": "/Git/"
+  },"24": {
+    "doc": "Install locally",
+    "title": "Install locally",
+    "content": "# Install locally ",
+    "url": "http://localhost:4000/Joomla/Install/",
+    "relUrl": "/Joomla/Install/"
+  },"25": {
+    "doc": "Joomla",
+    "title": "Joomla",
+    "content": "# Joomla ",
+    "url": "http://localhost:4000/Joomla/",
+    "relUrl": "/Joomla/"
+  },"26": {
+    "doc": "Laravel",
+    "title": "Laravel",
+    "content": "# Laravel Web application framework with expressive, elegant syntax. +Better to understand the following before starting: * At least basic of HTML & CSS * Javascript and JQuery * PHP and MySQL programming * Bootstrap framework * Concept of object oriented programming with PHP + ",
+    "url": "http://localhost:4000/Laravel/",
+    "relUrl": "/Laravel/"
+  },"27": {
+    "doc": "Markdown",
+    "title": "Markdown",
+    "content": "# Markdown ",
+    "url": "http://localhost:4000/Markdown/",
+    "relUrl": "/Markdown/"
+  },"28": {
+    "doc": "OSX CLI",
+    "title": "OSX CLI",
+    "content": "# OSX CLI Useful Mac OS command line for developers ",
+    "url": "http://localhost:4000/OSX%20CLI/",
+    "relUrl": "/OSX CLI/"
+  },"29": {
+    "doc": "Install locally",
+    "title": "Install locally",
+    "content": "# Install locally ",
+    "url": "http://localhost:4000/Wordpress/Install/",
+    "relUrl": "/Wordpress/Install/"
+  },"30": {
+    "doc": "Wordpress",
+    "title": "Wordpress",
+    "content": "# Wordpress ",
+    "url": "http://localhost:4000/Wordpress/",
+    "relUrl": "/Wordpress/"
+  },"31": {
+    "doc": "Jekyll",
+    "title": "Jekyll",
+    "content": "# Jekyll Installing and starting up Jekyll site. ",
+    "url": "http://localhost:4000/jekyll/",
+    "relUrl": "/jekyll/"
+  }
+}

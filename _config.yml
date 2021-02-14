@@ -10,7 +10,9 @@ description: List of documentations from my mistakes that I can refer to later a
 #   shortcodes: true
 
 ## remote method ##
-remote_theme: rundocs/jekyll-rtd-theme
+#remote_theme: rundocs/jekyll-rtd-theme
+
+theme: just-the-docs
 
 readme_index:
   with_frontmatter: true
@@ -24,4 +26,3 @@ plugins:
   - jekyll-avatar
   - jekyll-mentions
 
-theme: jekyll-theme-tactile

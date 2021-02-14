@@ -1,3 +1,13 @@
+---
+layout: default
+title: Install Codeigniter4
+nav_order: 3
+parent: Codeigniter
+has_children: false
+has_toc: false
+
+---
+
 # Install
 ## Reqirements
 1. PHP 7.3 or later
