@@ -1,8 +1,9 @@
 ---
-layout: default
-title: Install Codeigniter4
-nav_order: 3
+
+layout: about
+title: Install
 parent: Codeigniter
+nav_order: 3
 has_children: false
 has_toc: false
 
@@ -37,12 +38,12 @@ has_toc: false
 For a new Codeigniter4 installation, you can use the App starter that holds a skeleton application, with a composer dependency on the latest released version of the framework.
 
 In the folder you wish to work on, run this command where `webapp` on this example will be your root project:
-```
+```bash
 composer create-project codeigniter4/appstarter webapp
 ```
 
 If you dont want the phpunit or just wanting to install the framework, add `--no-dev` at the end:
-```
+```bash
 composer create-project codeigniter4/appstarter webapp --no-dev
 ```
 

@@ -13,6 +13,7 @@ description: List of documentations from my mistakes that I can refer to later a
 #remote_theme: rundocs/jekyll-rtd-theme
 
 theme: just-the-docs
+color_scheme: dark
 
 readme_index:
   with_frontmatter: true

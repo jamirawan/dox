@@ -1,9 +1,17 @@
+---
+layout: about
+title: Theme
+parent: Jekyll
+has_children: false
+has_toc: false
+
+---
 # Theme
 
 ## Theme structure
 
 Theme file structure will be like this. Example theme name Irawan
-```
+```bash
 irawan
 ├── Gemfile
 ├── LICENSE.txt
