@@ -1,3 +1,12 @@
+---
+layout: default
+title: Markdown Cheatsheet
+parent: Markdown
+has_children: false
+has_toc: false
+
+---
+
 # Basic Markdown Cheatsheet
 
 ## 1. Heading (example of Heading 2)

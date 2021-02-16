@@ -1,3 +1,13 @@
+---
+
+layout: default
+title: Laravel
+nav_order: 4
+has_children: true
+has_toc: true
+
+---
+
 # Laravel
 
 Web application framework with expressive, elegant syntax. 
@@ -12,5 +22,3 @@ Web application framework with expressive, elegant syntax.
 
 
 
-
-+

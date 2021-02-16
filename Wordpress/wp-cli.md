@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Install Wordpress
+title: WP CLI
 parent: Wordpress
-nav_order: 1
+nav_order: 2
 has_children: false
 has_toc: true
 
 ---
-# Install locally
+
+# WP-CLI - Wordpress Command Line Interface

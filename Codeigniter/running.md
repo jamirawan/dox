@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Running Codeigniter4
+parent: Codeigniter4
 nav_order: 2
-parent: Codeigniter
 has_child: false
 has_toc: false
 

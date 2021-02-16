@@ -1,3 +1,12 @@
+---
+layout: default
+title: Git config
+parent: Git
+has_children: fals
+has_toc: true
+
+---
+
 # Configuration
 
 ## Configuring the username and email for commit

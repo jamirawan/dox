@@ -1,6 +1,5 @@
 ---
-
-layout: default
+layout: about
 title: Codeigniter4
 nav_order: 2 
 has_children: true
