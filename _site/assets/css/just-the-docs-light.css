@@ -179,7 +179,7 @@ hr { height: 1px; padding: 0; margin: 2rem 0; background-color: #eeebee; border:
 body { position: relative; padding-bottom: 4rem; overflow-y: scroll; }
 @media (min-width: 50rem) { body { position: static; padding-bottom: 0; } }
 
-.site-footer { padding-right: 1rem; padding-left: 1rem; position: absolute; bottom: 0; left: 0; padding-top: 1rem; padding-bottom: 1rem; color: #959396; font-size: 11px !important; }
+.site-footer { padding-right: 1rem; padding-left: 1rem; position: absolute; bottom: 0; left: 0; padding-top: 1rem; padding-bottom: 1rem; color: #e5e5e5; font-size: 11px !important; }
 @media (min-width: 50rem) { .site-footer { padding-right: 2rem; padding-left: 2rem; } }
 @media (min-width: 31.25rem) { .site-footer { font-size: 12px !important; } }
 @media (min-width: 50rem) { .site-footer { position: static; justify-self: end; } }
@@ -193,13 +193,13 @@ body { position: relative; padding-bottom: 4rem; overflow-y: scroll; }
 .main-content li .highlight { margin-top: 0.25rem; }
 .main-content ol { list-style-type: none; counter-reset: step-counter; }
 .main-content ol > li { position: relative; }
-.main-content ol > li::before { position: absolute; top: 0.2em; left: -1.6em; color: #959396; content: counter(step-counter); counter-increment: step-counter; font-size: 12px !important; }
+.main-content ol > li::before { position: absolute; top: 0.2em; left: -1.6em; color: #e5e5e5; content: counter(step-counter); counter-increment: step-counter; font-size: 12px !important; }
 @media (min-width: 31.25rem) { .main-content ol > li::before { font-size: 14px !important; } }
 @media (min-width: 31.25rem) { .main-content ol > li::before { top: 0.11em; } }
 .main-content ol > li ol { counter-reset: sub-counter; }
 .main-content ol > li ol li::before { content: counter(sub-counter,lower-alpha); counter-increment: sub-counter; }
 .main-content ul { list-style: none; }
-.main-content ul > li::before { position: absolute; margin-left: -1.4em; color: #959396; content: "•"; }
+.main-content ul > li::before { position: absolute; margin-left: -1.4em; color: #e5e5e5; content: "•"; }
 .main-content .task-list { padding-left: 0; }
 .main-content .task-list-item { display: flex; align-items: center; }
 .main-content .task-list-item::before { content: ""; }
@@ -262,7 +262,7 @@ body { position: relative; padding-bottom: 4rem; overflow-y: scroll; }
 .breadcrumb-nav-list-item { display: table-cell; font-size: 11px !important; }
 @media (min-width: 31.25rem) { .breadcrumb-nav-list-item { font-size: 12px !important; } }
 .breadcrumb-nav-list-item::before { display: none; }
-.breadcrumb-nav-list-item::after { display: inline-block; margin-right: 0.5rem; margin-left: 0.5rem; color: #959396; content: "/"; }
+.breadcrumb-nav-list-item::after { display: inline-block; margin-right: 0.5rem; margin-left: 0.5rem; color: #e5e5e5; content: "/"; }
 .breadcrumb-nav-list-item:last-child::after { content: ""; }
 
 h1, .text-alpha { font-size: 32px !important; line-height: 1.25; font-weight: 300; }
@@ -354,7 +354,7 @@ h6, .text-zeta { font-size: 11px !important; color: #44434d; }
 
 .search-label { position: absolute; display: flex; height: 100%; padding-left: 1rem; }
 @media (min-width: 50rem) { .search-label { padding-left: 2rem; transition: padding-left linear 200ms; } }
-.search-label .search-icon { width: 1.2rem; height: 1.2rem; align-self: center; color: #959396; }
+.search-label .search-icon { width: 1.2rem; height: 1.2rem; align-self: center; color: #e5e5e5; }
 
 .search-results { position: absolute; left: 0; display: none; width: 100%; max-height: calc(100% - 4rem); overflow-y: auto; background-color: #fff; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08); }
 @media (min-width: 50rem) { .search-results { top: 100%; width: 536px; max-height: calc(100vh - 200%) !important; } }
@@ -383,10 +383,10 @@ h6, .text-zeta { font-size: 11px !important; color: #44434d; }
 
 .search-result-section { margin-left: 1.5rem; word-wrap: break-word; }
 
-.search-result-rel-url { display: block; margin-left: 1.5rem; overflow: hidden; color: #959396; text-overflow: ellipsis; white-space: nowrap; font-size: 9px !important; }
+.search-result-rel-url { display: block; margin-left: 1.5rem; overflow: hidden; color: #e5e5e5; text-overflow: ellipsis; white-space: nowrap; font-size: 9px !important; }
 @media (min-width: 31.25rem) { .search-result-rel-url { font-size: 10px !important; } }
 
-.search-result-previews { display: block; padding-top: 0.5rem; padding-bottom: 0.5rem; padding-left: 1rem; margin-left: 0.5rem; color: #959396; word-wrap: break-word; border-left: 1px solid; border-left-color: #eeebee; font-size: 11px !important; }
+.search-result-previews { display: block; padding-top: 0.5rem; padding-bottom: 0.5rem; padding-left: 1rem; margin-left: 0.5rem; color: #e5e5e5; word-wrap: break-word; border-left: 1px solid; border-left-color: #eeebee; font-size: 11px !important; }
 @media (min-width: 31.25rem) { .search-result-previews { font-size: 12px !important; } }
 @media (min-width: 31.25rem) { .search-result-previews { display: inline-block; width: 60%; padding-left: 0.5rem; margin-left: 0; vertical-align: top; } }
 
@@ -581,7 +581,7 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
 .code-example { padding: 0.75rem; margin-bottom: 0.75rem; overflow: auto; border: 1px solid #eeebee; border-radius: 4px; }
 .code-example + .highlighter-rouge, .code-example + figure.highlight { position: relative; margin-top: -1rem; border-right: 1px solid #eeebee; border-bottom: 1px solid #eeebee; border-left: 1px solid #eeebee; border-top-left-radius: 0; border-top-right-radius: 0; }
 
-.text-grey-dk-000 { color: #959396 !important; }
+.text-grey-dk-000 { color: #e5e5e5 !important; }
 
 .text-grey-dk-100 { color: #5c5962 !important; }
 
@@ -639,7 +639,7 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
 
 .text-red-300 { color: #dd2e2e !important; }
 
-.bg-grey-dk-000 { background-color: #959396 !important; }
+.bg-grey-dk-000 { background-color: #e5e5e5 !important; }
 
 .bg-grey-dk-100 { background-color: #5c5962 !important; }
 

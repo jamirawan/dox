@@ -8,7 +8,7 @@ has_toc: false
 ---
 # Sail
 
-Sail is the `drush` or `wp-cli` equivalent for Laravel which is a light-weight CLI. `sail` is store in `docker-compose.yml` in the project root.
+Sail is the `drush` or `wp-cli` equivalent for Laravel which is a light-weight CLI. `sail` is stored in the `docker-compose.yml` in the project root.
 
 ## Install
 
