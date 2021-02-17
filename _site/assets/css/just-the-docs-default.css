@@ -139,6 +139,8 @@ hr { height: 1px; padding: 0; margin: 2rem 0; background-color: #81aeae; border:
 
 blockquote { background: #143837; border-left: 10px solid #209c9a; margin: 1.5em 10px; padding: 1em 10px .1em 10px; }
 
+strong { color: #53dad8; }
+
 .side-bar { z-index: 0; display: flex; flex-wrap: wrap; background-color: #0e3e51; }
 @media (min-width: 50rem) { .side-bar { flex-wrap: nowrap; position: fixed; width: 248px; height: 100%; flex-direction: column; border-right: 1px solid #81aeae; align-items: flex-end; } }
 @media (min-width: 66.5rem) { .side-bar { width: calc((100% - 1064px) / 2 + 264px); min-width: 264px; } }
