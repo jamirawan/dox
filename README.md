@@ -6,7 +6,7 @@ has_children: false
 
 --- 
 
-
+<!-- This one below is a lazy way of loading SVG file. There's a better way to embed them on MD file -->
 
 
 <div class="content">
@@ -14,7 +14,7 @@ has_children: false
     <div class="wayang" align="center">
     <!--?xml version="1.0" encoding="utf-8"?-->
 <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1500 1500" style="enable-background:new 0 0 1500 1500; max-height:70vh;" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1500 1500" style="enable-background:new 0 0 1500 1500; max-height:50vh;" xml:space="preserve">
 <style type="text/css">
   .st0{fill:#26B99A;}
   .st1{fill:#35495E;}
