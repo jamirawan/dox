@@ -2,6 +2,7 @@
 layout: default
 title: Install Laravel
 parent: Laravel
+nav_order: 1
 has_child: false
 has_toc: false
 
@@ -35,7 +36,7 @@ Go to the directory `cd web-app` after the installation done and we can start ru
 ```bash
 docker-compose up -d
 #or
-./vendor/bin/sail up - d
+./vendor/bin/sail up -d
 ```
 
 With alias setup: `sail up -d` (refer to 'Sail' section for alias setup)
