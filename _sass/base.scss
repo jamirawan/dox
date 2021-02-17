@@ -106,3 +106,9 @@ hr {
   background-color: $border-color;
   border: 0;
 }
+blockquote {
+    background: #143837;
+    border-left: 10px solid #209c9a;
+    margin: 1.5em 10px;
+    padding: 1em 10px .1em 10px;
+}
