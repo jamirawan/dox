@@ -28,7 +28,38 @@ To check your `ddev` version:
 ddev -v
 ```
 
-**Setup your Drupal project**
+## Setting up with Composer and Drush
+
+```bash
+# Create project directory e.g. /web-app
+mkdir web-app
+
+# Go to directiry
+cd web-app
+
+#Configure the project type and document root
+ddev config --project-type=drupal8 --docroot=web --create-docroot
+
+# Start container
+ddev start
+
+# Create project
+ddev composer create "drupal/recommended-project:^8"
+
+#Install Drush
+ddev composer require drush/drush
+
+# Install site
+ddev drush site:install -y
+
+# Get the local login URL
+ddev drush uli
+
+# Or launch the local site
+ddev launch
+```
+
+**Other way to setup**
 Use `composer` to setup your Drupal project. Say we name this `web-app` (replace with your own project name)
 
 ```bash
@@ -58,3 +89,4 @@ And start intalling the site with your credentials:
 ddev exec drush site-install --account-name=admin --account-pass=my-password
 
 ```
+With this setup, you dont have to worry about creating database, database user etc it will be setup in Docker containers.
