@@ -38,6 +38,18 @@ This is [link with title](https://irawan.io "Irawan's site")
 <https://www.irawan.io>  
 <me@irawan.io>
 
+## Buttons
+Button in MD is similar to links but add `{: .btn}` at the end
+
+**Markdown**
+```md
+[Link button to my page](https://irawan.io){: .btn}
+```
+**Output**
+
+[Link button to my page](https://irawan.io){: .btn}
+
+
 ## Prevent automated linking or skip linking
 **Markdown**
 
