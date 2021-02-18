@@ -28,6 +28,7 @@ To check your `ddev` version:
 ddev -v
 ```
 
+**Setup your Drupal project**
 Use `composer` to setup your Drupal project. Say we name this `web-app` (replace with your own project name)
 
 ```bash
@@ -48,6 +49,8 @@ Start the container by running
 ```bash
 ddev start 
 ```
+
+**Install Drupal**
 
 And start intalling the site with your credentials:
 
