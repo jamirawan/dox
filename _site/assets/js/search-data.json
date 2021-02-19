@@ -1,75 +1,75 @@
 {"0": {
-    "doc": "Local install",
-    "title": "Install local machine",
-    "content": " ",
-    "url": "http://localhost:4000/Framework/Drupal/Install.html#install-local-machine",
-    "relUrl": "/Framework/Drupal/Install.html#install-local-machine"
-  },"1": {
-    "doc": "Local install",
-    "title": "With DDEV",
-    "content": "DDEV is a local development tool that requires Docker and make it easy to setup and run the local Drupal site. Assuming you are all setup with Docker and composer on your machine, here’s how I set it up. Install DDEV on your machine . curl -L https://raw.githubusercontent.com/drud/ddev/master/scripts/install_ddev.sh | bash . Or with Homebrew: . brew tap drud/ddev &amp;&amp; brew install ddev . To check your ddev version: . ddev -v . ",
-    "url": "http://localhost:4000/Framework/Drupal/Install.html#with-ddev",
-    "relUrl": "/Framework/Drupal/Install.html#with-ddev"
-  },"2": {
-    "doc": "Local install",
-    "title": "Setting up with Composer and Drush",
-    "content": "# Create project directory e.g. /web-app mkdir web-app # Go to directiry cd web-app #Configure the project type and document root ddev config --project-type=drupal8 --docroot=web --create-docroot # Start container ddev start # Create project ddev composer create \"drupal/recommended-project:^8\" #Install Drush ddev composer require drush/drush # Install site ddev drush site:install -y # Get the local login URL ddev drush uli # Or launch the local site ddev launch . Other way to setup Use composer to setup your Drupal project. Say we name this web-app (replace with your own project name) . # Replace web-app! export SITE_NAME=web-app composer create-project drupal/recommended-project $SITE_NAME cd $SITE_NAME . And setup your project: . ddev config --docroot=web --project-name=$SITE_NAME --project-type=drupal8 . Start the container by running . ddev start . Install Drupal . And start intalling the site with your credentials: . ddev exec drush site-install --account-name=admin --account-pass=my-password . With this setup, you dont have to worry about creating database, database user etc it will be setup in Docker containers. ",
-    "url": "http://localhost:4000/Framework/Drupal/Install.html#setting-up-with-composer-and-drush",
-    "relUrl": "/Framework/Drupal/Install.html#setting-up-with-composer-and-drush"
-  },"3": {
-    "doc": "Local install",
-    "title": "Local install",
-    "content": " ",
-    "url": "http://localhost:4000/Framework/Drupal/Install.html",
-    "relUrl": "/Framework/Drupal/Install.html"
-  },"4": {
     "doc": "Install Codeigniter4",
     "title": "Install",
     "content": " ",
     "url": "http://localhost:4000/Framework/Codeigniter/Install.html#install",
     "relUrl": "/Framework/Codeigniter/Install.html#install"
-  },"5": {
+  },"1": {
     "doc": "Install Codeigniter4",
     "title": "Reqirements",
     "content": ". | PHP 7.3 or later | PHP extensions installed: intl and mbstring extension are installed | PHP extension enabled: php-json, php-mysqlnd, and php-xml` | libcurl installed for CURL requests A database is required for most web application programming. Currently supported databases are: . | MySQL (5.1+) via the MySQLi driver | PostgreSQL via the Postgre driver | SQLite3 via the SQLite3 driver | MSSQL via the SQLSRV driver (version 2005 and above only) | . | . Not all of the drivers have been converted/rewritten for CodeIgniter4. The list below shows the outstanding ones. | MySQL (5.1+) via the pdo driver | Oracle via the oci8 and pdo drivers | PostgreSQL via the pdo driver | MSSQL via the pdo driver | SQLite via the sqlite (version 2) and pdo drivers | CUBRID via the cubrid and pdo drivers | Interbase/Firebird via the ibase and pdo drivers | ODBC via the odbc and pdo drivers (you should know that ODBC is actually an abstraction layer) | . ",
     "url": "http://localhost:4000/Framework/Codeigniter/Install.html#reqirements",
     "relUrl": "/Framework/Codeigniter/Install.html#reqirements"
-  },"6": {
+  },"2": {
     "doc": "Install Codeigniter4",
     "title": "Install with composer",
     "content": "Setup Installation . For a new Codeigniter4 installation, you can use the App starter that holds a skeleton application, with a composer dependency on the latest released version of the framework. In the folder you wish to work on, run this command where webapp on this example will be your root project: . composer create-project codeigniter4/appstarter webapp . If you dont want the phpunit or just wanting to install the framework, add --no-dev at the end: . composer create-project codeigniter4/appstarter webapp --no-dev . ",
     "url": "http://localhost:4000/Framework/Codeigniter/Install.html#install-with-composer",
     "relUrl": "/Framework/Codeigniter/Install.html#install-with-composer"
-  },"7": {
+  },"3": {
     "doc": "Install Codeigniter4",
     "title": "Install Codeigniter4",
     "content": " ",
     "url": "http://localhost:4000/Framework/Codeigniter/Install.html",
     "relUrl": "/Framework/Codeigniter/Install.html"
+  },"4": {
+    "doc": "Local install",
+    "title": "Install local machine",
+    "content": " ",
+    "url": "http://localhost:4000/Framework/Drupal/Install.html#install-local-machine",
+    "relUrl": "/Framework/Drupal/Install.html#install-local-machine"
+  },"5": {
+    "doc": "Local install",
+    "title": "With DDEV",
+    "content": "DDEV is a local development tool that requires Docker and make it easy to setup and run the local Drupal site. Assuming you are all setup with Docker and composer on your machine, here’s how I set it up. Install DDEV on your machine . curl -L https://raw.githubusercontent.com/drud/ddev/master/scripts/install_ddev.sh | bash . Or with Homebrew: . brew tap drud/ddev &amp;&amp; brew install ddev . To check your ddev version: . ddev -v . ",
+    "url": "http://localhost:4000/Framework/Drupal/Install.html#with-ddev",
+    "relUrl": "/Framework/Drupal/Install.html#with-ddev"
+  },"6": {
+    "doc": "Local install",
+    "title": "Setting up with Composer and Drush",
+    "content": "# Create project directory e.g. /web-app mkdir web-app # Go to directiry cd web-app #Configure the project type and document root ddev config --project-type=drupal8 --docroot=web --create-docroot # Start container ddev start # Create project ddev composer create \"drupal/recommended-project:^8\" #Install Drush ddev composer require drush/drush # Install site ddev drush site:install -y # Get the local login URL ddev drush uli # Or launch the local site ddev launch . Other way to setup Use composer to setup your Drupal project. Say we name this web-app (replace with your own project name) . # Replace web-app! export SITE_NAME=web-app composer create-project drupal/recommended-project $SITE_NAME cd $SITE_NAME . And setup your project: . ddev config --docroot=web --project-name=$SITE_NAME --project-type=drupal8 . Start the container by running . ddev start . Install Drupal . And start intalling the site with your credentials: . ddev exec drush site-install --account-name=admin --account-pass=my-password . With this setup, you dont have to worry about creating database, database user etc it will be setup in Docker containers. ",
+    "url": "http://localhost:4000/Framework/Drupal/Install.html#setting-up-with-composer-and-drush",
+    "relUrl": "/Framework/Drupal/Install.html#setting-up-with-composer-and-drush"
+  },"7": {
+    "doc": "Local install",
+    "title": "Local install",
+    "content": " ",
+    "url": "http://localhost:4000/Framework/Drupal/Install.html",
+    "relUrl": "/Framework/Drupal/Install.html"
   },"8": {
-    "doc": "Docker",
-    "title": "Docker",
-    "content": "Here’s documentation from Docker . ",
-    "url": "http://localhost:4000/Docker/",
-    "relUrl": "/Docker/"
-  },"9": {
     "doc": "About",
     "title": "Work in progress",
-    "content": ". | Here’s my landing page | This page is built based on what I know and been through with issues or steps I did during web development and documented them for my own reference and others may find these useful too | Most of these docs are written as I go along practicing them | This doc is continously updated as I go | You may find that some docs are not finished as I do this on my spare time between fill time job, new baby and freelance work | . Feel free to coment or correct me if you find any docs that are no longer relevant. ",
+    "content": ". | Here’s my landing page | This page is built based on what I know and been through with issues or steps I did during web development and documented them for my own reference and others may find these useful too | Most of these docs are written as I go along practicing them and will be continously updated as I go | You may find that some pages are not finished as I do this on my spare time between full time job, newborn baby and freelance work | . Feel free to coment or correct me if you find any docs that are no longer relevant. ",
     "url": "http://localhost:4000/#work-in-progress",
     "relUrl": "/#work-in-progress"
-  },"10": {
+  },"9": {
     "doc": "About",
     "title": "About",
     "content": ". . . . . . . irawans.com irawan Devanagri: Javanese: Sanskrit: iravan . . | | . | | . ",
     "url": "http://localhost:4000/",
     "relUrl": "/"
-  },"11": {
+  },"10": {
     "doc": "Codeigniter4",
     "title": "Codeigniter4",
     "content": "Codeigniter4 is a PHP based application development framework to build websites. It has uses so many libraries for commonly needed task as well as simple interface and logical structure to access these libraries. ",
     "url": "http://localhost:4000/Framework/Codeigniter/",
     "relUrl": "/Framework/Codeigniter/"
+  },"11": {
+    "doc": "Markdown",
+    "title": "Markdown",
+    "content": "Markdown is actually a markup but lightweight and is used for many platform such as blogging, instant messaging, collaborative software like Jira, Redmine and other agile software development platforms and also readme.md file. Here’s a kramdown list that I use frequently . ",
+    "url": "http://localhost:4000/Markdown/",
+    "relUrl": "/Markdown/"
   },"12": {
     "doc": "Git",
     "title": "Git",
@@ -77,101 +77,101 @@
     "url": "http://localhost:4000/Git/",
     "relUrl": "/Git/"
   },"13": {
-    "doc": "Static",
-    "title": "Static",
-    "content": " ",
-    "url": "http://localhost:4000/Static/",
-    "relUrl": "/Static/"
-  },"14": {
     "doc": "Drupal",
     "title": "Drupal quick guide",
     "content": "Although there is no such thing as a quick guide for webdev framework manual, I make this documentation a quick reference for myself just to remind me of the steps I took. Drupal won the most dreaded web framework according to the Stackoverflow survey in 2019 and that tells us a lot about how complicated it is to use. But, it’s still being used by programmer who’s got a sense of adventure and like challanges. Here are some steps if you want to build Drupal in your local machine. Although there are some other ways to build it, here’s the steps I took. ",
     "url": "http://localhost:4000/Framework/Drupal/#drupal-quick-guide",
     "relUrl": "/Framework/Drupal/#drupal-quick-guide"
-  },"15": {
+  },"14": {
     "doc": "Drupal",
     "title": "Drupal",
     "content": " ",
     "url": "http://localhost:4000/Framework/Drupal/",
     "relUrl": "/Framework/Drupal/"
-  },"16": {
-    "doc": "Markdown",
-    "title": "Markdown",
-    "content": "Markdown is actually a markup but lightweight and is used for many platform such as blogging, instant messaging, collaborative software like Jira, Redmine and other agile software development platforms and also readme.md file. Here’s a kramdown list that I use frequently . ",
-    "url": "http://localhost:4000/Markdown/",
-    "relUrl": "/Markdown/"
-  },"17": {
-    "doc": "Hugo",
-    "title": "Hugo",
-    "content": "Hugo documentation . ",
-    "url": "http://localhost:4000/Static/Hugo/",
-    "relUrl": "/Static/Hugo/"
-  },"18": {
-    "doc": "CMS",
-    "title": "Content Management System",
-    "content": " ",
-    "url": "http://localhost:4000/CMS/#content-management-system",
-    "relUrl": "/CMS/#content-management-system"
-  },"19": {
-    "doc": "CMS",
-    "title": "CMS",
-    "content": " ",
-    "url": "http://localhost:4000/CMS/",
-    "relUrl": "/CMS/"
-  },"20": {
-    "doc": "Laravel",
-    "title": "Laravel",
-    "content": "Web application framework with expressive, elegant syntax. +Better to understand the following before starting: . | At least basic of HTML &amp; CSS | Javascript and JQuery | PHP and MySQL programming | Bootstrap framework | Concept of object oriented programming with PHP | . ",
-    "url": "http://localhost:4000/Framework/Laravel/",
-    "relUrl": "/Framework/Laravel/"
-  },"21": {
-    "doc": "Joomla!",
-    "title": "Joomla",
-    "content": " ",
-    "url": "http://localhost:4000/CMS/Joomla/#joomla",
-    "relUrl": "/CMS/Joomla/#joomla"
-  },"22": {
-    "doc": "Joomla!",
-    "title": "Joomla!",
-    "content": " ",
-    "url": "http://localhost:4000/CMS/Joomla/",
-    "relUrl": "/CMS/Joomla/"
-  },"23": {
+  },"15": {
     "doc": "Joomla! Installation",
     "title": "Install locally",
     "content": " ",
     "url": "http://localhost:4000/CMS/Joomla/Install/#install-locally",
     "relUrl": "/CMS/Joomla/Install/#install-locally"
-  },"24": {
+  },"16": {
     "doc": "Joomla! Installation",
     "title": "Joomla! Installation",
     "content": " ",
     "url": "http://localhost:4000/CMS/Joomla/Install/",
     "relUrl": "/CMS/Joomla/Install/"
-  },"25": {
-    "doc": "Framework",
-    "title": "Framework",
+  },"17": {
+    "doc": "Docker",
+    "title": "Docker",
+    "content": "Here’s documentation from Docker . ",
+    "url": "http://localhost:4000/Docker/",
+    "relUrl": "/Docker/"
+  },"18": {
+    "doc": "Joomla!",
+    "title": "Joomla",
     "content": " ",
-    "url": "http://localhost:4000/Framework/",
-    "relUrl": "/Framework/"
-  },"26": {
-    "doc": "Wordpress",
-    "title": "Wordpress",
+    "url": "http://localhost:4000/CMS/Joomla/#joomla",
+    "relUrl": "/CMS/Joomla/#joomla"
+  },"19": {
+    "doc": "Joomla!",
+    "title": "Joomla!",
     "content": " ",
-    "url": "http://localhost:4000/CMS/Wordpress/",
-    "relUrl": "/CMS/Wordpress/"
-  },"27": {
+    "url": "http://localhost:4000/CMS/Joomla/",
+    "relUrl": "/CMS/Joomla/"
+  },"20": {
+    "doc": "Static",
+    "title": "Static",
+    "content": " ",
+    "url": "http://localhost:4000/Static/",
+    "relUrl": "/Static/"
+  },"21": {
+    "doc": "Hugo",
+    "title": "Hugo",
+    "content": "Hugo documentation . ",
+    "url": "http://localhost:4000/Static/Hugo/",
+    "relUrl": "/Static/Hugo/"
+  },"22": {
+    "doc": "Laravel",
+    "title": "Laravel",
+    "content": "Web application framework with expressive, elegant syntax. +Better to understand the following before starting: . | At least basic of HTML &amp; CSS | Javascript and JQuery | PHP and MySQL programming | Bootstrap framework | Concept of object oriented programming with PHP | . ",
+    "url": "http://localhost:4000/Framework/Laravel/",
+    "relUrl": "/Framework/Laravel/"
+  },"23": {
     "doc": "Install Wordpress",
     "title": "Install locally",
     "content": " ",
     "url": "http://localhost:4000/CMS/Wordpress/Install/#install-locally",
     "relUrl": "/CMS/Wordpress/Install/#install-locally"
-  },"28": {
+  },"24": {
     "doc": "Install Wordpress",
     "title": "Install Wordpress",
     "content": " ",
     "url": "http://localhost:4000/CMS/Wordpress/Install/",
     "relUrl": "/CMS/Wordpress/Install/"
+  },"25": {
+    "doc": "Wordpress",
+    "title": "Wordpress",
+    "content": " ",
+    "url": "http://localhost:4000/CMS/Wordpress/",
+    "relUrl": "/CMS/Wordpress/"
+  },"26": {
+    "doc": "Framework",
+    "title": "Framework",
+    "content": " ",
+    "url": "http://localhost:4000/Framework/",
+    "relUrl": "/Framework/"
+  },"27": {
+    "doc": "CMS",
+    "title": "Content Management System",
+    "content": " ",
+    "url": "http://localhost:4000/CMS/#content-management-system",
+    "relUrl": "/CMS/#content-management-system"
+  },"28": {
+    "doc": "CMS",
+    "title": "CMS",
+    "content": " ",
+    "url": "http://localhost:4000/CMS/",
+    "relUrl": "/CMS/"
   },"29": {
     "doc": "Drupal theming",
     "title": "Theming",
@@ -215,420 +215,426 @@
     "url": "http://localhost:4000/Markdown/code-snippets.html",
     "relUrl": "/Markdown/code-snippets.html"
   },"36": {
+    "doc": "Composer",
+    "title": "Composer",
+    "content": ". Composer is a dependency manager for PHP, it lets you declare the libraries your project depend on and will manage them either installing or updating them. It’s not a package manager like yum or apt but it’s more like Node’s npm or Ruby’s bundler . Go to this page to download and install the latest version. ",
+    "url": "http://localhost:4000/Composer/composer.html",
+    "relUrl": "/Composer/composer.html"
+  },"37": {
     "doc": "Git config",
     "title": "Configuration",
     "content": " ",
     "url": "http://localhost:4000/Git/config.html#configuration",
     "relUrl": "/Git/config.html#configuration"
-  },"37": {
+  },"38": {
     "doc": "Git config",
     "title": "Configuring the username and email for commit",
     "content": "In order to be able to commit on remote repositories, you will have to ensure that you configured your username and email address on your git local and have access to the remote repo . | to check your git configuration run this on your command line either globally or on the specific folder you are working on:cat .git/config | If you haven’t had any git configuration, you can add them globally or locally on the working folder | . ",
     "url": "http://localhost:4000/Git/config.html#configuring-the-username-and-email-for-commit",
     "relUrl": "/Git/config.html#configuring-the-username-and-email-for-commit"
-  },"38": {
+  },"39": {
     "doc": "Git config",
     "title": "Add globally:",
     "content": ". | Add username: on your command line, run: git config --global user.name \"USER_NAME\" . | Add email address that you have the access to remote: git config --global user.email \"Name.of.email@email.com\" . ",
     "url": "http://localhost:4000/Git/config.html#add-globally",
     "relUrl": "/Git/config.html#add-globally"
-  },"39": {
+  },"40": {
     "doc": "Git config",
     "title": "Setup the local folder different from global configuration, remove the --global:",
     "content": "| Add username locally: git config user.name \"USER_NAME\" . | Set your email address locally git config user.email \"Name.of.email@email.com\" . | then check if all correct: cat .git/config . | . ",
     "url": "http://localhost:4000/Git/config.html#setup-the-local-folder-different-from-global-configuration-remove-the---global",
     "relUrl": "/Git/config.html#setup-the-local-folder-different-from-global-configuration-remove-the---global"
-  },"40": {
+  },"41": {
     "doc": "Git config",
     "title": "Git config",
     "content": " ",
     "url": "http://localhost:4000/Git/config.html",
     "relUrl": "/Git/config.html"
-  },"41": {
+  },"42": {
     "doc": "Configuring Laravel",
     "title": "Configuration",
     "content": " ",
     "url": "http://localhost:4000/Framework/Laravel/configuration.html#configuration",
     "relUrl": "/Framework/Laravel/configuration.html#configuration"
-  },"42": {
+  },"43": {
     "doc": "Configuring Laravel",
     "title": "Configuring Laravel",
     "content": " ",
     "url": "http://localhost:4000/Framework/Laravel/configuration.html",
     "relUrl": "/Framework/Laravel/configuration.html"
-  },"43": {
+  },"44": {
     "doc": "Jekyll configuration",
     "title": "Configure",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/configure.html#configure",
     "relUrl": "/Static/jekyll/configure.html#configure"
-  },"44": {
+  },"45": {
     "doc": "Jekyll configuration",
     "title": "Jekyll configuration",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/configure.html",
     "relUrl": "/Static/jekyll/configure.html"
-  },"45": {
+  },"46": {
     "doc": "Deploy",
     "title": "Deployment",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/deploy.html#deployment",
     "relUrl": "/Static/jekyll/deploy.html#deployment"
-  },"46": {
+  },"47": {
     "doc": "Deploy",
     "title": "Deploy",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/deploy.html",
     "relUrl": "/Static/jekyll/deploy.html"
-  },"47": {
+  },"48": {
     "doc": "Drush",
     "title": "Drush",
     "content": " ",
     "url": "http://localhost:4000/Framework/Drupal/drush.html",
     "relUrl": "/Framework/Drupal/drush.html"
-  },"48": {
+  },"49": {
     "doc": "Drush",
     "title": "Install Drush on root",
     "content": "curl -sS https://getcomposer.org/installer | php . $mv composer.phar /usr/local/bin/composer . $ln -s /usr/local/bin/composer /usr/bin/composer . $git clone https://github.com/drush-ops/drush.git /usr/local/src/drush . $cd /usr/local/src/drush git checkout master (for the latest one or whatever version you want) . $ln -s /usr/local/src/drush/drush /usr/bin/drush . $composer install #if this results in error, run composer update to add the dependencies . $drush --version . ",
     "url": "http://localhost:4000/Framework/Drupal/drush.html#install-drush-on-root",
     "relUrl": "/Framework/Drupal/drush.html#install-drush-on-root"
-  },"49": {
+  },"50": {
     "doc": "Emphasis",
     "title": "Emphasis",
     "content": "Makdown . **This is bold text** __This is bold text__ *This is italic text* _This is italic text_ We have **bold***italic* This text is ***really important*** This text is ___really important___ This text is __*really important*__ This text is **_really important_** . Rendered output . This is bold text This is bold text This is italic text This is italic text We have bolditalic This text is really important This text is really important This text is really important This text is really important . ",
     "url": "http://localhost:4000/Markdown/emphasis.html",
     "relUrl": "/Markdown/emphasis.html"
-  },"50": {
+  },"51": {
     "doc": "Extend Drupal",
     "title": "Extend Drupal",
     "content": " ",
     "url": "http://localhost:4000/Framework/Drupal/extend.html",
     "relUrl": "/Framework/Drupal/extend.html"
-  },"51": {
+  },"52": {
     "doc": "Front matter",
     "title": "Front matter",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/front-matter.html",
     "relUrl": "/Static/jekyll/front-matter.html"
-  },"52": {
+  },"53": {
     "doc": "Headers",
     "title": "Headings",
     "content": "Makdown . # h1 Heading ## h2 Heading ### h3 Heading #### h4 Heading ##### h5 Heading ###### h6 Heading . Output . ",
     "url": "http://localhost:4000/Markdown/headers.html#headings",
     "relUrl": "/Markdown/headers.html#headings"
-  },"53": {
+  },"54": {
     "doc": "Headers",
     "title": "h1 Heading",
     "content": " ",
     "url": "http://localhost:4000/Markdown/headers.html#h1-heading",
     "relUrl": "/Markdown/headers.html#h1-heading"
-  },"54": {
+  },"55": {
     "doc": "Headers",
     "title": "h2 Heading",
     "content": "h3 Heading . h4 Heading . h5 Heading . h6 Heading . ",
     "url": "http://localhost:4000/Markdown/headers.html#h2-heading",
     "relUrl": "/Markdown/headers.html#h2-heading"
-  },"55": {
+  },"56": {
     "doc": "Headers",
     "title": "Headers",
     "content": " ",
     "url": "http://localhost:4000/Markdown/headers.html",
     "relUrl": "/Markdown/headers.html"
-  },"56": {
+  },"57": {
     "doc": "Images",
     "title": "Images",
     "content": "To insert image in markdown, it’s like linking to source img with exlamation mark at the front. Exlamation mark + text in square bracket + link to image in round bracket. Makdown . ![Irawan's Image](https://irawan.io/og/irawan-io.png) . Rendered output . ",
     "url": "http://localhost:4000/Markdown/images.html",
     "relUrl": "/Markdown/images.html"
-  },"57": {
+  },"58": {
     "doc": "Install Jekyll",
     "title": "Install",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/install.html#install",
     "relUrl": "/Static/jekyll/install.html#install"
-  },"58": {
+  },"59": {
     "doc": "Install Jekyll",
     "title": "Installing on MacOS",
     "content": "Install Ruby . Ensure you install Ruby, not the ruby from the Apple default install. It will give you this error: . ERROR: While executing gem ... (Gem::FilePermissionError) You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory. Use Homebrew to install latest Ruby. If you haven’t had Homebrew installed: . /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\" . Then install Ruby . brew install ruby . Add Ruby path on your terminal: . # If you're using Zsh echo 'export PATH=\"/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/X.X.X/bin:$PATH\"' &gt;&gt; ~/.zshrc # If you're using Bash echo 'export PATH=\"/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/X.X.X/bin:$PATH\"' &gt;&gt; ~/.bash_profile # Unsure which shell you are using? Type echo $SHELL . Refresh your shell . source ~/.zshrc # or source ~/.bash_profile . check the path and you shoud see anything other than: /usr/local/bin/ruby and check the version and it should be the latest: . which ruby . Mine would be: . /usr/local/opt/ruby/bin/ruby . Check ruby version . ruby -v . Install Jekyll . Install the Bundler: . gem install --user-install bundler jekyll . Create a new Jekyll site . Once the Jekyll is installed, you can start creating the site e.g in /blog folder: . jekyll new blog . | In an indeal world you can just run bundle exec jekyll serve and will show you all details of configuration including the server you can go to in local, but since the following libraries are no longer bundled gems or standard libraries including webrick, this message will appear: | . /usr/local/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/serve/servlet.rb:3:in `require': cannot load such file -- webrick (LoadError) . Then you need to run bundle add webrick providing you have bundle installed. This should let you run the bundle exec jekyll serve and the following message will appear: . Configuration file: /Users/irawan/dev/others/bloog/_config.yml Source: /Users/irawan/dev/others/bloog Destination: /Users/irawan/dev/others/bloog/_site Incremental build: disabled. Enable with --incremental Generating... Jekyll Feed: Generating feed for posts done in 0.465 seconds. Auto-regeneration: enabled for '/Users/irawan/dev/others/bloog' Server address: http://127.0.0.1:4000/ Server running... press ctrl-c to stop. Where Server address: http://127.0.0.1:4000/ is your localhost address of your Jeckyll site . ",
     "url": "http://localhost:4000/Static/jekyll/install.html#installing-on-macos",
     "relUrl": "/Static/jekyll/install.html#installing-on-macos"
-  },"59": {
+  },"60": {
     "doc": "Install Jekyll",
     "title": "Install Jekyll",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/install.html",
     "relUrl": "/Static/jekyll/install.html"
-  },"60": {
+  },"61": {
     "doc": "Install Laravel",
     "title": "Installation",
     "content": " ",
     "url": "http://localhost:4000/Framework/Laravel/install.html#installation",
     "relUrl": "/Framework/Laravel/install.html#installation"
-  },"61": {
+  },"62": {
     "doc": "Install Laravel",
     "title": "On Mac",
     "content": " ",
     "url": "http://localhost:4000/Framework/Laravel/install.html#on-mac",
     "relUrl": "/Framework/Laravel/install.html#on-mac"
-  },"62": {
+  },"63": {
     "doc": "Install Laravel",
     "title": "Install",
     "content": "Install With curl . As long as you have Docker in your Mac you can run simple CURL command to start creating project. web-app is an example of your project URL you can customise: . curl -s https://laravel.build/web-app | bash . Install with Composer . composer create-project laravel/laravel # or with Laravel Installer web-app composer global require laravel/installer laravel new web-app # then go to the web-ap folder cd web-app php artisan serve . ",
     "url": "http://localhost:4000/Framework/Laravel/install.html#install",
     "relUrl": "/Framework/Laravel/install.html#install"
-  },"63": {
+  },"64": {
     "doc": "Install Laravel",
     "title": "Sail up!",
     "content": "Go to the directory cd web-app after the installation done and we can start running the Laravel Sail that providfe a simple CLI for interacting with Laravel’s default Docker configuration: . docker-compose up -d #or ./vendor/bin/sail up -d . With alias setup: sail up -d (refer to ‘Sail’ section for alias setup) . Ensure that the port you are using, by default it’s :80, is not in use by other Docker containers. If it’s already used and the following error came up, you can change the port number or kill other containers first: . Check who uses port (number) . Run this to check who’s using the port number you wish to list: . sudo lsof -i -P -n | grep &lt;port number&gt; . Change port . ERROR: for mailhog Cannot start service mailhog: driver failed programming external connectivity on endpoint web-app_mailhog_1 (ae8085daf269cf4a0f7eae07927d10a0975d5ae3a082659314663956afce36c1): Error starting userland proxy: listen tcp4 0.0.0.0:8025: bind: address already in use ERROR: for laravel.test Cannot start service laravel.test: Ports are not available: listen tcp 0.0.0.0:80: bind: address already in use . You can change the port number Change to other ports by editing the docker-compose.yml file: . ports: - \"8084:80\" . And try to use port 8084 instaed http://localhost:8084 . Stop and remove containers . docker-compose down # Stop container on current dir if there is a docker-compose.yml . And then run the up the sail again: ./vendor/bin/sail up or sail up -d if you have your alias setup. This may take a few minutes but you’ll see this line where you can check your web app: . laravel.test_1 | Starting Laravel development server: http://0.0.0.0:80 . So your project web local web app is: http://0.0.0.0:80 or just localhost . ",
     "url": "http://localhost:4000/Framework/Laravel/install.html#sail-up",
     "relUrl": "/Framework/Laravel/install.html#sail-up"
-  },"64": {
+  },"65": {
     "doc": "Install Laravel",
     "title": "Install Laravel",
     "content": " ",
     "url": "http://localhost:4000/Framework/Laravel/install.html",
     "relUrl": "/Framework/Laravel/install.html"
-  },"65": {
+  },"66": {
     "doc": "Line breaks",
     "title": "Line Break",
     "content": "Notes: . | To create a line break, end a line with two or more spaces, and then type return | Or use the &lt;br&gt; HTML tag | . Markdown . This is the first line. And this is the second line. On browser: . This is the first line. And this is the second line. Alternative Makdown . First line with the HTML tag after.&lt;br&gt; And the next line. Rendered output . First line with the HTML tag after. And the next line. ",
     "url": "http://localhost:4000/Markdown/linebreaks.html#line-break",
     "relUrl": "/Markdown/linebreaks.html#line-break"
-  },"66": {
+  },"67": {
     "doc": "Line breaks",
     "title": "Line breaks",
     "content": " ",
     "url": "http://localhost:4000/Markdown/linebreaks.html",
     "relUrl": "/Markdown/linebreaks.html"
-  },"67": {
+  },"68": {
     "doc": "Links",
     "title": "Links",
     "content": "To link text in markdown, just insert the linked tex in square bracket followed with round bracket of the URL, no space. Markdown . This is [linked text](https://irawan.io) &lt;br&gt; This is [link with title](https://irawan.io \"Irawan's site\") . Rendered output . This is linked text This is link with title . ",
     "url": "http://localhost:4000/Markdown/links.html",
     "relUrl": "/Markdown/links.html"
-  },"68": {
+  },"69": {
     "doc": "Links",
     "title": "Directly put link on the address with &lt;&gt;",
     "content": "Markdown . &lt;https://www.irawan.io&gt; &lt;me@irawan.io&gt; . Output . https://www.irawan.io me@irawan.io . ",
     "url": "http://localhost:4000/Markdown/links.html#directly-put-link-on-the-address-with-",
     "relUrl": "/Markdown/links.html#directly-put-link-on-the-address-with-"
-  },"69": {
+  },"70": {
     "doc": "Links",
     "title": "Buttons",
     "content": "Button in MD is similar to links but add {: .btn} at the end . Markdown . [Link button to my page](https://irawan.io){: .btn} . Output . Link button to my page . ",
     "url": "http://localhost:4000/Markdown/links.html#buttons",
     "relUrl": "/Markdown/links.html#buttons"
-  },"70": {
+  },"71": {
     "doc": "Links",
     "title": "Prevent automated linking or skip linking",
     "content": "Markdown . `https://www.irawan.io` . Output . https://www.irawan.io . ",
     "url": "http://localhost:4000/Markdown/links.html#prevent-automated-linking-or-skip-linking",
     "relUrl": "/Markdown/links.html#prevent-automated-linking-or-skip-linking"
-  },"71": {
+  },"72": {
     "doc": "Links",
     "title": "Add emphasize/anchored link",
     "content": "Markdown . This is the *[Irawan's site](https://www.irawan.io)*. See the section on [top of the page](#). Output . This is the Irawan’s site. See the section on top of the page. ",
     "url": "http://localhost:4000/Markdown/links.html#add-emphasizeanchored-link",
     "relUrl": "/Markdown/links.html#add-emphasizeanchored-link"
-  },"72": {
+  },"73": {
     "doc": "Links",
     "title": "Reference in text",
     "content": "Markdown . It was a [nasi-goreng][ng], and that means comfort. [ng]: &lt;https://en.wikipedia.org/wiki/Nasi_goreng&gt; \"Nasi Goreng\" . Output . It was a nasi goreng, a delicious Indonesian food. ",
     "url": "http://localhost:4000/Markdown/links.html#reference-in-text",
     "relUrl": "/Markdown/links.html#reference-in-text"
-  },"73": {
+  },"74": {
     "doc": "Lists",
     "title": "Lists",
     "content": " ",
     "url": "http://localhost:4000/Markdown/lists.html",
     "relUrl": "/Markdown/lists.html"
-  },"74": {
+  },"75": {
     "doc": "Lists",
     "title": "Unordered",
     "content": "Makdown . + To start a list, there should be an empty line above + Create a list by starting a line with `+`, `-`, or `*` - Changing the sign will add a linespace + Add text under an item This is a text under an item. Notice that there are two spaces at the end above. - Sub-lists are made by indenting 2 spaces: * Item 2a * Item 2b * Item 3 To end a list, there should be one empty line above. Rendered output . | To start a list, there should be an empty line above | Create a list by starting a line with +, -, or * | Changing the sign will add a linespace | Add text under an item This is a text under an item. Notice that there are two spaces at the end above. | Sub-lists are made by indenting 2 spaces: . | Item 2a | Item 2b | . | Item 3 | . To end a list, there should be one empty line above. ",
     "url": "http://localhost:4000/Markdown/lists.html#unordered",
     "relUrl": "/Markdown/lists.html#unordered"
-  },"75": {
+  },"76": {
     "doc": "Lists",
     "title": "Ordered",
     "content": "Makdown . 1. Item 1 1. Item 2 Notice that the sequence number is irrelevant. Markdown will change the sequence automatically when renderring. Notice that there are two spaces at the end above to make a new text under item. 3. Sub-lists are made by indenting 4 spaces 1. Item 3a 2. Item 3b 8. Any number for item 4 . Rendered output . | Item 1 | Item 2 Notice that the sequence number is irrelevant. Markdown will change the sequence automatically when renderring. Notice that there are two spaces at the end above to make a new text under item. | Sub-lists are made by indenting 4 spaces . | Item 3a | Item 3b | . | Any number for item 4 | . Makdown . 57. will started with offset 57 1. so it will be 58 . Rendered output . | will started with offset 57 | so it will be 58 | . ",
     "url": "http://localhost:4000/Markdown/lists.html#ordered",
     "relUrl": "/Markdown/lists.html#ordered"
-  },"76": {
+  },"77": {
     "doc": "Lists",
     "title": "Elements in Lists",
     "content": "Notes: . | To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab | . Makdown . * This is the first list item. * Here's the second list item. I need to add another paragraph below the second list item. * And here's the third list item. Rendered output . | This is the first list item. | Here’s the second list item. I need to add another paragraph below the second list item. | And here’s the third list item. | . Rendered output . | This is the first list item. | Here’s the second list item. I need to add another paragraph below the second list item. | And here’s the third list item. | . Rendered output . | This is the first list item. | Here’s the second list item. A blockquote would look great below the second list item. | And here’s the third list item. | . Makdown . 1. This list will include image 2. This is Irawan's logo ![Irawan](https://irawan.io/og/irawan-io.png) 3. So that's a logo . Rendered output . | This list will include image | This is Irawan’s logo | So that’s a logo | . ",
     "url": "http://localhost:4000/Markdown/lists.html#elements-in-lists",
     "relUrl": "/Markdown/lists.html#elements-in-lists"
-  },"77": {
+  },"78": {
     "doc": "Multiple remotes",
     "title": "Working with Git multiple remotes",
     "content": " ",
     "url": "http://localhost:4000/Git/multiple-remotes.html#working-with-git-multiple-remotes",
     "relUrl": "/Git/multiple-remotes.html#working-with-git-multiple-remotes"
-  },"78": {
+  },"79": {
     "doc": "Multiple remotes",
     "title": "Multiple remotes",
     "content": " ",
     "url": "http://localhost:4000/Git/multiple-remotes.html",
     "relUrl": "/Git/multiple-remotes.html"
-  },"79": {
+  },"80": {
     "doc": "Paragraph",
     "title": "Paragraphs",
     "content": "Notes: . | To create paragraphs, use a blank line to separate one or more lines of text. | Don’t ident paragraphs with spaces or tabs | . Markdown . This is the first paragraph. This is the second paragraph . Rendered output: . This is the first paragraph. This is the second paragraph . ",
     "url": "http://localhost:4000/Markdown/paragraph.html#paragraphs",
     "relUrl": "/Markdown/paragraph.html#paragraphs"
-  },"80": {
+  },"81": {
     "doc": "Paragraph",
     "title": "Paragraph",
     "content": " ",
     "url": "http://localhost:4000/Markdown/paragraph.html",
     "relUrl": "/Markdown/paragraph.html"
-  },"81": {
+  },"82": {
     "doc": "Publishing",
     "title": "Publishing your site",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/publishing.html#publishing-your-site",
     "relUrl": "/Static/jekyll/publishing.html#publishing-your-site"
-  },"82": {
+  },"83": {
     "doc": "Publishing",
     "title": "Publishing",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/publishing.html",
     "relUrl": "/Static/jekyll/publishing.html"
-  },"83": {
+  },"84": {
     "doc": "Jekyll",
     "title": "Jekyll",
     "content": "Installing and starting up Jekyll site. ",
     "url": "http://localhost:4000/Static/jekyll/",
     "relUrl": "/Static/jekyll/"
-  },"84": {
+  },"85": {
     "doc": "Running Codeigniter4",
     "title": "Running your app",
     "content": "+There are three ways of running Codeigniter4 . | hosted on web server | using visualisation | using Codeigniter CLI for testing | . It is recommended to read the user guide if you are new to building a dynamic PHP aplication . ",
     "url": "http://localhost:4000/Framework/Codeigniter/running.html#running-your-app",
     "relUrl": "/Framework/Codeigniter/running.html#running-your-app"
-  },"85": {
+  },"86": {
     "doc": "Running Codeigniter4",
     "title": "Running Codeigniter4",
     "content": " ",
     "url": "http://localhost:4000/Framework/Codeigniter/running.html",
     "relUrl": "/Framework/Codeigniter/running.html"
-  },"86": {
+  },"87": {
     "doc": "Sail",
     "title": "Sail",
     "content": "Sail is the drush or wp-cli equivalent for Laravel which is a light-weight CLI. sail is stored in the docker-compose.yml in the project root. ",
     "url": "http://localhost:4000/Framework/Laravel/sail.html",
     "relUrl": "/Framework/Laravel/sail.html"
-  },"87": {
+  },"88": {
     "doc": "Sail",
     "title": "Install",
     "content": "Install sail with Composer: . composer require laravel/sail --dev . After Sail has been installed, you may run the sail:install Artisan command. This command will publish Sail’s docker-compose.yml file to the root of your application: . php artisan sail:install . By default, to run the sail it’s : .vendor/bin/sail up -d . ",
     "url": "http://localhost:4000/Framework/Laravel/sail.html#install",
     "relUrl": "/Framework/Laravel/sail.html#install"
-  },"88": {
+  },"89": {
     "doc": "Sail",
     "title": "Setup alias",
     "content": "Instead of typing all those path, you should make an alias on the bash profile. Run these command and you don’t have to edit the .bash profile: . export COMPOSE_FILE=docker-compose.yml alias sail='bash vendor/bin/sail' . ",
     "url": "http://localhost:4000/Framework/Laravel/sail.html#setup-alias",
     "relUrl": "/Framework/Laravel/sail.html#setup-alias"
-  },"89": {
+  },"90": {
     "doc": "Sail",
     "title": "Commands",
     "content": "Start &amp; stop . Start: . sail up . Start with detached mode: . sail up -d . To stop all containers: . sail down . Executing . ",
     "url": "http://localhost:4000/Framework/Laravel/sail.html#commands",
     "relUrl": "/Framework/Laravel/sail.html#commands"
-  },"90": {
+  },"91": {
     "doc": "Docker setup",
     "title": "Setup and Installation",
     "content": "Here’s documentation from Docker site . ",
     "url": "http://localhost:4000/Docker/setup.html#setup-and-installation",
     "relUrl": "/Docker/setup.html#setup-and-installation"
-  },"91": {
+  },"92": {
     "doc": "Docker setup",
     "title": "Docker setup",
     "content": " ",
     "url": "http://localhost:4000/Docker/setup.html",
     "relUrl": "/Docker/setup.html"
-  },"92": {
+  },"93": {
     "doc": "Tables",
     "title": "Table styles on Markdown",
     "content": " ",
     "url": "http://localhost:4000/Markdown/tables.html#table-styles-on-markdown",
     "relUrl": "/Markdown/tables.html#table-styles-on-markdown"
-  },"93": {
+  },"94": {
     "doc": "Tables",
     "title": "Headers",
     "content": "Markdown . | Header Column One | Header Column Two | Header Column Three | Header Column Four | . ",
     "url": "http://localhost:4000/Markdown/tables.html#headers",
     "relUrl": "/Markdown/tables.html#headers"
-  },"94": {
+  },"95": {
     "doc": "Tables",
     "title": "Alignments",
     "content": "Left align: :-- or three dashes --- Right align: --: Centre align: :-: . Place those alignment within pipes in the respective columns. Markdown . | Default Header | Left Align | Right Align | Center Align | --- | :-- | --: | :-: | . ",
     "url": "http://localhost:4000/Markdown/tables.html#alignments",
     "relUrl": "/Markdown/tables.html#alignments"
-  },"95": {
+  },"96": {
     "doc": "Tables",
     "title": "Table contents",
     "content": "Every columns is separated with pipe | and every row is placed in different lines: . Markdown . | Column 1 Header | Column 2 Header | Column 3 Header | --------------- | --------------- | --------------- | Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 | Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 | Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 | . Output . | Column 1 Header | Column 2 Header | Column 3 Header | . | Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 | . | Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 | . | Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 | . ",
     "url": "http://localhost:4000/Markdown/tables.html#table-contents",
     "relUrl": "/Markdown/tables.html#table-contents"
-  },"96": {
+  },"97": {
     "doc": "Tables",
     "title": "Tables",
     "content": " ",
     "url": "http://localhost:4000/Markdown/tables.html",
     "relUrl": "/Markdown/tables.html"
-  },"97": {
+  },"98": {
     "doc": "Theme",
     "title": "Theme",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/theme.html",
     "relUrl": "/Static/jekyll/theme.html"
-  },"98": {
+  },"99": {
     "doc": "Theme",
     "title": "Theme structure",
     "content": "Theme file structure will be like this. Example theme name Irawan . irawan ├── Gemfile ├── LICENSE.txt ├── README.md ├── _includes ├── _layouts │   ├── default.html │   ├── page.html │   └── post.html ├── _sass ├── assets └── irawan.gemspec . ",
     "url": "http://localhost:4000/Static/jekyll/theme.html#theme-structure",
     "relUrl": "/Static/jekyll/theme.html#theme-structure"
-  },"99": {
+  },"100": {
     "doc": "Theme",
     "title": "Installing Jekyll theme",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/theme.html#installing-jekyll-theme",
     "relUrl": "/Static/jekyll/theme.html#installing-jekyll-theme"
-  },"100": {
+  },"101": {
     "doc": "Theme",
     "title": "Making your own theme",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/theme.html#making-your-own-theme",
     "relUrl": "/Static/jekyll/theme.html#making-your-own-theme"
-  },"101": {
+  },"102": {
     "doc": "Twig on Drupal",
     "title": "Understanding Twig",
     "content": " ",
     "url": "http://localhost:4000/Framework/Drupal/twig.html#understanding-twig",
     "relUrl": "/Framework/Drupal/twig.html#understanding-twig"
-  },"102": {
+  },"103": {
     "doc": "Twig on Drupal",
     "title": "Twig on Drupal",
     "content": " ",
     "url": "http://localhost:4000/Framework/Drupal/twig.html",
     "relUrl": "/Framework/Drupal/twig.html"
-  },"103": {
+  },"104": {
     "doc": "WP CLI",
     "title": "WP-CLI - Wordpress Command Line Interface",
     "content": " ",
     "url": "http://localhost:4000/CMS/Wordpress/wp-cli.html#wp-cli---wordpress-command-line-interface",
     "relUrl": "/CMS/Wordpress/wp-cli.html#wp-cli---wordpress-command-line-interface"
-  },"104": {
+  },"105": {
     "doc": "WP CLI",
     "title": "WP CLI",
     "content": " ",
     "url": "http://localhost:4000/CMS/Wordpress/wp-cli.html",
     "relUrl": "/CMS/Wordpress/wp-cli.html"
-  },"105": {
+  },"106": {
     "doc": "OSX CLI",
     "title": "OSX CLI",
     "content": "# OSX CLI Useful Mac OS command line for developers ",
