@@ -12,6 +12,8 @@ has_toc: false
 
 To link text in markdown, just insert the linked tex in square bracket followed with round bracket of the URL, no space.
 
+## Externarl links
+
 **Markdown**
 ```md
 This is [linked text](https://irawan.io) <br>
@@ -25,7 +27,7 @@ This is [link with title](https://irawan.io "Irawan's site")
 
 
 
-## Directly put link on the address with `<>`
+### Directly put link on the address with `<>`
 
 **Markdown**
 
@@ -37,6 +39,16 @@ This is [link with title](https://irawan.io "Irawan's site")
 
 <https://www.irawan.io>  
 <me@irawan.io>
+
+## Internal link within Jekyll pages
+There are many ways of doing this but here's the simplest I choose with `link` tags:
+
+Markdown: `[Link text to Docker]({% link Docker/README.md %})`
+
+
+**Output**
+
+[Link text to Docker]({% link Docker/README.md %})
 
 ## Buttons
 Button in MD is similar to links but add `{: .btn}` at the end
@@ -73,6 +85,8 @@ See the section on [top of the page](#).
 
 This is the *[Irawan's site](https://www.irawan.io)*.  
 See the section on [top of the page](#).
+
+
 
 
 ## Reference in text

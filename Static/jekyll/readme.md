@@ -10,6 +10,5 @@ has_toc: true
 
 # Jekyll
 
-Installing and starting up Jekyll site.
-
+This documentation is an example of my Jekyll install. Following are the steps I took to build this.
 

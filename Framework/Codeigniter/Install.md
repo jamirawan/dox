@@ -3,7 +3,7 @@
 layout: about
 title: Install Codeigniter4
 parent: Codeigniter4
-grand_parent: Framework
+grand_parent: Frameworks
 nav_order: 1
 has_children: false
 has_toc: false

@@ -2,7 +2,7 @@
 layout: default
 title: Local install
 parent: Drupal
-grand_parent: Framework
+grand_parent: Frameworks
 nav_order: 1
 has_children: false
 has_toc: true
@@ -12,7 +12,7 @@ has_toc: true
 
 ## With DDEV
 
-DDEV is a local development tool that requires Docker and make it easy to setup and run the local Drupal site. Assuming you are all setup with Docker and composer on your machine, here's how I set it up.
+DDEV is a local development tool that requires Docker and make it easy to setup and run the local Drupal site. Assuming you are all setup with [Docker]({{ site.baseurl }}{% link Docker/README.md %}) and composer on your machine, here's how I set it up.
 
 **Install DDEV on your machine**
 

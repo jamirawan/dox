@@ -2,7 +2,7 @@
 layout: default
 title: Install Laravel
 parent: Laravel
-grand_parent: Framework
+grand_parent: Frameworks
 nav_order: 1
 has_child: false
 has_toc: false

@@ -2,9 +2,8 @@
 
 layout: default
 title: Laravel
-parent: Framework
-grand_parent: Framework
-nav_order: 3
+parent: Frameworks
+nav_order: 2
 has_children: true
 has_toc: true
 

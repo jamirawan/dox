@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Framework
+title: Frameworks
 nav_order: 3
 has_children: true
 has_toc: true

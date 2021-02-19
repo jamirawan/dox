@@ -155,8 +155,8 @@
     "url": "http://localhost:4000/CMS/Wordpress/",
     "relUrl": "/CMS/Wordpress/"
   },"26": {
-    "doc": "Framework",
-    "title": "Framework",
+    "doc": "Frameworks",
+    "title": "Frameworks",
     "content": " ",
     "url": "http://localhost:4000/Framework/",
     "relUrl": "/Framework/"
@@ -295,7 +295,7 @@
   },"49": {
     "doc": "Drush",
     "title": "Install Drush on root",
-    "content": "curl -sS https://getcomposer.org/installer | php . $mv composer.phar /usr/local/bin/composer . $ln -s /usr/local/bin/composer /usr/bin/composer . $git clone https://github.com/drush-ops/drush.git /usr/local/src/drush . $cd /usr/local/src/drush git checkout master (for the latest one or whatever version you want) . $ln -s /usr/local/src/drush/drush /usr/bin/drush . $composer install #if this results in error, run composer update to add the dependencies . $drush --version . ",
+    "content": "Get a composer if you haven’t already . curl -sS https://getcomposer.org/installer | php . $mv composer.phar /usr/local/bin/composer . $ln -s /usr/local/bin/composer /usr/bin/composer . Download drush from git repo . $git clone https://github.com/drush-ops/drush.git /usr/local/src/drush . Get the latest one . $cd /usr/local/src/drush git checkout master #for the latest one or whatever version you want . $ln -s /usr/local/src/drush/drush /usr/bin/drush . $composer install #if this results in error, run composer update to add the dependencies . Check the version . $drush --version . Have fun with drush within the folder where you install Drupal. ",
     "url": "http://localhost:4000/Framework/Drupal/drush.html#install-drush-on-root",
     "relUrl": "/Framework/Drupal/drush.html#install-drush-on-root"
   },"50": {
@@ -409,232 +409,238 @@
   },"68": {
     "doc": "Links",
     "title": "Links",
-    "content": "To link text in markdown, just insert the linked tex in square bracket followed with round bracket of the URL, no space. Markdown . This is [linked text](https://irawan.io) &lt;br&gt; This is [link with title](https://irawan.io \"Irawan's site\") . Rendered output . This is linked text This is link with title . ",
+    "content": "To link text in markdown, just insert the linked tex in square bracket followed with round bracket of the URL, no space. ",
     "url": "http://localhost:4000/Markdown/links.html",
     "relUrl": "/Markdown/links.html"
   },"69": {
     "doc": "Links",
-    "title": "Directly put link on the address with &lt;&gt;",
-    "content": "Markdown . &lt;https://www.irawan.io&gt; &lt;me@irawan.io&gt; . Output . https://www.irawan.io me@irawan.io . ",
-    "url": "http://localhost:4000/Markdown/links.html#directly-put-link-on-the-address-with-",
-    "relUrl": "/Markdown/links.html#directly-put-link-on-the-address-with-"
+    "title": "Externarl links",
+    "content": "Markdown . This is [linked text](https://irawan.io) &lt;br&gt; This is [link with title](https://irawan.io \"Irawan's site\") . Rendered output . This is linked text This is link with title . Directly put link on the address with &lt;&gt; . Markdown . &lt;https://www.irawan.io&gt; &lt;me@irawan.io&gt; . Output . https://www.irawan.io me@irawan.io . ",
+    "url": "http://localhost:4000/Markdown/links.html#externarl-links",
+    "relUrl": "/Markdown/links.html#externarl-links"
   },"70": {
+    "doc": "Links",
+    "title": "Internal link within Jekyll pages",
+    "content": "There are many ways of doing this but here’s the simplest I choose with link tags: . Markdown: [Link text to Docker](/Docker/) . Output . Link text to Docker . ",
+    "url": "http://localhost:4000/Markdown/links.html#internal-link-within-jekyll-pages",
+    "relUrl": "/Markdown/links.html#internal-link-within-jekyll-pages"
+  },"71": {
     "doc": "Links",
     "title": "Buttons",
     "content": "Button in MD is similar to links but add {: .btn} at the end . Markdown . [Link button to my page](https://irawan.io){: .btn} . Output . Link button to my page . ",
     "url": "http://localhost:4000/Markdown/links.html#buttons",
     "relUrl": "/Markdown/links.html#buttons"
-  },"71": {
+  },"72": {
     "doc": "Links",
     "title": "Prevent automated linking or skip linking",
     "content": "Markdown . `https://www.irawan.io` . Output . https://www.irawan.io . ",
     "url": "http://localhost:4000/Markdown/links.html#prevent-automated-linking-or-skip-linking",
     "relUrl": "/Markdown/links.html#prevent-automated-linking-or-skip-linking"
-  },"72": {
+  },"73": {
     "doc": "Links",
     "title": "Add emphasize/anchored link",
     "content": "Markdown . This is the *[Irawan's site](https://www.irawan.io)*. See the section on [top of the page](#). Output . This is the Irawan’s site. See the section on top of the page. ",
     "url": "http://localhost:4000/Markdown/links.html#add-emphasizeanchored-link",
     "relUrl": "/Markdown/links.html#add-emphasizeanchored-link"
-  },"73": {
+  },"74": {
     "doc": "Links",
     "title": "Reference in text",
     "content": "Markdown . It was a [nasi-goreng][ng], and that means comfort. [ng]: &lt;https://en.wikipedia.org/wiki/Nasi_goreng&gt; \"Nasi Goreng\" . Output . It was a nasi goreng, a delicious Indonesian food. ",
     "url": "http://localhost:4000/Markdown/links.html#reference-in-text",
     "relUrl": "/Markdown/links.html#reference-in-text"
-  },"74": {
+  },"75": {
     "doc": "Lists",
     "title": "Lists",
     "content": " ",
     "url": "http://localhost:4000/Markdown/lists.html",
     "relUrl": "/Markdown/lists.html"
-  },"75": {
+  },"76": {
     "doc": "Lists",
     "title": "Unordered",
     "content": "Makdown . + To start a list, there should be an empty line above + Create a list by starting a line with `+`, `-`, or `*` - Changing the sign will add a linespace + Add text under an item This is a text under an item. Notice that there are two spaces at the end above. - Sub-lists are made by indenting 2 spaces: * Item 2a * Item 2b * Item 3 To end a list, there should be one empty line above. Rendered output . | To start a list, there should be an empty line above | Create a list by starting a line with +, -, or * | Changing the sign will add a linespace | Add text under an item This is a text under an item. Notice that there are two spaces at the end above. | Sub-lists are made by indenting 2 spaces: . | Item 2a | Item 2b | . | Item 3 | . To end a list, there should be one empty line above. ",
     "url": "http://localhost:4000/Markdown/lists.html#unordered",
     "relUrl": "/Markdown/lists.html#unordered"
-  },"76": {
+  },"77": {
     "doc": "Lists",
     "title": "Ordered",
     "content": "Makdown . 1. Item 1 1. Item 2 Notice that the sequence number is irrelevant. Markdown will change the sequence automatically when renderring. Notice that there are two spaces at the end above to make a new text under item. 3. Sub-lists are made by indenting 4 spaces 1. Item 3a 2. Item 3b 8. Any number for item 4 . Rendered output . | Item 1 | Item 2 Notice that the sequence number is irrelevant. Markdown will change the sequence automatically when renderring. Notice that there are two spaces at the end above to make a new text under item. | Sub-lists are made by indenting 4 spaces . | Item 3a | Item 3b | . | Any number for item 4 | . Makdown . 57. will started with offset 57 1. so it will be 58 . Rendered output . | will started with offset 57 | so it will be 58 | . ",
     "url": "http://localhost:4000/Markdown/lists.html#ordered",
     "relUrl": "/Markdown/lists.html#ordered"
-  },"77": {
+  },"78": {
     "doc": "Lists",
     "title": "Elements in Lists",
     "content": "Notes: . | To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab | . Makdown . * This is the first list item. * Here's the second list item. I need to add another paragraph below the second list item. * And here's the third list item. Rendered output . | This is the first list item. | Here’s the second list item. I need to add another paragraph below the second list item. | And here’s the third list item. | . Rendered output . | This is the first list item. | Here’s the second list item. I need to add another paragraph below the second list item. | And here’s the third list item. | . Rendered output . | This is the first list item. | Here’s the second list item. A blockquote would look great below the second list item. | And here’s the third list item. | . Makdown . 1. This list will include image 2. This is Irawan's logo ![Irawan](https://irawan.io/og/irawan-io.png) 3. So that's a logo . Rendered output . | This list will include image | This is Irawan’s logo | So that’s a logo | . ",
     "url": "http://localhost:4000/Markdown/lists.html#elements-in-lists",
     "relUrl": "/Markdown/lists.html#elements-in-lists"
-  },"78": {
+  },"79": {
     "doc": "Multiple remotes",
     "title": "Working with Git multiple remotes",
     "content": " ",
     "url": "http://localhost:4000/Git/multiple-remotes.html#working-with-git-multiple-remotes",
     "relUrl": "/Git/multiple-remotes.html#working-with-git-multiple-remotes"
-  },"79": {
+  },"80": {
     "doc": "Multiple remotes",
     "title": "Multiple remotes",
     "content": " ",
     "url": "http://localhost:4000/Git/multiple-remotes.html",
     "relUrl": "/Git/multiple-remotes.html"
-  },"80": {
+  },"81": {
     "doc": "Paragraph",
     "title": "Paragraphs",
     "content": "Notes: . | To create paragraphs, use a blank line to separate one or more lines of text. | Don’t ident paragraphs with spaces or tabs | . Markdown . This is the first paragraph. This is the second paragraph . Rendered output: . This is the first paragraph. This is the second paragraph . ",
     "url": "http://localhost:4000/Markdown/paragraph.html#paragraphs",
     "relUrl": "/Markdown/paragraph.html#paragraphs"
-  },"81": {
+  },"82": {
     "doc": "Paragraph",
     "title": "Paragraph",
     "content": " ",
     "url": "http://localhost:4000/Markdown/paragraph.html",
     "relUrl": "/Markdown/paragraph.html"
-  },"82": {
+  },"83": {
     "doc": "Publishing",
     "title": "Publishing your site",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/publishing.html#publishing-your-site",
     "relUrl": "/Static/jekyll/publishing.html#publishing-your-site"
-  },"83": {
+  },"84": {
     "doc": "Publishing",
     "title": "Publishing",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/publishing.html",
     "relUrl": "/Static/jekyll/publishing.html"
-  },"84": {
+  },"85": {
     "doc": "Jekyll",
     "title": "Jekyll",
-    "content": "Installing and starting up Jekyll site. ",
+    "content": "This documentation is an example of my Jekyll install. Following are the steps I took to build this. ",
     "url": "http://localhost:4000/Static/jekyll/",
     "relUrl": "/Static/jekyll/"
-  },"85": {
+  },"86": {
     "doc": "Running Codeigniter4",
     "title": "Running your app",
     "content": "+There are three ways of running Codeigniter4 . | hosted on web server | using visualisation | using Codeigniter CLI for testing | . It is recommended to read the user guide if you are new to building a dynamic PHP aplication . ",
     "url": "http://localhost:4000/Framework/Codeigniter/running.html#running-your-app",
     "relUrl": "/Framework/Codeigniter/running.html#running-your-app"
-  },"86": {
+  },"87": {
     "doc": "Running Codeigniter4",
     "title": "Running Codeigniter4",
     "content": " ",
     "url": "http://localhost:4000/Framework/Codeigniter/running.html",
     "relUrl": "/Framework/Codeigniter/running.html"
-  },"87": {
+  },"88": {
     "doc": "Sail",
     "title": "Sail",
     "content": "Sail is the drush or wp-cli equivalent for Laravel which is a light-weight CLI. sail is stored in the docker-compose.yml in the project root. ",
     "url": "http://localhost:4000/Framework/Laravel/sail.html",
     "relUrl": "/Framework/Laravel/sail.html"
-  },"88": {
+  },"89": {
     "doc": "Sail",
     "title": "Install",
     "content": "Install sail with Composer: . composer require laravel/sail --dev . After Sail has been installed, you may run the sail:install Artisan command. This command will publish Sail’s docker-compose.yml file to the root of your application: . php artisan sail:install . By default, to run the sail it’s : .vendor/bin/sail up -d . ",
     "url": "http://localhost:4000/Framework/Laravel/sail.html#install",
     "relUrl": "/Framework/Laravel/sail.html#install"
-  },"89": {
+  },"90": {
     "doc": "Sail",
     "title": "Setup alias",
     "content": "Instead of typing all those path, you should make an alias on the bash profile. Run these command and you don’t have to edit the .bash profile: . export COMPOSE_FILE=docker-compose.yml alias sail='bash vendor/bin/sail' . ",
     "url": "http://localhost:4000/Framework/Laravel/sail.html#setup-alias",
     "relUrl": "/Framework/Laravel/sail.html#setup-alias"
-  },"90": {
+  },"91": {
     "doc": "Sail",
     "title": "Commands",
     "content": "Start &amp; stop . Start: . sail up . Start with detached mode: . sail up -d . To stop all containers: . sail down . Executing . ",
     "url": "http://localhost:4000/Framework/Laravel/sail.html#commands",
     "relUrl": "/Framework/Laravel/sail.html#commands"
-  },"91": {
+  },"92": {
     "doc": "Docker setup",
     "title": "Setup and Installation",
     "content": "Here’s documentation from Docker site . ",
     "url": "http://localhost:4000/Docker/setup.html#setup-and-installation",
     "relUrl": "/Docker/setup.html#setup-and-installation"
-  },"92": {
+  },"93": {
     "doc": "Docker setup",
     "title": "Docker setup",
     "content": " ",
     "url": "http://localhost:4000/Docker/setup.html",
     "relUrl": "/Docker/setup.html"
-  },"93": {
+  },"94": {
     "doc": "Tables",
     "title": "Table styles on Markdown",
     "content": " ",
     "url": "http://localhost:4000/Markdown/tables.html#table-styles-on-markdown",
     "relUrl": "/Markdown/tables.html#table-styles-on-markdown"
-  },"94": {
+  },"95": {
     "doc": "Tables",
     "title": "Headers",
     "content": "Markdown . | Header Column One | Header Column Two | Header Column Three | Header Column Four | . ",
     "url": "http://localhost:4000/Markdown/tables.html#headers",
     "relUrl": "/Markdown/tables.html#headers"
-  },"95": {
+  },"96": {
     "doc": "Tables",
     "title": "Alignments",
     "content": "Left align: :-- or three dashes --- Right align: --: Centre align: :-: . Place those alignment within pipes in the respective columns. Markdown . | Default Header | Left Align | Right Align | Center Align | --- | :-- | --: | :-: | . ",
     "url": "http://localhost:4000/Markdown/tables.html#alignments",
     "relUrl": "/Markdown/tables.html#alignments"
-  },"96": {
+  },"97": {
     "doc": "Tables",
     "title": "Table contents",
     "content": "Every columns is separated with pipe | and every row is placed in different lines: . Markdown . | Column 1 Header | Column 2 Header | Column 3 Header | --------------- | --------------- | --------------- | Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 | Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 | Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 | . Output . | Column 1 Header | Column 2 Header | Column 3 Header | . | Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 | . | Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 | . | Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 | . ",
     "url": "http://localhost:4000/Markdown/tables.html#table-contents",
     "relUrl": "/Markdown/tables.html#table-contents"
-  },"97": {
+  },"98": {
     "doc": "Tables",
     "title": "Tables",
     "content": " ",
     "url": "http://localhost:4000/Markdown/tables.html",
     "relUrl": "/Markdown/tables.html"
-  },"98": {
+  },"99": {
     "doc": "Theme",
     "title": "Theme",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/theme.html",
     "relUrl": "/Static/jekyll/theme.html"
-  },"99": {
+  },"100": {
     "doc": "Theme",
     "title": "Theme structure",
     "content": "Theme file structure will be like this. Example theme name Irawan . irawan ├── Gemfile ├── LICENSE.txt ├── README.md ├── _includes ├── _layouts │   ├── default.html │   ├── page.html │   └── post.html ├── _sass ├── assets └── irawan.gemspec . ",
     "url": "http://localhost:4000/Static/jekyll/theme.html#theme-structure",
     "relUrl": "/Static/jekyll/theme.html#theme-structure"
-  },"100": {
+  },"101": {
     "doc": "Theme",
     "title": "Installing Jekyll theme",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/theme.html#installing-jekyll-theme",
     "relUrl": "/Static/jekyll/theme.html#installing-jekyll-theme"
-  },"101": {
+  },"102": {
     "doc": "Theme",
     "title": "Making your own theme",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/theme.html#making-your-own-theme",
     "relUrl": "/Static/jekyll/theme.html#making-your-own-theme"
-  },"102": {
+  },"103": {
     "doc": "Twig on Drupal",
     "title": "Understanding Twig",
     "content": " ",
     "url": "http://localhost:4000/Framework/Drupal/twig.html#understanding-twig",
     "relUrl": "/Framework/Drupal/twig.html#understanding-twig"
-  },"103": {
+  },"104": {
     "doc": "Twig on Drupal",
     "title": "Twig on Drupal",
     "content": " ",
     "url": "http://localhost:4000/Framework/Drupal/twig.html",
     "relUrl": "/Framework/Drupal/twig.html"
-  },"104": {
+  },"105": {
     "doc": "WP CLI",
     "title": "WP-CLI - Wordpress Command Line Interface",
     "content": " ",
     "url": "http://localhost:4000/CMS/Wordpress/wp-cli.html#wp-cli---wordpress-command-line-interface",
     "relUrl": "/CMS/Wordpress/wp-cli.html#wp-cli---wordpress-command-line-interface"
-  },"105": {
+  },"106": {
     "doc": "WP CLI",
     "title": "WP CLI",
     "content": " ",
     "url": "http://localhost:4000/CMS/Wordpress/wp-cli.html",
     "relUrl": "/CMS/Wordpress/wp-cli.html"
-  },"106": {
+  },"107": {
     "doc": "OSX CLI",
     "title": "OSX CLI",
     "content": "# OSX CLI Useful Mac OS command line for developers ",
