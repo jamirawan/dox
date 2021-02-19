@@ -53,59 +53,59 @@
     "url": "http://localhost:4000/Markdown/",
     "relUrl": "/Markdown/"
   },"9": {
-    "doc": "Laravel",
-    "title": "Laravel",
-    "content": "Web application framework with expressive, elegant syntax. +Better to understand the following before starting: . | At least basic of HTML &amp; CSS | Javascript and JQuery | PHP and MySQL programming | Bootstrap framework | Concept of object oriented programming with PHP | . ",
-    "url": "http://localhost:4000/Laravel/",
-    "relUrl": "/Laravel/"
-  },"10": {
-    "doc": "Wordpress",
-    "title": "Wordpress",
-    "content": " ",
-    "url": "http://localhost:4000/Wordpress/",
-    "relUrl": "/Wordpress/"
-  },"11": {
-    "doc": "Install Wordpress",
-    "title": "Install locally",
-    "content": " ",
-    "url": "http://localhost:4000/Wordpress/Install/#install-locally",
-    "relUrl": "/Wordpress/Install/#install-locally"
-  },"12": {
-    "doc": "Install Wordpress",
-    "title": "Install Wordpress",
-    "content": " ",
-    "url": "http://localhost:4000/Wordpress/Install/",
-    "relUrl": "/Wordpress/Install/"
-  },"13": {
-    "doc": "Git",
-    "title": "Git",
-    "content": " ",
-    "url": "http://localhost:4000/Git/",
-    "relUrl": "/Git/"
-  },"14": {
-    "doc": "Codeigniter4",
-    "title": "Codeigniter4",
-    "content": "Codeigniter4 is a PHP based application development framework to build websites. It has uses so many libraries for commonly needed task as well as simple interface and logical structure to access these libraries. ",
-    "url": "http://localhost:4000/Codeigniter/",
-    "relUrl": "/Codeigniter/"
-  },"15": {
     "doc": "Joomla!",
     "title": "Joomla",
     "content": " ",
     "url": "http://localhost:4000/Joomla/#joomla",
     "relUrl": "/Joomla/#joomla"
-  },"16": {
+  },"10": {
     "doc": "Joomla!",
     "title": "Joomla!",
     "content": " ",
     "url": "http://localhost:4000/Joomla/",
     "relUrl": "/Joomla/"
-  },"17": {
+  },"11": {
+    "doc": "About",
+    "title": "Work in progress",
+    "content": ". | Here’s my landing page | This page is built based on what I know and been through with issues or steps I did during web development and documented them for my own reference and others may find these useful too | Most of these docs are written as I go along practicing them | This doc is continously updated as I go | You may find that some docs are not finished as I do this on my spare time between fill time job, new baby and freelance work | . Feel free to coment or correct me if you find any docs that are no longer relevant. ",
+    "url": "http://localhost:4000/#work-in-progress",
+    "relUrl": "/#work-in-progress"
+  },"12": {
+    "doc": "About",
+    "title": "About",
+    "content": ". . . . . . . irawans.com irawan Devanagri: Javanese: Sanskrit: iravan . . | | . | | . ",
+    "url": "http://localhost:4000/",
+    "relUrl": "/"
+  },"13": {
+    "doc": "Codeigniter4",
+    "title": "Codeigniter4",
+    "content": "Codeigniter4 is a PHP based application development framework to build websites. It has uses so many libraries for commonly needed task as well as simple interface and logical structure to access these libraries. ",
+    "url": "http://localhost:4000/Codeigniter/",
+    "relUrl": "/Codeigniter/"
+  },"14": {
     "doc": "Docker",
     "title": "Docker",
     "content": "Working with Docker . ",
     "url": "http://localhost:4000/Docker/",
     "relUrl": "/Docker/"
+  },"15": {
+    "doc": "Git",
+    "title": "Git",
+    "content": " ",
+    "url": "http://localhost:4000/Git/",
+    "relUrl": "/Git/"
+  },"16": {
+    "doc": "Drupal",
+    "title": "Drupal quick guide",
+    "content": "Although there is no such thing as a quick guide for webdev framework manual, I make this documentation a quick reference for myself just to remind me of the steps I took. Drupal won the most dreaded web framework according to the Stackoverflow survey in 2019 and that tells us a lot about how complicated it is to use. But, it’s still being used by programmer who’s got a sense of adventure and like challanges. Here are some steps if you want to build Drupal in your local machine. Although there are some other ways to build it, here’s the steps I took. ",
+    "url": "http://localhost:4000/Drupal/#drupal-quick-guide",
+    "relUrl": "/Drupal/#drupal-quick-guide"
+  },"17": {
+    "doc": "Drupal",
+    "title": "Drupal",
+    "content": " ",
+    "url": "http://localhost:4000/Drupal/",
+    "relUrl": "/Drupal/"
   },"18": {
     "doc": "Joomla! Installation",
     "title": "Install locally",
@@ -119,29 +119,29 @@
     "url": "http://localhost:4000/Joomla/Install/",
     "relUrl": "/Joomla/Install/"
   },"20": {
-    "doc": "Drupal",
-    "title": "Drupal quick guide",
-    "content": "Although there is no such thing as a quick guide for webdev framework manual, I make this documentation a quick reference for myself just to remind me of the steps I took. Drupal won the most dreaded web framework according to the Stackoverflow survey in 2019 and that tells us a lot about how complicated it is to use. But, it’s still being used by programmer who’s got a sense of adventure and like challanges. Here are some steps if you want to build Drupal in your local machine. Although there are some other ways to build it, here’s the steps I took. ",
-    "url": "http://localhost:4000/Drupal/#drupal-quick-guide",
-    "relUrl": "/Drupal/#drupal-quick-guide"
-  },"21": {
-    "doc": "Drupal",
-    "title": "Drupal",
+    "doc": "Install Wordpress",
+    "title": "Install locally",
     "content": " ",
-    "url": "http://localhost:4000/Drupal/",
-    "relUrl": "/Drupal/"
+    "url": "http://localhost:4000/Wordpress/Install/#install-locally",
+    "relUrl": "/Wordpress/Install/#install-locally"
+  },"21": {
+    "doc": "Install Wordpress",
+    "title": "Install Wordpress",
+    "content": " ",
+    "url": "http://localhost:4000/Wordpress/Install/",
+    "relUrl": "/Wordpress/Install/"
   },"22": {
-    "doc": "About",
-    "title": "Work in progress",
-    "content": ". | Here’s my landing page | This page is built based on what I know and been through with issues or steps I did during web development and documented them for my own reference and others may find these useful too | Most of these docs are written as I go along practicing them | This doc is continously updated as I go | You may find that some docs are not finished as I do this on my spare time between fill time job, new baby and freelance work | . Feel free to coment or correct me if you find any docs that are no longer relevant. ",
-    "url": "http://localhost:4000/#work-in-progress",
-    "relUrl": "/#work-in-progress"
+    "doc": "Wordpress",
+    "title": "Wordpress",
+    "content": " ",
+    "url": "http://localhost:4000/Wordpress/",
+    "relUrl": "/Wordpress/"
   },"23": {
-    "doc": "About",
-    "title": "About",
-    "content": ". . . . . . . irawans.com irawan Devanagri: Javanese: Sanskrit: iravan . . . ",
-    "url": "http://localhost:4000/",
-    "relUrl": "/"
+    "doc": "Laravel",
+    "title": "Laravel",
+    "content": "Web application framework with expressive, elegant syntax. +Better to understand the following before starting: . | At least basic of HTML &amp; CSS | Javascript and JQuery | PHP and MySQL programming | Bootstrap framework | Concept of object oriented programming with PHP | . ",
+    "url": "http://localhost:4000/Laravel/",
+    "relUrl": "/Laravel/"
   },"24": {
     "doc": "Drupal theming",
     "title": "Theming",
@@ -230,26 +230,26 @@
     "doc": "Jekyll configuration",
     "title": "Configure",
     "content": " ",
-    "url": "http://localhost:4000/Jekyll/configure.html#configure",
-    "relUrl": "/Jekyll/configure.html#configure"
+    "url": "http://localhost:4000/jekyll/configure.html#configure",
+    "relUrl": "/jekyll/configure.html#configure"
   },"39": {
     "doc": "Jekyll configuration",
     "title": "Jekyll configuration",
     "content": " ",
-    "url": "http://localhost:4000/Jekyll/configure.html",
-    "relUrl": "/Jekyll/configure.html"
+    "url": "http://localhost:4000/jekyll/configure.html",
+    "relUrl": "/jekyll/configure.html"
   },"40": {
     "doc": "Deploy",
     "title": "Deployment",
     "content": " ",
-    "url": "http://localhost:4000/Jekyll/deploy.html#deployment",
-    "relUrl": "/Jekyll/deploy.html#deployment"
+    "url": "http://localhost:4000/jekyll/deploy.html#deployment",
+    "relUrl": "/jekyll/deploy.html#deployment"
   },"41": {
     "doc": "Deploy",
     "title": "Deploy",
     "content": " ",
-    "url": "http://localhost:4000/Jekyll/deploy.html",
-    "relUrl": "/Jekyll/deploy.html"
+    "url": "http://localhost:4000/jekyll/deploy.html",
+    "relUrl": "/jekyll/deploy.html"
   },"42": {
     "doc": "Drush",
     "title": "Drush",
@@ -278,8 +278,8 @@
     "doc": "Front matter",
     "title": "Front matter",
     "content": " ",
-    "url": "http://localhost:4000/Jekyll/front-matter.html",
-    "relUrl": "/Jekyll/front-matter.html"
+    "url": "http://localhost:4000/jekyll/front-matter.html",
+    "relUrl": "/jekyll/front-matter.html"
   },"47": {
     "doc": "Headers",
     "title": "Headings",
@@ -344,20 +344,20 @@
     "doc": "Install Jekyll",
     "title": "Install",
     "content": " ",
-    "url": "http://localhost:4000/Jekyll/install.html#install",
-    "relUrl": "/Jekyll/install.html#install"
+    "url": "http://localhost:4000/jekyll/install.html#install",
+    "relUrl": "/jekyll/install.html#install"
   },"58": {
     "doc": "Install Jekyll",
     "title": "Installing on MacOS",
     "content": "Install Ruby . Ensure you install Ruby, not the ruby from the Apple default install. It will give you this error: . ERROR: While executing gem ... (Gem::FilePermissionError) You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory. Use Homebrew to install latest Ruby. If you haven’t had Homebrew installed: . /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\" . Then install Ruby . brew install ruby . Add Ruby path on your terminal: . # If you're using Zsh echo 'export PATH=\"/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/X.X.X/bin:$PATH\"' &gt;&gt; ~/.zshrc # If you're using Bash echo 'export PATH=\"/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/X.X.X/bin:$PATH\"' &gt;&gt; ~/.bash_profile # Unsure which shell you are using? Type echo $SHELL . Refresh your shell . source ~/.zshrc # or source ~/.bash_profile . check the path and you shoud see anything other than: /usr/local/bin/ruby and check the version and it should be the latest: . which ruby . Mine would be: . /usr/local/opt/ruby/bin/ruby . Check ruby version . ruby -v . Install Jekyll . Install the Bundler: . gem install --user-install bundler jekyll . Create a new Jekyll site . Once the Jekyll is installed, you can start creating the site e.g in /blog folder: . jekyll new blog . | In an indeal world you can just run bundle exec jekyll serve and will show you all details of configuration including the server you can go to in local, but since the following libraries are no longer bundled gems or standard libraries including webrick, this message will appear: | . /usr/local/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/serve/servlet.rb:3:in `require': cannot load such file -- webrick (LoadError) . Then you need to run bundle add webrick providing you have bundle installed. This should let you run the bundle exec jekyll serve and the following message will appear: . Configuration file: /Users/irawan/dev/others/bloog/_config.yml Source: /Users/irawan/dev/others/bloog Destination: /Users/irawan/dev/others/bloog/_site Incremental build: disabled. Enable with --incremental Generating... Jekyll Feed: Generating feed for posts done in 0.465 seconds. Auto-regeneration: enabled for '/Users/irawan/dev/others/bloog' Server address: http://127.0.0.1:4000/ Server running... press ctrl-c to stop. Where Server address: http://127.0.0.1:4000/ is your localhost address of your Jeckyll site . ",
-    "url": "http://localhost:4000/Jekyll/install.html#installing-on-macos",
-    "relUrl": "/Jekyll/install.html#installing-on-macos"
+    "url": "http://localhost:4000/jekyll/install.html#installing-on-macos",
+    "relUrl": "/jekyll/install.html#installing-on-macos"
   },"59": {
     "doc": "Install Jekyll",
     "title": "Install Jekyll",
     "content": " ",
-    "url": "http://localhost:4000/Jekyll/install.html",
-    "relUrl": "/Jekyll/install.html"
+    "url": "http://localhost:4000/jekyll/install.html",
+    "relUrl": "/jekyll/install.html"
   },"60": {
     "doc": "Line breaks",
     "title": "Line Break",
@@ -458,20 +458,20 @@
     "doc": "Publishing",
     "title": "Publishing your site",
     "content": " ",
-    "url": "http://localhost:4000/Jekyll/publishing.html#publishing-your-site",
-    "relUrl": "/Jekyll/publishing.html#publishing-your-site"
+    "url": "http://localhost:4000/jekyll/publishing.html#publishing-your-site",
+    "relUrl": "/jekyll/publishing.html#publishing-your-site"
   },"77": {
     "doc": "Publishing",
     "title": "Publishing",
     "content": " ",
-    "url": "http://localhost:4000/Jekyll/publishing.html",
-    "relUrl": "/Jekyll/publishing.html"
+    "url": "http://localhost:4000/jekyll/publishing.html",
+    "relUrl": "/jekyll/publishing.html"
   },"78": {
     "doc": "Jekyll",
     "title": "Jekyll",
     "content": "Installing and starting up Jekyll site. ",
-    "url": "http://localhost:4000/Jekyll/",
-    "relUrl": "/Jekyll/"
+    "url": "http://localhost:4000/jekyll/",
+    "relUrl": "/jekyll/"
   },"79": {
     "doc": "Running Codeigniter4",
     "title": "Running your app",
@@ -521,54 +521,84 @@
     "url": "http://localhost:4000/Docker/setup.html",
     "relUrl": "/Docker/setup.html"
   },"87": {
+    "doc": "Tables",
+    "title": "Table styles on Markdown",
+    "content": " ",
+    "url": "http://localhost:4000/Markdown/tables.html#table-styles-on-markdown",
+    "relUrl": "/Markdown/tables.html#table-styles-on-markdown"
+  },"88": {
+    "doc": "Tables",
+    "title": "Headers",
+    "content": "Markdown . | Header Column One | Header Column Two | Header Column Three | Header Column Four | . ",
+    "url": "http://localhost:4000/Markdown/tables.html#headers",
+    "relUrl": "/Markdown/tables.html#headers"
+  },"89": {
+    "doc": "Tables",
+    "title": "Alignments",
+    "content": "Left align: :-- or three dashes --- Right align: --: Centre align: :-: . Place those alignment within pipes in the respective columns. Markdown . | Default Header | Left Align | Right Align | Center Align | --- | :-- | --: | :-: | . ",
+    "url": "http://localhost:4000/Markdown/tables.html#alignments",
+    "relUrl": "/Markdown/tables.html#alignments"
+  },"90": {
+    "doc": "Tables",
+    "title": "Table contents",
+    "content": "Every columns is separated with pipe | and every row is placed in different lines: . Markdown . | Column 1 Header | Column 2 Header | Column 3 Header | --------------- | --------------- | --------------- | Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 | Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 | Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 | . Output . | Column 1 Header | Column 2 Header | Column 3 Header | . | Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 | . | Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 | . | Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 | . ",
+    "url": "http://localhost:4000/Markdown/tables.html#table-contents",
+    "relUrl": "/Markdown/tables.html#table-contents"
+  },"91": {
+    "doc": "Tables",
+    "title": "Tables",
+    "content": " ",
+    "url": "http://localhost:4000/Markdown/tables.html",
+    "relUrl": "/Markdown/tables.html"
+  },"92": {
     "doc": "Theme",
     "title": "Theme",
     "content": " ",
-    "url": "http://localhost:4000/Jekyll/theme.html",
-    "relUrl": "/Jekyll/theme.html"
-  },"88": {
+    "url": "http://localhost:4000/jekyll/theme.html",
+    "relUrl": "/jekyll/theme.html"
+  },"93": {
     "doc": "Theme",
     "title": "Theme structure",
     "content": "Theme file structure will be like this. Example theme name Irawan . irawan ├── Gemfile ├── LICENSE.txt ├── README.md ├── _includes ├── _layouts │   ├── default.html │   ├── page.html │   └── post.html ├── _sass ├── assets └── irawan.gemspec . ",
-    "url": "http://localhost:4000/Jekyll/theme.html#theme-structure",
-    "relUrl": "/Jekyll/theme.html#theme-structure"
-  },"89": {
+    "url": "http://localhost:4000/jekyll/theme.html#theme-structure",
+    "relUrl": "/jekyll/theme.html#theme-structure"
+  },"94": {
     "doc": "Theme",
     "title": "Installing Jekyll theme",
     "content": " ",
-    "url": "http://localhost:4000/Jekyll/theme.html#installing-jekyll-theme",
-    "relUrl": "/Jekyll/theme.html#installing-jekyll-theme"
-  },"90": {
+    "url": "http://localhost:4000/jekyll/theme.html#installing-jekyll-theme",
+    "relUrl": "/jekyll/theme.html#installing-jekyll-theme"
+  },"95": {
     "doc": "Theme",
     "title": "Making your own theme",
     "content": " ",
-    "url": "http://localhost:4000/Jekyll/theme.html#making-your-own-theme",
-    "relUrl": "/Jekyll/theme.html#making-your-own-theme"
-  },"91": {
+    "url": "http://localhost:4000/jekyll/theme.html#making-your-own-theme",
+    "relUrl": "/jekyll/theme.html#making-your-own-theme"
+  },"96": {
     "doc": "Twig on Drupal",
     "title": "Understanding Twig",
     "content": " ",
     "url": "http://localhost:4000/Drupal/twig.html#understanding-twig",
     "relUrl": "/Drupal/twig.html#understanding-twig"
-  },"92": {
+  },"97": {
     "doc": "Twig on Drupal",
     "title": "Twig on Drupal",
     "content": " ",
     "url": "http://localhost:4000/Drupal/twig.html",
     "relUrl": "/Drupal/twig.html"
-  },"93": {
+  },"98": {
     "doc": "WP CLI",
     "title": "WP-CLI - Wordpress Command Line Interface",
     "content": " ",
     "url": "http://localhost:4000/Wordpress/wp-cli.html#wp-cli---wordpress-command-line-interface",
     "relUrl": "/Wordpress/wp-cli.html#wp-cli---wordpress-command-line-interface"
-  },"94": {
+  },"99": {
     "doc": "WP CLI",
     "title": "WP CLI",
     "content": " ",
     "url": "http://localhost:4000/Wordpress/wp-cli.html",
     "relUrl": "/Wordpress/wp-cli.html"
-  },"95": {
+  },"100": {
     "doc": "OSX CLI",
     "title": "OSX CLI",
     "content": "# OSX CLI Useful Mac OS command line for developers ",

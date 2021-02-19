@@ -300,7 +300,14 @@ has_children: false
     
     </div>
 
----
+
+
+|  <a href="https://jamirawan.github.io/"><img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" width="150px" height="150px" /></a> |
+|:-:|
+| <a href="https://github.com/jamirawan"><img src="https://cdn.iconscout.com/icon/free/png-256/github-108-438008.png" width="32px" height="32px"></a> <a href="https://twitter.com/jamirawan"><img src="https://i.ibb.co/kmgQVyW/twitter.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/irawanirawan/"><img src="https://i.ibb.co/Kx2GSrT/linkedin.png" width="32px" height="32px"></a> |
+
+
+
 
 # Work in progress 
 

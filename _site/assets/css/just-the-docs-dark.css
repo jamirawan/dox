@@ -420,7 +420,7 @@ h6, .text-zeta { font-size: 11px !important; color: #fff; }
 
 table { display: table; min-width: 100%; border-collapse: separate; }
 
-th, td { font-size: 12px !important; min-width: 120px; padding-top: 0.5rem; padding-right: 0.75rem; padding-bottom: 0.5rem; padding-left: 0.75rem; background-color: #302d36; border-bottom: 1px solid rgba(129, 174, 174, 0.5); border-left: 1px solid #81aeae; }
+th, td { font-size: 12px !important; min-width: 120px; padding-top: 0.5rem; padding-right: 0.75rem; padding-bottom: 0.5rem; padding-left: 0.75rem; background-color: #0a3b3b; border-bottom: 1px solid rgba(129, 174, 174, 0.5); border-left: 1px solid #81aeae; }
 @media (min-width: 31.25rem) { th, td { font-size: 14px !important; } }
 th:first-of-type, td:first-of-type { border-left: 0; }
 
