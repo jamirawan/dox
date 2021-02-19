@@ -2,6 +2,7 @@
 layout: about
 title: Theme
 parent: Jekyll
+grand_parent: Static
 nav_order: 4
 has_children: false
 has_toc: false

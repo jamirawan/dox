@@ -2,6 +2,7 @@
 layout: about
 title: Install Jekyll
 parent: Jekyll
+grand_parent: Static
 nav_order: 1
 has_children: true
 has_toc: true
