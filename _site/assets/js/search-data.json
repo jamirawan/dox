@@ -31,7 +31,7 @@
   },"5": {
     "doc": "Local install",
     "title": "With DDEV",
-    "content": "DDEV is a local development tool that requires Docker and make it easy to setup and run the local Drupal site. Assuming you are all setup with Docker and composer on your machine, here’s how I set it up. Install DDEV on your machine . curl -L https://raw.githubusercontent.com/drud/ddev/master/scripts/install_ddev.sh | bash . Or with Homebrew: . brew tap drud/ddev &amp;&amp; brew install ddev . To check your ddev version: . ddev -v . ",
+    "content": "DDEV is a local development tool that requires Docker and make it easy to setup and run the local Drupal site. Assuming you are all setup with Docker and Composer on your machine, here’s how I set it up. Install DDEV on your machine . curl -L https://raw.githubusercontent.com/drud/ddev/master/scripts/install_ddev.sh | bash . Or with Homebrew: . brew tap drud/ddev &amp;&amp; brew install ddev . To check your ddev version: . ddev -v . ",
     "url": "http://localhost:4000/Framework/Drupal/Install.html#with-ddev",
     "relUrl": "/Framework/Drupal/Install.html#with-ddev"
   },"6": {
@@ -65,161 +65,161 @@
     "url": "http://localhost:4000/Framework/Codeigniter/",
     "relUrl": "/Framework/Codeigniter/"
   },"11": {
-    "doc": "Markdown",
-    "title": "Markdown",
-    "content": "Markdown is actually a markup but lightweight and is used for many platform such as blogging, instant messaging, collaborative software like Jira, Redmine and other agile software development platforms and also readme.md file. Here’s a kramdown list that I use frequently . ",
-    "url": "http://localhost:4000/Markdown/",
-    "relUrl": "/Markdown/"
+    "doc": "Composer",
+    "title": "Composer",
+    "content": ". Composer is a dependency manager for PHP, it lets you declare the libraries your project depend on and will manage them either installing or updating them. It’s not a package manager like yum or apt but it’s more like Node’s npm or Ruby’s bundler . Go to this page to download and install the latest version. ",
+    "url": "http://localhost:4000/Composer/",
+    "relUrl": "/Composer/"
   },"12": {
-    "doc": "Git",
-    "title": "Git",
-    "content": " ",
-    "url": "http://localhost:4000/Git/",
-    "relUrl": "/Git/"
-  },"13": {
-    "doc": "Drupal",
-    "title": "Drupal quick guide",
-    "content": "Although there is no such thing as a quick guide for webdev framework manual, I make this documentation a quick reference for myself just to remind me of the steps I took. Drupal won the most dreaded web framework according to the Stackoverflow survey in 2019 and that tells us a lot about how complicated it is to use. But, it’s still being used by programmer who’s got a sense of adventure and like challanges. Here are some steps if you want to build Drupal in your local machine. Although there are some other ways to build it, here’s the steps I took. ",
-    "url": "http://localhost:4000/Framework/Drupal/#drupal-quick-guide",
-    "relUrl": "/Framework/Drupal/#drupal-quick-guide"
-  },"14": {
-    "doc": "Drupal",
-    "title": "Drupal",
-    "content": " ",
-    "url": "http://localhost:4000/Framework/Drupal/",
-    "relUrl": "/Framework/Drupal/"
-  },"15": {
-    "doc": "Joomla! Installation",
-    "title": "Install locally",
-    "content": " ",
-    "url": "http://localhost:4000/CMS/Joomla/Install/#install-locally",
-    "relUrl": "/CMS/Joomla/Install/#install-locally"
-  },"16": {
-    "doc": "Joomla! Installation",
-    "title": "Joomla! Installation",
-    "content": " ",
-    "url": "http://localhost:4000/CMS/Joomla/Install/",
-    "relUrl": "/CMS/Joomla/Install/"
-  },"17": {
     "doc": "Docker",
     "title": "Docker",
     "content": "Here’s documentation from Docker . ",
     "url": "http://localhost:4000/Docker/",
     "relUrl": "/Docker/"
-  },"18": {
-    "doc": "Joomla!",
-    "title": "Joomla",
-    "content": " ",
-    "url": "http://localhost:4000/CMS/Joomla/#joomla",
-    "relUrl": "/CMS/Joomla/#joomla"
-  },"19": {
-    "doc": "Joomla!",
-    "title": "Joomla!",
-    "content": " ",
-    "url": "http://localhost:4000/CMS/Joomla/",
-    "relUrl": "/CMS/Joomla/"
-  },"20": {
-    "doc": "Static",
-    "title": "Static",
-    "content": " ",
-    "url": "http://localhost:4000/Static/",
-    "relUrl": "/Static/"
-  },"21": {
-    "doc": "Hugo",
-    "title": "Hugo",
-    "content": "Hugo documentation . ",
-    "url": "http://localhost:4000/Static/Hugo/",
-    "relUrl": "/Static/Hugo/"
-  },"22": {
-    "doc": "Laravel",
-    "title": "Laravel",
-    "content": "Web application framework with expressive, elegant syntax. +Better to understand the following before starting: . | At least basic of HTML &amp; CSS | Javascript and JQuery | PHP and MySQL programming | Bootstrap framework | Concept of object oriented programming with PHP | . ",
-    "url": "http://localhost:4000/Framework/Laravel/",
-    "relUrl": "/Framework/Laravel/"
-  },"23": {
-    "doc": "Install Wordpress",
-    "title": "Install locally",
-    "content": " ",
-    "url": "http://localhost:4000/CMS/Wordpress/Install/#install-locally",
-    "relUrl": "/CMS/Wordpress/Install/#install-locally"
-  },"24": {
-    "doc": "Install Wordpress",
-    "title": "Install Wordpress",
-    "content": " ",
-    "url": "http://localhost:4000/CMS/Wordpress/Install/",
-    "relUrl": "/CMS/Wordpress/Install/"
-  },"25": {
-    "doc": "Wordpress",
-    "title": "Wordpress",
-    "content": " ",
-    "url": "http://localhost:4000/CMS/Wordpress/",
-    "relUrl": "/CMS/Wordpress/"
-  },"26": {
-    "doc": "Frameworks",
-    "title": "Frameworks",
-    "content": " ",
-    "url": "http://localhost:4000/Framework/",
-    "relUrl": "/Framework/"
-  },"27": {
+  },"13": {
     "doc": "CMS",
     "title": "Content Management System",
     "content": " ",
     "url": "http://localhost:4000/CMS/#content-management-system",
     "relUrl": "/CMS/#content-management-system"
-  },"28": {
+  },"14": {
     "doc": "CMS",
     "title": "CMS",
     "content": " ",
     "url": "http://localhost:4000/CMS/",
     "relUrl": "/CMS/"
+  },"15": {
+    "doc": "Joomla!",
+    "title": "Joomla",
+    "content": " ",
+    "url": "http://localhost:4000/CMS/Joomla/#joomla",
+    "relUrl": "/CMS/Joomla/#joomla"
+  },"16": {
+    "doc": "Joomla!",
+    "title": "Joomla!",
+    "content": " ",
+    "url": "http://localhost:4000/CMS/Joomla/",
+    "relUrl": "/CMS/Joomla/"
+  },"17": {
+    "doc": "Joomla! Installation",
+    "title": "Install locally",
+    "content": " ",
+    "url": "http://localhost:4000/CMS/Joomla/Install/#install-locally",
+    "relUrl": "/CMS/Joomla/Install/#install-locally"
+  },"18": {
+    "doc": "Joomla! Installation",
+    "title": "Joomla! Installation",
+    "content": " ",
+    "url": "http://localhost:4000/CMS/Joomla/Install/",
+    "relUrl": "/CMS/Joomla/Install/"
+  },"19": {
+    "doc": "Wordpress",
+    "title": "Wordpress",
+    "content": " ",
+    "url": "http://localhost:4000/CMS/Wordpress/",
+    "relUrl": "/CMS/Wordpress/"
+  },"20": {
+    "doc": "Install Wordpress",
+    "title": "Install locally",
+    "content": " ",
+    "url": "http://localhost:4000/CMS/Wordpress/Install/#install-locally",
+    "relUrl": "/CMS/Wordpress/Install/#install-locally"
+  },"21": {
+    "doc": "Install Wordpress",
+    "title": "Install Wordpress",
+    "content": " ",
+    "url": "http://localhost:4000/CMS/Wordpress/Install/",
+    "relUrl": "/CMS/Wordpress/Install/"
+  },"22": {
+    "doc": "Markdown",
+    "title": "Markdown",
+    "content": "Markdown is actually a markup but lightweight and is used for many platform such as blogging, instant messaging, collaborative software like Jira, Redmine and other agile software development platforms and also readme.md file. Here’s a MD list that I use frequently . ",
+    "url": "http://localhost:4000/Markdown/",
+    "relUrl": "/Markdown/"
+  },"23": {
+    "doc": "Git",
+    "title": "Git",
+    "content": " ",
+    "url": "http://localhost:4000/Git/",
+    "relUrl": "/Git/"
+  },"24": {
+    "doc": "Drupal",
+    "title": "Drupal quick guide",
+    "content": "Although there is no such thing as a quick guide for webdev framework manual, I make this documentation a quick reference for myself just to remind me of the steps I took. Drupal won the most dreaded web framework according to the Stackoverflow survey in 2019 and that tells us a lot about how complicated it is to use. But, it’s still being used by programmer who’s got a sense of adventure and like challanges. Here are some steps if you want to build Drupal in your local machine. Although there are some other ways to build it, here’s the steps I took. ",
+    "url": "http://localhost:4000/Framework/Drupal/#drupal-quick-guide",
+    "relUrl": "/Framework/Drupal/#drupal-quick-guide"
+  },"25": {
+    "doc": "Drupal",
+    "title": "Drupal",
+    "content": " ",
+    "url": "http://localhost:4000/Framework/Drupal/",
+    "relUrl": "/Framework/Drupal/"
+  },"26": {
+    "doc": "Static",
+    "title": "Static",
+    "content": " ",
+    "url": "http://localhost:4000/Static/",
+    "relUrl": "/Static/"
+  },"27": {
+    "doc": "Hugo",
+    "title": "Hugo",
+    "content": "Hugo documentation . ",
+    "url": "http://localhost:4000/Static/Hugo/",
+    "relUrl": "/Static/Hugo/"
+  },"28": {
+    "doc": "Laravel",
+    "title": "Laravel",
+    "content": "Web application framework with expressive, elegant syntax. +Better to understand the following before starting: . | At least basic of HTML &amp; CSS | Javascript and JQuery | PHP and MySQL programming | Bootstrap framework | Concept of object oriented programming with PHP | . ",
+    "url": "http://localhost:4000/Framework/Laravel/",
+    "relUrl": "/Framework/Laravel/"
   },"29": {
+    "doc": "Frameworks",
+    "title": "Frameworks",
+    "content": " ",
+    "url": "http://localhost:4000/Framework/",
+    "relUrl": "/Framework/"
+  },"30": {
     "doc": "Drupal theming",
     "title": "Theming",
     "content": " ",
     "url": "http://localhost:4000/Framework/Drupal/Theming.html#theming",
     "relUrl": "/Framework/Drupal/Theming.html#theming"
-  },"30": {
+  },"31": {
     "doc": "Drupal theming",
     "title": "Drupal theming",
     "content": " ",
     "url": "http://localhost:4000/Framework/Drupal/Theming.html",
     "relUrl": "/Framework/Drupal/Theming.html"
-  },"31": {
+  },"32": {
     "doc": "Block quotes",
     "title": "Blockquotes",
     "content": "Important: . | Space is needed after the marker &gt;; | You could just add only one &gt; at the first line; | Blockquotes can be nested | Blockquotes can contain multiple paragraphs. Add a &gt; between the paragraphs. | Blockquotes can contain other Markdown formatted elements. But not all elements can be used. | . Makdown . &gt; Nasi goreng is delicious... &gt;&gt; ...if you like Asian food... &gt; &gt; &gt; ...good with spicy chilli sauce and cold beer. Rendered output . Nasi goreng is delicious… . …if you like Asian food… . …good with spicy chilli sauce and cold beer. Makdown . &gt; Nasi goreng is delicious &gt; &gt; if you like Asian food, good with sipcy chilli sauce and cold beer. Rendered output . Nasi goreng is delicious . if you like Asian food, good with sipcy chilli sauce and cold beer. Makdown . &gt; #### The quarterly results look great! &gt; &gt; - Revenue was off the chart. &gt; - Profits were higher than ever. &gt; &gt; *Everything* is going according to **plan**. Rendered output . The quarterly results look great! . | Revenue was off the chart. | Profits were higher than ever. | . Everything is going according to plan. ",
     "url": "http://localhost:4000/Markdown/block-quote.html#blockquotes",
     "relUrl": "/Markdown/block-quote.html#blockquotes"
-  },"32": {
+  },"33": {
     "doc": "Block quotes",
     "title": "Block quotes",
     "content": " ",
     "url": "http://localhost:4000/Markdown/block-quote.html",
     "relUrl": "/Markdown/block-quote.html"
-  },"33": {
+  },"34": {
     "doc": "Code snippets",
     "title": "Code snippets in markdown",
     "content": "Notes: . | Inline codes is written inside ` ` | or idented by add four spaces or one tab before | . Makdown . This is inline `code`. Rendered output . This is inline code. For a block of codes add three backward single quotes . Makdown . ``` javascript var s = \"JavaScript syntax highlighting\"; alert(s); ``` ```python s = \"Python syntax highlighting\" print s ``` . Rendered output . var s = \"JavaScript syntax highlighting\"; alert(s); . s = \"Python syntax highlighting\" print s . ",
     "url": "http://localhost:4000/Markdown/code-snippets.html#code-snippets-in-markdown",
     "relUrl": "/Markdown/code-snippets.html#code-snippets-in-markdown"
-  },"34": {
+  },"35": {
     "doc": "Code snippets",
     "title": "Escaping markdown code block within markdown page",
     "content": "To escape block code as above or to display markdown code within markdown with three backticks included without being rendered, use either four backticks or three ~~~ . Makdown . ````md ```md &gt; Nasi goreng is delicious... &gt;&gt; ...if you like Asian food... &gt; &gt; &gt; ...good with spicy chilli sauce and cold beer. ``` ```` # or ~~~md ```md &gt; Nasi goreng is delicious... &gt;&gt; ...if you like Asian food... &gt; &gt; &gt; ...good with spicy chilli sauce and cold beer. ``` ~~~ . Rendered output . ```md &gt; Nasi goreng is delicious... &gt;&gt; ...if you like Asian food... &gt; &gt; &gt; ...good with spicy chilli sauce and cold beer. ``` . to display above md snippet, add 5 backticks etc… . ",
     "url": "http://localhost:4000/Markdown/code-snippets.html#escaping-markdown-code-block-within-markdown-page",
     "relUrl": "/Markdown/code-snippets.html#escaping-markdown-code-block-within-markdown-page"
-  },"35": {
+  },"36": {
     "doc": "Code snippets",
     "title": "Code snippets",
     "content": " ",
     "url": "http://localhost:4000/Markdown/code-snippets.html",
     "relUrl": "/Markdown/code-snippets.html"
-  },"36": {
-    "doc": "Composer",
-    "title": "Composer",
-    "content": ". Composer is a dependency manager for PHP, it lets you declare the libraries your project depend on and will manage them either installing or updating them. It’s not a package manager like yum or apt but it’s more like Node’s npm or Ruby’s bundler . Go to this page to download and install the latest version. ",
-    "url": "http://localhost:4000/Composer/composer.html",
-    "relUrl": "/Composer/composer.html"
   },"37": {
     "doc": "Git config",
     "title": "Configuration",
@@ -235,15 +235,15 @@
   },"39": {
     "doc": "Git config",
     "title": "Add globally:",
-    "content": ". | Add username: on your command line, run: git config --global user.name \"USER_NAME\" . | Add email address that you have the access to remote: git config --global user.email \"Name.of.email@email.com\" . ",
+    "content": ". | Add username: on your command line, run: git config --global user.name \"USER_NAME\" . | Add email address that you have the access to remote: git config --global user.email \"Name.of.email@email.com\" . | . ",
     "url": "http://localhost:4000/Git/config.html#add-globally",
     "relUrl": "/Git/config.html#add-globally"
   },"40": {
     "doc": "Git config",
-    "title": "Setup the local folder different from global configuration, remove the --global:",
-    "content": "| Add username locally: git config user.name \"USER_NAME\" . | Set your email address locally git config user.email \"Name.of.email@email.com\" . | then check if all correct: cat .git/config . | . ",
-    "url": "http://localhost:4000/Git/config.html#setup-the-local-folder-different-from-global-configuration-remove-the---global",
-    "relUrl": "/Git/config.html#setup-the-local-folder-different-from-global-configuration-remove-the---global"
+    "title": "Setup the local folder different from global configuration, remove the --global :",
+    "content": ". | Add username locally: git config user.name \"USER_NAME\" . | Set your email address locally git config user.email \"Name.of.email@email.com\" . | then check if all correct: cat .git/config . | . ",
+    "url": "http://localhost:4000/Git/config.html#setup-the-local-folder-different-from-global-configuration-remove-the---global-",
+    "relUrl": "/Git/config.html#setup-the-local-folder-different-from-global-configuration-remove-the---global-"
   },"41": {
     "doc": "Git config",
     "title": "Git config",
@@ -475,7 +475,7 @@
   },"79": {
     "doc": "Multiple remotes",
     "title": "Working with Git multiple remotes",
-    "content": " ",
+    "content": "Working in between two big companies that have their own environments and each using different pipelines put me in to a situation where I have to understand and work with two git remotes, one with Github and the other with Gitlab . So the structure will be like this for example: . $git remote -v origin git@github.com:company1/project-name.git (fetch) origin git@github.com:company1/project-name.git (push) upstream git@gitlab.com:company2/project-name.git (fetch) upstream git@gitlab.com:company2/project-name.git (push) . Each company will have different environment setup altough this result in one production environment. ",
     "url": "http://localhost:4000/Git/multiple-remotes.html#working-with-git-multiple-remotes",
     "relUrl": "/Git/multiple-remotes.html#working-with-git-multiple-remotes"
   },"80": {

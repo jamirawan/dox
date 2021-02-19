@@ -23,7 +23,8 @@ git config --global user.name "USER_NAME"
 ```bash
 git config --global user.email "Name.of.email@email.com"
 ```
-## Setup the local folder different from global configuration, remove the `--global`:
+
+## Setup the local folder different from global configuration, remove the `--global` :
 1. Add username locally:
 ```bash
 git config user.name "USER_NAME"
