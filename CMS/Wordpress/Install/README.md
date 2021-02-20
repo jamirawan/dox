@@ -8,13 +8,13 @@ has_children: false
 has_toc: true
 
 ---
-# Install locally with DDEV
+# Install locally with DDEV (Mac OS)
 
 For this, you will only need
-* Git
 * Docker
 * Terminal or some sort
 * Code editor
+* Git if you wish to make the workflow
 
 **Install DDEV with brew if you haven't already**
 
@@ -36,18 +36,28 @@ cd my-wp-site
 # Configuring the site
 ddev config --project-type=wordpress --docroot=web --create-docroot
 
-#Configure database credentials: DB_NAME; DB_USER; DB_PASSWORD;
-ddev mysql 
+#Ensure all Docker containers are not running 
+docker stop $(docker ps -a -q) 
 
-#Launch the site
+# Start the engine site
 ddev start
 
-# Or you can create bedrock
-ddev composer create roots/bedrock
-```
-*You can access the MySQL phpMyAdmin via port 8037:*
+# And launch the rocket
 
-https://wp.ddev.site:8037/db_structure.php?server=1&db=db
+ddev launch
+
+```
+
+This should take you to the Wordpress standard install and ask you to choose language and admin user with password. Once you finished this, you dont have to add database details.
+
+
+*If you wish to access the MySQL phpMyAdmin you can go via port 8037:*
+
+**https://wp.ddev.site:8037/db_structure.php?server=1&db=db**
+
+Here's the successfull initiation look like. The last lines are where your local WP install is. 
+
+**Have fun!**
 
 ```bash
 Starting wp... 
