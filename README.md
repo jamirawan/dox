@@ -311,6 +311,8 @@ has_children: false
 
 # Work in progress 
 
+This **Dokumentasi** is my personal collection of manuals on how to do stuff in web development. I have been making websites since 2004 since Adobe Fireworks were still popular.
+
 1. [Here's my landing page](https://irawan.io)
 2. This page is built based on what I know and been through with issues or steps I did during web development and documented them for my own reference and others may find these useful too
 4. Most of these docs are written as I go along practicing them and will be continously updated as I go
