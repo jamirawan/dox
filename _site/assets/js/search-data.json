@@ -643,7 +643,7 @@
   },"107": {
     "doc": "WP CLI",
     "title": "Installation",
-    "content": "Donload the wp-cli.phar file: . curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar . Check if it’s working: . php wp-cli.phar --info . To be able to use the command: wp, make this file executable: . chmod +x wp-cli.phar . Move it in your working file somewhere: . sudo mv wp-cli.phar /usr/local/bin/wp . Check if it works: . wp --info . Or check your WP version . wp core version . ",
+    "content": "Donload the wp-cli.phar file: . curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar . Check if it’s working: . php wp-cli.phar --info . To be able to use the command: wp, make this file executable: . chmod +x wp-cli.phar . Move it in your working file somewhere: . sudo mv wp-cli.phar /usr/local/bin/wp . Check if it works: . wp --info . Or check your WP version . wp core version . Note . If you are working on a shared hosting where you don’t have the sudo access to the root and they don’t install WP-CLI, you still can use this but not with wp alias. Use the following for this example wp core version : . php wp-cli.phar core version . ",
     "url": "http://localhost:4000/CMS/Wordpress/wp-cli.html#installation",
     "relUrl": "/CMS/Wordpress/wp-cli.html#installation"
   },"108": {

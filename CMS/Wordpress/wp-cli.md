@@ -50,3 +50,10 @@ Or check your WP version
 ```bash
 wp core version
 ```
+
+**Note**
+
+If you are working on a shared hosting where you don't have the `sudo` access to the root and they don't install WP-CLI, you still can use this but not with `wp` alias. Use the following for this example `wp core version` :
+```bash
+php wp-cli.phar core version
+```
