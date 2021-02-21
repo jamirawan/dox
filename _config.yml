@@ -28,6 +28,13 @@ plugins:
   - jekyll-mentions
 url: ""
 
+# Aux links for the upper right navigation
+aux_links:
+  "Landing page":
+    - "https://irawan.io"
+# "Other link":
+  #  - "/irawan.io/web"
+
 #markdown: kramdown
 #kramdown:
 #    highlighter: rouge

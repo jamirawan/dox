@@ -2250,3 +2250,8 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
   .text-small { font-size: 8pt !important; }
   pre.highlight { border: 1px solid #81aeae; }
   .main { max-width: none; margin-left: 0; } }
+.site-title { font-weight: 800; }
+
+.site-nav, .site-header, .site-footer { background: #061f1e; }
+
+.aux-nav .aux-nav-list-item { background: #054441; }

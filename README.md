@@ -296,28 +296,21 @@ has_children: false
 </svg>
       
     </div>
-
-    
     </div>
-
-
-
-|  <a href="https://jamirawan.github.io/"><img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" width="150px" height="150px" /></a> |
-|:-:|
-| <a href="https://github.com/jamirawan"><img src="https://cdn.iconscout.com/icon/free/png-256/github-108-438008.png" width="32px" height="32px"></a> <a href="https://twitter.com/jamirawan"><img src="https://i.ibb.co/kmgQVyW/twitter.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/irawanirawan/"><img src="https://i.ibb.co/Kx2GSrT/linkedin.png" width="32px" height="32px"></a> |
-
-
-
 
 # Work in progress 
 
-This **Dokumentasi** is my personal collection of manuals on how to do stuff in web development. I have been making websites since 2004 since Adobe Fireworks were still popular.
-
+This **Dokumentasi** is my personal collection of manuals on how to do stuff in web development. I have been making websites since 2004 since Adobe Fireworks was still popular for web designing.
 
 2. This page is built based on what I know and been through with issues or steps I did during web development and documented them for my own reference and others may find these useful too
-3. This Dokumentasi is assuming you know the basic of web development: HTML, PHP, CSS, Javascript and MySQL and using command line. Also only for Mac OSX for the moment.
+3. This Dokumentasi is assuming that you know the basic of web development: HTML, PHP, CSS, Javascript and MySQL and using command line. Also only for Mac OSX for the moment.
 4. Most of these docs are written as I go along practicing them and will be continously updated as I go
 5. You may find that some pages are not finished as I do this on my spare time between full time job, newborn baby and freelance work
 6. [Here's my landing page](https://irawan.io)
 
 Feel free to coment or correct me if you find any docs that are no longer relevant.
+
+|  <a href="https://jamirawan.github.io/"><img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" width="150px" height="150px" /></a> |
+|:-:|
+| <a href="https://github.com/jamirawan"><img src="https://cdn.iconscout.com/icon/free/png-256/github-108-438008.png" width="32px" height="32px"></a> <a href="https://twitter.com/jamirawan"><img src="https://i.ibb.co/kmgQVyW/twitter.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/irawanirawan/"><img src="https://i.ibb.co/Kx2GSrT/linkedin.png" width="32px" height="32px"></a> |
+
