@@ -26,7 +26,7 @@ plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
-url: "https://irawan.io/docs"
+url: "https://irawan.io"
 
 #markdown: kramdown
 #kramdown:
