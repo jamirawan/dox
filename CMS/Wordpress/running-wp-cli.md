@@ -51,3 +51,16 @@ It will switch the theme from `twentytwentyone` to `twentytwenty`
 ```bash
 Success: Switched to 'Twenty Twenty' theme.
 ```
+
+**Running in DDEV environment**
+
+If you are running the WP install in DDEV environment, add `ddev` before `wp`
+
+```bash
+ddev wp theme activate twentytwenty
+```
+
+Or else if will return error connecting database:
+```bash
+Error: Error establishing a database connection.
+```
