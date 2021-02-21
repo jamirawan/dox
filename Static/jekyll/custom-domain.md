@@ -30,6 +30,8 @@ Check it in your terminal with `dig`
 
 ```bash
 dig YOURDOMAIN.COM.AU +noall +answer
+
+# It'll give you this list if they are setup correctly.
 YOURDOMAIN.COM.AU.		4122	IN	A	185.199.108.153
 YOURDOMAIN.COM.AU.  	4122	IN	A	185.199.111.153
 YOURDOMAIN.COM.AU.		4122	IN	A	185.199.109.153
@@ -39,3 +41,6 @@ YOURDOMAIN.COM.AU.		4122	IN	A	185.199.110.153
 
 It may take a moment to settle these up.
 
+## Don Github Side
+
+Navigate to the Repository's Settings and add the domain name above.
