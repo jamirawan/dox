@@ -2,7 +2,7 @@
 layout: default
 title: Running Codeigniter4
 parent: Codeigniter4
-grand_parent: Frameworks
+grand_parent: PHP Frameworks
 nav_order: 2
 has_child: false
 has_toc: false

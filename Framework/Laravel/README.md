@@ -2,7 +2,7 @@
 
 layout: default
 title: Laravel
-parent: Frameworks
+parent: PHP Frameworks
 nav_order: 2
 has_children: true
 has_toc: true

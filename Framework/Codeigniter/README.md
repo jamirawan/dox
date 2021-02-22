@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Codeigniter4
-parent: Frameworks
+parent: PHP Frameworks
 nav_order: 3
 has_children: true
 has_toc: true

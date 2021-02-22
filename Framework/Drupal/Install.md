@@ -2,7 +2,7 @@
 layout: default
 title: Local install
 parent: Drupal
-grand_parent: Frameworks
+grand_parent: PHP Frameworks
 nav_order: 1
 has_children: false
 has_toc: true
