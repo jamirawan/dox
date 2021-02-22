@@ -689,6 +689,12 @@
     "url": "http://localhost:4000/CMS/Wordpress/wp-cli.html",
     "relUrl": "/CMS/Wordpress/wp-cli.html"
   },"115": {
+    "doc": "404 error page",
+    "title": "404 error page",
+    "content": "# 404 error page A Pen created on CodePen.io. Original URL: [https://codepen.io/jamirawan/pen/zYoENJW](https://codepen.io/jamirawan/pen/zYoENJW). 404 error SVG animation page anime.js error 404 ",
+    "url": "http://localhost:4000/404-error-page/",
+    "relUrl": "/404-error-page/"
+  },"116": {
     "doc": "OSX CLI",
     "title": "OSX CLI",
     "content": "# OSX CLI Useful Mac OS command line for developers ",
