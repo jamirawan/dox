@@ -1,7 +1,7 @@
 ---
 layout: about
 title: DDEV
-nav_order: 10
+nav_order: 5
 has_children: true
 has_toc: true
 

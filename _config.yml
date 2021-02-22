@@ -2,6 +2,11 @@ title: Dokumentasi
 lang: en
 description: List of documentations from my mistakes that I can refer to later and others can learn from my mistakes to
 
+# Google Services
+ga_tracking: G-YLZDCTK9KF
+ga_tracking_anonymize_ip: true
+
+
 ## local method ##
 # theme: jekyll-rtd-theme
 # debug:
