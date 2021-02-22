@@ -429,7 +429,7 @@ tbody tr:last-of-type td { padding-bottom: 0.75rem; }
 
 thead th { border-bottom: 1px solid #81aeae; }
 
-code { padding: 0.2em 0.15em; font-weight: 400; background-color: #302d36; border: 1px solid #81aeae; border-radius: 4px; }
+code { padding: 0.2em 0.15em; font-weight: 400; background-color: #302d36; border: 1px solid #81aeae; border-radius: 4px; color: #ffeb82; }
 
 a:visited code { border-color: #81aeae; }
 
