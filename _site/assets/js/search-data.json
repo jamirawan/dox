@@ -389,336 +389,348 @@
     "url": "http://localhost:4000/Static/jekyll/front-matter.html",
     "relUrl": "/Static/jekyll/front-matter.html"
   },"65": {
+    "doc": "Setup Google Analytics",
+    "title": "Settup Google Analytics tracking on Jekyll page",
+    "content": "Depending on the theme you are using, it can be varies. Basically you need to add the GA tracking ID into the _config.yml then added into the &lt;head&gt;&lt;/head&gt; somewhere in the html file. This particular theme I use just needed to add: . ga_tracking: G-****** ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default) . In the includes/head.html there’s this line to match the _config.yml file. Other theme might be using different method . On the _config.yml file add: . # Google services google_analytics: G-****** . then add this in the /includes/head.html . `` &lt;!-- Your head content --&gt; `` . ",
+    "url": "http://localhost:4000/Static/jekyll/google-analytics.html#settup-google-analytics-tracking-on-jekyll-page",
+    "relUrl": "/Static/jekyll/google-analytics.html#settup-google-analytics-tracking-on-jekyll-page"
+  },"66": {
+    "doc": "Setup Google Analytics",
+    "title": "Setup Google Analytics",
+    "content": " ",
+    "url": "http://localhost:4000/Static/jekyll/google-analytics.html",
+    "relUrl": "/Static/jekyll/google-analytics.html"
+  },"67": {
     "doc": "Headers",
     "title": "Headings",
     "content": "Makdown . # h1 Heading ## h2 Heading ### h3 Heading #### h4 Heading ##### h5 Heading ###### h6 Heading . Output . ",
     "url": "http://localhost:4000/Markdown/headers.html#headings",
     "relUrl": "/Markdown/headers.html#headings"
-  },"66": {
+  },"68": {
     "doc": "Headers",
     "title": "h1 Heading",
     "content": " ",
     "url": "http://localhost:4000/Markdown/headers.html#h1-heading",
     "relUrl": "/Markdown/headers.html#h1-heading"
-  },"67": {
+  },"69": {
     "doc": "Headers",
     "title": "h2 Heading",
     "content": "h3 Heading . h4 Heading . h5 Heading . h6 Heading . ",
     "url": "http://localhost:4000/Markdown/headers.html#h2-heading",
     "relUrl": "/Markdown/headers.html#h2-heading"
-  },"68": {
+  },"70": {
     "doc": "Headers",
     "title": "Headers",
     "content": " ",
     "url": "http://localhost:4000/Markdown/headers.html",
     "relUrl": "/Markdown/headers.html"
-  },"69": {
+  },"71": {
     "doc": "Images",
     "title": "Images",
     "content": "To insert image in markdown, it’s like linking to source img with exlamation mark at the front. Exlamation mark + text in square bracket + link to image in round bracket. Makdown . ![Irawan's Image](https://irawan.io/og/irawan-io.png) . Rendered output . ",
     "url": "http://localhost:4000/Markdown/images.html",
     "relUrl": "/Markdown/images.html"
-  },"70": {
+  },"72": {
     "doc": "Install Laravel",
     "title": "Installation",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Laravel/install.html#installation",
     "relUrl": "/php-ramework/Laravel/install.html#installation"
-  },"71": {
+  },"73": {
     "doc": "Install Laravel",
     "title": "On Mac",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Laravel/install.html#on-mac",
     "relUrl": "/php-ramework/Laravel/install.html#on-mac"
-  },"72": {
+  },"74": {
     "doc": "Install Laravel",
     "title": "Install",
     "content": "Install With curl . As long as you have Docker in your Mac you can run simple CURL command to start creating project. web-app is an example of your project URL you can customise: . curl -s https://laravel.build/web-app | bash . Install with Composer . composer create-project laravel/laravel # or with Laravel Installer web-app composer global require laravel/installer laravel new web-app # then go to the web-ap folder cd web-app php artisan serve . ",
     "url": "http://localhost:4000/php-ramework/Laravel/install.html#install",
     "relUrl": "/php-ramework/Laravel/install.html#install"
-  },"73": {
+  },"75": {
     "doc": "Install Laravel",
     "title": "Sail up!",
     "content": "Go to the directory cd web-app after the installation done and we can start running the Laravel Sail that providfe a simple CLI for interacting with Laravel’s default Docker configuration: . docker-compose up -d #or ./vendor/bin/sail up -d . With alias setup: sail up -d (refer to ‘Sail’ section for alias setup) . Ensure that the port you are using, by default it’s :80, is not in use by other Docker containers. If it’s already used and the following error came up, you can change the port number or kill other containers first: . Check who uses port (number) . Run this to check who’s using the port number you wish to list: . sudo lsof -i -P -n | grep &lt;port number&gt; . Change port . ERROR: for mailhog Cannot start service mailhog: driver failed programming external connectivity on endpoint web-app_mailhog_1 (ae8085daf269cf4a0f7eae07927d10a0975d5ae3a082659314663956afce36c1): Error starting userland proxy: listen tcp4 0.0.0.0:8025: bind: address already in use ERROR: for laravel.test Cannot start service laravel.test: Ports are not available: listen tcp 0.0.0.0:80: bind: address already in use . You can change the port number Change to other ports by editing the docker-compose.yml file: . ports: - \"8084:80\" . And try to use port 8084 instaed http://localhost:8084 . Stop and remove containers . docker-compose down # Stop container on current dir if there is a docker-compose.yml . And then run the up the sail again: ./vendor/bin/sail up or sail up -d if you have your alias setup. This may take a few minutes but you’ll see this line where you can check your web app: . laravel.test_1 | Starting Laravel development server: http://0.0.0.0:80 . So your project web local web app is: http://0.0.0.0:80 or just localhost . ",
     "url": "http://localhost:4000/php-ramework/Laravel/install.html#sail-up",
     "relUrl": "/php-ramework/Laravel/install.html#sail-up"
-  },"74": {
+  },"76": {
     "doc": "Install Laravel",
     "title": "Install Laravel",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Laravel/install.html",
     "relUrl": "/php-ramework/Laravel/install.html"
-  },"75": {
+  },"77": {
     "doc": "Install Jekyll",
     "title": "Install",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/install.html#install",
     "relUrl": "/Static/jekyll/install.html#install"
-  },"76": {
+  },"78": {
     "doc": "Install Jekyll",
     "title": "Installing on MacOS",
     "content": "Install Ruby . Ensure you install Ruby, not the ruby from the Apple default install. It will give you this error: . ERROR: While executing gem ... (Gem::FilePermissionError) You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory. Use Homebrew to install latest Ruby. If you haven’t had Homebrew installed: . /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\" . Then install Ruby . brew install ruby . Add Ruby path on your terminal: . # If you're using Zsh echo 'export PATH=\"/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/X.X.X/bin:$PATH\"' &gt;&gt; ~/.zshrc # If you're using Bash echo 'export PATH=\"/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/X.X.X/bin:$PATH\"' &gt;&gt; ~/.bash_profile # Unsure which shell you are using? Type echo $SHELL . Refresh your shell . source ~/.zshrc # or source ~/.bash_profile . check the path and you shoud see anything other than: /usr/local/bin/ruby and check the version and it should be the latest: . which ruby . Mine would be: . /usr/local/opt/ruby/bin/ruby . Check ruby version . ruby -v . Install Jekyll . Install the Bundler: . gem install --user-install bundler jekyll . Create a new Jekyll site . Once the Jekyll is installed, you can start creating the site e.g in /blog folder: . jekyll new blog . | In an indeal world you can just run bundle exec jekyll serve and will show you all details of configuration including the server you can go to in local, but since the following libraries are no longer bundled gems or standard libraries including webrick, this message will appear: | . /usr/local/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/serve/servlet.rb:3:in `require': cannot load such file -- webrick (LoadError) . Then you need to run bundle add webrick providing you have bundle installed. This should let you run the bundle exec jekyll serve and the following message will appear: . Configuration file: /Users/irawan/dev/others/bloog/_config.yml Source: /Users/irawan/dev/others/bloog Destination: /Users/irawan/dev/others/bloog/_site Incremental build: disabled. Enable with --incremental Generating... Jekyll Feed: Generating feed for posts done in 0.465 seconds. Auto-regeneration: enabled for '/Users/irawan/dev/others/bloog' Server address: http://127.0.0.1:4000/ Server running... press ctrl-c to stop. Where Server address: http://127.0.0.1:4000/ is your localhost address of your Jeckyll site . ",
     "url": "http://localhost:4000/Static/jekyll/install.html#installing-on-macos",
     "relUrl": "/Static/jekyll/install.html#installing-on-macos"
-  },"77": {
+  },"79": {
     "doc": "Install Jekyll",
     "title": "Install Jekyll",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/install.html",
     "relUrl": "/Static/jekyll/install.html"
-  },"78": {
+  },"80": {
     "doc": "Line breaks",
     "title": "Line Break",
     "content": "Notes: . | To create a line break, end a line with two or more spaces, and then type return | Or use the &lt;br&gt; HTML tag | . Markdown . This is the first line. And this is the second line. On browser: . This is the first line. And this is the second line. Alternative Makdown . First line with the HTML tag after.&lt;br&gt; And the next line. Rendered output . First line with the HTML tag after. And the next line. ",
     "url": "http://localhost:4000/Markdown/linebreaks.html#line-break",
     "relUrl": "/Markdown/linebreaks.html#line-break"
-  },"79": {
+  },"81": {
     "doc": "Line breaks",
     "title": "Line breaks",
     "content": " ",
     "url": "http://localhost:4000/Markdown/linebreaks.html",
     "relUrl": "/Markdown/linebreaks.html"
-  },"80": {
+  },"82": {
     "doc": "Links",
     "title": "Links",
     "content": "To link text in markdown, just insert the linked tex in square bracket followed with round bracket of the URL, no space. ",
     "url": "http://localhost:4000/Markdown/links.html",
     "relUrl": "/Markdown/links.html"
-  },"81": {
+  },"83": {
     "doc": "Links",
     "title": "Externarl links",
     "content": "Markdown . This is [linked text](https://irawan.io) &lt;br&gt; This is [link with title](https://irawan.io \"Irawan's site\") . Rendered output . This is linked text This is link with title . Directly put link on the address with &lt;&gt; . Markdown . &lt;https://www.irawan.io&gt; &lt;me@irawan.io&gt; . Output . https://www.irawan.io me@irawan.io . ",
     "url": "http://localhost:4000/Markdown/links.html#externarl-links",
     "relUrl": "/Markdown/links.html#externarl-links"
-  },"82": {
+  },"84": {
     "doc": "Links",
     "title": "Internal link within Jekyll pages",
     "content": "There are many ways of doing this but here’s the simplest I choose with link tags: . Markdown: [Link text to Docker](/Docker/) . Output . Link text to Docker . ",
     "url": "http://localhost:4000/Markdown/links.html#internal-link-within-jekyll-pages",
     "relUrl": "/Markdown/links.html#internal-link-within-jekyll-pages"
-  },"83": {
+  },"85": {
     "doc": "Links",
     "title": "Buttons",
     "content": "Button in MD is similar to links but add {: .btn} at the end . Markdown . [Link button to my page](https://irawan.io){: .btn} . Output . Link button to my page . ",
     "url": "http://localhost:4000/Markdown/links.html#buttons",
     "relUrl": "/Markdown/links.html#buttons"
-  },"84": {
+  },"86": {
     "doc": "Links",
     "title": "Prevent automated linking or skip linking",
     "content": "Markdown . `https://www.irawan.io` . Output . https://www.irawan.io . ",
     "url": "http://localhost:4000/Markdown/links.html#prevent-automated-linking-or-skip-linking",
     "relUrl": "/Markdown/links.html#prevent-automated-linking-or-skip-linking"
-  },"85": {
+  },"87": {
     "doc": "Links",
     "title": "Add emphasize/anchored link",
     "content": "Markdown . This is the *[Irawan's site](https://www.irawan.io)*. See the section on [top of the page](#). Output . This is the Irawan’s site. See the section on top of the page. ",
     "url": "http://localhost:4000/Markdown/links.html#add-emphasizeanchored-link",
     "relUrl": "/Markdown/links.html#add-emphasizeanchored-link"
-  },"86": {
+  },"88": {
     "doc": "Links",
     "title": "Reference in text",
     "content": "Markdown . It was a [nasi-goreng][ng], and that means comfort. [ng]: &lt;https://en.wikipedia.org/wiki/Nasi_goreng&gt; \"Nasi Goreng\" . Output . It was a nasi goreng, a delicious Indonesian food. ",
     "url": "http://localhost:4000/Markdown/links.html#reference-in-text",
     "relUrl": "/Markdown/links.html#reference-in-text"
-  },"87": {
+  },"89": {
     "doc": "Lists",
     "title": "Lists",
     "content": " ",
     "url": "http://localhost:4000/Markdown/lists.html",
     "relUrl": "/Markdown/lists.html"
-  },"88": {
+  },"90": {
     "doc": "Lists",
     "title": "Unordered",
     "content": "Makdown . + To start a list, there should be an empty line above + Create a list by starting a line with `+`, `-`, or `*` - Changing the sign will add a linespace + Add text under an item This is a text under an item. Notice that there are two spaces at the end above. - Sub-lists are made by indenting 2 spaces: * Item 2a * Item 2b * Item 3 To end a list, there should be one empty line above. Rendered output . | To start a list, there should be an empty line above | Create a list by starting a line with +, -, or * | Changing the sign will add a linespace | Add text under an item This is a text under an item. Notice that there are two spaces at the end above. | Sub-lists are made by indenting 2 spaces: . | Item 2a | Item 2b | . | Item 3 | . To end a list, there should be one empty line above. ",
     "url": "http://localhost:4000/Markdown/lists.html#unordered",
     "relUrl": "/Markdown/lists.html#unordered"
-  },"89": {
+  },"91": {
     "doc": "Lists",
     "title": "Ordered",
     "content": "Makdown . 1. Item 1 1. Item 2 Notice that the sequence number is irrelevant. Markdown will change the sequence automatically when renderring. Notice that there are two spaces at the end above to make a new text under item. 3. Sub-lists are made by indenting 4 spaces 1. Item 3a 2. Item 3b 8. Any number for item 4 . Rendered output . | Item 1 | Item 2 Notice that the sequence number is irrelevant. Markdown will change the sequence automatically when renderring. Notice that there are two spaces at the end above to make a new text under item. | Sub-lists are made by indenting 4 spaces . | Item 3a | Item 3b | . | Any number for item 4 | . Makdown . 57. will started with offset 57 1. so it will be 58 . Rendered output . | will started with offset 57 | so it will be 58 | . ",
     "url": "http://localhost:4000/Markdown/lists.html#ordered",
     "relUrl": "/Markdown/lists.html#ordered"
-  },"90": {
+  },"92": {
     "doc": "Lists",
     "title": "Elements in Lists",
     "content": "Notes: . | To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab | . Makdown . * This is the first list item. * Here's the second list item. I need to add another paragraph below the second list item. * And here's the third list item. Rendered output . | This is the first list item. | Here’s the second list item. I need to add another paragraph below the second list item. | And here’s the third list item. | . Rendered output . | This is the first list item. | Here’s the second list item. I need to add another paragraph below the second list item. | And here’s the third list item. | . Rendered output . | This is the first list item. | Here’s the second list item. A blockquote would look great below the second list item. | And here’s the third list item. | . Makdown . 1. This list will include image 2. This is Irawan's logo ![Irawan](https://irawan.io/og/irawan-io.png) 3. So that's a logo . Rendered output . | This list will include image | This is Irawan’s logo | So that’s a logo | . ",
     "url": "http://localhost:4000/Markdown/lists.html#elements-in-lists",
     "relUrl": "/Markdown/lists.html#elements-in-lists"
-  },"91": {
+  },"93": {
     "doc": "Multiple remotes",
     "title": "Working with Git multiple remotes",
     "content": "Working in between two big companies that have their own environments and each using different pipelines put me in to a situation where I have to understand and work with two git remotes, one with Github and the other with Gitlab . So the structure will be like this for example: . $git remote -v origin git@github.com:company1/project-name.git (fetch) origin git@github.com:company1/project-name.git (push) upstream git@gitlab.com:company2/project-name.git (fetch) upstream git@gitlab.com:company2/project-name.git (push) . Each company will have different environment setup altough this result in one production environment. ",
     "url": "http://localhost:4000/Git/multiple-remotes.html#working-with-git-multiple-remotes",
     "relUrl": "/Git/multiple-remotes.html#working-with-git-multiple-remotes"
-  },"92": {
+  },"94": {
     "doc": "Multiple remotes",
     "title": "Multiple remotes",
     "content": " ",
     "url": "http://localhost:4000/Git/multiple-remotes.html",
     "relUrl": "/Git/multiple-remotes.html"
-  },"93": {
+  },"95": {
     "doc": "Paragraph",
     "title": "Paragraphs",
     "content": "Notes: . | To create paragraphs, use a blank line to separate one or more lines of text. | Don’t ident paragraphs with spaces or tabs | . Markdown . This is the first paragraph. This is the second paragraph . Rendered output: . This is the first paragraph. This is the second paragraph . ",
     "url": "http://localhost:4000/Markdown/paragraph.html#paragraphs",
     "relUrl": "/Markdown/paragraph.html#paragraphs"
-  },"94": {
+  },"96": {
     "doc": "Paragraph",
     "title": "Paragraph",
     "content": " ",
     "url": "http://localhost:4000/Markdown/paragraph.html",
     "relUrl": "/Markdown/paragraph.html"
-  },"95": {
+  },"97": {
     "doc": "Publishing",
     "title": "Publishing your site",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/publishing.html#publishing-your-site",
     "relUrl": "/Static/jekyll/publishing.html#publishing-your-site"
-  },"96": {
+  },"98": {
     "doc": "Publishing",
     "title": "Publishing",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/publishing.html",
     "relUrl": "/Static/jekyll/publishing.html"
-  },"97": {
+  },"99": {
     "doc": "Jekyll",
     "title": "Jekyll",
     "content": "This documentation is an example of my Jekyll install. Following are the steps I took to build this. ",
     "url": "http://localhost:4000/Static/jekyll/",
     "relUrl": "/Static/jekyll/"
-  },"98": {
+  },"100": {
     "doc": "Running WP CLI",
     "title": "Running WP CLI",
     "content": "When all setup with the WP CLI, you can use command started with wp followed by the subcommands. To see the list of subcommands, just type wp or wp --help or if you wish to know the list of sub-sub-commands, for example wp user run wp user --help and it will list the sub sub commands. For example, if I want to see the list of themes installed on my WP build, I just type the wp followed with subcommand theme then the task command list : . wp theme list . It will give you list of the theme: . +-----------------+----------+--------+---------+ | name | status | update | version | +-----------------+----------+--------+---------+ | twentyeleven | inactive | none | 3.6 | twentyfifteen | inactive | none | 2.8 | twentyfourteen | inactive | none | 3.0 | twentynineteen | inactive | none | 1.9 | twentyseventeen | inactive | none | 2.5 | twentysixteen | inactive | none | 2.3 | twentyten | inactive | none | 3.2 | twentythirteen | inactive | none | 3.2 | twentytwelve | inactive | none | 3.3 | twentytwenty | inactive | none | 1.6 | twentytwentyone | active | none | 1.1 | +-----------------+----------+--------+---------+ . To activate or deactivate theme: wp followed with sub command theme then the task command activate then the object which is the theme name e.g. twentytwenty . wp theme activate twentytwenty . It will switch the theme from twentytwentyone to twentytwenty . Success: Switched to 'Twenty Twenty' theme. Running in DDEV environment . If you are running the WP install in DDEV environment, add ddev before wp . ddev wp theme activate twentytwenty . Or else if will return error connecting database: . Error: Error establishing a database connection. ",
     "url": "http://localhost:4000/CMS/Wordpress/running-wp-cli.html",
     "relUrl": "/CMS/Wordpress/running-wp-cli.html"
-  },"99": {
+  },"101": {
     "doc": "Running Codeigniter4",
     "title": "Running your app",
     "content": "+There are three ways of running Codeigniter4 . | hosted on web server | using visualisation | using Codeigniter CLI for testing | . It is recommended to read the user guide if you are new to building a dynamic PHP aplication . ",
     "url": "http://localhost:4000/php-ramework/Codeigniter/running.html#running-your-app",
     "relUrl": "/php-ramework/Codeigniter/running.html#running-your-app"
-  },"100": {
+  },"102": {
     "doc": "Running Codeigniter4",
     "title": "Running Codeigniter4",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Codeigniter/running.html",
     "relUrl": "/php-ramework/Codeigniter/running.html"
-  },"101": {
+  },"103": {
     "doc": "Sail",
     "title": "Sail",
     "content": "Sail is the drush or wp-cli equivalent for Laravel which is a light-weight CLI. sail is stored in the docker-compose.yml in the project root. ",
     "url": "http://localhost:4000/php-ramework/Laravel/sail.html",
     "relUrl": "/php-ramework/Laravel/sail.html"
-  },"102": {
+  },"104": {
     "doc": "Sail",
     "title": "Install",
     "content": "Install sail with Composer: . composer require laravel/sail --dev . After Sail has been installed, you may run the sail:install Artisan command. This command will publish Sail’s docker-compose.yml file to the root of your application: . php artisan sail:install . By default, to run the sail it’s : .vendor/bin/sail up -d . ",
     "url": "http://localhost:4000/php-ramework/Laravel/sail.html#install",
     "relUrl": "/php-ramework/Laravel/sail.html#install"
-  },"103": {
+  },"105": {
     "doc": "Sail",
     "title": "Setup alias",
     "content": "Instead of typing all those path, you should make an alias on the bash profile. Run these command and you don’t have to edit the .bash profile: . export COMPOSE_FILE=docker-compose.yml alias sail='bash vendor/bin/sail' . ",
     "url": "http://localhost:4000/php-ramework/Laravel/sail.html#setup-alias",
     "relUrl": "/php-ramework/Laravel/sail.html#setup-alias"
-  },"104": {
+  },"106": {
     "doc": "Sail",
     "title": "Commands",
     "content": "Start &amp; stop . Start: . sail up . Start with detached mode: . sail up -d . To stop all containers: . sail down . Executing . ",
     "url": "http://localhost:4000/php-ramework/Laravel/sail.html#commands",
     "relUrl": "/php-ramework/Laravel/sail.html#commands"
-  },"105": {
+  },"107": {
     "doc": "Docker setup",
     "title": "Setup and Installation",
     "content": "Here’s documentation from Docker site . ",
     "url": "http://localhost:4000/Docker/setup.html#setup-and-installation",
     "relUrl": "/Docker/setup.html#setup-and-installation"
-  },"106": {
+  },"108": {
     "doc": "Docker setup",
     "title": "Docker setup",
     "content": " ",
     "url": "http://localhost:4000/Docker/setup.html",
     "relUrl": "/Docker/setup.html"
-  },"107": {
+  },"109": {
     "doc": "Tables",
     "title": "Table styles on Markdown",
     "content": " ",
     "url": "http://localhost:4000/Markdown/tables.html#table-styles-on-markdown",
     "relUrl": "/Markdown/tables.html#table-styles-on-markdown"
-  },"108": {
+  },"110": {
     "doc": "Tables",
     "title": "Headers",
     "content": "Markdown . | Header Column One | Header Column Two | Header Column Three | Header Column Four | . ",
     "url": "http://localhost:4000/Markdown/tables.html#headers",
     "relUrl": "/Markdown/tables.html#headers"
-  },"109": {
+  },"111": {
     "doc": "Tables",
     "title": "Alignments",
     "content": "Left align: :-- or three dashes --- Right align: --: Centre align: :-: . Place those alignment within pipes in the respective columns. Markdown . | Default Header | Left Align | Right Align | Center Align | --- | :-- | --: | :-: | . ",
     "url": "http://localhost:4000/Markdown/tables.html#alignments",
     "relUrl": "/Markdown/tables.html#alignments"
-  },"110": {
+  },"112": {
     "doc": "Tables",
     "title": "Table contents",
     "content": "Every columns is separated with pipe | and every row is placed in different lines: . Markdown . | Column 1 Header | Column 2 Header | Column 3 Header | --------------- | --------------- | --------------- | Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 | Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 | Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 | . Output . | Column 1 Header | Column 2 Header | Column 3 Header | . | Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 | . | Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 | . | Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 | . ",
     "url": "http://localhost:4000/Markdown/tables.html#table-contents",
     "relUrl": "/Markdown/tables.html#table-contents"
-  },"111": {
+  },"113": {
     "doc": "Tables",
     "title": "Tables",
     "content": " ",
     "url": "http://localhost:4000/Markdown/tables.html",
     "relUrl": "/Markdown/tables.html"
-  },"112": {
+  },"114": {
     "doc": "Theme",
     "title": "Theme",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/theme.html",
     "relUrl": "/Static/jekyll/theme.html"
-  },"113": {
+  },"115": {
     "doc": "Theme",
     "title": "Theme structure",
     "content": "Theme file structure will be like this. Example theme name Irawan . irawan ├── Gemfile ├── LICENSE.txt ├── README.md ├── _includes ├── _layouts │   ├── default.html │   ├── page.html │   └── post.html ├── _sass ├── assets └── irawan.gemspec . ",
     "url": "http://localhost:4000/Static/jekyll/theme.html#theme-structure",
     "relUrl": "/Static/jekyll/theme.html#theme-structure"
-  },"114": {
+  },"116": {
     "doc": "Theme",
     "title": "Installing Jekyll theme",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/theme.html#installing-jekyll-theme",
     "relUrl": "/Static/jekyll/theme.html#installing-jekyll-theme"
-  },"115": {
+  },"117": {
     "doc": "Theme",
     "title": "Making your own theme",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/theme.html#making-your-own-theme",
     "relUrl": "/Static/jekyll/theme.html#making-your-own-theme"
-  },"116": {
+  },"118": {
     "doc": "Twig on Drupal",
     "title": "Understanding Twig",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Drupal/twig.html#understanding-twig",
     "relUrl": "/php-ramework/Drupal/twig.html#understanding-twig"
-  },"117": {
+  },"119": {
     "doc": "Twig on Drupal",
     "title": "Twig on Drupal",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Drupal/twig.html",
     "relUrl": "/php-ramework/Drupal/twig.html"
-  },"118": {
+  },"120": {
     "doc": "WP CLI",
     "title": "WP-CLI - Wordpress Command Line Interface",
     "content": "With WP-CLI you can manage and update core, plugins, users, themes and many more without using browsers. Requirements . | UNIX-like environment | PHP 5.6 or later | WP core version 3.7 or later | . ",
     "url": "http://localhost:4000/CMS/Wordpress/wp-cli.html#wp-cli---wordpress-command-line-interface",
     "relUrl": "/CMS/Wordpress/wp-cli.html#wp-cli---wordpress-command-line-interface"
-  },"119": {
+  },"121": {
     "doc": "WP CLI",
     "title": "Installation",
     "content": "Donload the wp-cli.phar file: . curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar . Check if it’s working: . php wp-cli.phar --info . To be able to use the command: wp, make this file executable: . chmod +x wp-cli.phar . Move it in your working file somewhere: . sudo mv wp-cli.phar /usr/local/bin/wp . Check if it works: . wp --info . Or check your WP version . wp core version . Note . If you are working on a shared hosting where you don’t have the sudo access to the root and they don’t install WP-CLI, you still can use this but not with wp alias. Use the following for this example wp core version : . php wp-cli.phar core version . ",
     "url": "http://localhost:4000/CMS/Wordpress/wp-cli.html#installation",
     "relUrl": "/CMS/Wordpress/wp-cli.html#installation"
-  },"120": {
+  },"122": {
     "doc": "WP CLI",
     "title": "WP CLI",
     "content": " ",
