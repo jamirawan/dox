@@ -36,6 +36,13 @@ body
   
 }
 
+p {
+  color: yellow;
+}
+
+a {
+  color:#32cccc;
+}
 /*************swing************/
 @keyframes swing {
     0% { transform: rotate(10deg); }
