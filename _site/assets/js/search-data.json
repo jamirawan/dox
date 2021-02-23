@@ -391,7 +391,7 @@
   },"65": {
     "doc": "Setup Google Analytics",
     "title": "Settup Google Analytics tracking on Jekyll page",
-    "content": "Depending on the theme you are using, it can be varies. Basically you need to add the GA tracking ID into the _config.yml then added into the &lt;head&gt;&lt;/head&gt; somewhere in the html file. This particular theme I use just needed to add: . ga_tracking: G-****** ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default) . In the includes/head.html there’s this line to match the _config.yml file. Other theme might be using different method . On the _config.yml file add: . # Google services google_analytics: G-****** . then add this in the /includes/head.html . `` &lt;!-- Your head content --&gt; `` . ",
+    "content": "Depending on the theme you are using, it can be varies. Basically you need to add the GA tracking ID into the _config.yml then added into the &lt;head&gt;&lt;/head&gt; somewhere in the html file. I can not embed the code as it rendered in MD and confused the _config.yml file . ¯\\_(ツ)_/¯ . ",
     "url": "http://localhost:4000/Static/jekyll/google-analytics.html#settup-google-analytics-tracking-on-jekyll-page",
     "relUrl": "/Static/jekyll/google-analytics.html#settup-google-analytics-tracking-on-jekyll-page"
   },"66": {
