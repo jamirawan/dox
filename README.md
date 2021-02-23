@@ -14,7 +14,7 @@ has_children: false
     <div class="wayang" align="center">
     <!--?xml version="1.0" encoding="utf-8"?-->
 <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1500 1500" style="enable-background:new 0 0 1500 1500; max-height:50vh;" xml:space="preserve">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1500 1500" style="enable-background:new 0 0 1500 1500; max-height:30vh;" xml:space="preserve">
 <style type="text/css">
   .st0{fill:#26B99A;}
   .st1{fill:#35495E;}
@@ -300,12 +300,11 @@ has_children: false
 
 # Work in progress 
 
-This **Dokumentasi** is my personal collection of manuals on how to do stuff in web development. I have been making websites since 2004 since Adobe Fireworks was still popular for web designing.
+This **Dokumentasi** is my personal collection of manuals on how to do stuff in web development. I have been making websites since 2004 since Adobe Fireworks was still popular and web layout was in tables.
 
 2. This page is built based on what I know and been through with issues or steps I did during web development and documented them for my own reference and others may find these useful too
 3. This Dokumentasi is assuming that you know the basic of web development: HTML, PHP, CSS, Javascript and MySQL and using command line. Also only for Mac OSX for the moment.
-4. Most of these docs are written as I go along practicing them and will be continously updated as I go
-5. You may find that some pages are not finished as I do this on my spare time between full time job, newborn baby and freelance work
+5. You may find that some pages are not finished as I update this on my spare time between full time job during lunch time, having newborn baby and doing my freelance webdesaign work at home
 6. [Here's my landing page](https://irawan.io)
 
 Feel free to coment or correct me if you find any docs that are no longer relevant.

@@ -23,6 +23,7 @@ In the `includes/head.html` there's this line to match the `_config.yml` file.
 **Other theme might be using different method**
 
 On the `_config.yml` file add:
+
 ```yml
 # Google services
 google_analytics: G-******
