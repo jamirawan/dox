@@ -36,12 +36,13 @@ npm install -g gatsby-cli
 
 Then start installing and developing `gatsby` with starter packages that can be found on [this page](https://www.gatsbyjs.com/starters/?v=2) which is like templates for your website.
 
-For example this one called Gatsby Starter Netlify CMS, start with `gatsby new` followed with the name of your project/folder e.g. `blog` then the Github URL of the source to install:
+For example this one called Gatsby Starter Blog, start with `gatsby new` followed with the name of your project/folder e.g. `blog` then the Github URL of the source `https://github.com/gatsbyjs/gatsby-starter-blog` to install:
 
 ```bash
 gatsby new blog https://github.com/gatsbyjs/gatsby-starter-blog
 ```
 This will clone the repo and install Gatsby packages.
+
 ```bash
 info
 Your new Gatsby site has been successfully bootstrapped. Start developing it by running:
@@ -49,4 +50,12 @@ Your new Gatsby site has been successfully bootstrapped. Start developing it by 
   cd blog # --> get in to the folder you setup above
   gatsby develop  # --> starting the gatsby engine
 ```
+This will start the engine and it will give you the local URL address:
 
+```bash
+You can now view gatsby-starter-blog in the browser.
+⠀
+  http://localhost:8000/
+```
+
+Open [http://localhost:8000/](http://localhost:8000/) in your favorite browser
