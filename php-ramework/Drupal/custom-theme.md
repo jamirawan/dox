@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Drupal theming
+title: Custom theme
 parent: Drupal
 grand_parent: PHP Frameworks
 nav_order: 4
@@ -9,4 +9,4 @@ has_toc: true
 
 ---
 
-# Theming
+# Drupal Custom Theme
