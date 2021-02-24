@@ -9,6 +9,18 @@ has_toc: false
 ---
 
 # Links
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+---
 
 To link text in markdown, just insert the linked tex in square bracket followed with round bracket of the URL, no space.
 

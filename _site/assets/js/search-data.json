@@ -391,7 +391,7 @@
   },"65": {
     "doc": "Setup Google Analytics",
     "title": "Settup Google Analytics tracking on Jekyll page",
-    "content": "Depending on the theme you are using, it can be varies. Basically you need to add the GA tracking ID into the _config.yml then added into the &lt;head&gt;&lt;/head&gt; somewhere in the html file. I can not embed the code as it rendered in MD and confused the _config.yml file . ¯\\_(ツ)_/¯ . ",
+    "content": "Depending on the theme you are using, it can be varies. Basically you need to add the GA tracking ID into the _config.yml then added into the &lt;head&gt;&lt;/head&gt; somewhere in the html file. I can not embed the code as it rendered in MD and confused the _config.yml file . ¯\\_(ツ)_/¯ . I’ll get back on that . ",
     "url": "http://localhost:4000/Static/jekyll/google-analytics.html#settup-google-analytics-tracking-on-jekyll-page",
     "relUrl": "/Static/jekyll/google-analytics.html#settup-google-analytics-tracking-on-jekyll-page"
   },"66": {
@@ -499,7 +499,7 @@
   },"83": {
     "doc": "Links",
     "title": "Links",
-    "content": "To link text in markdown, just insert the linked tex in square bracket followed with round bracket of the URL, no space. ",
+    "content": ". | Externarl links . | Directly put link on the address with &lt;&gt; | . | Internal link within Jekyll pages | Buttons | Prevent automated linking or skip linking | Add emphasize/anchored link | Reference in text | . To link text in markdown, just insert the linked tex in square bracket followed with round bracket of the URL, no space. ",
     "url": "http://localhost:4000/Markdown/links.html",
     "relUrl": "/Markdown/links.html"
   },"84": {
