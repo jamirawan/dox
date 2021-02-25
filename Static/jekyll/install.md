@@ -80,7 +80,8 @@ Once the Jekyll is installed, you can start creating the site e.g in `/blog` fol
 ```bash
 jekyll new blog
 ```
-+ In an indeal world you can just run `bundle exec jekyll serve` and will show you all details of configuration including the server you can go to in local, but since the following libraries are no longer bundled gems or standard libraries including `webrick`, this message will appear:
+In an indeal world you can just login to the new folder `blog` where the Jekyll install is and run `bundle exec jekyll serve` and will show you all details of configuration including the server you can go to in local. 
+But since the following libraries are no longer bundled gems or standard libraries including `webrick`, this message will appear:
 
 ```bash
 /usr/local/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/serve/servlet.rb:3:in `require': cannot load such file -- webrick (LoadError)
@@ -101,4 +102,4 @@ Configuration file: /Users/irawan/dev/others/bloog/_config.yml
   Server running... press ctrl-c to stop.
 ```
 
-Where `Server address: http://127.0.0.1:4000/` is your localhost address of your Jeckyll site
+Where `Server address: http://127.0.0.1:4000/` is your localhost address of your Jeckyll site. Once you
