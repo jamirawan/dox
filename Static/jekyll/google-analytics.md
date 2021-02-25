@@ -9,7 +9,7 @@ has_toc: true
 
 ---
 
-# Settup Google Analytics tracking on Jekyll page
+# Set up Google Analytics tracking on Jekyll page
 
 Depending on the theme you are using, it can be varies. Basically you need to add the GA tracking ID into the `_config.yml` then added into the `<head></head>` somewhere in the html file. 
 

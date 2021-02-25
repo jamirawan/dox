@@ -8,8 +8,8 @@ has_toc: false
 
 ---
 
-# Command line templates
+# Bash terminal themes
 
-This is the least important thing on working with command line but might be working with pretty colorful code linting the languages with custom theme you like.
+This is the least important thing on working with command line but might be useful for you with a pretty colorful code linting the languages with custom theme you like. 
 
 I use [Powerlevel9k](https://github.com/Powerlevel9k/powerlevel9k#installation) for the pretty look.

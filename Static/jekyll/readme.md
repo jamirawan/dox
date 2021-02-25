@@ -10,5 +10,6 @@ has_toc: true
 
 # Jekyll
 
-This documentation is an example of my Jekyll install. Following are the steps I took to build this.
+This **Dokumentasi** website is an example of my Jekyll install. Following are the steps I took to build this.
 
+![Jekyll logo](https://jekyllrb.com/img/logo-2x.png)

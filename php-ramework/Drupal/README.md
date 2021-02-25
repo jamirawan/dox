@@ -9,6 +9,8 @@ has_toc: true
 ---
 # Drupal quick guide
 
+![Drupal logo](https://www.drupal.org/files/cta/graphic/Wordmark2_white_RGB.svg)
+
 My first ever Drupal website was a [wedding magazine](https://web.archive.org/web/20130409080627/http://wishdreamweddings.com.au/) I built for the NT News in Darwin in 2010. 
 
 Although there is no such thing as a `quick guide` for webdev framework manual, I make this documentation a quick reference for myself just to remind me of the steps I took.
