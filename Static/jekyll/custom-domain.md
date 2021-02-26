@@ -11,6 +11,17 @@ has_toc: false
 
 # Publishing on your own domain
 
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 You can publish your Jekyll site that you build in Github page to your own domain name. Here's the two steps:
 1. On your domain side Zone Editor, add A records pointing to Github
 2. On the Github side - add CNAME file and adjust the settings
@@ -41,6 +52,6 @@ YOURDOMAIN.COM.AU.		4122	IN	A	185.199.110.153
 
 It may take a moment to settle these up.
 
-## Don Github Side
+## On Github Side
 
 Navigate to the Repository's Settings and add the domain name above.

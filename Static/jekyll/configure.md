@@ -10,6 +10,17 @@ has_toc: true
 ---
 # Configure
 
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ## `_config.yml` file
 
 The configuration for Jekyll is stored under the `_config.yml` file. This file will include:

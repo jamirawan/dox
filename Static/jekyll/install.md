@@ -10,6 +10,16 @@ has_toc: true
 ---
 
 # Install
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 ## Installing on MacOS
 
@@ -103,3 +113,7 @@ Configuration file: /Users/irawan/dev/others/bloog/_config.yml
 ```
 
 Where `Server address: http://127.0.0.1:4000/` is your localhost address of your Jeckyll site. Once you
+
+## Install on other OS
+
+Please rever to [Jekyll installation](https://jekyllrb.com/docs/installation/) on other OS
