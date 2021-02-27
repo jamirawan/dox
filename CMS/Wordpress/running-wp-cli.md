@@ -77,5 +77,83 @@ Error: Error establishing a database connection.
 To use the `wp scaffold` just add the subcommands and the name. Example below is creating child theme from `twentytwenty`:
 
 ```bash
-wp scaffold child-theme my-theme --parent_theme=twentytwenty
+wp scaffold child-theme nasi-goreng --parent_theme=twentytwenty
 ```
+
+To create a custom theme based on `_s` Undrescore, theme name `nasi-goreng`:
+```bash
+wp scaffold _s my-theme --theme_name="Nasi Goreng" --author="Emperor Nasi Goreng"
+```
+
+# `wp search-replace` 
+
+This will search through the database rows of tables and replace the first string with second one. This command uses tables that are registerd in `$wpdb` 
+
+Example, I want to replace all `nasi` terms and replace them with `goreng`:
+```bash
+wp search-replace nasi goreng
+```
+
+Recommended to use `--dry run` to be sure of what you are doing, just to show you the changes that will be made before confirming the action.
+
+And it will show you the number of changes made:
+```bash
++------------------+-----------------------+--------------+------+
+| Table            | Column                | Replacements | Type |
++------------------+-----------------------+--------------+------+
+| woop_commentmeta   | meta_key              | 0            | SQL  |
+| woop_commentmeta   | meta_value            | 0            | SQL  |
+| woop_comments      | comment_author        | 0            | SQL  |
+| woop_comments      | comment_author_email  | 0            | SQL  |
+| woop_comments      | comment_author_url    | 0            | SQL  |
+| woop_comments      | comment_author_IP     | 0            | SQL  |
+| woop_comments      | comment_content       | 0            | SQL  |
+| woop_comments      | comment_approved      | 0            | SQL  |
+| woop_comments      | comment_agent         | 0            | SQL  |
+| woop_comments      | comment_type          | 0            | SQL  |
+| woop_links         | link_url              | 0            | SQL  |
+| woop_links         | link_name             | 0            | SQL  |
+| woop_links         | link_image            | 0            | SQL  |
+| woop_links         | link_target           | 0            | SQL  |
+| woop_links         | link_description      | 0            | SQL  |
+| woop_links         | link_visible          | 0            | SQL  |
+| woop_links         | link_rel              | 0            | SQL  |
+| woop_links         | link_notes            | 0            | SQL  |
+| woop_links         | link_rss              | 0            | SQL  |
+| woop_options       | option_name           | 0            | SQL  |
+| woop_options       | option_value          | 8            | PHP  |
+| woop_options       | autoload              | 0            | SQL  |
+| woop_postmeta      | meta_key              | 0            | SQL  |
+| woop_postmeta      | meta_value            | 0            | SQL  |
+| woop_posts         | post_content          | 2            | SQL  |
+| woop_posts         | post_title            | 0            | SQL  |
+| woop_posts         | post_excerpt          | 0            | SQL  |
+| woop_posts         | post_status           | 0            | SQL  |
+| woop_posts         | comment_status        | 0            | SQL  |
+| woop_posts         | ping_status           | 0            | SQL  |
+| woop_posts         | post_password         | 0            | SQL  |
+| woop_posts         | post_name             | 0            | SQL  |
+| woop_posts         | to_ping               | 0            | SQL  |
+| woop_posts         | pinged                | 0            | SQL  |
+| woop_posts         | post_content_filtered | 0            | SQL  |
+| woop_posts         | guid                  | 4            | SQL  |
+| woop_posts         | post_type             | 0            | SQL  |
+| woop_posts         | post_mime_type        | 0            | SQL  |
+| woop_term_taxonomy | taxonomy              | 0            | SQL  |
+| woop_term_taxonomy | description           | 0            | SQL  |
+| woop_termmeta      | meta_key              | 0            | SQL  |
+| woop_termmeta      | meta_value            | 0            | SQL  |
+| woop_terms         | name                  | 0            | SQL  |
+| woop_terms         | slug                  | 0            | SQL  |
+| woop_usermeta      | meta_key              | 0            | SQL  |
+| woop_usermeta      | meta_value            | 0            | PHP  |
+| woop_users         | user_login            | 0            | SQL  |
+| woop_users         | user_nicename         | 0            | SQL  |
+| woop_users         | user_email            | 0            | SQL  |
+| woop_users         | user_url              | 1            | SQL  |
+| woop_users         | user_activation_key   | 0            | SQL  |
+| woop_users         | display_name          | 0            | SQL  |
++------------------+-----------------------+--------------+------+
+Success: Made 15 replacements.
+```
+
