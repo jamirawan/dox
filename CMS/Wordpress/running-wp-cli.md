@@ -64,3 +64,18 @@ Or else if will return error connecting database:
 ```bash
 Error: Error establishing a database connection.
 ```
+
+## `wp scaffold`
+
+`wp scaffold` will help us create some codes for creating:
+* child theme
+* post types
+* custom plugins starter
+* taxonomy
+* created theme based on [Underscores](https://underscores.me/)
+
+To use the `wp scaffold` just add the subcommands and the name. Example below is creating child theme from `twentytwenty`:
+
+```bash
+wp scaffold child-theme my-theme --parent_theme=twentytwenty
+```
