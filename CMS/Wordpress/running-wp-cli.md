@@ -36,7 +36,7 @@ It will give you list of the theme:
 | twentythirteen  | inactive | none   | 3.2     |
 | twentytwelve    | inactive | none   | 3.3     |
 | twentytwenty    | inactive | none   | 1.6     |
-| twentytwentyone | active   | none   | 1.1     |
+| nasigoreng      | active   | none   | 1.1     |
 +-----------------+----------+--------+---------+
 ```
 
