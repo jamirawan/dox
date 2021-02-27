@@ -80,12 +80,20 @@ To use the `wp scaffold` just add the subcommands and the name. Example below is
 wp scaffold child-theme nasi-goreng --parent_theme=twentytwenty
 ```
 
-To create a custom theme based on `_s` Undrescore, theme name `nasi-goreng`:
+To create a custom theme starter based on `_s` Undrescore, theme name `nasi-goreng`:
 ```bash
 wp scaffold _s my-theme --theme_name="Nasi Goreng" --author="Emperor Nasi Goreng"
 ```
 
-# `wp search-replace` 
+If the command above didn't work and give you this message ;
+```bash
+Error: Could not decompress your theme files ('/tmp/underscores-aede5jGF.tmp') at '/path-to-your-folder/wp/wp-content/themes': Incompatible Archive.
+```
+
+just go to the [Underscores website](https://underscores.me/) and generate it from the form, then download and install like a usual WP theme install.
+
+
+## `wp search-replace` 
 
 This will search through the database rows of tables and replace the first string with second one. This command uses tables that are registerd in `$wpdb` 
 
