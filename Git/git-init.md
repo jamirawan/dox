@@ -62,7 +62,9 @@ git push -u origin main
 ```
 
 
-## When you created a repository on Github, it comes with instruction below
+## New repository on Github
+
+When you created a repository on Github, it comes with instruction below
 
 **Quick setup — if you’ve done this kind of thing before**
 Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore. 
