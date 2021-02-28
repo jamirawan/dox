@@ -24,3 +24,18 @@ To list users from range of ID nubers e.g. 1-200:
 ```bash
 drush user:information --uid="$(echo {1..200},|sed -e 's/ //g')"
 ```
+
+
+## Using `drush` within DDEV system
+
+If you are working on local with DDEV, you will have to add `ddev at the front of `drush`:
+```bash
+ddev drush pm:list
+```
+Otherwise it will return error connecting database:
+
+```bash
+                                                                                                                            
+  Command pm:list was not found. Drush was unable to query the database. As a result, many commands are unavailable. Re-run   
+  your command with --debug to see relevant log messages.   
+  ```
