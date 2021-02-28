@@ -44,7 +44,7 @@ git commit -m "Initial commit"
 ```bash
 git remote add origin git@github.com:jamirawan/nasigoreng.git
 
-# then check the remote:
+#then check the remote:
 ```bash
 git remote -v
 
