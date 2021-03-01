@@ -35,7 +35,7 @@ git init -b main
 ```bash
 git add .
 ```
-4. Then commit them
+2. Then commit them
 ```bash
 git commit -m "Initial commit"
 ```
@@ -43,16 +43,9 @@ git commit -m "Initial commit"
 6. Then go back to the terminal add git remote on the folder you just committed:
 ```bash
 git remote add origin git@github.com:jamirawan/nasigoreng.git
-
-
 #then check the remote:
-
 git remote -v
-
-```
-
-and it should be:
-```bash
+#and it should be showing :
 origin	https://github.com/jamirawan/nasigoreng.git (fetch)
 origin	https://github.com/jamirawan/nasigoreng.git (push)
 ```
