@@ -2249,7 +2249,8 @@ figure.highlight pre, figure.highlight code { padding: 0; margin: 0; border: 0; 
   .site-title { font-size: 16px !important; font-weight: 700 !important; }
   .text-small { font-size: 8pt !important; }
   pre.highlight { border: 1px solid #eeebee; }
-  .main { max-width: none; margin-left: 0; } }
+  .main { max-width: none; margin-left: 0; }
+  ::placeholder { color: white !important; } }
 .site-title { font-weight: 800; }
 
 .site-nav, .site-header, .site-footer { background: #061f1e; }

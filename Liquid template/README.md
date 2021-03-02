@@ -9,5 +9,5 @@ has_toc: true
 
 # Liquid template language
 
-It's a template language that Jekyll use which originally was created by [Shopify](https://shopify.com) used.
+It's a template language that Jekyll use which originally was created by [Shopify](https://shopify.com).
 

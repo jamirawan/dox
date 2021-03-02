@@ -300,7 +300,10 @@ has_children: false
 
 # Work in progress 
 
-This **Dokumentasi** is my personal collection of manuals on how to do stuff in web development. I have been making websites since 2004 since Adobe Fireworks was still popular and web layout was in tables.
+
+> **Websites are always in progress.**
+
+This **Dokumentasi** is my personal collection of manuals on how to do stuff in web development. I have been making websites since 2004 since Adobe Fireworks was still popular, Goecities era and web layout was in tables.
 
 2. This page is built based on what I know and been through with issues or steps I did during web development and documented them for my own reference and others may find these useful too
 3. This Dokumentasi is assuming that you know the basic of web development: HTML, PHP, CSS, Javascript and MySQL and using command line. Also only for Mac OSX for the moment.
@@ -308,6 +311,8 @@ This **Dokumentasi** is my personal collection of manuals on how to do stuff in 
 6. [Here's my landing page](https://irawan.io)
 
 Feel free to coment or correct me if you find any docs that are no longer relevant.
+
+
 
 |  <a href="https://jamirawan.github.io/"><img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" width="150px" height="150px" /></a> |
 |:-:|
