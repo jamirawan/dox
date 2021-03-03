@@ -9,4 +9,4 @@ has_toc: true
 
 # Core knowledge	
 
-These are some core knowledge that we should or will make your life easier when understanding these stuff.
+These are some core knowledges that we should or will make your life easier when understanding these stuff before diving in to the sea.

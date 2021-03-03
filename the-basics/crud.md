@@ -1,3 +1,11 @@
+---
+layout: default
+title: CRUD
+parent: The basics
+nav_order: 3
+has_child: false
+has_toc: false
 
+---
 
-# CRUD
+# CRUD (Create Read Update and Delete)

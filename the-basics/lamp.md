@@ -1,12 +1,11 @@
 ---
 layout: default
 title: LAMP
-parent: The basic
-grand_parent: Static
+parent: The basics
 nav_order: 5
 has_child: false
 has_toc: false
 
 ---
 
-# LAMP for Linux, Apache, MySQL and PHP
+# LAMP (Linux, Apache, MySQL and PHP)
