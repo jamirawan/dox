@@ -14,7 +14,7 @@ Javascript Libraries are some pre-written Javascript snippets that are used for 
 So Framework is for the whole website or web app and Library is for the smaller pieces of the site.
 
 Example of JS Libraries:
-* jQuery
-* React
-* Anime JS
-* Particle JS
+* [jQuery](https://jquery.com)
+* [React](https://reactjs.org/)
+* [Anime JS](https://animejs.com/)
+* [Particle JS](https://vincentgarreau.com/particles.js/)
