@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Custom Modules
+title: YML files
 parent: Drupal
 grand_parent: PHP Frameworks
 nav_order: 6
