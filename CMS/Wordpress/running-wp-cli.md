@@ -165,3 +165,22 @@ And it will show you the number of changes made:
 Success: Made 15 replacements.
 ```
 
+## Create admin user with`wp user`
+
+Create user with the role:
+```bash
+wp user create name name@email.com --role=administrator
+#this will create user
+Success: Created user 2.
+#and default password
+Password: ^oRY2M$GgElWjhan^(FEsrD5TD
+```
+Then you can reset pasword:
+```bash
+wp user reset-password <user>... [--skip-email]
+```
+**To add admin user from existing, change the role:**
+
+```bash
+wp user set-role <user> [<role>]
+```
