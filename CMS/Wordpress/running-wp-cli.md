@@ -3,8 +3,7 @@ layout: default
 title: Running WP CLI
 parent: Wordpress
 grand_parent: CMS
-
-nav_order: 2
+nav_order: 3
 has_children: false
 has_toc: true
 
