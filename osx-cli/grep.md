@@ -16,6 +16,7 @@ has_toc: false
 
 We can use `grep` to search term in file(s)
 1. Specify which file you wish to search. Use `grep` followed by the `search term` and file locetion,then it shoud be 	
+
 ```bash
 ├── Gatsby
 │   ├── README.md
@@ -38,8 +39,9 @@ We can use `grep` to search term in file(s)
 
 ```
 
+For example searching for term `gatsby` in README.file
+
 ```bash
-   E.g:
 $ grep gatsby README.md    
 
 ```	

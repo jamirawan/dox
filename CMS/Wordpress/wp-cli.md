@@ -20,7 +20,7 @@ With WP-CLI you can manage and update core, plugins, users, themes and many more
 
 ## Installation 
 
-Donload the `wp-cli.phar` file:
+Donwload the `wp-cli.phar` file:
 ```bash
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 ```
