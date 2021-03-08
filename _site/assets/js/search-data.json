@@ -169,7 +169,7 @@
   },"28": {
     "doc": "Drupal",
     "title": "Drupal quick guide",
-    "content": ". My first ever Drupal website was a wedding magazine I built for the NT News in Darwin in 2010. Although there is no such thing as a quick guide for webdev framework manual, I make this documentation a quick reference for myself just to remind me of the steps I took. Drupal won the most dreaded web framework according to the Stackoverflow survey in 2019 and that tells us a lot about how complicated it is to use. But, it’s still being used by programmer who’s got a sense of adventure and like challanges. Here are some steps if you want to build Drupal in your local machine. Although there are some other ways to build it, here’s the steps I took. ",
+    "content": ". My first ever Drupal website was a wedding magazine I built for the NT News in Darwin in 2010. It was not easy building it but learned a lot from there. Drupal won the most dreaded web framework according to the Stackoverflow survey in 2019 and that tells us a lot about how complicated it is to use. But, it’s still being used by programmer who’s got a sense of adventure and like challanges. Although there is no such thing as a quick guide for webdev framework manual, I make this documentation a quick reference for myself just to remind me of the steps I took. Here are some steps if you want to build Drupal in your local machine. Although there are some other ways to build it, here’s the steps I took. ",
     "url": "http://localhost:4000/php-ramework/Drupal/#drupal-quick-guide",
     "relUrl": "/php-ramework/Drupal/#drupal-quick-guide"
   },"29": {
@@ -517,7 +517,7 @@
   },"86": {
     "doc": "Drush",
     "title": "Install Drush on root",
-    "content": "Get a composer if you haven’t already . curl -sS https://getcomposer.org/installer | php . $mv composer.phar /usr/local/bin/composer . $ln -s /usr/local/bin/composer /usr/bin/composer . Download drush from git repo . $git clone https://github.com/drush-ops/drush.git /usr/local/src/drush . Get the latest one . $cd /usr/local/src/drush git checkout master #for the latest one or whatever version you want . $ln -s /usr/local/src/drush/drush /usr/bin/drush . $composer install #if this results in error, run composer update to add the dependencies . Check the version . $drush --version . Have fun with drush within the folder where you install Drupal. ",
+    "content": "Get a composer if you haven’t already . curl -sS https://getcomposer.org/installer | php . $mv composer.phar /usr/local/bin/composer . ln -s /usr/local/bin/composer /usr/bin/composer . Download drush from git repo . git clone https://github.com/drush-ops/drush.git /usr/local/src/drush . Get the latest one . cd /usr/local/src/drush git checkout master #for the latest one or whatever version you want . ln -s /usr/local/src/drush/drush /usr/bin/drush . composer install #if this results in error, run composer update to add the dependencies . Check the version . drush --version . Have fun with drush within the folder where you installed Drupal. ",
     "url": "http://localhost:4000/php-ramework/Drupal/drush.html#install-drush-on-root",
     "relUrl": "/php-ramework/Drupal/drush.html#install-drush-on-root"
   },"87": {
