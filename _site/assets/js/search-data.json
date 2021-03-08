@@ -589,7 +589,7 @@
   },"98": {
     "doc": "Grep",
     "title": "Search in file",
-    "content": "We can use grep to search term in file(s) . | Specify which file you wish to search. Use grep followed by the search term and file locetion,then it shoud be | . ├── Gatsby │   ├── README.md │   ├── building-site.md │   ├── install.md │   └── publish-netlify-cms.md ├── Hugo │   └── README.md ├── README.md └── jekyll ├── building-contents.md ├── configure.md ├── custom-domain.md ├── front-matter.md ├── google-analytics.md ├── install.md ├── publish-to-netlify.md ├── readme.md └── theme.md . For example searching for term gatsby in README.file . $ grep gatsby README.md . ",
+    "content": "We can use grep to search term in file(s) . | Specify which file you wish to search. Use grep followed by the search term and file locetion,then it shoud be | . ├── Gatsby │   ├── README.md │   ├── building-site.md │   ├── install.md │   └── publish-netlify-cms.md ├── Hugo │   └── README.md ├── README.md └── jekyll ├── building-contents.md ├── configure.md ├── custom-domain.md ├── front-matter.md ├── google-analytics.md ├── install.md ├── publish-to-netlify.md ├── readme.md └── theme.md . For example searching for term gatsby in install.md file . $ grep gatsby install.md . If there’s gatsby words in the file, it will show the sentences with the term in them. ",
     "url": "http://localhost:4000/osx-cli/grep.html#search-in-file",
     "relUrl": "/osx-cli/grep.html#search-in-file"
   },"99": {

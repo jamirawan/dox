@@ -39,12 +39,13 @@ We can use `grep` to search term in file(s)
 
 ```
 
-For example searching for term `gatsby` in README.file
+For example searching for term `gatsby` in install.md file
 
 ```bash
-$ grep gatsby README.md    
+$ grep gatsby install.md    
 
 ```	
+If there's `gatsby` words in the file, it will show the sentences with the term in them.
 
 
 
