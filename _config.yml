@@ -35,6 +35,8 @@ url: ""
 
 # Aux links for the upper right navigation
 aux_links:
+  "Blog"
+    - "https://irawans.com"
   "Landing page":
     - "https://irawan.io"
 # "Other link":
