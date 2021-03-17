@@ -46,11 +46,15 @@ Start with `detached mode`:
 ```bash
 sail up -d
 ```
+That should give you the location of your development site, most likely on `http://0.0.0.0:80`:
+```bash
+nt server: http://0.0.0.0:80
+laravel.test_1  | [Wed Mar 17 03:04:28 2021] PHP 8.0.1 Development Server (http://0.0.0.0:80) started
+```
 
 To stop all containers:
 ```bash
 sail down
 ```
 
-### Executing
 

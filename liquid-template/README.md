@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Liquid template
-nav_order: 15
+nav_order: 16
 has_children: true
 has_toc: true
 
