@@ -1,6 +1,7 @@
 ---
 layout: home
 title: About
+description: Irawan Darwin Website - Dokumentasi is about web dev documentation I know and practiced over the years 
 nav_order: 1
 has_children: false
 
