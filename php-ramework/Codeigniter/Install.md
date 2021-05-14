@@ -34,9 +34,16 @@ Not all of the drivers have been converted/rewritten for CodeIgniter4. The list 
 
 
 ## Install with composer
+Ensure that you have  'composer' installed on your machine
 
 ### Setup Installation
-For a new Codeigniter4 installation, you can use the App starter that holds a skeleton application, with a composer dependency on the latest released version of the framework.
+For a new Codeigniter4 installation, you can clome the [App starter](https://github.com/codeigniter4/appstarter) that holds a skeleton application, with a composer dependency on the latest released version of the framework.
+
+```bash
+git clone https://github.com/codeigniter4/appstarter
+```
+
+Or run `composer create-project`
 
 In the folder you wish to work on, run this command where `webapp` on this example will be your root project:
 ```bash

@@ -17,3 +17,11 @@ has_toc: false
 * using Codeigniter CLI for testing
 
 It is recommended to read the [user guide](https://codeigniter.com/user_guide/intro/index.html) if you are new to building a dynamic PHP aplication
+
+## Local development settings
+
+CodeIgniter 4 comes with a local development server, leveraging PHP’s built-in web server with CodeIgniter routing. You can use the serve script to launch it, with the following command line in the main directory:
+
+```bash
+php spark serve
+```
