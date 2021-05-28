@@ -23,3 +23,18 @@ composer require drupal/module_name
 Example above is for a drupal project called `module_name` and in Drupal page it will be after /project/ folder: `https://drupal.org/project/module_name`
 
 
+## Install module with `composer require` issues
+
+### Memory exceeding
+
+Sometimes the composer as a memory limit issue, add the following command before the composer. 
+
+```bash
+php -d memory_limit=-1 `which composer` require drupal/module_name
+
+# instead of
+
+composer require drupal/module_name
+```
+
+
