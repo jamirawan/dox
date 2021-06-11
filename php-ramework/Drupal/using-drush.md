@@ -74,5 +74,8 @@ show tables;
 ```bash
 show table like %h5p%
 ```
-If you are looking for any table that conains `h5p` term on them.
+If you are looking for any table that contains `h5p` term on them.
 
+### to list a specific table
+
+  

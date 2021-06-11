@@ -1,7 +1,7 @@
 ---
 layout: home
 title: About
-description: Irawan Darwin Website - Dokumentasi is about web dev documentation I know and practiced over the years 
+description: Irawan Darwin Website - 'Dokumentasi' is about web dev documentation I know and practiced over the years. Darwin Australia website designer since 2009.
 nav_order: 1
 has_children: false
 
@@ -299,7 +299,7 @@ has_children: false
     </div>
     </div>
 
-# Work in progress 
+# Web dev documentation
 
 > **Websites are always in progress.**
 
@@ -309,7 +309,7 @@ This **Dokumentasi** is my personal collection of manuals on how to do stuff in 
 3. This Dokumentasi is assuming that you know the basic of web development: HTML, PHP, CSS, Javascript and MySQL and using command line. Also only for Mac OSX for the moment.
 5. You may find that some pages are not finished as I update this on my spare time between full time job during lunch time, having newborn baby and doing my freelance webdesaign work at home
 7. I also do some digital visual stuff such as photography, Adobe Illustrator, Premiere Pro and a bit of After Effects
-6. [Visit my landing page, other profiles and for more portfolio](https://irawan.io)
+6. Visit [my landing page](https://irawan.io) for my other profiles and for more portfolio
 
 
 Feel free to coment or correct me if you find any docs that are no longer relevant.
