@@ -70,9 +70,9 @@ Start searching with some SQL Queries
 show tables;
 ```
 
-### to search table with some terms use `like %[term]%`
+### to search table with some terms use `like '%[term]%';`
 ```bash
-show table like %h5p%
+show table like '%h5p%';
 ```
 If you are looking for any table that contains `h5p` term on them.
 
