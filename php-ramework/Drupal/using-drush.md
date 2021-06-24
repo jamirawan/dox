@@ -12,6 +12,7 @@ has_toc: true
 # Using `drush` command
 
 For a complete use of drush commands run `drush list` or visit documentation page on [Command list](https://www.drush.org/latest/commands/list/)
+Following are some random use of `drush` I picked up, for complete list check out their website.
 
 ## Drush list user
 Not like WP CLI, Drush doesnt have the command to list all users but there's a way to list based on the role. For example if you wish to list all of the `administrator` users:
@@ -63,7 +64,8 @@ Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
 
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 ```
-Start searching with some SQL Queries
+*Start searching with some genral SQL queries*
+
 ### to list all table:
 
 ```bash
@@ -72,10 +74,11 @@ show tables;
 
 ### to search table with some terms use `like '%[term]%';`
 ```bash
-show table like '%h5p%';
+show table like '%node%';
 ```
-If you are looking for any table that contains `h5p` term on them.
+If you are looking for any tables that contains `node` term on them.
 
 ### to list a specific table
+
 
   

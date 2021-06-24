@@ -10,6 +10,8 @@ has_toc: true
 ---
 
 # Drush
+## What is `drush`?
+It's a command line shell and Unix interface for Drupal developers to make it easier to work on outside of browsers. The commands are interacting with code like modules/themes/profile and other command such as `drush generate`, `drush sqlc` cron and clean cache jobs etc.
 
 ## Install Drush on root
 
