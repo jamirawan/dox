@@ -309,7 +309,7 @@ This **Dokumentasi** is my personal collection of manuals on how to do stuff in 
 3. This Dokumentasi is assuming that you know the basic of web development: HTML, PHP, CSS, Javascript and MySQL and using command line. Also only for Mac OSX for the moment.
 5. You may find that some pages are not finished as I update this on my spare time between full time job during lunch time, having newborn baby and doing my freelance webdesaign work at home
 7. I also do some digital visual stuff such as photography, Adobe Illustrator, Premiere Pro and a bit of After Effects
-6. Visit [my landing page](https://irawan.io) for my other profiles and for more portfolio
+6. Visit [my l"anding page](https://irawan.io) for my other profiles and for more portfolio or my [blog](https://irawan.scom)
 
 
 Feel free to coment or correct me if you find any docs that are no longer relevant.
