@@ -71,14 +71,36 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 ```bash
 show tables;
 ```
+Note that this will be a very big list if you have a big website
 
 ### to search table with some terms use `like '%[term]%';`
 ```bash
-show table like '%node%';
+show tables like '%url%';
 ```
-If you are looking for any tables that contains `node` term on them.
+If you are looking for any tables that contains `url` term on them. Dont miss the semicolon (;)
+The result should be a list tables with url on them
+```
++--------------------------------------------+
+| Tables_in_wi_cdu_sandbox (%path%)          |
++--------------------------------------------+
+| path_table_set                             |
+| irawan_path__background_colour             |
+| irawan__table_with_path                    |
+| path_alias                                 |
+| path_alias_revision                        |
++--------------------------------------------+
+5 rows in set (0.00 sec)
 
-### to list a specific table
+```
+
+### to see the list a specific table
+Listing all of `path_alias` or URL on the website
+
+```bash
+select*from path_alias
+
+```
+
 
 
   
