@@ -81,7 +81,7 @@ If you are looking for any tables that contains `url` term on them. Dont miss th
 The result should be a list tables with url on them
 ```
 +--------------------------------------------+
-| Tables_in_wi_cdu_sandbox (%path%)          |
+| Tables_in_irawan_server (%path%)          |
 +--------------------------------------------+
 | path_table_set                             |
 | irawan_path__background_colour             |
@@ -98,6 +98,7 @@ Listing all of `path_alias` or URL on the website
 
 ```bash
 select*from path_alias
+
 ```
 
 Then you will have the list of all of the URLs on your website. You can narrow it down by selecting the type with `CONCAT`
@@ -110,36 +111,18 @@ select nid, type, alias from node_field_data nfd inner join path_alias ua on CON
 Result:
 ```bash
 +-------+--------------------+---------------------------------------+
-| nid   | type               | alias                                 |
+| nid | type               | alias                                 |
 +-------+--------------------+---------------------------------------+
-|   391 | basic              | /home                                 |
-|   443 | basic              | /about                                |
-|   444 | basic              | /contact                              |
-|   445 | blog               | /the-healthy-nasi-goreng              |
-|   447 | blog               | /my-experience-eating-nasi-goreng     | 
-|   391 | blog               | /nasi-goreng-is-great                 |
-|   443 | blog               | /about-nasi-goreng                    |
-|   444 | blog               | /where-can-i-buy-nasi-goreng          |
-|   445 | blog               | /the-healthy-nasi-goreng              |
-|   447 | blog               | /my-experience-eating-nasi-goreng     |   
-+-------+--------------------+---------------------------------------+
+| 391 | basic              | /home                                 |
+| 443 | basic              | /about                                |
+| 444 | basic              | /contact                              |
+| 445 | blog               | /the-healthy-nasi-goreng              |
+| 447 | blog               | /my-experience-eating-nasi-goreng     | 
+| 391 | blog               | /nasi-goreng-is-great                 |
+| 443 | blog               | /about-nasi-goreng                    |
+| 444 | blog               | /where-can-i-buy-nasi-goreng          |
+| 445 | blog               | /the-healthy-nasi-goreng              |
+| 447 | blog               | /my-experience-eating-nasi-goreng     |   
++-----+--------------------+---------------------------------------+
 ```
-To see the list of one particular `type`, e.g. `blog` run the following (assuming you are still in `sqlc` session:
-```bash
-select nid, type, alias from node_field_data nfd inner join path_alias ua on CONCAT('/node/', nid) = path and type = 'blog';
-
-```
-Result:
-```bash
-+-------+--------------------+---------------------------------------+
-| nid   | type               | alias                                 |
-+-------+--------------------+---------------------------------------+
-|   445 | blog               | /the-healthy-nasi-goreng              |
-|   447 | blog               | /my-experience-eating-nasi-goreng     | 
-|   391 | blog               | /nasi-goreng-is-great                 |
-|   443 | blog               | /about-nasi-goreng                    |
-|   444 | blog               | /where-can-i-buy-nasi-goreng          |
-|   445 | blog               | /the-healthy-nasi-goreng              |
-|   447 | blog               | /my-experience-eating-nasi-goreng     |   
-+-------+--------------------+---------------------------------------+
-```
+Choose 

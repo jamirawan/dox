@@ -310,9 +310,10 @@ This **Dokumentasi** is my personal collection of manuals on how to do stuff in 
 5. You may find that some pages are not finished as I update this on my spare time between full time job during lunch time, having newborn baby and doing my freelance webdesaign work at home
 7. I also do some digital visual stuff such as photography, Adobe Illustrator, Premiere Pro and a bit of After Effects
 6. Visit [my landing page](https://irawan.io) for my other profiles and portfolios or my [blog](https://irawans.com)
+7. Spare time is a luxury at the moment but I love kayaking in Darwin's epipelagic zone just floating around or playing my DJ controller mixing stuff up.
 
 
-Feel free to coment or correct me if you find any docs that are no longer relevant.
+Feel free to comment or correct me if you find any docs that are no longer relevant.
 
 
 
