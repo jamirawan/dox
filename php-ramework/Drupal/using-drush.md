@@ -81,7 +81,7 @@ If you are looking for any tables that contains `url` term on them. Dont miss th
 The result should be a list tables with url on them
 ```
 +--------------------------------------------+
-| Tables_in_irawan_server (%path%)          |
+| Tables_in_wi_cdu_sandbox (%path%)          |
 +--------------------------------------------+
 | path_table_set                             |
 | irawan_path__background_colour             |
@@ -110,9 +110,9 @@ select nid, type, alias from node_field_data nfd inner join path_alias ua on CON
 
 Result:
 ```bash
-+-------+--------------------+---------------------------------------+
++-------+--------------------+-------------------------------------+
 | nid | type               | alias                                 |
-+-------+--------------------+---------------------------------------+
++-------+--------------------+-------------------------------------+
 | 391 | basic              | /home                                 |
 | 443 | basic              | /about                                |
 | 444 | basic              | /contact                              |

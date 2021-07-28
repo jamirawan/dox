@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Drush issues
-parent: Drupal
-grand_parent: PHP Frameworks
+parent: Drush
+grand_parent: Drupal
 nav_order: 8
 has_children: false
 has_toc: true
