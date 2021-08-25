@@ -319,5 +319,5 @@ Feel free to comment or correct me if you find any docs that are no longer relev
 
 |  <a href="https://jamirawan.github.io/"><img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" width="150px" height="150px" /></a> |
 |:-:|
-| <a href="https://dribbble.com/irawan"><img src="https://cdn.dribbble.com/assets/dribbble-ball-icon-4e54c54abecf8efe027abe6f8bc7794553b8abef3bdb49cd15797067cf80ca53.svg" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/irawanirawan/"><img src="https://i.ibb.co/Kx2GSrT/linkedin.png" width="32px" height="32px"></a> |
+| <a href="https://dribbble.com/irawan"><img src="https://cdn.dribbble.com/assets/dribbble-ball-icon-4e54c54abecf8efe027abe6f8bc7794553b8abef3bdb49cd15797067cf80ca53.svg" width="32px" height="32px"></a> &nbsp;|&nbsp; <a href="https://www.linkedin.com/in/irawanirawan/"><img src="https://i.ibb.co/Kx2GSrT/linkedin.png" width="32px" height="32px"></a> |
 
