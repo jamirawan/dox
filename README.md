@@ -309,7 +309,7 @@ This **Dokumentasi** is my personal collection of manuals on how to do stuff in 
 3. This Dokumentasi is assuming that you know the basic of web development: HTML, PHP, CSS, Javascript and MySQL and using command line. Also only for Mac OSX for the moment.
 5. You may find that some pages are not finished as I update this on my spare time between full time job during lunch time, having newborn baby and doing my freelance webdesaign work at home
 7. I also do some digital visual stuff such as photography, Adobe Illustrator, Premiere Pro and a bit of After Effects
-6. Visit [my landing page](https://irawan.io) for my other profiles and portfolios or my [blog](https://irawans.com)
+6. Visit [my landing page](https://irawan.io) for my other profiles and portfolios or my [blog](https://irawans.com), for some fun stuff
 7. Spare time is a luxury at the moment but I love kayaking in Darwin's epipelagic zone just floating around or playing my DJ controller mixing stuff up.
 
 
@@ -319,5 +319,5 @@ Feel free to comment or correct me if you find any docs that are no longer relev
 
 |  <a href="https://jamirawan.github.io/"><img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" width="150px" height="150px" /></a> |
 |:-:|
-| <a href="https://github.com/jamirawan"><img src="https://cdn.iconscout.com/icon/free/png-256/github-108-438008.png" width="32px" height="32px"></a> <a href="https://twitter.com/jamirawan"><img src="https://i.ibb.co/kmgQVyW/twitter.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/irawanirawan/"><img src="https://i.ibb.co/Kx2GSrT/linkedin.png" width="32px" height="32px"></a> |
+| <a href="https://dribbble.com/irawan"><img src="https://cdn.dribbble.com/assets/dribbble-ball-icon-4e54c54abecf8efe027abe6f8bc7794553b8abef3bdb49cd15797067cf80ca53.svg" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/irawanirawan/"><img src="https://i.ibb.co/Kx2GSrT/linkedin.png" width="32px" height="32px"></a> |
 
