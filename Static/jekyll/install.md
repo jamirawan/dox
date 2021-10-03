@@ -114,6 +114,16 @@ Configuration file: /Users/irawan/dev/others/bloog/_config.yml
 
 Where `Server address: http://127.0.0.1:4000/` is your localhost address of your Jeckyll site. Once you
 
-## Install on other OS
+If you have an issue with missing gems, e.g:
+```
+Could not find commonmarker-0.17.13 in any of the sources
+```
+
+You will need to install the bundle and this will resolve the issue:
+```bash
+bundle install
+```
+
+## Install Jekyll on anything other than Mac OS
 
 Please rever to [Jekyll installation](https://jekyllrb.com/docs/installation/) on other OS
