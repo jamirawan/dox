@@ -1,7 +1,7 @@
 ---
 layout: home
 title: About
-description: Irawan Darwin Website - 'Dokumentasi' is about web dev documentation I know and practiced over the years. Darwin Australia website designer since 2009.
+description: Irawan Darwin Broome  Website Designer - 'Dokumentasi' is about web dev documentation I know and practiced over the years. Darwin and Broome Kimberleys  Australia website designer since 2009.
 nav_order: 1
 has_children: false
 
