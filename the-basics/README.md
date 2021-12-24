@@ -1,7 +1,7 @@
 ---
 layout: about
 title: The basics
-nav_order: 15
+nav_order: 3
 has_children: true
 has_toc: true
 
