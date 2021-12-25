@@ -1,7 +1,7 @@
 ---
 layout: home
 title: About
-description: Irawan Darwin Broome  Website Designer - 'Dokumentasi' is about web dev documentation I know and practiced over the years. Darwin and Broome Kimberleys  Australia website designer since 2009.
+description: Irawan Broome and Darwin Website Designer - 'Dokumentasi' is about web dev documentation I know and practiced over the years. Darwin and Broome Kimberleys  Australia website designer since 2009.
 nav_order: 1
 has_children: false
 
@@ -309,7 +309,7 @@ This **Dokumentasi** is my personal collection of manuals on how to do stuff in 
 3. This Dokumentasi is assuming that you know the basic of web development: HTML, PHP, CSS, Javascript and MySQL and using command line. Also only for Mac OSX for the moment.
 5. You may find that some pages are not finished as I update this on my spare time between full time job during lunch time, having newborn baby and doing my freelance webdesaign work at home
 7. I also do some digital visual stuff such as photography, Adobe Illustrator, Premiere Pro and a bit of After Effects. Visit [my landing page](https://irawan.io) for my other profiles and portfolios or my [blog](https://irawans.com), for some fun stuff
-7. Spare time is a luxury at the moment but I love kayaking in Darwin's epipelagic zone just floating around or playing my DJ controller mixing stuff up.
+7. Spare time is a luxury at the moment but I love kayaking in Darwin's epipelagic zone just floating around and recently in Broome or playing my DJ controller mixing stuff up.
 
 
 Feel free to comment or correct me if you find any docs that are no longer relevant.

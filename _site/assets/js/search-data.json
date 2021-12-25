@@ -217,7 +217,7 @@
   },"36": {
     "doc": "About",
     "title": "Web dev documentation",
-    "content": "Websites are always in progress. This Dokumentasi is my personal collection of manuals on how to do stuff in web development. I have been making websites since 2004 since Adobe Fireworks was still popular, Goecities era and web layout was in tables. | This page is built based on what I know and been through with issues or steps I did during web development and documented them for my own reference and others may find these useful too | This Dokumentasi is assuming that you know the basic of web development: HTML, PHP, CSS, Javascript and MySQL and using command line. Also only for Mac OSX for the moment. | You may find that some pages are not finished as I update this on my spare time between full time job during lunch time, having newborn baby and doing my freelance webdesaign work at home | I also do some digital visual stuff such as photography, Adobe Illustrator, Premiere Pro and a bit of After Effects. Visit my landing page for my other profiles and portfolios or my blog, for some fun stuff | Spare time is a luxury at the moment but I love kayaking in Darwin’s epipelagic zone just floating around or playing my DJ controller mixing stuff up. | . Feel free to comment or correct me if you find any docs that are no longer relevant. | | . |     | . ",
+    "content": "Websites are always in progress. This Dokumentasi is my personal collection of manuals on how to do stuff in web development. I have been making websites since 2004 since Adobe Fireworks was still popular, Goecities era and web layout was in tables. | This page is built based on what I know and been through with issues or steps I did during web development and documented them for my own reference and others may find these useful too | This Dokumentasi is assuming that you know the basic of web development: HTML, PHP, CSS, Javascript and MySQL and using command line. Also only for Mac OSX for the moment. | You may find that some pages are not finished as I update this on my spare time between full time job during lunch time, having newborn baby and doing my freelance webdesaign work at home | I also do some digital visual stuff such as photography, Adobe Illustrator, Premiere Pro and a bit of After Effects. Visit my landing page for my other profiles and portfolios or my blog, for some fun stuff | Spare time is a luxury at the moment but I love kayaking in Darwin’s epipelagic zone just floating around and recently in Broome or playing my DJ controller mixing stuff up. | . Feel free to comment or correct me if you find any docs that are no longer relevant. | | . |     | . ",
     "url": "http://localhost:4000/#web-dev-documentation",
     "relUrl": "/#web-dev-documentation"
   },"37": {
@@ -527,8 +527,8 @@
     "url": "http://localhost:4000/the-basics/crud.html",
     "relUrl": "/the-basics/crud.html"
   },"88": {
-    "doc": "CSS",
-    "title": "CSS",
+    "doc": "CSS, SCSS and SASS",
+    "title": "CSS, SCSS and SASS",
     "content": " ",
     "url": "http://localhost:4000/the-languages/css.html",
     "relUrl": "/the-languages/css.html"
@@ -571,688 +571,706 @@
   },"95": {
     "doc": "Custom theme",
     "title": "Drupal Custom Theme",
-    "content": " ",
+    "content": ". | info.yml file | Custom theme file structure | Folder structure | . ",
     "url": "http://localhost:4000/php-ramework/Drupal/custom-theme.html#drupal-custom-theme",
     "relUrl": "/php-ramework/Drupal/custom-theme.html#drupal-custom-theme"
   },"96": {
     "doc": "Custom theme",
-    "title": "Info",
-    "content": "Your theme name info.yml file will define the custom theme. This file should be located in your custom theme name folder. If your theme name is nasigoreng this hould be in /themes/custom/nasigoreng/nasigoreng.info.yml . Example of a .info.yml file . name: Nasi Goreng type: theme description: Spicy Nasi Goreng Theme core_version_requirement: ^8 || ^9 base theme: classy screenshot: nasigoreng.png libraries: - irawan_garden/ig-css - irawan_garden/quicksand - irawan_garden/normalize regions: header: Header highlighted: Highlighted help: Help content: Content sidebar_first: Left sidebar sidebar_second: Right sidebar front: Front page blocks footer: Footer page_top: Page top page_bottom: Page bottom . Following are the key value that are compulsory for the theme.info.yml Required: * name (required) * type (required) * core (required, optional if you include core_version_requirement) * base theme (required in Drupal 9, optional for Drupal 8) . Optional * php (optional) * version (optional) * libraries (optional) * libraries-override (optional) * libraries-extend (optional) * hidden (optional) * engine (optional) * logo (optional) * screenshot (optional) * regions (optional) * regions_hidden (optional) * features (optional) * ckeditor_stylesheets (optional) . ",
-    "url": "http://localhost:4000/php-ramework/Drupal/custom-theme.html#info",
-    "relUrl": "/php-ramework/Drupal/custom-theme.html#info"
+    "title": "info.yml file",
+    "content": "Your theme name info.yml file will define the custom theme. This file should be located in your custom theme name folder. If your theme name is nasigoreng this hould be in /themes/custom/nasigoreng/nasigoreng.info.yml . Example of a .info.yml file . name: Nasi Goreng type: theme description: Spicy Nasi Goreng Theme core_version_requirement: ^8 || ^9 base theme: classy screenshot: nasigoreng.png libraries: - nasigoreng/ig-css - nasigoreng/quicksand - nasigoreng/normalize regions: header: Header highlighted: Highlighted help: Help content: Content sidebar_first: Left sidebar sidebar_second: Right sidebar front: Front page blocks footer: Footer page_top: Page top page_bottom: Page bottom . Following are the key value that are compulsory for the theme.info.yml Required: . | name (required) | type (required) | core (required, optional if you include core_version_requirement) | base theme (required in Drupal 9, optional for Drupal 8) | . Optional . | php (optional) | version (optional) | libraries (optional) | libraries-override (optional) | libraries-extend (optional) | hidden (optional) | engine (optional) | logo (optional) | screenshot (optional) | regions (optional) | regions_hidden (optional) | features (optional) | ckeditor_stylesheets (optional) | . ",
+    "url": "http://localhost:4000/php-ramework/Drupal/custom-theme.html#infoyml-file",
+    "relUrl": "/php-ramework/Drupal/custom-theme.html#infoyml-file"
   },"97": {
+    "doc": "Custom theme",
+    "title": "Custom theme file structure",
+    "content": "|-core |-modules |-themes | |-bartik | |-seven .. |-modules |-themes |-contrib | |-zen | |-basic | |-bluemarine |-custom | |-nasigoreng . ",
+    "url": "http://localhost:4000/php-ramework/Drupal/custom-theme.html#custom-theme-file-structure",
+    "relUrl": "/php-ramework/Drupal/custom-theme.html#custom-theme-file-structure"
+  },"98": {
+    "doc": "Custom theme",
+    "title": "Folder structure",
+    "content": "The folder and file structure of the custom themes . |-nasigoreng.breakpoints.yml |-nasigoreng.info.yml |-nasigoreng.libraries.yml |-nasigoreng.theme |-config |-install |-nasigoreng.settings.yml |-schema |-nasigoreng.schema.yml |-css |-style.css |-js |-nasigoreng.js |-images |-buttons.png |-logo.svg |-screenshot.png |-templates |-maintenance-page.html.twig |-node.html.twig . ",
+    "url": "http://localhost:4000/php-ramework/Drupal/custom-theme.html#folder-structure",
+    "relUrl": "/php-ramework/Drupal/custom-theme.html#folder-structure"
+  },"99": {
     "doc": "Custom theme",
     "title": "Custom theme",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Drupal/custom-theme.html",
     "relUrl": "/php-ramework/Drupal/custom-theme.html"
-  },"98": {
+  },"100": {
     "doc": "Custom theme",
     "title": "Custom theme",
     "content": " ",
     "url": "http://localhost:4000/CMS/Wordpress/custom-theme.html",
     "relUrl": "/CMS/Wordpress/custom-theme.html"
-  },"99": {
+  },"101": {
     "doc": "Database",
     "title": "Database",
     "content": " ",
     "url": "http://localhost:4000/the-basics/database.html",
     "relUrl": "/the-basics/database.html"
-  },"100": {
+  },"102": {
     "doc": "Docker issues",
     "title": "Some Docker issues I",
     "content": " ",
     "url": "http://localhost:4000/Docker/docker-issues.html#some-docker-issues-i",
     "relUrl": "/Docker/docker-issues.html#some-docker-issues-i"
-  },"101": {
+  },"103": {
     "doc": "Docker issues",
     "title": "No space left on device",
     "content": "This issue showed up when I ran docker compose up after I updated the database from remote latest. One of the containers cried out: . nginx_1 : ...\"var/tmp/nginx/client_body\" failed (28: No space left on device) . It’s not the machine space but it’s Docker’s. Clean it by pruning the Docker containers: . With options: . docker system prune --all - all stopped containers - all networks not used by at least one container - all dangling images - all dangling build cache . To skip the prompt options: . docker system prune --all --force . This will clean up some space and should be good. ",
     "url": "http://localhost:4000/Docker/docker-issues.html#no-space-left-on-device",
     "relUrl": "/Docker/docker-issues.html#no-space-left-on-device"
-  },"102": {
+  },"104": {
     "doc": "Docker issues",
     "title": "Docker issues",
     "content": " ",
     "url": "http://localhost:4000/Docker/docker-issues.html",
     "relUrl": "/Docker/docker-issues.html"
-  },"103": {
+  },"105": {
     "doc": "Drush issues",
     "title": "Using PHP 8.X",
     "content": "I just updated my local PHP version into 8 and it seems that the PHP8/PHAR updater is abondened. Here’s what happened when I run drush status . Box Requirements Checker ======================== &gt; Using PHP 8.0.6 &gt; PHP is using the following php.ini file: /usr/local/etc/php/8.0/php.ini &gt; Checking Box requirements: ..E......... [ERROR] Your system is not ready to run the application. Fix the following mandatory requirements: ========================================= * The package \"padraic/humbug_get_contents\" requires the version \"^5.3 || ^7.0 || ^7.1 || ^7.2\" or greater. This issue was resolved by downloading the latest Drush launcher: . wget -O /usr/local/bin/drush https://github.com/drush-ops/drush-launcher/releases/latest/download/drush.phar \\ &amp;&amp; chmod +x /usr/local/bin/drush . Happy drushing! . ",
     "url": "http://localhost:4000/php-ramework/Drupal/drush-issues.html#using-php-8x",
     "relUrl": "/php-ramework/Drupal/drush-issues.html#using-php-8x"
-  },"104": {
+  },"106": {
     "doc": "Drush issues",
     "title": "Drush issues",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Drupal/drush-issues.html",
     "relUrl": "/php-ramework/Drupal/drush-issues.html"
-  },"105": {
+  },"107": {
     "doc": "Drush",
     "title": "Drush",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Drupal/drush.html",
     "relUrl": "/php-ramework/Drupal/drush.html"
-  },"106": {
+  },"108": {
     "doc": "Drush",
     "title": "What is drush?",
     "content": "It’s a command line shell and Unix interface for Drupal developers to make it easier to work on outside of browsers. The commands are interacting with code like modules/themes/profile and other command such as drush generate, drush sqlc cron and clean cache jobs etc. ",
     "url": "http://localhost:4000/php-ramework/Drupal/drush.html#what-is-drush",
     "relUrl": "/php-ramework/Drupal/drush.html#what-is-drush"
-  },"107": {
+  },"109": {
     "doc": "Drush",
     "title": "Install Drush on root",
     "content": "Get a composer if you haven’t already . curl -sS https://getcomposer.org/installer | php . $mv composer.phar /usr/local/bin/composer . ln -s /usr/local/bin/composer /usr/bin/composer . Download drush from git repo . git clone https://github.com/drush-ops/drush.git /usr/local/src/drush . Get the latest one . cd /usr/local/src/drush git checkout master #for the latest one or whatever version you want . ln -s /usr/local/src/drush/drush /usr/bin/drush . composer install #if this results in error, run composer update to add the dependencies . Check the version . drush --version . Have fun with drush within the folder where you installed Drupal. ",
     "url": "http://localhost:4000/php-ramework/Drupal/drush.html#install-drush-on-root",
     "relUrl": "/php-ramework/Drupal/drush.html#install-drush-on-root"
-  },"108": {
+  },"110": {
     "doc": "Emphasis",
     "title": "Emphasis",
     "content": "Makdown . **This is bold text** __This is bold text__ *This is italic text* _This is italic text_ We have **bold***italic* This text is ***really important*** This text is ___really important___ This text is __*really important*__ This text is **_really important_** . Rendered output . This is bold text This is bold text This is italic text This is italic text We have bolditalic This text is really important This text is really important This text is really important This text is really important . ",
     "url": "http://localhost:4000/Markdown/emphasis.html",
     "relUrl": "/Markdown/emphasis.html"
-  },"109": {
+  },"111": {
     "doc": "Extend Drupal",
     "title": "Extend Drupal",
     "content": "Drupal like other CMS or open source platform is so extendable with modules and themes available from the community. The Drupal community I found it is amazing and very supportive. ",
     "url": "http://localhost:4000/php-ramework/Drupal/extend.html",
     "relUrl": "/php-ramework/Drupal/extend.html"
-  },"110": {
+  },"112": {
     "doc": "Extend Drupal",
     "title": "Installing module and theme with composer",
     "content": "To install Drupal module or theme with composer you can just simply run . composer require drupal/module_name . Example above is for a drupal project called module_name and in Drupal page it will be after /project/ folder: https://drupal.org/project/module_name . ",
     "url": "http://localhost:4000/php-ramework/Drupal/extend.html#installing-module-and-theme-with-composer",
     "relUrl": "/php-ramework/Drupal/extend.html#installing-module-and-theme-with-composer"
-  },"111": {
+  },"113": {
     "doc": "Extend Drupal",
     "title": "Install module with composer require issues",
     "content": "Memory exceeding . Sometimes the composer as a memory limit issue, add the following command before the composer. php -d memory_limit=-1 `which composer` require drupal/module_name # instead of composer require drupal/module_name . ",
     "url": "http://localhost:4000/php-ramework/Drupal/extend.html#install-module-with-composer-require-issues",
     "relUrl": "/php-ramework/Drupal/extend.html#install-module-with-composer-require-issues"
-  },"112": {
+  },"114": {
     "doc": "Front matter",
     "title": "Front matter",
     "content": "Front matter in Jekyll world is a snippet of YML file that is placed on top of the MD file between three dashes, that set the variables of the page. This can be used for: . | Layout | Title | Navigation structure | and other element defined by the theme | . Example of front mater for this page: . --- layout: default title: Front matter parent: Jekyll grand_parent: Static nav_order: 5 has_child: false has_toc: false --- . ",
     "url": "http://localhost:4000/Static/jekyll/front-matter.html",
     "relUrl": "/Static/jekyll/front-matter.html"
-  },"113": {
+  },"115": {
     "doc": "Git init",
     "title": "Git Init",
     "content": ". | Adding existing project to collaborate (Github) | New repository on Github | . Inititating git workflow either for a new project or existing . ",
     "url": "http://localhost:4000/Git/git-init.html#git-init",
     "relUrl": "/Git/git-init.html#git-init"
-  },"114": {
+  },"116": {
     "doc": "Git init",
     "title": "Adding existing project to collaborate (Github)",
     "content": ". | Create a new repository on Github, I’ll call my repository nasigoreng | Navigate to the working directory with command line and initialise Git: git init -b main . | Add the files in the local repostiory, this will stage them for the first commit: git add . | Then commit them git commit -m \"Initial commit\" . | Copy the URL of the repository you set on step 1. For example git@github.com:jamirawan/nasigoreng.git | Then go back to the terminal add git remote on the folder you just committed: git remote add origin git@github.com:jamirawan/nasigoreng.git #then check the remote: git remote -v #and it should be showing : origin https://github.com/jamirawan/nasigoreng.git (fetch) origin https://github.com/jamirawan/nasigoreng.git (push) . | Push your commits to the upstream origin then your branch: git push -u origin main . | . ",
     "url": "http://localhost:4000/Git/git-init.html#adding-existing-project-to-collaborate-github",
     "relUrl": "/Git/git-init.html#adding-existing-project-to-collaborate-github"
-  },"115": {
+  },"117": {
     "doc": "Git init",
     "title": "New repository on Github",
     "content": "When you created a repository on Github, it comes with instruction below . Quick setup — if you’ve done this kind of thing before Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore. …or create a new repository on the command line . echo \"# iirawan\" &gt;&gt; README.md git init git add README.md git commit -m \"first commit\" git branch -M main git remote add origin git@github.com:iirawan/iirawan.git git push -u origin main . …or push an existing repository from the command line . git remote add origin git@github.com:iirawan/iirawan.git git branch -M main git push -u origin main . …or import code from another repository . You can initialize this repository with code from a Subversion, Mercurial, or TFS project. Import code . ",
     "url": "http://localhost:4000/Git/git-init.html#new-repository-on-github",
     "relUrl": "/Git/git-init.html#new-repository-on-github"
-  },"116": {
+  },"118": {
     "doc": "Git init",
     "title": "Git init",
     "content": " ",
     "url": "http://localhost:4000/Git/git-init.html",
     "relUrl": "/Git/git-init.html"
-  },"117": {
+  },"119": {
     "doc": "Setup Google Analytics",
     "title": "Set up Google Analytics tracking on Jekyll page",
     "content": "Depending on the theme you are using, it can be varies. Basically you need to add the GA tracking ID into the _config.yml then added into the &lt;head&gt;&lt;/head&gt; somewhere in the html file. I can not embed the code as it rendered in MD and confused the _config.yml file . ¯\\_(ツ)_/¯ . I’ll get back on that . ",
     "url": "http://localhost:4000/Static/jekyll/google-analytics.html#set-up-google-analytics-tracking-on-jekyll-page",
     "relUrl": "/Static/jekyll/google-analytics.html#set-up-google-analytics-tracking-on-jekyll-page"
-  },"118": {
+  },"120": {
     "doc": "Setup Google Analytics",
     "title": "Setup Google Analytics",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/google-analytics.html",
     "relUrl": "/Static/jekyll/google-analytics.html"
-  },"119": {
+  },"121": {
     "doc": "GraphQL",
     "title": "GraphQL",
     "content": "GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API. It gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools. To learn about the GraphQL visit the documentation . ",
     "url": "http://localhost:4000/API/graphql.html",
     "relUrl": "/API/graphql.html"
-  },"120": {
+  },"122": {
     "doc": "Grep",
     "title": "grep",
     "content": "grep let you search one or more input files for lines containing a match to a specified pattern. By default the outputs the matching lines. ",
     "url": "http://localhost:4000/osx-cli/grep.html#grep",
     "relUrl": "/osx-cli/grep.html#grep"
-  },"121": {
+  },"123": {
     "doc": "Grep",
     "title": "Search in file",
     "content": "We can use grep to search term in file(s) . | Specify which file you wish to search. Use grep followed by the search term and file locetion,then it shoud be | . ├── Gatsby │   ├── README.md │   ├── building-site.md │   ├── install.md │   └── publish-netlify-cms.md ├── Hugo │   └── README.md ├── README.md └── jekyll ├── building-contents.md ├── configure.md ├── custom-domain.md ├── front-matter.md ├── google-analytics.md ├── install.md ├── publish-to-netlify.md ├── readme.md └── theme.md . For example searching for term gatsby in install.md file . $ grep gatsby install.md . If there’s gatsby words in the file, it will show the sentences with the term in them. ",
     "url": "http://localhost:4000/osx-cli/grep.html#search-in-file",
     "relUrl": "/osx-cli/grep.html#search-in-file"
-  },"122": {
+  },"124": {
     "doc": "Grep",
     "title": "Grep",
     "content": " ",
     "url": "http://localhost:4000/osx-cli/grep.html",
     "relUrl": "/osx-cli/grep.html"
-  },"123": {
+  },"125": {
     "doc": "Headers",
     "title": "Headings",
     "content": "Makdown . # h1 Heading ## h2 Heading ### h3 Heading #### h4 Heading ##### h5 Heading ###### h6 Heading . Output . ",
     "url": "http://localhost:4000/Markdown/headers.html#headings",
     "relUrl": "/Markdown/headers.html#headings"
-  },"124": {
+  },"126": {
     "doc": "Headers",
     "title": "h1 Heading",
     "content": " ",
     "url": "http://localhost:4000/Markdown/headers.html#h1-heading",
     "relUrl": "/Markdown/headers.html#h1-heading"
-  },"125": {
+  },"127": {
     "doc": "Headers",
     "title": "h2 Heading",
     "content": "h3 Heading . h4 Heading . h5 Heading . h6 Heading . ",
     "url": "http://localhost:4000/Markdown/headers.html#h2-heading",
     "relUrl": "/Markdown/headers.html#h2-heading"
-  },"126": {
+  },"128": {
     "doc": "Headers",
     "title": "Headers",
     "content": " ",
     "url": "http://localhost:4000/Markdown/headers.html",
     "relUrl": "/Markdown/headers.html"
-  },"127": {
+  },"129": {
     "doc": "HTML and DOM",
     "title": "HTML and DOM",
     "content": "*Understanding HTML and DOM Understanding the main parts of an HTML document, knowing when to use each of the main semantic elements, what the DOM is, and use development tools built-in to certain browsers. ",
     "url": "http://localhost:4000/the-basics/html-dom.html",
     "relUrl": "/the-basics/html-dom.html"
-  },"128": {
+  },"130": {
+    "doc": "HTML",
+    "title": "HTML and the document object model (DOM)",
+    "content": " ",
+    "url": "http://localhost:4000/the-languages/html.html#html-and-the-document-object-model-dom",
+    "relUrl": "/the-languages/html.html#html-and-the-document-object-model-dom"
+  },"131": {
     "doc": "HTML",
     "title": "HTML",
     "content": " ",
     "url": "http://localhost:4000/the-languages/html.html",
     "relUrl": "/the-languages/html.html"
-  },"129": {
+  },"132": {
     "doc": "Images",
     "title": "Images",
     "content": "To insert image in markdown, it’s like linking to source img with exlamation mark at the front. Exlamation mark + text in square bracket + link to image in round bracket. Makdown . ![Irawan's Image](https://irawan.io/og/irawan-io.png) . Rendered output . ",
     "url": "http://localhost:4000/Markdown/images.html",
     "relUrl": "/Markdown/images.html"
-  },"130": {
+  },"133": {
     "doc": "Install Gatsby",
     "title": "Install on your local with NPM",
     "content": "Ensure that the npm on your machine is up to date . npm update graceful-fs@latest ╭───────────────────────────────────────────────────────────────╮ │ │ │ New major version of npm available! 6.14.11 → 7.5.6 │ │ Changelog: https://github.com/npm/cli/releases/tag/v7.5.6 │ │ Run npm install -g npm to update! │ │ │ ╰───────────────────────────────────────────────────────────────╯ npm install -g npm . Then install the gatsby-cli . npm install -g gatsby-cli . Then start installing and developing gatsby with starter packages that can be found on this page which is like templates for your website. For example this one called Gatsby Starter Blog, start with gatsby new followed with the name of your project/folder e.g. blog then the Github URL of the source https://github.com/gatsbyjs/gatsby-starter-blog to install: . gatsby new blog https://github.com/gatsbyjs/gatsby-starter-blog . This will clone the repo and install Gatsby packages. info Your new Gatsby site has been successfully bootstrapped. Start developing it by running: cd blog # --&gt; get in to the folder you setup above gatsby develop # --&gt; starting the gatsby engine . This will start the engine and it will give you the local URL address: . You can now view gatsby-starter-blog in the browser. ⠀ http://localhost:8000/ . Open http://localhost:8000/ in your favorite browser . ",
     "url": "http://localhost:4000/Static/Gatsby/install.html#install-on-your-local-with-npm",
     "relUrl": "/Static/Gatsby/install.html#install-on-your-local-with-npm"
-  },"131": {
+  },"134": {
     "doc": "Install Gatsby",
     "title": "Install Gatsby",
     "content": " ",
     "url": "http://localhost:4000/Static/Gatsby/install.html",
     "relUrl": "/Static/Gatsby/install.html"
-  },"132": {
+  },"135": {
     "doc": "Install Jekyll",
     "title": "Install",
     "content": ". | Installing on MacOS . | Install Ruby | Install Jekyll | Create a new Jekyll site | . | Install Jekyll on anything other than Mac OS | . ",
     "url": "http://localhost:4000/Static/jekyll/install.html#install",
     "relUrl": "/Static/jekyll/install.html#install"
-  },"133": {
+  },"136": {
     "doc": "Install Jekyll",
     "title": "Installing on MacOS",
     "content": "Install Ruby . Ensure you install Ruby, not the ruby from the Apple default install. It will give you this error: . ERROR: While executing gem ... (Gem::FilePermissionError) You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory. Use Homebrew to install latest Ruby. If you haven’t had Homebrew installed: . /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\" . Then install Ruby . brew install ruby . Add Ruby path on your terminal: . # If you're using Zsh echo 'export PATH=\"/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/X.X.X/bin:$PATH\"' &gt;&gt; ~/.zshrc # If you're using Bash echo 'export PATH=\"/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/X.X.X/bin:$PATH\"' &gt;&gt; ~/.bash_profile # Unsure which shell you are using? Type echo $SHELL . Refresh your shell . source ~/.zshrc # or source ~/.bash_profile . check the path and you shoud see anything other than: /usr/local/bin/ruby and check the version and it should be the latest: . which ruby . Mine would be: . /usr/local/opt/ruby/bin/ruby . Check ruby version . ruby -v . Install Jekyll . Install the Bundler: . gem install --user-install bundler jekyll . Create a new Jekyll site . Once the Jekyll is installed, you can start creating the site e.g in /blog folder: . jekyll new blog . In an indeal world you can just login to the new folder blog where the Jekyll install is and run bundle exec jekyll serve and will show you all details of configuration including the server you can go to in local. But since the following libraries are no longer bundled gems or standard libraries including webrick, this message will appear: . /usr/local/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/serve/servlet.rb:3:in `require': cannot load such file -- webrick (LoadError) . Then you need to run bundle add webrick providing you have bundle installed. This should let you run the bundle exec jekyll serve and the following message will appear: . Configuration file: /Users/irawan/dev/others/bloog/_config.yml Source: /Users/irawan/dev/others/bloog Destination: /Users/irawan/dev/others/bloog/_site Incremental build: disabled. Enable with --incremental Generating... Jekyll Feed: Generating feed for posts done in 0.465 seconds. Auto-regeneration: enabled for '/Users/irawan/dev/others/bloog' Server address: http://127.0.0.1:4000/ Server running... press ctrl-c to stop. Where Server address: http://127.0.0.1:4000/ is your localhost address of your Jeckyll site. Once you . If you have an issue with missing gems, e.g: . Could not find commonmarker-0.17.13 in any of the sources . You will need to install the bundle and this will resolve the issue: . bundle install . ",
     "url": "http://localhost:4000/Static/jekyll/install.html#installing-on-macos",
     "relUrl": "/Static/jekyll/install.html#installing-on-macos"
-  },"134": {
+  },"137": {
     "doc": "Install Jekyll",
     "title": "Install Jekyll on anything other than Mac OS",
     "content": "Please rever to Jekyll installation on other OS . ",
     "url": "http://localhost:4000/Static/jekyll/install.html#install-jekyll-on-anything-other-than-mac-os",
     "relUrl": "/Static/jekyll/install.html#install-jekyll-on-anything-other-than-mac-os"
-  },"135": {
+  },"138": {
     "doc": "Install Jekyll",
     "title": "Install Jekyll",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/install.html",
     "relUrl": "/Static/jekyll/install.html"
-  },"136": {
+  },"139": {
     "doc": "Install Laravel",
     "title": "Installation",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Laravel/install.html#installation",
     "relUrl": "/php-ramework/Laravel/install.html#installation"
-  },"137": {
+  },"140": {
     "doc": "Install Laravel",
     "title": "On Mac",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Laravel/install.html#on-mac",
     "relUrl": "/php-ramework/Laravel/install.html#on-mac"
-  },"138": {
+  },"141": {
     "doc": "Install Laravel",
     "title": "Install",
     "content": "Install With curl . As long as you have Docker in your Mac you can run simple CURL command to start creating project. web-app is an example of your project URL you can customise: . curl -s https://laravel.build/web-app | bash . Install with Composer . composer create-project laravel/laravel # or with Laravel Installer web-app composer global require laravel/installer laravel new web-app # then go to the web-ap folder cd web-app php artisan serve . ",
     "url": "http://localhost:4000/php-ramework/Laravel/install.html#install",
     "relUrl": "/php-ramework/Laravel/install.html#install"
-  },"139": {
+  },"142": {
     "doc": "Install Laravel",
     "title": "Sail up!",
     "content": "Go to the directory cd web-app after the installation done and we can start running the Laravel Sail that providfe a simple CLI for interacting with Laravel’s default Docker configuration: . docker-compose up -d #or ./vendor/bin/sail up -d . With alias setup: sail up -d (refer to ‘Sail’ section for alias setup) . Ensure that the port you are using, by default it’s :80, is not in use by other Docker containers. If it’s already used and the following error came up, you can change the port number or kill other containers first: . Check who uses port (number) . Run this to check who’s using the port number you wish to list: . sudo lsof -i -P -n | grep &lt;port number&gt; . Change port . ERROR: for mailhog Cannot start service mailhog: driver failed programming external connectivity on endpoint web-app_mailhog_1 (ae8085daf269cf4a0f7eae07927d10a0975d5ae3a082659314663956afce36c1): Error starting userland proxy: listen tcp4 0.0.0.0:8025: bind: address already in use ERROR: for laravel.test Cannot start service laravel.test: Ports are not available: listen tcp 0.0.0.0:80: bind: address already in use . You can change the port number Change to other ports by editing the docker-compose.yml file: . ports: - \"8084:80\" . And try to use port 8084 instaed http://localhost:8084 . Stop and remove containers . docker-compose down # Stop container on current dir if there is a docker-compose.yml . And then run the up the sail again: ./vendor/bin/sail up or sail up -d if you have your alias setup. This may take a few minutes but you’ll see this line where you can check your web app: . laravel.test_1 | Starting Laravel development server: http://0.0.0.0:80 . So your project web local web app is: http://0.0.0.0:80 or just localhost . ",
     "url": "http://localhost:4000/php-ramework/Laravel/install.html#sail-up",
     "relUrl": "/php-ramework/Laravel/install.html#sail-up"
-  },"140": {
+  },"143": {
     "doc": "Install Laravel",
     "title": "Install Laravel",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Laravel/install.html",
     "relUrl": "/php-ramework/Laravel/install.html"
-  },"141": {
+  },"144": {
     "doc": "Javascript",
     "title": "Javascript",
     "content": " ",
     "url": "http://localhost:4000/the-languages/javascript.html",
     "relUrl": "/the-languages/javascript.html"
-  },"142": {
+  },"145": {
     "doc": "kramdown",
     "title": "kramdown",
     "content": "It’s a Ruby library that converts supersets of Markdown. ",
     "url": "http://localhost:4000/Markdown/kramdown.html",
     "relUrl": "/Markdown/kramdown.html"
-  },"143": {
+  },"146": {
     "doc": "LAMP",
     "title": "LAMP (Linux, Apache, MySQL and PHP)",
     "content": " ",
     "url": "http://localhost:4000/the-basics/lamp.html#lamp-linux-apache-mysql-and-php",
     "relUrl": "/the-basics/lamp.html#lamp-linux-apache-mysql-and-php"
-  },"144": {
+  },"147": {
     "doc": "LAMP",
     "title": "LAMP",
     "content": " ",
     "url": "http://localhost:4000/the-basics/lamp.html",
     "relUrl": "/the-basics/lamp.html"
-  },"145": {
+  },"148": {
     "doc": "Line breaks",
     "title": "Line Break",
     "content": "Notes: . | To create a line break, end a line with two or more spaces, and then type return | Or use the &lt;br&gt; HTML tag | . Markdown . This is the first line. And this is the second line. On browser: . This is the first line. And this is the second line. Alternative Makdown . First line with the HTML tag after.&lt;br&gt; And the next line. Rendered output . First line with the HTML tag after. And the next line. ",
     "url": "http://localhost:4000/Markdown/linebreaks.html#line-break",
     "relUrl": "/Markdown/linebreaks.html#line-break"
-  },"146": {
+  },"149": {
     "doc": "Line breaks",
     "title": "Line breaks",
     "content": " ",
     "url": "http://localhost:4000/Markdown/linebreaks.html",
     "relUrl": "/Markdown/linebreaks.html"
-  },"147": {
+  },"150": {
     "doc": "Links",
     "title": "Links",
     "content": ". | Externarl links . | Directly put link on the address with &lt;&gt; | . | Internal link within Jekyll pages | Buttons | Prevent automated linking or skip linking | Add emphasize/anchored link | Reference in text | . To link text in markdown, just insert the linked tex in square bracket followed with round bracket of the URL, no space. ",
     "url": "http://localhost:4000/Markdown/links.html",
     "relUrl": "/Markdown/links.html"
-  },"148": {
+  },"151": {
     "doc": "Links",
     "title": "Externarl links",
     "content": "Markdown . This is [linked text](https://irawan.io) &lt;br&gt; This is [link with title](https://irawan.io \"Irawan's site\") . Rendered output . This is linked text This is link with title . Directly put link on the address with &lt;&gt; . Markdown . &lt;https://www.irawan.io&gt; &lt;me@irawan.io&gt; . Output . https://www.irawan.io me@irawan.io . ",
     "url": "http://localhost:4000/Markdown/links.html#externarl-links",
     "relUrl": "/Markdown/links.html#externarl-links"
-  },"149": {
+  },"152": {
     "doc": "Links",
     "title": "Internal link within Jekyll pages",
     "content": "There are many ways of doing this but here’s the simplest I choose with link tags: . Markdown: [Link text to Docker](/Docker/) . Output . Link text to Docker . ",
     "url": "http://localhost:4000/Markdown/links.html#internal-link-within-jekyll-pages",
     "relUrl": "/Markdown/links.html#internal-link-within-jekyll-pages"
-  },"150": {
+  },"153": {
     "doc": "Links",
     "title": "Buttons",
     "content": "Button in MD is similar to links but add {: .btn} at the end . Markdown . [Link button to my page](https://irawan.io){: .btn} . Output . Link button to my page . ",
     "url": "http://localhost:4000/Markdown/links.html#buttons",
     "relUrl": "/Markdown/links.html#buttons"
-  },"151": {
+  },"154": {
     "doc": "Links",
     "title": "Prevent automated linking or skip linking",
     "content": "Markdown . `https://www.irawan.io` . Output . https://www.irawan.io . ",
     "url": "http://localhost:4000/Markdown/links.html#prevent-automated-linking-or-skip-linking",
     "relUrl": "/Markdown/links.html#prevent-automated-linking-or-skip-linking"
-  },"152": {
+  },"155": {
     "doc": "Links",
     "title": "Add emphasize/anchored link",
     "content": "Markdown . This is the *[Irawan's site](https://www.irawan.io)*. See the section on [top of the page](#). Output . This is the Irawan’s site. See the section on top of the page. ",
     "url": "http://localhost:4000/Markdown/links.html#add-emphasizeanchored-link",
     "relUrl": "/Markdown/links.html#add-emphasizeanchored-link"
-  },"153": {
+  },"156": {
     "doc": "Links",
     "title": "Reference in text",
     "content": "Markdown . It was a [nasi-goreng][ng], and that means comfort. [ng]: &lt;https://en.wikipedia.org/wiki/Nasi_goreng&gt; \"Nasi Goreng\" . Output . It was a nasi goreng, a delicious Indonesian food. ",
     "url": "http://localhost:4000/Markdown/links.html#reference-in-text",
     "relUrl": "/Markdown/links.html#reference-in-text"
-  },"154": {
+  },"157": {
     "doc": "Lists",
     "title": "Lists",
     "content": ". | Unordered | Ordered | Elements in Lists | . ",
     "url": "http://localhost:4000/Markdown/lists.html",
     "relUrl": "/Markdown/lists.html"
-  },"155": {
+  },"158": {
     "doc": "Lists",
     "title": "Unordered",
     "content": "Makdown . + To start a list, there should be an empty line above + Create a list by starting a line with `+`, `-`, or `*` - Changing the sign will add a linespace + Add text under an item This is a text under an item. Notice that there are two spaces at the end above. - Sub-lists are made by indenting 2 spaces: * Item 2a * Item 2b * Item 3 To end a list, there should be one empty line above. Rendered output . | To start a list, there should be an empty line above | Create a list by starting a line with +, -, or * | Changing the sign will add a linespace | Add text under an item This is a text under an item. Notice that there are two spaces at the end above. | Sub-lists are made by indenting 2 spaces: . | Item 2a | Item 2b | . | Item 3 | . To end a list, there should be one empty line above. ",
     "url": "http://localhost:4000/Markdown/lists.html#unordered",
     "relUrl": "/Markdown/lists.html#unordered"
-  },"156": {
+  },"159": {
     "doc": "Lists",
     "title": "Ordered",
     "content": "Makdown . 1. Item 1 1. Item 2 Notice that the sequence number is irrelevant. Markdown will change the sequence automatically when renderring. Notice that there are two spaces at the end above to make a new text under item. 3. Sub-lists are made by indenting 4 spaces 1. Item 3a 2. Item 3b 8. Any number for item 4 . Rendered output . | Item 1 | Item 2 Notice that the sequence number is irrelevant. Markdown will change the sequence automatically when renderring. Notice that there are two spaces at the end above to make a new text under item. | Sub-lists are made by indenting 4 spaces . | Item 3a | Item 3b | . | Any number for item 4 | . Makdown . 57. will started with offset 57 1. so it will be 58 . Rendered output . | will started with offset 57 | so it will be 58 | . ",
     "url": "http://localhost:4000/Markdown/lists.html#ordered",
     "relUrl": "/Markdown/lists.html#ordered"
-  },"157": {
+  },"160": {
     "doc": "Lists",
     "title": "Elements in Lists",
     "content": "Notes: . | To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab | . Makdown . * This is the first list item. * Here's the second list item. I need to add another paragraph below the second list item. * And here's the third list item. Rendered output . | This is the first list item. | Here’s the second list item. I need to add another paragraph below the second list item. | And here’s the third list item. | . Rendered output . | This is the first list item. | Here’s the second list item. I need to add another paragraph below the second list item. | And here’s the third list item. | . Rendered output . | This is the first list item. | Here’s the second list item. A blockquote would look great below the second list item. | And here’s the third list item. | . Makdown . 1. This list will include image 2. This is Irawan's logo ![Irawan](https://irawan.io/og/irawan-io.png) 3. So that's a logo . Rendered output . | This list will include image | This is Irawan’s logo | So that’s a logo | . ",
     "url": "http://localhost:4000/Markdown/lists.html#elements-in-lists",
     "relUrl": "/Markdown/lists.html#elements-in-lists"
-  },"158": {
+  },"161": {
     "doc": "MEAN",
     "title": "MEAN (Mongo DB, Express, Angular and  Node)",
     "content": " ",
     "url": "http://localhost:4000/the-basics/mean.html#mean-mongo-db-express-angular-and--node",
     "relUrl": "/the-basics/mean.html#mean-mongo-db-express-angular-and--node"
-  },"159": {
+  },"162": {
     "doc": "MEAN",
     "title": "MEAN",
     "content": " ",
     "url": "http://localhost:4000/the-basics/mean.html",
     "relUrl": "/the-basics/mean.html"
-  },"160": {
+  },"163": {
     "doc": "Moodle",
     "title": "Moodle",
     "content": " ",
     "url": "http://localhost:4000/LMS/moodle.html",
     "relUrl": "/LMS/moodle.html"
-  },"161": {
+  },"164": {
     "doc": "Multiple remotes",
     "title": "Working with Git multiple remotes",
     "content": "Working in between two big companies that have their own environments and each using different pipelines put me in to a situation where I have to understand and work with two git remotes, one with Github and the other with Gitlab . So the structure will be like this for example: . $git remote -v origin git@github.com:company1/project-name.git (fetch) origin git@github.com:company1/project-name.git (push) upstream git@gitlab.com:company2/project-name.git (fetch) upstream git@gitlab.com:company2/project-name.git (push) . Each company will have different environment setup altough this result in one production environment. ",
     "url": "http://localhost:4000/Git/multiple-remotes.html#working-with-git-multiple-remotes",
     "relUrl": "/Git/multiple-remotes.html#working-with-git-multiple-remotes"
-  },"162": {
+  },"165": {
     "doc": "Multiple remotes",
     "title": "Multiple remotes",
     "content": " ",
     "url": "http://localhost:4000/Git/multiple-remotes.html",
     "relUrl": "/Git/multiple-remotes.html"
-  },"163": {
+  },"166": {
     "doc": "Paragraph",
     "title": "Paragraphs",
     "content": "Notes: . | To create paragraphs, use a blank line to separate one or more lines of text. | Don’t ident paragraphs with spaces or tabs | . Markdown . This is the first paragraph. This is the second paragraph . Rendered output: . This is the first paragraph. This is the second paragraph . ",
     "url": "http://localhost:4000/Markdown/paragraph.html#paragraphs",
     "relUrl": "/Markdown/paragraph.html#paragraphs"
-  },"164": {
+  },"167": {
     "doc": "Paragraph",
     "title": "Paragraph",
     "content": " ",
     "url": "http://localhost:4000/Markdown/paragraph.html",
     "relUrl": "/Markdown/paragraph.html"
-  },"165": {
+  },"168": {
     "doc": "PHP",
     "title": "PHP and Object-oriented programming (OOP)",
     "content": " ",
     "url": "http://localhost:4000/the-languages/php.html#php-and-object-oriented-programming-oop",
     "relUrl": "/the-languages/php.html#php-and-object-oriented-programming-oop"
-  },"166": {
+  },"169": {
     "doc": "PHP",
     "title": "PHP",
     "content": " ",
     "url": "http://localhost:4000/the-languages/php.html",
     "relUrl": "/the-languages/php.html"
-  },"167": {
+  },"170": {
     "doc": "Publish to Netlify CMS",
     "title": "Publish to Netlify CMS",
     "content": " ",
     "url": "http://localhost:4000/Static/Gatsby/publish-netlify-cms.html",
     "relUrl": "/Static/Gatsby/publish-netlify-cms.html"
-  },"168": {
+  },"171": {
     "doc": "Deploy",
     "title": "Deployment",
     "content": "Once you push the changes to your Github account and make it as Github page, it the page URL will be yourusername.github.io/reponame. Then we have an option to set the custom domain through the repo Settings or via Netlify . ",
     "url": "http://localhost:4000/Static/jekyll/publish-to-netlify.html#deployment",
     "relUrl": "/Static/jekyll/publish-to-netlify.html#deployment"
-  },"169": {
+  },"172": {
     "doc": "Deploy",
     "title": "Deploy",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/publish-to-netlify.html",
     "relUrl": "/Static/jekyll/publish-to-netlify.html"
-  },"170": {
+  },"173": {
     "doc": "Jekyll",
     "title": "Jekyll",
     "content": "This Dokumentasi website is an example of my Jekyll install. Following are the steps I took to build this. ",
     "url": "http://localhost:4000/Static/jekyll/",
     "relUrl": "/Static/jekyll/"
-  },"171": {
+  },"174": {
     "doc": "REST",
     "title": "REST/RESTful API",
     "content": "Stands for Represenational State Transfer . ",
     "url": "http://localhost:4000/API/rest-api.html#restrestful-api",
     "relUrl": "/API/rest-api.html#restrestful-api"
-  },"172": {
+  },"175": {
     "doc": "REST",
     "title": "REST",
     "content": " ",
     "url": "http://localhost:4000/API/rest-api.html",
     "relUrl": "/API/rest-api.html"
-  },"173": {
+  },"176": {
     "doc": "Running WP CLI",
     "title": "Running WP CLI",
     "content": "When all setup with the WP CLI, you can use command started with wp followed by the subcommands. To see the list of subcommands, just type wp or wp --help or if you wish to know the list of sub-sub-commands, for example wp user run wp user --help and it will list the sub sub commands. For example, if I want to see the list of themes installed on my WP build, I just type the wp followed with subcommand theme then the task command list : . wp theme list . It will give you list of the theme: . +-----------------+----------+--------+---------+ | name | status | update | version | +-----------------+----------+--------+---------+ | twentyeleven | inactive | none | 3.6 | twentyfifteen | inactive | none | 2.8 | twentyfourteen | inactive | none | 3.0 | twentynineteen | inactive | none | 1.9 | twentyseventeen | inactive | none | 2.5 | twentysixteen | inactive | none | 2.3 | twentyten | inactive | none | 3.2 | twentythirteen | inactive | none | 3.2 | twentytwelve | inactive | none | 3.3 | twentytwenty | inactive | none | 1.6 | nasigoreng | active | none | 1.1 | +-----------------+----------+--------+---------+ . To activate or deactivate theme: wp followed with sub command theme then the task command activate then the object which is the theme name e.g. twentytwenty . wp theme activate twentytwenty . It will switch the theme from twentytwentyone to twentytwenty . Success: Switched to 'Twenty Twenty' theme. Running in DDEV environment . If you are running the WP install in DDEV environment, add ddev before wp . ddev wp theme activate twentytwenty . Or else if will return error connecting database: . Error: Error establishing a database connection. ",
     "url": "http://localhost:4000/CMS/Wordpress/running-wp-cli.html",
     "relUrl": "/CMS/Wordpress/running-wp-cli.html"
-  },"174": {
+  },"177": {
     "doc": "Running WP CLI",
     "title": "wp scaffold",
     "content": "wp scaffold will help us create some codes for creating: . | child theme | post types | custom plugins starter | taxonomy | created theme based on Underscores | . To use the wp scaffold just add the subcommands and the name. Example below is creating child theme from twentytwenty: . wp scaffold child-theme nasi-goreng --parent_theme=twentytwenty . To create a custom theme starter based on _s Undrescore, theme name nasi-goreng: . wp scaffold _s my-theme --theme_name=\"Nasi Goreng\" --author=\"Emperor Nasi Goreng\" . If the command above didn’t work and give you this message ; . Error: Could not decompress your theme files ('/tmp/underscores-aede5jGF.tmp') at '/path-to-your-folder/wp/wp-content/themes': Incompatible Archive. just go to the Underscores website and generate it from the form, then download and install like a usual WP theme install. ",
     "url": "http://localhost:4000/CMS/Wordpress/running-wp-cli.html#wp-scaffold",
     "relUrl": "/CMS/Wordpress/running-wp-cli.html#wp-scaffold"
-  },"175": {
+  },"178": {
     "doc": "Running WP CLI",
     "title": "wp search-replace",
     "content": "This will search through the database rows of tables and replace the first string with second one. This command uses tables that are registerd in $wpdb . Example, I want to replace all nasi terms and replace them with goreng: . wp search-replace nasi goreng . Recommended to use --dry run to be sure of what you are doing, just to show you the changes that will be made before confirming the action. And it will show you the number of changes made: . +------------------+-----------------------+--------------+------+ | Table | Column | Replacements | Type | +------------------+-----------------------+--------------+------+ | woop_commentmeta | meta_key | 0 | SQL | woop_commentmeta | meta_value | 0 | SQL | woop_comments | comment_author | 0 | SQL | woop_comments | comment_author_email | 0 | SQL | woop_comments | comment_author_url | 0 | SQL | woop_comments | comment_author_IP | 0 | SQL | woop_comments | comment_content | 0 | SQL | woop_comments | comment_approved | 0 | SQL | woop_comments | comment_agent | 0 | SQL | woop_comments | comment_type | 0 | SQL | woop_links | link_url | 0 | SQL | woop_links | link_name | 0 | SQL | woop_links | link_image | 0 | SQL | woop_links | link_target | 0 | SQL | woop_links | link_description | 0 | SQL | woop_links | link_visible | 0 | SQL | woop_links | link_rel | 0 | SQL | woop_links | link_notes | 0 | SQL | woop_links | link_rss | 0 | SQL | woop_options | option_name | 0 | SQL | woop_options | option_value | 8 | PHP | woop_options | autoload | 0 | SQL | woop_postmeta | meta_key | 0 | SQL | woop_postmeta | meta_value | 0 | SQL | woop_posts | post_content | 2 | SQL | woop_posts | post_title | 0 | SQL | woop_posts | post_excerpt | 0 | SQL | woop_posts | post_status | 0 | SQL | woop_posts | comment_status | 0 | SQL | woop_posts | ping_status | 0 | SQL | woop_posts | post_password | 0 | SQL | woop_posts | post_name | 0 | SQL | woop_posts | to_ping | 0 | SQL | woop_posts | pinged | 0 | SQL | woop_posts | post_content_filtered | 0 | SQL | woop_posts | guid | 4 | SQL | woop_posts | post_type | 0 | SQL | woop_posts | post_mime_type | 0 | SQL | woop_term_taxonomy | taxonomy | 0 | SQL | woop_term_taxonomy | description | 0 | SQL | woop_termmeta | meta_key | 0 | SQL | woop_termmeta | meta_value | 0 | SQL | woop_terms | name | 0 | SQL | woop_terms | slug | 0 | SQL | woop_usermeta | meta_key | 0 | SQL | woop_usermeta | meta_value | 0 | PHP | woop_users | user_login | 0 | SQL | woop_users | user_nicename | 0 | SQL | woop_users | user_email | 0 | SQL | woop_users | user_url | 1 | SQL | woop_users | user_activation_key | 0 | SQL | woop_users | display_name | 0 | SQL | +------------------+-----------------------+--------------+------+ Success: Made 15 replacements. ",
     "url": "http://localhost:4000/CMS/Wordpress/running-wp-cli.html#wp-search-replace",
     "relUrl": "/CMS/Wordpress/running-wp-cli.html#wp-search-replace"
-  },"176": {
+  },"179": {
     "doc": "Running WP CLI",
     "title": "Create admin user withwp user",
     "content": "Create user with the role: . wp user create name name@email.com --role=administrator #this will create user Success: Created user 2. #and default password Password: ^oRY2M$GgElWjhan^(FEsrD5TD . Then you can reset pasword: . wp user reset-password &lt;user&gt;... [--skip-email] . To add admin user from existing, change the role: . wp user set-role &lt;user&gt; [&lt;role&gt;] . ",
     "url": "http://localhost:4000/CMS/Wordpress/running-wp-cli.html#create-admin-user-withwp-user",
     "relUrl": "/CMS/Wordpress/running-wp-cli.html#create-admin-user-withwp-user"
-  },"177": {
+  },"180": {
     "doc": "Running Codeigniter4",
     "title": "Running your app",
     "content": "+There are three ways of running Codeigniter4 . | hosted on web server | using visualisation | using Codeigniter CLI for testing | . It is recommended to read the user guide if you are new to building a dynamic PHP aplication . ",
     "url": "http://localhost:4000/php-ramework/Codeigniter/running.html#running-your-app",
     "relUrl": "/php-ramework/Codeigniter/running.html#running-your-app"
-  },"178": {
+  },"181": {
     "doc": "Running Codeigniter4",
     "title": "Local development settings",
     "content": "CodeIgniter 4 comes with a local development server, leveraging PHP’s built-in web server with CodeIgniter routing. You can use the serve script to launch it, with the following command line in the main directory: . php spark serve . ",
     "url": "http://localhost:4000/php-ramework/Codeigniter/running.html#local-development-settings",
     "relUrl": "/php-ramework/Codeigniter/running.html#local-development-settings"
-  },"179": {
+  },"182": {
     "doc": "Running Codeigniter4",
     "title": "Running Codeigniter4",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Codeigniter/running.html",
     "relUrl": "/php-ramework/Codeigniter/running.html"
-  },"180": {
+  },"183": {
     "doc": "Sail",
     "title": "Sail",
     "content": "Sail is the drush or wp-cli equivalent for Laravel which is a light-weight CLI. sail is stored in the docker-compose.yml in the project root. ",
     "url": "http://localhost:4000/php-ramework/Laravel/sail.html",
     "relUrl": "/php-ramework/Laravel/sail.html"
-  },"181": {
+  },"184": {
     "doc": "Sail",
     "title": "Install",
     "content": "Install sail with Composer: . composer require laravel/sail --dev . After Sail has been installed, you may run the sail:install Artisan command. This command will publish Sail’s docker-compose.yml file to the root of your application: . php artisan sail:install . By default, to run the sail it’s : .vendor/bin/sail up -d . ",
     "url": "http://localhost:4000/php-ramework/Laravel/sail.html#install",
     "relUrl": "/php-ramework/Laravel/sail.html#install"
-  },"182": {
+  },"185": {
     "doc": "Sail",
     "title": "Setup alias",
     "content": "Instead of typing all those path, you should make an alias on the bash profile. Run these command and you don’t have to edit the .bash profile: . export COMPOSE_FILE=docker-compose.yml alias sail='bash vendor/bin/sail' . ",
     "url": "http://localhost:4000/php-ramework/Laravel/sail.html#setup-alias",
     "relUrl": "/php-ramework/Laravel/sail.html#setup-alias"
-  },"183": {
+  },"186": {
     "doc": "Sail",
     "title": "Commands",
     "content": "Start &amp; stop . Start: . sail up . Start with detached mode: . sail up -d . That should give you the location of your development site, most likely on http://0.0.0.0:80: . nt server: http://0.0.0.0:80 laravel.test_1 | [Wed Mar 17 03:04:28 2021] PHP 8.0.1 Development Server (http://0.0.0.0:80) started . To stop all containers: . sail down . ",
     "url": "http://localhost:4000/php-ramework/Laravel/sail.html#commands",
     "relUrl": "/php-ramework/Laravel/sail.html#commands"
-  },"184": {
+  },"187": {
     "doc": "Server",
     "title": "Server",
     "content": " ",
     "url": "http://localhost:4000/the-basics/server.html",
     "relUrl": "/the-basics/server.html"
-  },"185": {
+  },"188": {
     "doc": "Docker setup",
     "title": "Setup and Installation",
     "content": "Here’s documentation from Docker site . ",
     "url": "http://localhost:4000/Docker/setup.html#setup-and-installation",
     "relUrl": "/Docker/setup.html#setup-and-installation"
-  },"186": {
+  },"189": {
     "doc": "Docker setup",
     "title": "Docker setup",
     "content": " ",
     "url": "http://localhost:4000/Docker/setup.html",
     "relUrl": "/Docker/setup.html"
-  },"187": {
+  },"190": {
     "doc": "Tables",
     "title": "Table styles on Markdown",
     "content": " ",
     "url": "http://localhost:4000/Markdown/tables.html#table-styles-on-markdown",
     "relUrl": "/Markdown/tables.html#table-styles-on-markdown"
-  },"188": {
+  },"191": {
     "doc": "Tables",
     "title": "Headers",
     "content": "Markdown . | Header Column One | Header Column Two | Header Column Three | Header Column Four | . ",
     "url": "http://localhost:4000/Markdown/tables.html#headers",
     "relUrl": "/Markdown/tables.html#headers"
-  },"189": {
+  },"192": {
     "doc": "Tables",
     "title": "Alignments",
     "content": "Left align: :-- or three dashes --- Right align: --: Centre align: :-: . Place those alignment within pipes in the respective columns. Markdown . | Default Header | Left Align | Right Align | Center Align | --- | :-- | --: | :-: | . ",
     "url": "http://localhost:4000/Markdown/tables.html#alignments",
     "relUrl": "/Markdown/tables.html#alignments"
-  },"190": {
+  },"193": {
     "doc": "Tables",
     "title": "Table contents",
     "content": "Every columns is separated with pipe | and every row is placed in different lines: . Markdown . | Column 1 Header | Column 2 Header | Column 3 Header | --------------- | --------------- | --------------- | Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 | Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 | Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 | . Output . | Column 1 Header | Column 2 Header | Column 3 Header | . | Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 | . | Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 | . | Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 | . ",
     "url": "http://localhost:4000/Markdown/tables.html#table-contents",
     "relUrl": "/Markdown/tables.html#table-contents"
-  },"191": {
+  },"194": {
     "doc": "Tables",
     "title": "Tables",
     "content": " ",
     "url": "http://localhost:4000/Markdown/tables.html",
     "relUrl": "/Markdown/tables.html"
-  },"192": {
+  },"195": {
     "doc": "The look",
     "title": "Bash terminal themes",
     "content": "This is the least important thing on working with command line but might be useful for you with a pretty colorful code linting the languages with custom theme you like. I use Powerlevel9k for the pretty look. ",
     "url": "http://localhost:4000/osx-cli/the-look.html#bash-terminal-themes",
     "relUrl": "/osx-cli/the-look.html#bash-terminal-themes"
-  },"193": {
+  },"196": {
     "doc": "The look",
     "title": "The look",
     "content": " ",
     "url": "http://localhost:4000/osx-cli/the-look.html",
     "relUrl": "/osx-cli/the-look.html"
-  },"194": {
+  },"197": {
     "doc": "Theme",
     "title": "Theme",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/theme.html",
     "relUrl": "/Static/jekyll/theme.html"
-  },"195": {
+  },"198": {
     "doc": "Theme",
     "title": "Installing Jekyll theme",
     "content": "There are two common ways to install themes in Jekyll: . | Fork the Github repo - this will have to fork on git clone the repo and use this theme as starting point of your Jekyll install | Use Ruby gem - you can install this on the existing Jekyll install ** pick the theme you like and get the gem slug to put on the Gemfile e.g: gem \"minimal-mistakes-jekyll\" ** change the theme name on Gemfile and update the theme on _config.yml files ** run bundle ** check your new theme by running bundle exec jekyll serve . | . And you should see the theme has changed. Please be aware that you may have some Build warnings because themes have different layouts and may scream that the layout required didn’t exist. ",
     "url": "http://localhost:4000/Static/jekyll/theme.html#installing-jekyll-theme",
     "relUrl": "/Static/jekyll/theme.html#installing-jekyll-theme"
-  },"196": {
+  },"199": {
     "doc": "Tree",
     "title": "Tree",
     "content": "Shows you the file structure with tree lines. ",
     "url": "http://localhost:4000/osx-cli/tree.html",
     "relUrl": "/osx-cli/tree.html"
-  },"197": {
+  },"200": {
     "doc": "Tree",
     "title": "Install",
     "content": "Install with homebrew: . brew install tree . Install with Macports: . sudo port install tree . If you have Fink: . fink install tree . ",
     "url": "http://localhost:4000/osx-cli/tree.html#install",
     "relUrl": "/osx-cli/tree.html#install"
-  },"198": {
+  },"201": {
     "doc": "Tree",
     "title": "Using tree",
     "content": "Example below, in static-sites folder, run: . tree . Then it will show you the file structure: . static-sites ├── Gatsby │   ├── README.md │   ├── building-site.md │   ├── install.md │   └── publish-netlify-cms.md ├── Hugo │   └── README.md ├── README.md └── jekyll ├── building-contents.md ├── configure.md ├── custom-domain.md ├── front-matter.md ├── google-analytics.md ├── install.md ├── publish-to-netlify.md ├── readme.md └── theme.md . ",
     "url": "http://localhost:4000/osx-cli/tree.html#using-tree",
     "relUrl": "/osx-cli/tree.html#using-tree"
-  },"199": {
+  },"202": {
     "doc": "Twig on Drupal",
     "title": "Understanding Twig",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Drupal/twig.html#understanding-twig",
     "relUrl": "/php-ramework/Drupal/twig.html#understanding-twig"
-  },"200": {
+  },"203": {
     "doc": "Twig on Drupal",
     "title": "Twig on Drupal",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Drupal/twig.html",
     "relUrl": "/php-ramework/Drupal/twig.html"
-  },"201": {
+  },"204": {
     "doc": "Using drush",
     "title": "Using drush command",
     "content": "For a complete use of drush commands run drush list or visit documentation page on Command list Following are some random use of drush I picked up, for complete list check out their website. ",
     "url": "http://localhost:4000/php-ramework/Drupal/using-drush.html#using-drush-command",
     "relUrl": "/php-ramework/Drupal/using-drush.html#using-drush-command"
-  },"202": {
+  },"205": {
     "doc": "Using drush",
     "title": "Drush list user",
     "content": "Not like WP CLI, Drush doesnt have the command to list all users but there’s a way to list based on the role. For example if you wish to list all of the administrator users: . drush uinf --uid=$(drush sqlq \"SELECT GROUP_CONCAT(entity_id) FROM user__roles WHERE roles_target_id = 'administrator'\") . That will give you table of all administrator user role. To list users from range of ID nubers e.g. 1-200: . drush user:information --uid=\"$(echo {1..200},|sed -e 's/ //g')\" . ",
     "url": "http://localhost:4000/php-ramework/Drupal/using-drush.html#drush-list-user",
     "relUrl": "/php-ramework/Drupal/using-drush.html#drush-list-user"
-  },"203": {
+  },"206": {
     "doc": "Using drush",
     "title": "Using drush within DDEV system",
     "content": "If you are working on local with DDEV, you will have to add ddev at the front of drush`: . ddev drush pm:list . Otherwise it will return error connecting database: . Command pm:list was not found. Drush was unable to query the database. As a result, many commands are unavailable. Re-run your command with --debug to see relevant log messages. ",
     "url": "http://localhost:4000/php-ramework/Drupal/using-drush.html#using-drush-within-ddev-system",
     "relUrl": "/php-ramework/Drupal/using-drush.html#using-drush-within-ddev-system"
-  },"204": {
+  },"207": {
     "doc": "Using drush",
     "title": "Using  drush sql-cli",
     "content": "drush sql-cli or drush sqlc give you a session on the SQL query and search on the tables available. To use the local drush session use the following: ./bin/drush sql-cli # instead of just drush sql-cli . This will give you the SQL session: . Reading table information for completion of table and column names You can turn off this feature to get a quicker startup with -A Welcome to the MariaDB monitor. Commands end with ; or \\g. Your MariaDB connection id is 10380892 Server version: 10.3.27-MariaDB MariaDB Server Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others. Type 'help;' or '\\h' for help. Type '\\c' to clear the current input statement. Start searching with some genral SQL queries . to list all table: . show tables; . Note that this will be a very big list if you have a big website . to search table with some terms use like '%[term]%'; . show tables like '%path%'; . If you are looking for any tables that contains url term on them. Dont miss the semicolon (;) The result should be a list tables with url on them . +--------------------------------------------+ | Tables_in_wi_cdu_sandbox (%path%) | +--------------------------------------------+ | path_table_set | irawan_path__background_colour | irawan__table_with_path | path_alias | path_alias_revision | +--------------------------------------------+ 5 rows in set (0.00 sec) . to see the list a specific table . Listing all of path_alias or URL on the website . select*from path_alias . Then you will have the list of all of the URLs on your website. You can narrow it down by selecting the type with CONCAT Listing all URL with content types: . select nid, type, alias from node_field_data nfd inner join path_alias ua on CONCAT('/node/', nid) = path; . Result: . +-------+--------------------+-------------------------------------+ | nid | type | alias | +-------+--------------------+-------------------------------------+ | 391 | basic | /home | 443 | basic | /about | 444 | basic | /contact | 445 | blog | /the-healthy-nasi-goreng | 447 | blog | /my-experience-eating-nasi-goreng | 391 | blog | /nasi-goreng-is-great | 443 | blog | /about-nasi-goreng | 444 | blog | /where-can-i-buy-nasi-goreng | 445 | blog | /the-healthy-nasi-goreng | 447 | blog | /my-experience-eating-nasi-goreng | +-----+--------------------+---------------------------------------+ . Choose . ",
     "url": "http://localhost:4000/php-ramework/Drupal/using-drush.html#using--drush-sql-cli",
     "relUrl": "/php-ramework/Drupal/using-drush.html#using--drush-sql-cli"
-  },"205": {
+  },"208": {
     "doc": "Using drush",
     "title": "Using drush",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Drupal/using-drush.html",
     "relUrl": "/php-ramework/Drupal/using-drush.html"
-  },"206": {
+  },"209": {
     "doc": "WP CLI",
     "title": "WP-CLI - Wordpress Command Line Interface",
     "content": "With WP-CLI you can manage and update core, plugins, users, themes and many more without using browsers. Requirements . | UNIX-like environment | PHP 5.6 or later | WP core version 3.7 or later | . ",
     "url": "http://localhost:4000/CMS/Wordpress/wp-cli.html#wp-cli---wordpress-command-line-interface",
     "relUrl": "/CMS/Wordpress/wp-cli.html#wp-cli---wordpress-command-line-interface"
-  },"207": {
+  },"210": {
     "doc": "WP CLI",
     "title": "Installation",
     "content": "Donwload the wp-cli.phar file: . curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar . Check if it’s working: . php wp-cli.phar --info . To be able to use the command: wp, make this file executable: . chmod +x wp-cli.phar . Move it in your working file somewhere: . sudo mv wp-cli.phar /usr/local/bin/wp . Check if it works: . wp --info . Or check your WP version . wp core version . Note . If you are working on a shared hosting where you don’t have the sudo access to the root and they don’t install WP-CLI, you still can use this but not with wp alias. Use the following for this example wp core version : . php wp-cli.phar core version . ",
     "url": "http://localhost:4000/CMS/Wordpress/wp-cli.html#installation",
     "relUrl": "/CMS/Wordpress/wp-cli.html#installation"
-  },"208": {
+  },"211": {
     "doc": "WP CLI",
     "title": "WP CLI",
     "content": " ",
     "url": "http://localhost:4000/CMS/Wordpress/wp-cli.html",
     "relUrl": "/CMS/Wordpress/wp-cli.html"
-  },"209": {
+  },"212": {
     "doc": "YML files",
     "title": "YML files",
     "content": " ",

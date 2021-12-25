@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CSS
+title: CSS, SCSS and SASS
 parent: The Languages
 nav_order: 2
 has_child: false
@@ -8,4 +8,4 @@ has_toc: false
 
 ---
 
-# CSS
+# CSS, SCSS and SASS
