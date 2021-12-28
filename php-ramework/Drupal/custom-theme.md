@@ -115,3 +115,50 @@ The folder and file structure of the custom themes
 | |-maintenance-page.html.twig
 | |-node.html.twig
 ```
+## Steps to create custom theme (e.g. Bootstrap SASS)
+1. Install the contributed theme as parent
+```bash
+composer require drupal/bootstrap_barrio #as the parent
+```
+this will install the theme under `*/themes/contrib/`
+2. Install the starter kit 
+```bash
+composer require drupal/bootstrap_sass^[version] #installing the starter kit
+```
+3. Navigate to the folder /themes/contrib/bootstrap_sass and run the  `npm install` and `gulp`
+```bash
+npm install --global gulp-cli #installing gulp-cli with NPM (ensure that you have installed the latest NPM)
+npm install #installing all the dependencies in the folder's package
+gulp 
+```
+It'll show you the progress:
+```bash
+─ user@macpro ~/dev/drupal-project/app/themes/contrib/bootstrap_sass
+╰─ gulp                                                                              ✔  6920  13:49:58 
+[13:50:07] Using gulpfile ~/dev/drupal-project/app/themes/contrib/bootstrap_sass/gulpfile.js
+[13:50:07] Starting 'default'...
+[13:50:07] Starting 'styles'...
+[13:50:10] Finished 'styles' after 3.48 s
+[13:50:10] Starting 'js'...
+[13:50:10] Starting 'serve'...
+[Browsersync] Proxying: https://0.0.0.0
+[Browsersync] Access URLs:
+ -------------------------------------
+       Local: https://localhost:3000
+    External: https://172.20.10.3:3000
+ -------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ -------------------------------------
+[Browsersync] 3 files changed (bootstrap.min.js, popper.min.js, barrio.js)
+[13:50:10] Finished 'js' after 140 ms
+[Browsersync] Reloading Browsers... (buffered 3 events)
+[13:51:28] Starting 'styles'...
+[Browsersync] Reloading Browsers...
+[Browsersync] 2 files changed (bootstrap.min.css, style.min.css)
+[13:51:32] Finished 'styles' after 3.89 s
+[13:56:32] Starting 'styles'...
+```
+4. Duplicate the starter kit folder 
+Once it's all running with SASS, create a custom theme with your own style undr `*\themes\custom\nasigoreng` by copy pasting the starter kit folder above.
+Ensure to change the required filenmes and variables.
