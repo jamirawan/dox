@@ -162,3 +162,4 @@ It'll show you the progress:
 4. Duplicate the starter kit folder 
 Once it's all running with SASS, create a custom theme with your own style undr `*\themes\custom\nasigoreng` by copy pasting the starter kit folder above.
 Ensure to change the required filenmes and variables.
+5. Customise the themplate pages in TWIG under `/themes/custom/nasigoreng/template/` folder
