@@ -20,7 +20,7 @@ has_toc: false
 {:toc}
 </details>
 
-Following are the list of tags you will need to be friendly with:
+Following are the list of tags you will need to be friendly with. Some of the tags may no longer supported by HTML 5.
 
 ## ***Basic tags***
 Tags:
