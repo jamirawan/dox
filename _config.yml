@@ -15,7 +15,7 @@ ga_tracking_anonymize_ip: true
 #   shortcodes: true
 
 ## remote method ##
-#remote_theme: rundocs/jekyll-rtd-theme
+remote_theme: pmarsceill/just-the-docs
 
 theme: just-the-docs
 color_scheme: dark
