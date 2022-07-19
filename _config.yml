@@ -16,8 +16,6 @@ ga_tracking_anonymize_ip: true
 
 ## remote method ##
 remote_theme: pmarsceill/just-the-docs
-
-theme: just-the-docs
 color_scheme: dark
 
 readme_index:
