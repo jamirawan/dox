@@ -28,10 +28,10 @@ See this [documentation](https://www.w3schools.com/js/)
 ES5 is a kind of Javascript version to adjust with the standard browser behaviour. It was released in 2015, added many powerful new features to the language. In this course, you'll learn these new features, including arrow functions, destructuring, classes, promises, and modules.
 
 * `let`
-* Const
-* object.freeze
-* => function
-* => with parameters
+* `const`
+* `object.freeze`
+* `=>` function
+* `=>` with parameters
 * Default parameters
 * (…args) rest parameter
 * Spread operator -> evaluate arrays in place
@@ -43,5 +43,8 @@ ES5 is a kind of Javascript version to adjust with the standard browser behaviou
 * Destructuring assignments to pass an object as a function parameter
 * Template literal
 * Getters and setters
+* script `type="module"`
+* `export` to share codeblock
+* `import`
 
 
