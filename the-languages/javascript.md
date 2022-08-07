@@ -46,5 +46,10 @@ ES5 is a kind of Javascript version to adjust with the standard browser behaviou
 * script `type="module"`
 * `export` to share codeblock
 * `import`
+* `export default`
+* `Promise` => (resolve, reject)
+* `then`
+* `catch`
 
-
+# JS Reguar expression (`regex`)
+* using `.test`
