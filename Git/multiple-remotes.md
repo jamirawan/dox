@@ -3,6 +3,7 @@ layout: default
 title: Multiple remotes
 parent: Git
 has_children: false
+nav_order: 2
 has_toc: true
 
 ---
