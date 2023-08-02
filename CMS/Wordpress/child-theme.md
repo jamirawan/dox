@@ -99,3 +99,4 @@ Then activate the theme:
 ```bash
 wp theme activate nasigoreng
 ```
+Please note that using `wp scaffold - ` is only a very basic process of creating the child theme. 
