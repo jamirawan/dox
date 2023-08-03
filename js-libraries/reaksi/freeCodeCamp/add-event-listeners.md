@@ -1,16 +1,16 @@
 ---
 
 layout: about
-title: Access props using `this.props`
+title: Add even listeners
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 3
 has_children: false
 has_toc: false
 
 ---
-# --description--
+# Add even listeners
 
 The `componentDidMount()` method is also the best place to attach any event listeners you need to add for specific functionality. React provides a synthetic event system which wraps the native event system present in browsers. This means that the synthetic event system behaves exactly the same regardless of the user's browser - even if the native events may behave differently between different browsers.
 

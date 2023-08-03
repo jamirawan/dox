@@ -1,16 +1,16 @@
 ---
 
 layout: about
-title: Access props using `this.props`
+title: Define an HTML class in JSX
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 16
 has_children: false
 has_toc: false
 
 ---
-# --description--
+# Define an HTML class in JSX
 
 Now that you're getting comfortable writing JSX, you may be wondering how it differs from HTML.
 

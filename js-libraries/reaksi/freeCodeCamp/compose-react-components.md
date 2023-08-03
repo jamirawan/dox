@@ -1,17 +1,17 @@
 ---
 
 layout: about
-title: Access props using `this.props`
+title: Compose react components
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 7
 has_children: false
 has_toc: false
 
 ---
 
-# --description--
+# Compose react components
 
 As the challenges continue to use more complex compositions with React components and JSX, there is one important point to note. Rendering ES6 style class components within other components is no different than rendering the simple components you used in the last few challenges. You can render JSX elements, stateless functional components, and ES6 class components within other components.
 

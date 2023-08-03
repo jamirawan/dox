@@ -1,12 +1,17 @@
 ---
-id: 5a24c314108439a4d403618d
+
+layout: about
 title: Render React on the Server with renderToString
-challengeType: 6
-forumTopicId: 301407
-dashedName: render-react-on-the-server-with-rendertostring
+parent: freeCodeCamp challenges
+grand_parent: React JS
+great_grand_parent: JS Libraries
+nav_order: 29
+has_children: false
+has_toc: false
+
 ---
 
-# --description--
+# Render React on the Server with renderToString
 
 So far, you have been rendering React components on the client. Normally, this is what you will always do. However, there are some use cases where it makes sense to render a React component on the server. Since React is a JavaScript view library and you can run JavaScript on the server with Node, this is possible. In fact, React provides a `renderToString()` method you can use for this purpose.
 

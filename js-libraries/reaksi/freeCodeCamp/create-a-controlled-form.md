@@ -1,17 +1,17 @@
 ---
 
 layout: about
-title: Access props using `this.props`
+title: Create a controlled form
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 10
 has_children: false
 has_toc: false
 
 ---
 
-# --description--
+# Create a controlled form
 
 The last challenge showed that React can control the internal state for certain elements like `input` and `textarea`, which makes them controlled components. This applies to other form elements as well, including the regular HTML `form` element.
 

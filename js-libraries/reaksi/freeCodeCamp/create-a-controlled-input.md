@@ -1,17 +1,17 @@
 ---
 
 layout: about
-title: Access props using `this.props`
+title: Create a controlled input
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 11
 has_children: false
 has_toc: false
 
 ---
 
-# --description--
+# Create a controlled input
 
 Your application may have more complex interactions between `state` and the rendered UI. For example, form control elements for text input, such as `input` and `textarea`, maintain their own state in the DOM as the user types. With React, you can move this mutable state into a React component's `state`. The user's input becomes part of the application `state`, so React controls the value of that input field. Typically, if you have React components with input fields the user can type into, it will be a controlled input form.
 

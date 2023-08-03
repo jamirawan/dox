@@ -5,7 +5,7 @@ title: Access props using `this.props`
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 19
 has_children: false
 has_toc: false
 

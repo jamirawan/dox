@@ -4,14 +4,14 @@ title: Pass Props to a Stateless Functional Component
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 24
 has_children: false
 has_toc: false
 
 ---
 
 
-# --description--
+# Pass Props to a Stateless Functional Component
 
 The previous challenges covered a lot about creating and composing JSX elements, functional components, and ES6 style class components in React. With this foundation, it's time to look at another feature very common in React: **props**. In React, you can pass props, or properties, to child components. Say you have an `App` component which renders a child component called `Welcome` which is a stateless functional component. You can pass `Welcome` a `user` property by writing:
 

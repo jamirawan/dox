@@ -1,16 +1,16 @@
 ---
 
 layout: about
-title: Access props using `this.props`
+title: Create a react component
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 12
 has_children: false
 has_toc: false
 
 ---
-# --description--
+# Create a react component
 
 The other way to define a React component is with the ES6 `class` syntax. In the following example, `Kitten` extends `React.Component`:
 

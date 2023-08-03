@@ -1,17 +1,17 @@
 ---
 
 layout: about
-title: Access props using `this.props`
+title: Create a component with composition
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 9
 has_children: false
 has_toc: false
 
 ---
 
-# --description--
+# Create a component with composition
 
 Now we will look at how we can compose multiple React components together. Imagine you are building an app and have created three components: a `Navbar`, `Dashboard`, and `Footer`.
 

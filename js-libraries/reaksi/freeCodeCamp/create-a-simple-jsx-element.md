@@ -1,17 +1,17 @@
 ---
 
 layout: about
-title: Access props using `this.props`
+title: Create a simple JSX element
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 13
 has_children: false
 has_toc: false
 
 ---
 
-# --description--
+# Create a simple JSX element
 
 React is an Open Source view library created and maintained by Facebook. It's a great tool to render the User Interface (UI) of modern web applications.
 

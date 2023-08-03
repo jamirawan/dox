@@ -1,16 +1,16 @@
 ---
 
 layout: about
-title: Access props using `this.props`
+title: Give sibling elements a unique key attribute
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 17
 has_children: false
 has_toc: false
 
 ---
-# --description--
+# Give sibling elements a unique key attribute
 
 The last challenge showed how the `map` method is used to dynamically render a number of elements based on user input. However, there was an important piece missing from that example. When you create an array of elements, each one needs a `key` attribute set to a unique value. React uses these keys to keep track of which items are added, changed, or removed. This helps make the re-rendering process more efficient when the list is modified in any way.  
 

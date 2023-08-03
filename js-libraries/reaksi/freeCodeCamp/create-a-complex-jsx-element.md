@@ -1,16 +1,16 @@
 ---
 
 layout: about
-title: Access props using `this.props`
+title: Create a complex JSX element
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 8
 has_children: false
 has_toc: false
 
 ---
-# --description--
+# Create a complex JSX element
 
 The last challenge was a simple example of JSX, but JSX can represent more complex HTML as well.
 

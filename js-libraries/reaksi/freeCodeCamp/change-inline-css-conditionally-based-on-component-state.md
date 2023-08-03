@@ -1,17 +1,17 @@
 ---
 
 layout: about
-title: Access props using `this.props`
+title: Change inline CSS conditionally based on component state
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 6
 has_children: false
 has_toc: false
 
 ---
 
-# --description--
+# Change inline CSS conditionally based on component state
 
 At this point, you've seen several applications of conditional rendering and the use of inline styles. Here's one more example that combines both of these topics. You can also render CSS conditionally based on the state of a React component. To do this, you check for a condition, and if that condition is met, you modify the styles object that's assigned to the JSX elements in the render method.
 
@@ -163,9 +163,11 @@ class GateKeeper extends React.Component {
     let inputStyle = {
       border: '1px solid black'
     };
+    // Change code below this line
     if (this.state.input.length > 15) {
       inputStyle.border = '3px solid red';
     };
+    // Change code above this line
     return (
       <div>
         <h3>Don't Type Too Much:</h3>

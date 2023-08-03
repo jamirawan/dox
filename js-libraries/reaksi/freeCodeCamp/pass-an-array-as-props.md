@@ -4,13 +4,13 @@ title: Pass an Array as Props
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 23
 has_children: false
 has_toc: false
 
 ---
 
-# --description--
+# Pass an Array as Props
 
 The last challenge demonstrated how to pass information from a parent component to a child component as `props` or properties. This challenge looks at how arrays can be passed as `props`. To pass an array to a JSX element, it must be treated as JavaScript and wrapped in curly braces.
 

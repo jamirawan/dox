@@ -1,16 +1,16 @@
 ---
 
 layout: about
-title: pass-a-callback-as-props
+title: Pass a callback as props
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 22
 has_children: false
 has_toc: false
 
 ---
-# --description--
+# Pass a callback as props
 
 You can pass `state` as props to child components, but you're not limited to passing data. You can also pass handler functions or any method that's defined on a React component to a child component. This is how you allow child components to interact with their parent components. You pass methods to a child just like a regular prop. It's assigned a name and you have access to that method name under `this.props` in the child component.
 

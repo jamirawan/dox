@@ -1,12 +1,17 @@
 ---
-id: 5a24c314108439a4d403617a
-title: Pass State as Props to Child Components
-challengeType: 6
-forumTopicId: 301403
-dashedName: pass-state-as-props-to-child-components
+layout: about
+title: Pass Props to a Stateless Functional Component
+parent: freeCodeCamp challenges
+grand_parent: React JS
+great_grand_parent: JS Libraries
+nav_order: 24
+has_children: false
+has_toc: false
+
 ---
 
-# --description--
+# Pass State as Props to Child Components
+
 
 You saw a lot of examples that passed props to child JSX elements and child React components in previous challenges. You may be wondering where those props come from. A common pattern is to have a stateful component containing the `state` important to your app, that then renders child components. You want these components to have access to some pieces of that `state`, which are passed in as props.
 

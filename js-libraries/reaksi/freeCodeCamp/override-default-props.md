@@ -1,16 +1,16 @@
 ---
 
 layout: about
-title: Access props using `this.props`
+title: Override default props
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 21
 has_children: false
 has_toc: false
 
 ---
-# --description--
+# Override default props
 
 The ability to set default props is a useful feature in React. The way to override the default props is to explicitly set the prop values for a component.
 

@@ -1,17 +1,17 @@
 ---
 
 layout: about
-title: Access props using `this.props`
+title: Create a stateless functional component
 parent: freeCodeCamp challenges
 grand_parent: React JS
 great_grand_parent: JS Libraries
-nav_order: 1
+nav_order: 15
 has_children: false
 has_toc: false
 
 ---
 
-# --description--
+# Create a stateless functional component
 
 Components are the core of React. Everything in React is a component and here you will learn how to create one.
 
