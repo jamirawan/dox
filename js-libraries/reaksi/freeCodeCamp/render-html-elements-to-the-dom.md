@@ -1,12 +1,15 @@
 ---
-id: 5a24bbe0dba28a8d3cbd4c5f
-title: Render HTML Elements to the DOM
-challengeType: 6
-forumTopicId: 301406
-dashedName: render-html-elements-to-the-dom
+layout: about
+title: Title
+parent: freeCodeCamp challenges
+grand_parent: React JS
+great_grand_parent: JS Libraries
+nav_order: 26
+has_children: false
+has_toc: false
+
 ---
 
-# --description--
 
 So far, you've learned that JSX is a convenient tool to write readable HTML within JavaScript. With React, we can render this JSX directly to the HTML DOM using React's rendering API known as ReactDOM.
 

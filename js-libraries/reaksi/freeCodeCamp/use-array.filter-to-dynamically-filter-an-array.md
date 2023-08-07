@@ -1,4 +1,15 @@
 ---
+layout: about
+title: Title
+parent: freeCodeCamp challenges
+grand_parent: React JS
+great_grand_parent: JS Libraries
+nav_order: 26
+has_children: false
+has_toc: false
+
+---
+---
 id: 5a24c314108439a4d403618c
 title: Use Array.filter() to Dynamically Filter an Array
 challengeType: 6

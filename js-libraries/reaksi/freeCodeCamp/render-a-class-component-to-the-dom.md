@@ -1,12 +1,17 @@
 ---
-id: 5a24c314108439a4d4036167
+layout: about
 title: Render a Class Component to the DOM
-challengeType: 6
-forumTopicId: 301404
-dashedName: render-a-class-component-to-the-dom
+parent: freeCodeCamp challenges
+grand_parent: React JS
+great_grand_parent: JS Libraries
+nav_order: 25
+has_children: false
+has_toc: false
+
 ---
 
-# --description--
+# Render a Class Component to the DOM
+
 
 You may remember using the ReactDOM API in an earlier challenge to render JSX elements to the DOM. The process for rendering React components will look very similar. The past few challenges focused on components and composition, so the rendering was done for you behind the scenes. However, none of the React code you write will render to the DOM without making a call to the ReactDOM API.
 

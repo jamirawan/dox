@@ -1,12 +1,16 @@
 ---
-id: 5a24c314108439a4d4036188
+layout: about
 title: Render Conditionally from Props
-challengeType: 6
-forumTopicId: 301405
-dashedName: render-conditionally-from-props
+parent: freeCodeCamp challenges
+grand_parent: React JS
+great_grand_parent: JS Libraries
+nav_order: 26
+has_children: false
+has_toc: false
+
 ---
 
-# --description--
+# Render Conditionally from Props
 
 So far, you've seen how to use `if/else`, `&&`, and the ternary operator (`condition ? expressionIfTrue : expressionIfFalse`) to make conditional decisions about what to render and when. However, there's one important topic left to discuss that lets you combine any or all of these concepts with another powerful React feature: props. Using props to conditionally render code is very common with React developers — that is, they use the value of a given prop to automatically make decisions about what to render.
 
