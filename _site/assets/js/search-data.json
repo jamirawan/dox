@@ -155,14 +155,14 @@
     "url": "http://localhost:4000/Static/Gatsby/",
     "relUrl": "/Static/Gatsby/"
   },"26": {
-    "doc": "freeCodeCamp challenges",
-    "title": "freeCodeCamp challenges - JS Libraries",
-    "content": "Javascript Libraries are some pre-written Javascript snippets that are used for some specific functions. Different from Javascript Framework where it’s used for the entire website or web app platform. So Framework is for the whole website or web app and Library is for the smaller pieces of the site. Example of JS Libraries: . | jQuery | React | React Native | Anime JS | Particle JS | . ",
-    "url": "http://localhost:4000/js-libraries/reaksi/freeCodeCamp/#freecodecamp-challenges---js-libraries",
-    "relUrl": "/js-libraries/reaksi/freeCodeCamp/#freecodecamp-challenges---js-libraries"
+    "doc": "freeCodeCamp challenges - React",
+    "title": "freeCodeCamp challenges - JS Libraries - React",
+    "content": " ",
+    "url": "http://localhost:4000/js-libraries/reaksi/freeCodeCamp/#freecodecamp-challenges---js-libraries---react",
+    "relUrl": "/js-libraries/reaksi/freeCodeCamp/#freecodecamp-challenges---js-libraries---react"
   },"27": {
-    "doc": "freeCodeCamp challenges",
-    "title": "freeCodeCamp challenges",
+    "doc": "freeCodeCamp challenges - React",
+    "title": "freeCodeCamp challenges - React",
     "content": " ",
     "url": "http://localhost:4000/js-libraries/reaksi/freeCodeCamp/",
     "relUrl": "/js-libraries/reaksi/freeCodeCamp/"

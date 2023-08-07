@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Pass an Array as Props
-parent: freeCodeCamp challenges
+parent: freeCodeCamp challenges - React
 grand_parent: React JS
 great_grand_parent: JS Libraries
 nav_order: 23

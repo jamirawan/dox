@@ -2,7 +2,7 @@
 
 layout: about
 title: Create a controlled input
-parent: freeCodeCamp challenges
+parent: freeCodeCamp challenges - React
 grand_parent: React JS
 great_grand_parent: JS Libraries
 nav_order: 11

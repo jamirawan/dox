@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Render Conditionally from Props
-parent: freeCodeCamp challenges
+parent: freeCodeCamp challenges - React
 grand_parent: React JS
 great_grand_parent: JS Libraries
 nav_order: 26

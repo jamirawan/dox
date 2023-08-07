@@ -2,7 +2,7 @@
 
 layout: about
 title: Render React on the Server with renderToString
-parent: freeCodeCamp challenges
+parent: freeCodeCamp challenges - React
 grand_parent: React JS
 great_grand_parent: JS Libraries
 nav_order: 29
