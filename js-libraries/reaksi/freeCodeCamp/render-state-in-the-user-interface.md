@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Title
+title: Render State in the User Interface
 parent: freeCodeCamp challenges - React
 grand_parent: React JS
 great_grand_parent: JS Libraries
@@ -11,13 +11,13 @@ has_toc: false
 ---
 ---
 id: 5a24c314108439a4d4036171
-title: Render State in the User Interface
+title: 
 challengeType: 6
 forumTopicId: 301409
 dashedName: render-state-in-the-user-interface
 ---
 
-# --description--
+# Render State in the User Interface
 
 Once you define a component's initial state, you can display any part of it in the UI that is rendered. If a component is stateful, it will always have access to the data in `state` in its `render()` method. You can access the data with `this.state`.
 

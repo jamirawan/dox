@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Title
+title: Set State with this.setState
 parent: freeCodeCamp challenges - React
 grand_parent: React JS
 great_grand_parent: JS Libraries
@@ -9,15 +9,8 @@ has_children: false
 has_toc: false
 
 ---
----
-id: 5a24c314108439a4d4036173
-title: Set State with this.setState
-challengeType: 6
-forumTopicId: 301412
-dashedName: set-state-with-this-setstate
----
 
-# --description--
+# Set State with this.setState
 
 The previous challenges covered component `state` and how to initialize state in the `constructor`. There is also a way to change the component's `state`. React provides a method for updating component `state` called `setState`. You call the `setState` method within your component class like so: `this.setState()`, passing in an object with key-value pairs. The keys are your state properties and the values are the updated state data. For instance, if we were storing a `username` in state and wanted to update it, it would look like this:
 

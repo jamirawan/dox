@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Title
+title: Use `&&` for a More Concise Conditional
 parent: freeCodeCamp challenges - React
 grand_parent: React JS
 great_grand_parent: JS Libraries
@@ -9,15 +9,7 @@ has_children: false
 has_toc: false
 
 ---
----
-id: 5a24c314108439a4d4036185
-title: Use && for a More Concise Conditional
-challengeType: 6
-forumTopicId: 301413
-dashedName: use--for-a-more-concise-conditional
----
-
-# --description--
+# Use `&&` for a More Concise Conditional
 
 The `if/else` statements worked in the last challenge, but there's a more concise way to achieve the same result. Imagine that you are tracking several conditions in a component and you want different elements to render depending on each of these conditions. If you write a lot of `else if` statements to return slightly different UIs, you may repeat code which leaves room for error. Instead, you can use the `&&` logical operator to perform conditional logic in a more concise way. This is possible because you want to check if a condition is `true`, and if it is, return some markup. Here's an example:
 

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Title
+title: Render with an If-Else Condition
 parent: freeCodeCamp challenges - React
 grand_parent: React JS
 great_grand_parent: JS Libraries
@@ -11,13 +11,13 @@ has_toc: false
 ---
 ---
 id: 5a24c314108439a4d4036184
-title: Render with an If-Else Condition
+title: 
 challengeType: 6
 forumTopicId: 301410
 dashedName: render-with-an-if-else-condition
 ---
 
-# --description--
+# Render with an If-Else Condition
 
 Another application of using JavaScript to control your rendered view is to tie the elements that are rendered to a condition. When the condition is true, one view renders. When it's false, it's a different view. You can do this with a standard `if/else` statement in the `render()` method of a React component.
 

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Title
+title: Review Using Props with Stateless Functional Components
 parent: freeCodeCamp challenges - React
 grand_parent: React JS
 great_grand_parent: JS Libraries
@@ -9,15 +9,8 @@ has_children: false
 has_toc: false
 
 ---
----
-id: 5a24c314108439a4d403616f
-title: Review Using Props with Stateless Functional Components
-challengeType: 6
-forumTopicId: 301411
-dashedName: review-using-props-with-stateless-functional-components
----
 
-# --description--
+# Review Using Props with Stateless Functional Components
 
 Except for the last challenge, you've been passing props to stateless functional components. These components act like pure functions. They accept props as input and return the same view every time they are passed the same props. You may be wondering what state is, and the next challenge will cover it in more detail. Before that, here's a review of the terminology for components.
 

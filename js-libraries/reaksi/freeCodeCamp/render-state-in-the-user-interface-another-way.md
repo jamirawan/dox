@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Title
+title: Render State in the User Interface Another Way
 parent: freeCodeCamp challenges - React
 grand_parent: React JS
 great_grand_parent: JS Libraries
@@ -8,16 +8,8 @@ nav_order: 26
 has_children: false
 has_toc: false
 
----
----
-id: 5a24c314108439a4d4036172
-title: Render State in the User Interface Another Way
-challengeType: 6
-forumTopicId: 301408
-dashedName: render-state-in-the-user-interface-another-way
----
 
-# --description--
+# Render State in the User Interface Another Way
 
 There is another way to access `state` in a component. In the `render()` method, before the `return` statement, you can write JavaScript directly. For example, you could declare functions, access data from `state` or `props`, perform computations on this data, and so on. Then, you can assign any data to variables, which you have access to in the `return` statement.
 
