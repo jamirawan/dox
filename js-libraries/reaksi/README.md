@@ -1,13 +1,14 @@
 ---
 layout: default
-title: JS Libraries
-nav_order: 11
+title: React JS
+parent: JS Libraries
+nav_order: 12
 has_children: true
-has_grand_children: true
 has_toc: true
+
 ---
 
-# Javascript Libraries
+# React js
 
 Javascript Libraries are some pre-written Javascript snippets that are used for some specific functions. Different from Javascript Framework where it's used for the entire website or web app platform.
 
