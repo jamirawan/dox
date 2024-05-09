@@ -312,7 +312,7 @@ This **Dokumentasi** is my personal collection of manuals on how to do stuff in 
 7. Spare time is a luxury at the moment but I love kayaking in Darwin's epipelagic zone  and Broome Roebuck Bay just floating around or playing my DJ controller mixing stuff up.
 
 
-Contact me on [mailto:me@irawan.io](me@irawan.io) or reach me out on my social/other profiles.
+Contact me on [me@irawan.io](mailto:me@irawan.io) or reach me out on my social/other profiles.
 
 |  <a href="https://jamirawan.github.io/"><img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" width="150px" height="150px" /></a> |
 |:-:|
