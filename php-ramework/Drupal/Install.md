@@ -39,13 +39,13 @@ mkdir web-app
 cd web-app
 
 #Configure the project type and document root
-ddev config --project-type=drupal8 --docroot=web --create-docroot
+ddev config --project-type=drupal10 --docroot=web
 
 # Start container
 ddev start
 
 # Create project
-ddev composer create "drupal/recommended-project:^8"
+ddev composer create "drupal/recommended-project:^10"
 
 #Install Drush
 ddev composer require drush/drush
