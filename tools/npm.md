@@ -76,8 +76,10 @@ Then it will look like this:
   "name": "package-name",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "scripts": {
+    "test": "gulp test",
+    "start": "gulp serve",
+    "build": "gulp build"
   },
   "keywords": [],
   "author": "Irawan",
@@ -167,6 +169,12 @@ npm list --depth 0
 #Main modules with the dependencies next level 
 npm list --depth 1
 
-# etc...
+# the most important part of the package.json is the `scripts`
+```json
+  "scripts": {
+    "test": "gulp test",
+    "start": "gulp serve",
+    "build": "gulp build"
+  },
 ```
-
+When you run the scripts e.g `npm start` it will run the module `gulp serve`
