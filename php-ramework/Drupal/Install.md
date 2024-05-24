@@ -51,7 +51,7 @@ ddev composer create "drupal/recommended-project:^10"
 ddev composer require drush/drush
 
 # Install site
-ddev drush site:install -y
+ddev drush site:install --account-name=yourname --account-pass=yourpassword -y
 
 # Get the local login URL
 ddev drush uli
