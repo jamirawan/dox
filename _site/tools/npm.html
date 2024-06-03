@@ -19,8 +19,10 @@ npm <span class="nb">set </span>init-license <span class="s2">"MIT"</span>
 </code></pre></div></div> <p>Then it will look like this:</p> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="w">  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"package-name"</span><span class="err">,</span><span class="w">
   </span><span class="nl">"version"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1.0.0"</span><span class="err">,</span><span class="w">
   </span><span class="nl">"main"</span><span class="p">:</span><span class="w"> </span><span class="s2">"index.js"</span><span class="err">,</span><span class="w">
-  </span><span class="nl">"scripts"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="nl">"test"</span><span class="p">:</span><span class="w"> </span><span class="s2">"echo </span><span class="se">\"</span><span class="s2">Error: no test specified</span><span class="se">\"</span><span class="s2"> &amp;&amp; exit 1"</span><span class="w">
+   </span><span class="nl">"scripts"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"test"</span><span class="p">:</span><span class="w"> </span><span class="s2">"gulp test"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"start"</span><span class="p">:</span><span class="w"> </span><span class="s2">"gulp serve"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"build"</span><span class="p">:</span><span class="w"> </span><span class="s2">"gulp build"</span><span class="w">
   </span><span class="p">}</span><span class="err">,</span><span class="w">
   </span><span class="nl">"keywords"</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span><span class="err">,</span><span class="w">
   </span><span class="nl">"author"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Irawan"</span><span class="err">,</span><span class="w">
@@ -69,5 +71,11 @@ npm list <span class="nt">--depth</span> 0
 <span class="c">#Main modules with the dependencies next level </span>
 npm list <span class="nt">--depth</span> 1
 
-<span class="c"># etc...</span>
-</code></pre></div></div> <hr> <footer> </footer> </div> </div> <div class="search-overlay"></div> </div> </body> </html>
+<span class="c"># the most important part of the package.json is the `scripts`</span>
+<span class="sb">```</span>json
+  <span class="s2">"scripts"</span>: <span class="o">{</span>
+    <span class="s2">"test"</span>: <span class="s2">"gulp test"</span>,
+    <span class="s2">"start"</span>: <span class="s2">"gulp serve"</span>,
+    <span class="s2">"build"</span>: <span class="s2">"gulp build"</span>
+  <span class="o">}</span>,
+</code></pre></div></div> <p>When you run the scripts e.g <code class="language-plaintext highlighter-rouge">npm start</code> it will run the module <code class="language-plaintext highlighter-rouge">gulp serve</code></p> <hr> <footer> </footer> </div> </div> <div class="search-overlay"></div> </div> </body> </html>

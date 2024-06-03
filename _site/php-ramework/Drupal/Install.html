@@ -8,19 +8,19 @@
 <span class="nb">cd </span>web-app
 
 <span class="c">#Configure the project type and document root</span>
-ddev config <span class="nt">--project-type</span><span class="o">=</span>drupal8 <span class="nt">--docroot</span><span class="o">=</span>web <span class="nt">--create-docroot</span>
+ddev config <span class="nt">--project-type</span><span class="o">=</span>drupal10 <span class="nt">--docroot</span><span class="o">=</span>web
 
 <span class="c"># Start container</span>
 ddev start
 
 <span class="c"># Create project</span>
-ddev composer create <span class="s2">"drupal/recommended-project:^8"</span>
+ddev composer create <span class="s2">"drupal/recommended-project:^10"</span>
 
 <span class="c">#Install Drush</span>
 ddev composer require drush/drush
 
 <span class="c"># Install site</span>
-ddev drush site:install <span class="nt">-y</span>
+ddev drush site:install <span class="nt">--account-name</span><span class="o">=</span>yourname <span class="nt">--account-pass</span><span class="o">=</span>yourpassword <span class="nt">-y</span>
 
 <span class="c"># Get the local login URL</span>
 ddev drush uli

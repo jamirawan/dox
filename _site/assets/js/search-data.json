@@ -43,7 +43,7 @@
   },"7": {
     "doc": "Local install",
     "title": "Setting up with Composer and Drush",
-    "content": "# Create project directory e.g. /web-app mkdir web-app # Go to directiry cd web-app #Configure the project type and document root ddev config --project-type=drupal8 --docroot=web --create-docroot # Start container ddev start # Create project ddev composer create \"drupal/recommended-project:^8\" #Install Drush ddev composer require drush/drush # Install site ddev drush site:install -y # Get the local login URL ddev drush uli # Or launch the local site ddev launch . Other way to setup Use composer to setup your Drupal project. Say we name this web-app (replace with your own project name) . # Replace web-app! export SITE_NAME=web-app composer create-project drupal/recommended-project $SITE_NAME cd $SITE_NAME . And setup your project: . ddev config --docroot=web --project-name=$SITE_NAME --project-type=drupal8 . Start the container by running . ddev start . Install Drupal . And start intalling the site with your credentials: . ddev exec drush site-install --account-name=admin --account-pass=my-password . With this setup, you dont have to worry about creating database, database user etc it will be setup in Docker containers. ",
+    "content": "# Create project directory e.g. /web-app mkdir web-app # Go to directiry cd web-app #Configure the project type and document root ddev config --project-type=drupal10 --docroot=web # Start container ddev start # Create project ddev composer create \"drupal/recommended-project:^10\" #Install Drush ddev composer require drush/drush # Install site ddev drush site:install --account-name=yourname --account-pass=yourpassword -y # Get the local login URL ddev drush uli # Or launch the local site ddev launch . Other way to setup Use composer to setup your Drupal project. Say we name this web-app (replace with your own project name) . # Replace web-app! export SITE_NAME=web-app composer create-project drupal/recommended-project $SITE_NAME cd $SITE_NAME . And setup your project: . ddev config --docroot=web --project-name=$SITE_NAME --project-type=drupal8 . Start the container by running . ddev start . Install Drupal . And start intalling the site with your credentials: . ddev exec drush site-install --account-name=admin --account-pass=my-password . With this setup, you dont have to worry about creating database, database user etc it will be setup in Docker containers. ",
     "url": "http://localhost:4000/php-ramework/Drupal/Install.html#setting-up-with-composer-and-drush",
     "relUrl": "/php-ramework/Drupal/Install.html#setting-up-with-composer-and-drush"
   },"8": {
@@ -157,7 +157,7 @@
   },"26": {
     "doc": "About",
     "title": "Web dev documentation",
-    "content": "Websites are always in progress. This Dokumentasi is my personal collection of manuals on how to do stuff in web development. I have been making websites since 2004 since Adobe Fireworks was still popular, Goecities era and web layout was in tables. | This page is built based on what I know and been through with issues or steps I did during web development and documented them for my own reference and others may find these useful too | This Dokumentasi is assuming that you know the basic of web development: HTML, PHP, CSS, Javascript and SQL and using command line. Also only for Mac OSX for the moment. | You may find that some pages are not finished as I update this on my spare time between full-time job, having a baby and doing my freelance webdesign work at home | I also do some digital visual stuff such as photography, Adobe Illustrator, Premiere Pro and a bit of After Effects. Visit my landing page for my other profiles and portfolios or my blog, for some fun stuff | Spare time is a luxury at the moment but I love kayaking in Darwin’s epipelagic zone and Broome Roebuck Bay just floating around or playing my DJ controller mixing stuff up. | . Contact me on mailto:me@irawan.io or reach me out on my social/other profiles. | | . |     | . ",
+    "content": "Websites are always in progress. This Dokumentasi is my personal collection of manuals on how to do stuff in web development. I have been making websites since 2004 since Adobe Fireworks was still popular, Goecities era and web layout was in tables. | This page is built based on what I know and been through with issues or steps I did during web development and documented them for my own reference and others may find these useful too | This Dokumentasi is assuming that you know the basic of web development: HTML, PHP, CSS, Javascript and SQL and using command line. Also only for Mac OSX for the moment. | You may find that some pages are not finished as I update this on my spare time between full-time job, having a baby and doing my freelance webdesign work at home | I also do some digital visual stuff such as photography, Adobe Illustrator, Premiere Pro and a bit of After Effects. Visit my landing page for my other profiles and portfolios or my blog, for some fun stuff | Spare time is a luxury at the moment but I love kayaking in Darwin’s epipelagic zone and Broome Roebuck Bay just floating around or playing my DJ controller mixing stuff up. | . |     | . ",
     "url": "http://localhost:4000/#web-dev-documentation",
     "relUrl": "/#web-dev-documentation"
   },"27": {
@@ -433,7 +433,7 @@
   },"72": {
     "doc": "Child theme",
     "title": "Using wp scaffold - to start child theme",
-    "content": "Running the following wp cli will start and create function.php and style.css to your child theme. E.g child theme name nasigoreng with parent twentytwentyone . wp scaffold child-theme nasigoreng --parent_theme=twentytwentyone . Then activate the theme: . wp theme activate nasigoreng . ",
+    "content": "Running the following wp cli will start and create function.php and style.css to your child theme. E.g child theme name nasigoreng with parent twentytwentyone . wp scaffold child-theme nasigoreng --parent_theme=twentytwentyone . Then activate the theme: . wp theme activate nasigoreng . Please note that using wp scaffold - is only a very basic process of creating the child theme. ",
     "url": "http://localhost:4000/CMS/Wordpress/child-theme.html#using-wp-scaffold---to-start-child-theme",
     "relUrl": "/CMS/Wordpress/child-theme.html#using-wp-scaffold---to-start-child-theme"
   },"73": {
@@ -1189,7 +1189,7 @@
   },"198": {
     "doc": "NPM",
     "title": "Then you can change the config details",
-    "content": "Example . npm config set init-author-name \"Irawan\" npm set init-license \"MIT\" . Then it will look like this: . \"name\": \"package-name\", \"version\": \"1.0.0\", \"main\": \"index.js\", \"scripts\": { \"test\": \"echo \\\"Error: no test specified\\\" &amp;&amp; exit 1\" }, \"keywords\": [], \"author\": \"Irawan\", \"license\": \"MIT\", \"description\": \"\", \"dependencies\": { \"gulp\": \"^4.0.2\", \"lodash\": \"^4.17.3\" } } . ",
+    "content": "Example . npm config set init-author-name \"Irawan\" npm set init-license \"MIT\" . Then it will look like this: . \"name\": \"package-name\", \"version\": \"1.0.0\", \"main\": \"index.js\", \"scripts\": { \"test\": \"gulp test\", \"start\": \"gulp serve\", \"build\": \"gulp build\" }, \"keywords\": [], \"author\": \"Irawan\", \"license\": \"MIT\", \"description\": \"\", \"dependencies\": { \"gulp\": \"^4.0.2\", \"lodash\": \"^4.17.3\" } } . ",
     "url": "http://localhost:4000/tools/npm.html#then-you-can-change-the-config-details",
     "relUrl": "/tools/npm.html#then-you-can-change-the-config-details"
   },"199": {
@@ -1243,7 +1243,7 @@
   },"207": {
     "doc": "NPM",
     "title": "To show the installed packages",
-    "content": "#Main modules only: npm list #result: ╰─ npm list user@1.0.0 /Users/project-name ├── gulp-cli@2.3.0 ├── gulp-sass@5.1.0 ├── gulp@4.0.2 └── lodash@4.17.21 # Main modules with the direct dependencies: npm list --depth 0 #Main modules with the dependencies next level npm list --depth 1 # etc... ",
+    "content": "#Main modules only: npm list #result: ╰─ npm list user@1.0.0 /Users/project-name ├── gulp-cli@2.3.0 ├── gulp-sass@5.1.0 ├── gulp@4.0.2 └── lodash@4.17.21 # Main modules with the direct dependencies: npm list --depth 0 #Main modules with the dependencies next level npm list --depth 1 # the most important part of the package.json is the `scripts` ```json \"scripts\": { \"test\": \"gulp test\", \"start\": \"gulp serve\", \"build\": \"gulp build\" }, . When you run the scripts e.g npm start it will run the module gulp serve . ",
     "url": "http://localhost:4000/tools/npm.html#to-show-the-installed-packages",
     "relUrl": "/tools/npm.html#to-show-the-installed-packages"
   },"208": {
