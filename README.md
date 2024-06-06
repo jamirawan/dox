@@ -313,5 +313,5 @@ This **Dokumentasi** is my personal collection of manuals on how to do stuff in 
 
 
 |:-:|
-| <a href="https://dribbble.com/irawan"><img src="https://cdn.dribbble.com/assets/dribbble-ball-icon-4e54c54abecf8efe027abe6f8bc7794553b8abef3bdb49cd15797067cf80ca53.svg" width="32px" height="32px"></a> &nbsp; &nbsp; <a href="https://www.linkedin.com/in/irawanirawan/"><img src="https://i.ibb.co/Kx2GSrT/linkedin.png" width="32px" height="32px"></a> |
+ <a href="https://www.linkedin.com/in/irawanirawan/"><img src="https://i.ibb.co/Kx2GSrT/linkedin.png" width="32px" height="32px"></a> |
 
