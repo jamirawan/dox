@@ -29,53 +29,53 @@
     "url": "http://localhost:4000/404.html",
     "relUrl": "/404.html"
   },"5": {
-    "doc": "Local install",
-    "title": "Install local machine",
-    "content": " ",
-    "url": "http://localhost:4000/php-ramework/Drupal/Install.html#install-local-machine",
-    "relUrl": "/php-ramework/Drupal/Install.html#install-local-machine"
-  },"6": {
-    "doc": "Local install",
-    "title": "With DDEV",
-    "content": "DDEV is a local development tool that requires Docker and make it easy to setup and run the local Drupal site. Assuming you are all setup with Docker and Composer on your machine, here’s how I set it up. Install DDEV on your machine . curl -L https://raw.githubusercontent.com/drud/ddev/master/scripts/install_ddev.sh | bash . Or with Homebrew: . brew tap drud/ddev &amp;&amp; brew install ddev . To check your ddev version: . ddev -v . ",
-    "url": "http://localhost:4000/php-ramework/Drupal/Install.html#with-ddev",
-    "relUrl": "/php-ramework/Drupal/Install.html#with-ddev"
-  },"7": {
-    "doc": "Local install",
-    "title": "Setting up with Composer and Drush",
-    "content": "# Create project directory e.g. /web-app mkdir web-app # Go to directiry cd web-app #Configure the project type and document root ddev config --project-type=drupal10 --docroot=web # Start container ddev start # Create project ddev composer create \"drupal/recommended-project:^10\" #Install Drush ddev composer require drush/drush # Install site ddev drush site:install --account-name=yourname --account-pass=yourpassword -y # Get the local login URL ddev drush uli # Or launch the local site ddev launch . Other way to setup Use composer to setup your Drupal project. Say we name this web-app (replace with your own project name) . # Replace web-app! export SITE_NAME=web-app composer create-project drupal/recommended-project $SITE_NAME cd $SITE_NAME . And setup your project: . ddev config --docroot=web --project-name=$SITE_NAME --project-type=drupal8 . Start the container by running . ddev start . Install Drupal . And start intalling the site with your credentials: . ddev exec drush site-install --account-name=admin --account-pass=my-password . With this setup, you dont have to worry about creating database, database user etc it will be setup in Docker containers. ",
-    "url": "http://localhost:4000/php-ramework/Drupal/Install.html#setting-up-with-composer-and-drush",
-    "relUrl": "/php-ramework/Drupal/Install.html#setting-up-with-composer-and-drush"
-  },"8": {
-    "doc": "Local install",
-    "title": "Local install",
-    "content": " ",
-    "url": "http://localhost:4000/php-ramework/Drupal/Install.html",
-    "relUrl": "/php-ramework/Drupal/Install.html"
-  },"9": {
     "doc": "Install Codeigniter4",
     "title": "Install",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Codeigniter/Install.html#install",
     "relUrl": "/php-ramework/Codeigniter/Install.html#install"
-  },"10": {
+  },"6": {
     "doc": "Install Codeigniter4",
     "title": "Reqirements",
     "content": ". | PHP 7.3 or later | PHP extensions installed: intl and mbstring extension are installed | PHP extension enabled: php-json, php-mysqlnd, and php-xml` | libcurl installed for CURL requests A database is required for most web application programming. Currently supported databases are: . | MySQL (5.1+) via the MySQLi driver | PostgreSQL via the Postgre driver | SQLite3 via the SQLite3 driver | MSSQL via the SQLSRV driver (version 2005 and above only) | . | . Not all of the drivers have been converted/rewritten for CodeIgniter4. The list below shows the outstanding ones. | MySQL (5.1+) via the pdo driver | Oracle via the oci8 and pdo drivers | PostgreSQL via the pdo driver | MSSQL via the pdo driver | SQLite via the sqlite (version 2) and pdo drivers | CUBRID via the cubrid and pdo drivers | Interbase/Firebird via the ibase and pdo drivers | ODBC via the odbc and pdo drivers (you should know that ODBC is actually an abstraction layer) | . ",
     "url": "http://localhost:4000/php-ramework/Codeigniter/Install.html#reqirements",
     "relUrl": "/php-ramework/Codeigniter/Install.html#reqirements"
-  },"11": {
+  },"7": {
     "doc": "Install Codeigniter4",
     "title": "Install with composer",
     "content": "Ensure that you have ‘composer’ installed on your machine . Setup Installation . For a new Codeigniter4 installation, you can clome the App starter that holds a skeleton application, with a composer dependency on the latest released version of the framework. git clone https://github.com/codeigniter4/appstarter . Or run composer create-project . In the folder you wish to work on, run this command where webapp on this example will be your root project: . composer create-project codeigniter4/appstarter webapp . If you dont want the phpunit or just wanting to install the framework, add --no-dev at the end: . composer create-project codeigniter4/appstarter webapp --no-dev . ",
     "url": "http://localhost:4000/php-ramework/Codeigniter/Install.html#install-with-composer",
     "relUrl": "/php-ramework/Codeigniter/Install.html#install-with-composer"
-  },"12": {
+  },"8": {
     "doc": "Install Codeigniter4",
     "title": "Install Codeigniter4",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Codeigniter/Install.html",
     "relUrl": "/php-ramework/Codeigniter/Install.html"
+  },"9": {
+    "doc": "Local install",
+    "title": "Install local machine",
+    "content": " ",
+    "url": "http://localhost:4000/php-ramework/Drupal/Install.html#install-local-machine",
+    "relUrl": "/php-ramework/Drupal/Install.html#install-local-machine"
+  },"10": {
+    "doc": "Local install",
+    "title": "With DDEV",
+    "content": "DDEV is a local development tool that requires Docker and make it easy to setup and run the local Drupal site. Assuming you are all setup with Docker and Composer on your machine, here’s how I set it up. Install DDEV on your machine . curl -L https://raw.githubusercontent.com/drud/ddev/master/scripts/install_ddev.sh | bash . Or with Homebrew: . brew tap drud/ddev &amp;&amp; brew install ddev . To check your ddev version: . ddev -v . ",
+    "url": "http://localhost:4000/php-ramework/Drupal/Install.html#with-ddev",
+    "relUrl": "/php-ramework/Drupal/Install.html#with-ddev"
+  },"11": {
+    "doc": "Local install",
+    "title": "Setting up with Composer and Drush",
+    "content": "# Create project directory e.g. /web-app mkdir web-app # Go to directiry cd web-app #Configure the project type and document root ddev config --project-type=drupal10 --docroot=web # Start container ddev start # Create project ddev composer create \"drupal/recommended-project:^10\" #Install Drush ddev composer require drush/drush # Install site ddev drush site:install --account-name=yourname --account-pass=yourpassword -y # Get the local login URL ddev drush uli # Or launch the local site ddev launch . Other way to setup Use composer to setup your Drupal project. Say we name this web-app (replace with your own project name) . # Replace web-app! export SITE_NAME=web-app composer create-project drupal/recommended-project $SITE_NAME cd $SITE_NAME . And setup your project: . ddev config --docroot=web --project-name=$SITE_NAME --project-type=drupal8 . Start the container by running . ddev start . Install Drupal . And start intalling the site with your credentials: . ddev exec drush site-install --account-name=admin --account-pass=my-password . With this setup, you dont have to worry about creating database, database user etc it will be setup in Docker containers. ",
+    "url": "http://localhost:4000/php-ramework/Drupal/Install.html#setting-up-with-composer-and-drush",
+    "relUrl": "/php-ramework/Drupal/Install.html#setting-up-with-composer-and-drush"
+  },"12": {
+    "doc": "Local install",
+    "title": "Local install",
+    "content": " ",
+    "url": "http://localhost:4000/php-ramework/Drupal/Install.html",
+    "relUrl": "/php-ramework/Drupal/Install.html"
   },"13": {
     "doc": "Git",
     "title": "Git",
@@ -131,17 +131,17 @@
     "url": "http://localhost:4000/php-ramework/",
     "relUrl": "/php-ramework/"
   },"22": {
-    "doc": "CMS",
-    "title": "Web Content Management System",
-    "content": "CMS is a website platform where people without any web development skills can login to the administration backend and manage the contents of the website. The content can be creating pages, editing text imagery and video contents even rearranging the components of the content. This manual is more to the back end web developer manual such as installing on the local development, extending, theming and using the WP CLI. ",
-    "url": "http://localhost:4000/CMS/#web-content-management-system",
-    "relUrl": "/CMS/#web-content-management-system"
+    "doc": "Joomla!",
+    "title": "Joomla",
+    "content": "I used Joomla quite a bit since 2010 for my client’s website as it was the first CMS I get in to but using it less and less. Still have some clients that are using it and apparently it’s still in the 3 most popular CMS in 2020! . Visit their website to learn the platform. ",
+    "url": "http://localhost:4000/CMS/Joomla/#joomla",
+    "relUrl": "/CMS/Joomla/#joomla"
   },"23": {
-    "doc": "CMS",
-    "title": "CMS",
+    "doc": "Joomla!",
+    "title": "Joomla!",
     "content": " ",
-    "url": "http://localhost:4000/CMS/",
-    "relUrl": "/CMS/"
+    "url": "http://localhost:4000/CMS/Joomla/",
+    "relUrl": "/CMS/Joomla/"
   },"24": {
     "doc": "OSX CLI",
     "title": "Useful Mac OS command line",
@@ -157,7 +157,7 @@
   },"26": {
     "doc": "About",
     "title": "Web dev documentation",
-    "content": "Websites are always in progress. This Dokumentasi is my personal collection of manuals on how to do stuff in web development. I have been making websites since 2004 since Adobe Fireworks was still popular, Goecities era and web layout was in tables. | This page is built based on what I know and been through with issues or steps I did during web development and documented them for my own reference and others may find these useful too | This Dokumentasi is assuming that you know the basic of web development: HTML, PHP, CSS, Javascript and SQL and using command line. Also only for Mac OSX for the moment. | You may find that some pages are not finished as I update this on my spare time between full-time job, having a baby and doing my freelance webdesign work at home | I also do some digital visual stuff such as photography, Adobe Illustrator, Premiere Pro and a bit of After Effects. Visit my landing page for my other profiles and portfolios or my blog, for some fun stuff | Spare time is a luxury at the moment but I love kayaking in Darwin’s epipelagic zone and Broome Roebuck Bay just floating around or playing my DJ controller mixing stuff up. | . |     | . ",
+    "content": "Websites are always in progress. This Dokumentasi is my personal collection of manuals on how to do stuff in web development. I have been making websites since 2004 since Adobe Fireworks was still popular, Goecities era and web layout was in tables. | This page is built based on what I know and been through with issues or steps I did during web development and documented them for my own reference and others may find these useful too | This Dokumentasi is assuming that you know the basic of web development: HTML, PHP, CSS, Javascript and SQL and using command line. Also only for Mac OSX for the moment. | You may find that some pages are not finished as I update this on my spare time between full-time job, having a baby and doing my freelance webdesign work at home | I also do some digital visual stuff such as photography, Adobe Illustrator, Premiere Pro and a bit of After Effects. Visit my landing page for my other profiles and portfolios or my blog, for some fun stuff | Spare time is a luxury at the moment but I love kayaking in Darwin’s epipelagic zone and Broome Roebuck Bay just floating around or playing my DJ controller mixing stuff up. | . | . ",
     "url": "http://localhost:4000/#web-dev-documentation",
     "relUrl": "/#web-dev-documentation"
   },"27": {
@@ -227,17 +227,17 @@
     "url": "http://localhost:4000/CMS/Wordpress/Install/",
     "relUrl": "/CMS/Wordpress/Install/"
   },"38": {
-    "doc": "Wordpress",
-    "title": "Wordpress",
-    "content": "Wordpress is the most popular blogging based content management system that offers editors-friendly backend interface. There is Wordpress.com where it’s hosted with them or the self hosted one where we can download and install it on our environment Wordpress.org . ",
-    "url": "http://localhost:4000/CMS/Wordpress/",
-    "relUrl": "/CMS/Wordpress/"
-  },"39": {
     "doc": "Gatsby",
     "title": "Gatsby",
     "content": "It’s a static front end web and app framework based on React. ",
     "url": "http://localhost:4000/Static/Gatsby/",
     "relUrl": "/Static/Gatsby/"
+  },"39": {
+    "doc": "Wordpress",
+    "title": "Wordpress",
+    "content": "Wordpress is the most popular blogging based content management system that offers editors-friendly backend interface. There is Wordpress.com where it’s hosted with them or the self hosted one where we can download and install it on our environment Wordpress.org . ",
+    "url": "http://localhost:4000/CMS/Wordpress/",
+    "relUrl": "/CMS/Wordpress/"
   },"40": {
     "doc": "Hugo",
     "title": "Hugo",
@@ -251,17 +251,17 @@
     "url": "http://localhost:4000/CMS/netlify-cms/",
     "relUrl": "/CMS/netlify-cms/"
   },"42": {
-    "doc": "Joomla!",
-    "title": "Joomla",
-    "content": "I used Joomla quite a bit since 2010 for my client’s website as it was the first CMS I get in to but using it less and less. Still have some clients that are using it and apparently it’s still in the 3 most popular CMS in 2020! . Visit their website to learn the platform. ",
-    "url": "http://localhost:4000/CMS/Joomla/#joomla",
-    "relUrl": "/CMS/Joomla/#joomla"
+    "doc": "CMS",
+    "title": "Web Content Management System",
+    "content": "CMS is a website platform where people without any web development skills can login to the administration backend and manage the contents of the website. The content can be creating pages, editing text imagery and video contents even rearranging the components of the content. This manual is more to the back end web developer manual such as installing on the local development, extending, theming and using the WP CLI. ",
+    "url": "http://localhost:4000/CMS/#web-content-management-system",
+    "relUrl": "/CMS/#web-content-management-system"
   },"43": {
-    "doc": "Joomla!",
-    "title": "Joomla!",
+    "doc": "CMS",
+    "title": "CMS",
     "content": " ",
-    "url": "http://localhost:4000/CMS/Joomla/",
-    "relUrl": "/CMS/Joomla/"
+    "url": "http://localhost:4000/CMS/",
+    "relUrl": "/CMS/"
   },"44": {
     "doc": "Laravel",
     "title": "Laravel",
@@ -269,17 +269,17 @@
     "url": "http://localhost:4000/php-ramework/Laravel/",
     "relUrl": "/php-ramework/Laravel/"
   },"45": {
-    "doc": "Markdown",
-    "title": "Markdown",
-    "content": "Markdown is actually a markup but lightweight and is used for many platform such as blogging, instant messaging, collaborative software like Jira, Redmine and other agile software development platforms and also readme.md file. Here’s a MD list that I use frequently . ",
-    "url": "http://localhost:4000/Markdown/",
-    "relUrl": "/Markdown/"
-  },"46": {
     "doc": "Symfony",
     "title": "Symfony",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/symfony/",
     "relUrl": "/php-ramework/symfony/"
+  },"46": {
+    "doc": "Markdown",
+    "title": "Markdown",
+    "content": "Markdown is actually a markup but lightweight and is used for many platform such as blogging, instant messaging, collaborative software like Jira, Redmine and other agile software development platforms and also readme.md file. Here’s a MD list that I use frequently . ",
+    "url": "http://localhost:4000/Markdown/",
+    "relUrl": "/Markdown/"
   },"47": {
     "doc": "Drupal",
     "title": "Drupal quick guide",
@@ -323,29 +323,29 @@
     "url": "http://localhost:4000/DDEV/#install-macoxlinux",
     "relUrl": "/DDEV/#install-macoxlinux"
   },"54": {
-    "doc": "The basics",
-    "title": "Core knowledge",
-    "content": "These are some core knowledges that we should or will make your life easier when understanding these stuff before diving in to the sea. ",
-    "url": "http://localhost:4000/the-basics/#core-knowledge",
-    "relUrl": "/the-basics/#core-knowledge"
-  },"55": {
-    "doc": "The basics",
-    "title": "The basics",
-    "content": " ",
-    "url": "http://localhost:4000/the-basics/",
-    "relUrl": "/the-basics/"
-  },"56": {
     "doc": "API",
     "title": "Application Programming Interface (API)",
     "content": "It’s a kind of generic connectivity interface that define the interaction between multiple software or applications. The API contains a set of functions and procedures allowing the creation of applications that access the features or data of an operating system, application, or other service. ",
     "url": "http://localhost:4000/API/#application-programming-interface-api",
     "relUrl": "/API/#application-programming-interface-api"
-  },"57": {
+  },"55": {
     "doc": "API",
     "title": "API",
     "content": " ",
     "url": "http://localhost:4000/API/",
     "relUrl": "/API/"
+  },"56": {
+    "doc": "The basics",
+    "title": "Core knowledge",
+    "content": "These are some core knowledges that we should or will make your life easier when understanding these stuff before diving in to the sea. ",
+    "url": "http://localhost:4000/the-basics/#core-knowledge",
+    "relUrl": "/the-basics/#core-knowledge"
+  },"57": {
+    "doc": "The basics",
+    "title": "The basics",
+    "content": " ",
+    "url": "http://localhost:4000/the-basics/",
+    "relUrl": "/the-basics/"
   },"58": {
     "doc": "Liquid template",
     "title": "Liquid template language",
@@ -935,71 +935,71 @@
     "url": "http://localhost:4000/Markdown/images.html",
     "relUrl": "/Markdown/images.html"
   },"156": {
-    "doc": "Install Laravel",
-    "title": "Installation",
-    "content": " ",
-    "url": "http://localhost:4000/php-ramework/Laravel/install.html#installation",
-    "relUrl": "/php-ramework/Laravel/install.html#installation"
-  },"157": {
-    "doc": "Install Laravel",
-    "title": "On Mac",
-    "content": " ",
-    "url": "http://localhost:4000/php-ramework/Laravel/install.html#on-mac",
-    "relUrl": "/php-ramework/Laravel/install.html#on-mac"
-  },"158": {
-    "doc": "Install Laravel",
-    "title": "Install",
-    "content": "Install With curl . As long as you have Docker in your Mac you can run simple CURL command to start creating project. web-app is an example of your project URL you can customise: . curl -s https://laravel.build/web-app | bash . Install with Composer . composer create-project laravel/laravel # or with Laravel Installer web-app composer global require laravel/installer laravel new web-app # then go to the web-ap folder cd web-app php artisan serve . ",
-    "url": "http://localhost:4000/php-ramework/Laravel/install.html#install",
-    "relUrl": "/php-ramework/Laravel/install.html#install"
-  },"159": {
-    "doc": "Install Laravel",
-    "title": "Sail up!",
-    "content": "Go to the directory cd web-app after the installation done and we can start running the Laravel Sail that providfe a simple CLI for interacting with Laravel’s default Docker configuration: . docker-compose up -d #or ./vendor/bin/sail up -d . With alias setup: sail up -d (refer to ‘Sail’ section for alias setup) . Ensure that the port you are using, by default it’s :80, is not in use by other Docker containers. If it’s already used and the following error came up, you can change the port number or kill other containers first: . Check who uses port (number) . Run this to check who’s using the port number you wish to list: . sudo lsof -i -P -n | grep &lt;port number&gt; . Change port . ERROR: for mailhog Cannot start service mailhog: driver failed programming external connectivity on endpoint web-app_mailhog_1 (ae8085daf269cf4a0f7eae07927d10a0975d5ae3a082659314663956afce36c1): Error starting userland proxy: listen tcp4 0.0.0.0:8025: bind: address already in use ERROR: for laravel.test Cannot start service laravel.test: Ports are not available: listen tcp 0.0.0.0:80: bind: address already in use . You can change the port number Change to other ports by editing the docker-compose.yml file: . ports: - \"8084:80\" . And try to use port 8084 instaed http://localhost:8084 . Stop and remove containers . docker-compose down # Stop container on current dir if there is a docker-compose.yml . And then run the up the sail again: ./vendor/bin/sail up or sail up -d if you have your alias setup. This may take a few minutes but you’ll see this line where you can check your web app: . laravel.test_1 | Starting Laravel development server: http://0.0.0.0:80 . So your project web local web app is: http://0.0.0.0:80 or just localhost . ",
-    "url": "http://localhost:4000/php-ramework/Laravel/install.html#sail-up",
-    "relUrl": "/php-ramework/Laravel/install.html#sail-up"
-  },"160": {
-    "doc": "Install Laravel",
-    "title": "Install Laravel",
-    "content": " ",
-    "url": "http://localhost:4000/php-ramework/Laravel/install.html",
-    "relUrl": "/php-ramework/Laravel/install.html"
-  },"161": {
-    "doc": "Install Jekyll",
-    "title": "Install",
-    "content": ". | Installing on MacOS . | Install Ruby | Install Jekyll | Create a new Jekyll site | . | Install Jekyll on anything other than Mac OS | . ",
-    "url": "http://localhost:4000/Static/jekyll/install.html#install",
-    "relUrl": "/Static/jekyll/install.html#install"
-  },"162": {
-    "doc": "Install Jekyll",
-    "title": "Installing on MacOS",
-    "content": "Install Ruby . Ensure you install Ruby, not the ruby from the Apple default install. It will give you this error: . ERROR: While executing gem ... (Gem::FilePermissionError) You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory. Use Homebrew to install latest Ruby. If you haven’t had Homebrew installed: . /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\" . Then install Ruby . brew install ruby . Add Ruby path on your terminal: . # If you're using Zsh echo 'export PATH=\"/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/X.X.X/bin:$PATH\"' &gt;&gt; ~/.zshrc # If you're using Bash echo 'export PATH=\"/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/X.X.X/bin:$PATH\"' &gt;&gt; ~/.bash_profile # Unsure which shell you are using? Type echo $SHELL . Refresh your shell . source ~/.zshrc # or source ~/.bash_profile . check the path and you shoud see anything other than: /usr/local/bin/ruby and check the version and it should be the latest: . which ruby . Mine would be: . /usr/local/opt/ruby/bin/ruby . Check ruby version . ruby -v . Install Jekyll . Install the Bundler: . gem install --user-install bundler jekyll . Create a new Jekyll site . Once the Jekyll is installed, you can start creating the site e.g in /blog folder: . jekyll new blog . In an indeal world you can just login to the new folder blog where the Jekyll install is and run bundle exec jekyll serve and will show you all details of configuration including the server you can go to in local. But since the following libraries are no longer bundled gems or standard libraries including webrick, this message will appear: . /usr/local/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/serve/servlet.rb:3:in `require': cannot load such file -- webrick (LoadError) . Then you need to run bundle add webrick providing you have bundle installed. This should let you run the bundle exec jekyll serve and the following message will appear: . Configuration file: /Users/irawan/dev/others/bloog/_config.yml Source: /Users/irawan/dev/others/bloog Destination: /Users/irawan/dev/others/bloog/_site Incremental build: disabled. Enable with --incremental Generating... Jekyll Feed: Generating feed for posts done in 0.465 seconds. Auto-regeneration: enabled for '/Users/irawan/dev/others/bloog' Server address: http://127.0.0.1:4000/ Server running... press ctrl-c to stop. Where Server address: http://127.0.0.1:4000/ is your localhost address of your Jeckyll site. Once you . If you have an issue with missing gems, e.g: . Could not find commonmarker-0.17.13 in any of the sources . You will need to install the bundle and this will resolve the issue: . bundle install . ",
-    "url": "http://localhost:4000/Static/jekyll/install.html#installing-on-macos",
-    "relUrl": "/Static/jekyll/install.html#installing-on-macos"
-  },"163": {
-    "doc": "Install Jekyll",
-    "title": "Install Jekyll on anything other than Mac OS",
-    "content": "Please rever to Jekyll installation on other OS . ",
-    "url": "http://localhost:4000/Static/jekyll/install.html#install-jekyll-on-anything-other-than-mac-os",
-    "relUrl": "/Static/jekyll/install.html#install-jekyll-on-anything-other-than-mac-os"
-  },"164": {
-    "doc": "Install Jekyll",
-    "title": "Install Jekyll",
-    "content": " ",
-    "url": "http://localhost:4000/Static/jekyll/install.html",
-    "relUrl": "/Static/jekyll/install.html"
-  },"165": {
     "doc": "Install Gatsby",
     "title": "Install on your local with NPM",
     "content": "Ensure that the npm on your machine is up to date . npm update graceful-fs@latest ╭───────────────────────────────────────────────────────────────╮ │ │ │ New major version of npm available! 6.14.11 → 7.5.6 │ │ Changelog: https://github.com/npm/cli/releases/tag/v7.5.6 │ │ Run npm install -g npm to update! │ │ │ ╰───────────────────────────────────────────────────────────────╯ npm install -g npm . Then install the gatsby-cli . npm install -g gatsby-cli . Then start installing and developing gatsby with starter packages that can be found on this page which is like templates for your website. For example this one called Gatsby Starter Blog, start with gatsby new followed with the name of your project/folder e.g. blog then the Github URL of the source https://github.com/gatsbyjs/gatsby-starter-blog to install: . gatsby new blog https://github.com/gatsbyjs/gatsby-starter-blog . This will clone the repo and install Gatsby packages. info Your new Gatsby site has been successfully bootstrapped. Start developing it by running: cd blog # --&gt; get in to the folder you setup above gatsby develop # --&gt; starting the gatsby engine . This will start the engine and it will give you the local URL address: . You can now view gatsby-starter-blog in the browser. ⠀ http://localhost:8000/ . Open http://localhost:8000/ in your favorite browser . ",
     "url": "http://localhost:4000/Static/Gatsby/install.html#install-on-your-local-with-npm",
     "relUrl": "/Static/Gatsby/install.html#install-on-your-local-with-npm"
-  },"166": {
+  },"157": {
     "doc": "Install Gatsby",
     "title": "Install Gatsby",
     "content": " ",
     "url": "http://localhost:4000/Static/Gatsby/install.html",
     "relUrl": "/Static/Gatsby/install.html"
+  },"158": {
+    "doc": "Install Jekyll",
+    "title": "Install",
+    "content": ". | Installing on MacOS . | Install Ruby | Install Jekyll | Create a new Jekyll site | . | Install Jekyll on anything other than Mac OS | . ",
+    "url": "http://localhost:4000/Static/jekyll/install.html#install",
+    "relUrl": "/Static/jekyll/install.html#install"
+  },"159": {
+    "doc": "Install Jekyll",
+    "title": "Installing on MacOS",
+    "content": "Install Ruby . Ensure you install Ruby, not the ruby from the Apple default install. It will give you this error: . ERROR: While executing gem ... (Gem::FilePermissionError) You don't have write permissions for the /Library/Ruby/Gems/2.6.0 directory. Use Homebrew to install latest Ruby. If you haven’t had Homebrew installed: . /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\" . Then install Ruby . brew install ruby . Add Ruby path on your terminal: . # If you're using Zsh echo 'export PATH=\"/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/X.X.X/bin:$PATH\"' &gt;&gt; ~/.zshrc # If you're using Bash echo 'export PATH=\"/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/X.X.X/bin:$PATH\"' &gt;&gt; ~/.bash_profile # Unsure which shell you are using? Type echo $SHELL . Refresh your shell . source ~/.zshrc # or source ~/.bash_profile . check the path and you shoud see anything other than: /usr/local/bin/ruby and check the version and it should be the latest: . which ruby . Mine would be: . /usr/local/opt/ruby/bin/ruby . Check ruby version . ruby -v . Install Jekyll . Install the Bundler: . gem install --user-install bundler jekyll . Create a new Jekyll site . Once the Jekyll is installed, you can start creating the site e.g in /blog folder: . jekyll new blog . In an indeal world you can just login to the new folder blog where the Jekyll install is and run bundle exec jekyll serve and will show you all details of configuration including the server you can go to in local. But since the following libraries are no longer bundled gems or standard libraries including webrick, this message will appear: . /usr/local/lib/ruby/gems/3.0.0/gems/jekyll-4.2.0/lib/jekyll/commands/serve/servlet.rb:3:in `require': cannot load such file -- webrick (LoadError) . Then you need to run bundle add webrick providing you have bundle installed. This should let you run the bundle exec jekyll serve and the following message will appear: . Configuration file: /Users/irawan/dev/others/bloog/_config.yml Source: /Users/irawan/dev/others/bloog Destination: /Users/irawan/dev/others/bloog/_site Incremental build: disabled. Enable with --incremental Generating... Jekyll Feed: Generating feed for posts done in 0.465 seconds. Auto-regeneration: enabled for '/Users/irawan/dev/others/bloog' Server address: http://127.0.0.1:4000/ Server running... press ctrl-c to stop. Where Server address: http://127.0.0.1:4000/ is your localhost address of your Jeckyll site. Once you . If you have an issue with missing gems, e.g: . Could not find commonmarker-0.17.13 in any of the sources . You will need to install the bundle and this will resolve the issue: . bundle install . ",
+    "url": "http://localhost:4000/Static/jekyll/install.html#installing-on-macos",
+    "relUrl": "/Static/jekyll/install.html#installing-on-macos"
+  },"160": {
+    "doc": "Install Jekyll",
+    "title": "Install Jekyll on anything other than Mac OS",
+    "content": "Please rever to Jekyll installation on other OS . ",
+    "url": "http://localhost:4000/Static/jekyll/install.html#install-jekyll-on-anything-other-than-mac-os",
+    "relUrl": "/Static/jekyll/install.html#install-jekyll-on-anything-other-than-mac-os"
+  },"161": {
+    "doc": "Install Jekyll",
+    "title": "Install Jekyll",
+    "content": " ",
+    "url": "http://localhost:4000/Static/jekyll/install.html",
+    "relUrl": "/Static/jekyll/install.html"
+  },"162": {
+    "doc": "Install Laravel",
+    "title": "Installation",
+    "content": " ",
+    "url": "http://localhost:4000/php-ramework/Laravel/install.html#installation",
+    "relUrl": "/php-ramework/Laravel/install.html#installation"
+  },"163": {
+    "doc": "Install Laravel",
+    "title": "On Mac",
+    "content": " ",
+    "url": "http://localhost:4000/php-ramework/Laravel/install.html#on-mac",
+    "relUrl": "/php-ramework/Laravel/install.html#on-mac"
+  },"164": {
+    "doc": "Install Laravel",
+    "title": "Install",
+    "content": "Install With curl . As long as you have Docker in your Mac you can run simple CURL command to start creating project. web-app is an example of your project URL you can customise: . curl -s https://laravel.build/web-app | bash . Install with Composer . composer create-project laravel/laravel # or with Laravel Installer web-app composer global require laravel/installer laravel new web-app # then go to the web-ap folder cd web-app php artisan serve . ",
+    "url": "http://localhost:4000/php-ramework/Laravel/install.html#install",
+    "relUrl": "/php-ramework/Laravel/install.html#install"
+  },"165": {
+    "doc": "Install Laravel",
+    "title": "Sail up!",
+    "content": "Go to the directory cd web-app after the installation done and we can start running the Laravel Sail that providfe a simple CLI for interacting with Laravel’s default Docker configuration: . docker-compose up -d #or ./vendor/bin/sail up -d . With alias setup: sail up -d (refer to ‘Sail’ section for alias setup) . Ensure that the port you are using, by default it’s :80, is not in use by other Docker containers. If it’s already used and the following error came up, you can change the port number or kill other containers first: . Check who uses port (number) . Run this to check who’s using the port number you wish to list: . sudo lsof -i -P -n | grep &lt;port number&gt; . Change port . ERROR: for mailhog Cannot start service mailhog: driver failed programming external connectivity on endpoint web-app_mailhog_1 (ae8085daf269cf4a0f7eae07927d10a0975d5ae3a082659314663956afce36c1): Error starting userland proxy: listen tcp4 0.0.0.0:8025: bind: address already in use ERROR: for laravel.test Cannot start service laravel.test: Ports are not available: listen tcp 0.0.0.0:80: bind: address already in use . You can change the port number Change to other ports by editing the docker-compose.yml file: . ports: - \"8084:80\" . And try to use port 8084 instaed http://localhost:8084 . Stop and remove containers . docker-compose down # Stop container on current dir if there is a docker-compose.yml . And then run the up the sail again: ./vendor/bin/sail up or sail up -d if you have your alias setup. This may take a few minutes but you’ll see this line where you can check your web app: . laravel.test_1 | Starting Laravel development server: http://0.0.0.0:80 . So your project web local web app is: http://0.0.0.0:80 or just localhost . ",
+    "url": "http://localhost:4000/php-ramework/Laravel/install.html#sail-up",
+    "relUrl": "/php-ramework/Laravel/install.html#sail-up"
+  },"166": {
+    "doc": "Install Laravel",
+    "title": "Install Laravel",
+    "content": " ",
+    "url": "http://localhost:4000/php-ramework/Laravel/install.html",
+    "relUrl": "/php-ramework/Laravel/install.html"
   },"167": {
     "doc": "Javascript",
     "title": "Javascript",
@@ -1121,408 +1121,420 @@
     "url": "http://localhost:4000/Markdown/lists.html#elements-in-lists",
     "relUrl": "/Markdown/lists.html#elements-in-lists"
   },"187": {
+    "doc": "Emojo for markdown",
+    "title": "Emojis for markdown",
+    "content": "People . | :bowtie: :bowtie: | :smile: :smile: | :laughing: :laughing: | . | :blush: :blush: | :smiley: :smiley: | :relaxed: :relaxed: | . | :smirk: :smirk: | :heart_eyes: :heart_eyes: | :kissing_heart: :kissing_heart: | . | :kissing_closed_eyes: :kissing_closed_eyes: | :flushed: :flushed: | :relieved: :relieved: | . | :satisfied: :satisfied: | :grin: :grin: | :wink: :wink: | . | :stuck_out_tongue_winking_eye: :stuck_out_tongue_winking_eye: | :stuck_out_tongue_closed_eyes: :stuck_out_tongue_closed_eyes: | :grinning: :grinning: | . | :kissing: :kissing: | :kissing_smiling_eyes: :kissing_smiling_eyes: | :stuck_out_tongue: :stuck_out_tongue: | . | :sleeping: :sleeping: | :worried: :worried: | :frowning: :frowning: | . | :anguished: :anguished: | :open_mouth: :open_mouth: | :grimacing: :grimacing: | . | :confused: :confused: | :hushed: :hushed: | :expressionless: :expressionless: | . | :unamused: :unamused: | :sweat_smile: :sweat_smile: | :sweat: :sweat: | . | :disappointed_relieved: :disappointed_relieved: | :weary: :weary: | :pensive: :pensive: | . | :disappointed: :disappointed: | :confounded: :confounded: | :fearful: :fearful: | . | :cold_sweat: :cold_sweat: | :persevere: :persevere: | :cry: :cry: | . | :sob: :sob: | :joy: :joy: | :astonished: :astonished: | . | :scream: :scream: | :neckbeard: :neckbeard: | :tired_face: :tired_face: | . | :angry: :angry: | :rage: :rage: | :triumph: :triumph: | . | :sleepy: :sleepy: | :yum: :yum: | :mask: :mask: | . | :sunglasses: :sunglasses: | :dizzy_face: :dizzy_face: | :imp: :imp: | . | :smiling_imp: :smiling_imp: | :neutral_face: :neutral_face: | :no_mouth: :no_mouth: | . | :innocent: :innocent: | :alien: :alien: | :yellow_heart: :yellow_heart: | . | :blue_heart: :blue_heart: | :purple_heart: :purple_heart: | :heart: :heart: | . | :green_heart: :green_heart: | :broken_heart: :broken_heart: | :heartbeat: :heartbeat: | . | :heartpulse: :heartpulse: | :two_hearts: :two_hearts: | :revolving_hearts: :revolving_hearts: | . | :cupid: :cupid: | :sparkling_heart: :sparkling_heart: | :sparkles: :sparkles: | . | :star: :star: | :star2: :star2: | :dizzy: :dizzy: | . | :boom: :boom: | :collision: :collision: | :anger: :anger: | . | :exclamation: :exclamation: | :question: :question: | :grey_exclamation: :grey_exclamation: | . | :grey_question: :grey_question: | :zzz: :zzz: | :dash: :dash: | . | :sweat_drops: :sweat_drops: | :notes: :notes: | :musical_note: :musical_note: | . | :fire: :fire: | :hankey: :hankey: | :poop: :poop: | . | :shit: :shit: | :+1: :+1: | :thumbsup: :thumbsup: | . | :-1: :-1: | :thumbsdown: :thumbsdown: | :ok_hand: :ok_hand: | . | :punch: :punch: | :facepunch: :facepunch: | :fist: :fist: | . | :v: :v: | :wave: :wave: | :hand: :hand: | . | :raised_hand: :raised_hand: | :open_hands: :open_hands: | :point_up: :point_up: | . | :point_down: :point_down: | :point_left: :point_left: | :point_right: :point_right: | . | :raised_hands: :raised_hands: | :pray: :pray: | :point_up_2: :point_up_2: | . | :clap: :clap: | :muscle: :muscle: | :metal: :metal: | . | :fu: :fu: | :walking: :walking: | :runner: :runner: | . | :running: :running: | :couple: :couple: | :family: :family: | . | :two_men_holding_hands: :two_men_holding_hands: | :two_women_holding_hands: :two_women_holding_hands: | :dancer: :dancer: | . | :dancers: :dancers: | :ok_woman: :ok_woman: | :no_good: :no_good: | . | :information_desk_person: :information_desk_person: | :raising_hand: :raising_hand: | :bride_with_veil: :bride_with_veil: | . | :person_with_pouting_face: :person_with_pouting_face: | :person_frowning: :person_frowning: | :bow: :bow: | . | :couplekiss: :couplekiss: | :couple_with_heart: :couple_with_heart: | :massage: :massage: | . | :haircut: :haircut: | :nail_care: :nail_care: | :boy: :boy: | . | :girl: :girl: | :woman: :woman: | :man: :man: | . | :baby: :baby: | :older_woman: :older_woman: | :older_man: :older_man: | . | :person_with_blond_hair: :person_with_blond_hair: | :man_with_gua_pi_mao: :man_with_gua_pi_mao: | :man_with_turban: :man_with_turban: | . | :construction_worker: :construction_worker: | :cop: :cop: | :angel: :angel: | . | :princess: :princess: | :smiley_cat: :smiley_cat: | :smile_cat: :smile_cat: | . | :heart_eyes_cat: :heart_eyes_cat: | :kissing_cat: :kissing_cat: | :smirk_cat: :smirk_cat: | . | :scream_cat: :scream_cat: | :crying_cat_face: :crying_cat_face: | :joy_cat: :joy_cat: | . | :pouting_cat: :pouting_cat: | :japanese_ogre: :japanese_ogre: | :japanese_goblin: :japanese_goblin: | . | :see_no_evil: :see_no_evil: | :hear_no_evil: :hear_no_evil: | :speak_no_evil: :speak_no_evil: | . | :guardsman: :guardsman: | :skull: :skull: | :feet: :feet: | . | :lips: :lips: | :kiss: :kiss: | :droplet: :droplet: | . | :ear: :ear: | :eyes: :eyes: | :nose: :nose: | . | :tongue: :tongue: | :love_letter: :love_letter: | :bust_in_silhouette: :bust_in_silhouette: | . | :busts_in_silhouette: :busts_in_silhouette: | :speech_balloon: :speech_balloon: | :thought_balloon: :thought_balloon: | . | :feelsgood: :feelsgood: | :finnadie: :finnadie: | :goberserk: :goberserk: | . | :godmode: :godmode: | :hurtrealbad: :hurtrealbad: | :rage1: :rage1: | . | :rage2: :rage2: | :rage3: :rage3: | :rage4: :rage4: | . | :suspect: :suspect: | :trollface: :trollface: |   | . Nature . | :sunny: :sunny: | :umbrella: :umbrella: | :cloud: :cloud: | . | :snowflake: :snowflake: | :snowman: :snowman: | :zap: :zap: | . | :cyclone: :cyclone: | :foggy: :foggy: | :ocean: :ocean: | . | :cat: :cat: | :dog: :dog: | :mouse: :mouse: | . | :hamster: :hamster: | :rabbit: :rabbit: | :wolf: :wolf: | . | :frog: :frog: | :tiger: :tiger: | :koala: :koala: | . | :bear: :bear: | :pig: :pig: | :pig_nose: :pig_nose: | . | :cow: :cow: | :boar: :boar: | :monkey_face: :monkey_face: | . | :monkey: :monkey: | :horse: :horse: | :racehorse: :racehorse: | . | :camel: :camel: | :sheep: :sheep: | :elephant: :elephant: | . | :panda_face: :panda_face: | :snake: :snake: | :bird: :bird: | . | :baby_chick: :baby_chick: | :hatched_chick: :hatched_chick: | :hatching_chick: :hatching_chick: | . | :chicken: :chicken: | :penguin: :penguin: | :turtle: :turtle: | . | :bug: :bug: | :honeybee: :honeybee: | :ant: :ant: | . | :beetle: :beetle: | :snail: :snail: | :octopus: :octopus: | . | :tropical_fish: :tropical_fish: | :fish: :fish: | :whale: :whale: | . | :whale2: :whale2: | :dolphin: :dolphin: | :cow2: :cow2: | . | :ram: :ram: | :rat: :rat: | :water_buffalo: :water_buffalo: | . | :tiger2: :tiger2: | :rabbit2: :rabbit2: | :dragon: :dragon: | . | :goat: :goat: | :rooster: :rooster: | :dog2: :dog2: | . | :pig2: :pig2: | :mouse2: :mouse2: | :ox: :ox: | . | :dragon_face: :dragon_face: | :blowfish: :blowfish: | :crocodile: :crocodile: | . | :dromedary_camel: :dromedary_camel: | :leopard: :leopard: | :cat2: :cat2: | . | :poodle: :poodle: | :paw_prints: :paw_prints: | :bouquet: :bouquet: | . | :cherry_blossom: :cherry_blossom: | :tulip: :tulip: | :four_leaf_clover: :four_leaf_clover: | . | :rose: :rose: | :sunflower: :sunflower: | :hibiscus: :hibiscus: | . | :maple_leaf: :maple_leaf: | :leaves: :leaves: | :fallen_leaf: :fallen_leaf: | . | :herb: :herb: | :mushroom: :mushroom: | :cactus: :cactus: | . | :palm_tree: :palm_tree: | :evergreen_tree: :evergreen_tree: | :deciduous_tree: :deciduous_tree: | . | :chestnut: :chestnut: | :seedling: :seedling: | :blossom: :blossom: | . | :ear_of_rice: :ear_of_rice: | :shell: :shell: | :globe_with_meridians: :globe_with_meridians: | . | :sun_with_face: :sun_with_face: | :full_moon_with_face: :full_moon_with_face: | :new_moon_with_face: :new_moon_with_face: | . | :new_moon: :new_moon: | :waxing_crescent_moon: :waxing_crescent_moon: | :first_quarter_moon: :first_quarter_moon: | . | :waxing_gibbous_moon: :waxing_gibbous_moon: | :full_moon: :full_moon: | :waning_gibbous_moon: :waning_gibbous_moon: | . | :last_quarter_moon: :last_quarter_moon: | :waning_crescent_moon: :waning_crescent_moon: | :last_quarter_moon_with_face: :last_quarter_moon_with_face: | . | :first_quarter_moon_with_face: :first_quarter_moon_with_face: | :moon: :moon: | :earth_africa: :earth_africa: | . | :earth_americas: :earth_americas: | :earth_asia: :earth_asia: | :volcano: :volcano: | . | :milky_way: :milky_way: | :partly_sunny: :partly_sunny: | :octocat: :octocat: | . | :squirrel: :squirrel: |   |   | . Objects . | :bamboo: :bamboo: | :gift_heart: :gift_heart: | :dolls: :dolls: | . | :school_satchel: :school_satchel: | :mortar_board: :mortar_board: | :flags: :flags: | . | :fireworks: :fireworks: | :sparkler: :sparkler: | :wind_chime: :wind_chime: | . | :rice_scene: :rice_scene: | :jack_o_lantern: :jack_o_lantern: | :ghost: :ghost: | . | :santa: :santa: | :christmas_tree: :christmas_tree: | :gift: :gift: | . | :bell: :bell: | :no_bell: :no_bell: | :tanabata_tree: :tanabata_tree: | . | :tada: :tada: | :confetti_ball: :confetti_ball: | :balloon: :balloon: | . | :crystal_ball: :crystal_ball: | :cd: :cd: | :dvd: :dvd: | . | :floppy_disk: :floppy_disk: | :camera: :camera: | :video_camera: :video_camera: | . | :movie_camera: :movie_camera: | :computer: :computer: | :tv: :tv: | . | :iphone: :iphone: | :phone: :phone: | :telephone: :telephone: | . | :telephone_receiver: :telephone_receiver: | :pager: :pager: | :fax: :fax: | . | :minidisc: :minidisc: | :vhs: :vhs: | :sound: :sound: | . | :speaker: :speaker: | :mute: :mute: | :loudspeaker: :loudspeaker: | . | :mega: :mega: | :hourglass: :hourglass: | :hourglass_flowing_sand: :hourglass_flowing_sand: | . | :alarm_clock: :alarm_clock: | :watch: :watch: | :radio: :radio: | . | :satellite: :satellite: | :loop: :loop: | :mag: :mag: | . | :mag_right: :mag_right: | :unlock: :unlock: | :lock: :lock: | . | :lock_with_ink_pen: :lock_with_ink_pen: | :closed_lock_with_key: :closed_lock_with_key: | :key: :key: | . | :bulb: :bulb: | :flashlight: :flashlight: | :high_brightness: :high_brightness: | . | :low_brightness: :low_brightness: | :electric_plug: :electric_plug: | :battery: :battery: | . | :calling: :calling: | :email: :email: | :mailbox: :mailbox: | . | :postbox: :postbox: | :bath: :bath: | :bathtub: :bathtub: | . | :shower: :shower: | :toilet: :toilet: | :wrench: :wrench: | . | :nut_and_bolt: :nut_and_bolt: | :hammer: :hammer: | :seat: :seat: | . | :moneybag: :moneybag: | :yen: :yen: | :dollar: :dollar: | . | :pound: :pound: | :euro: :euro: | :credit_card: :credit_card: | . | :money_with_wings: :money_with_wings: | :e-mail: :e-mail: | :inbox_tray: :inbox_tray: | . | :outbox_tray: :outbox_tray: | :envelope: :envelope: | :incoming_envelope: :incoming_envelope: | . | :postal_horn: :postal_horn: | :mailbox_closed: :mailbox_closed: | :mailbox_with_mail: :mailbox_with_mail: | . | :mailbox_with_no_mail: :mailbox_with_no_mail: | :door: :door: | :smoking: :smoking: | . | :bomb: :bomb: | :gun: :gun: | :hocho: :hocho: | . | :pill: :pill: | :syringe: :syringe: | :page_facing_up: :page_facing_up: | . | :page_with_curl: :page_with_curl: | :bookmark_tabs: :bookmark_tabs: | :bar_chart: :bar_chart: | . | :chart_with_upwards_trend: :chart_with_upwards_trend: | :chart_with_downwards_trend: :chart_with_downwards_trend: | :scroll: :scroll: | . | :clipboard: :clipboard: | :calendar: :calendar: | :date: :date: | . | :card_index: :card_index: | :file_folder: :file_folder: | :open_file_folder: :open_file_folder: | . | :scissors: :scissors: | :pushpin: :pushpin: | :paperclip: :paperclip: | . | :black_nib: :black_nib: | :pencil2: :pencil2: | :straight_ruler: :straight_ruler: | . | :triangular_ruler: :triangular_ruler: | :closed_book: :closed_book: | :green_book: :green_book: | . | :blue_book: :blue_book: | :orange_book: :orange_book: | :notebook: :notebook: | . | :notebook_with_decorative_cover: :notebook_with_decorative_cover: | :ledger: :ledger: | :books: :books: | . | :bookmark: :bookmark: | :name_badge: :name_badge: | :microscope: :microscope: | . | :telescope: :telescope: | :newspaper: :newspaper: | :football: :football: | . | :basketball: :basketball: | :soccer: :soccer: | :baseball: :baseball: | . | :tennis: :tennis: | :8ball: :8ball: | :rugby_football: :rugby_football: | . | :bowling: :bowling: | :golf: :golf: | :mountain_bicyclist: :mountain_bicyclist: | . | :bicyclist: :bicyclist: | :horse_racing: :horse_racing: | :snowboarder: :snowboarder: | . | :swimmer: :swimmer: | :surfer: :surfer: | :ski: :ski: | . | :spades: :spades: | :hearts: :hearts: | :clubs: :clubs: | . | :diamonds: :diamonds: | :gem: :gem: | :ring: :ring: | . | :trophy: :trophy: | :musical_score: :musical_score: | :musical_keyboard: :musical_keyboard: | . | :violin: :violin: | :space_invader: :space_invader: | :video_game: :video_game: | . | :black_joker: :black_joker: | :flower_playing_cards: :flower_playing_cards: | :game_die: :game_die: | . | :dart: :dart: | :mahjong: :mahjong: | :clapper: :clapper: | . | :memo: :memo: | :pencil: :pencil: | :book: :book: | . | :art: :art: | :microphone: :microphone: | :headphones: :headphones: | . | :trumpet: :trumpet: | :saxophone: :saxophone: | :guitar: :guitar: | . | :shoe: :shoe: | :sandal: :sandal: | :high_heel: :high_heel: | . | :lipstick: :lipstick: | :boot: :boot: | :shirt: :shirt: | . | :tshirt: :tshirt: | :necktie: :necktie: | :womans_clothes: :womans_clothes: | . | :dress: :dress: | :running_shirt_with_sash: :running_shirt_with_sash: | :jeans: :jeans: | . | :kimono: :kimono: | :bikini: :bikini: | :ribbon: :ribbon: | . | :tophat: :tophat: | :crown: :crown: | :womans_hat: :womans_hat: | . | :mans_shoe: :mans_shoe: | :closed_umbrella: :closed_umbrella: | :briefcase: :briefcase: | . | :handbag: :handbag: | :pouch: :pouch: | :purse: :purse: | . | :eyeglasses: :eyeglasses: | :fishing_pole_and_fish: :fishing_pole_and_fish: | :coffee: :coffee: | . | :tea: :tea: | :sake: :sake: | :baby_bottle: :baby_bottle: | . | :beer: :beer: | :beers: :beers: | :cocktail: :cocktail: | . | :tropical_drink: :tropical_drink: | :wine_glass: :wine_glass: | :fork_and_knife: :fork_and_knife: | . | :pizza: :pizza: | :hamburger: :hamburger: | :fries: :fries: | . | :poultry_leg: :poultry_leg: | :meat_on_bone: :meat_on_bone: | :spaghetti: :spaghetti: | . | :curry: :curry: | :fried_shrimp: :fried_shrimp: | :bento: :bento: | . | :sushi: :sushi: | :fish_cake: :fish_cake: | :rice_ball: :rice_ball: | . | :rice_cracker: :rice_cracker: | :rice: :rice: | :ramen: :ramen: | . | :stew: :stew: | :oden: :oden: | :dango: :dango: | . | :egg: :egg: | :bread: :bread: | :doughnut: :doughnut: | . | :custard: :custard: | :icecream: :icecream: | :ice_cream: :ice_cream: | . | :shaved_ice: :shaved_ice: | :birthday: :birthday: | :cake: :cake: | . | :cookie: :cookie: | :chocolate_bar: :chocolate_bar: | :candy: :candy: | . | :lollipop: :lollipop: | :honey_pot: :honey_pot: | :apple: :apple: | . | :green_apple: :green_apple: | :tangerine: :tangerine: | :lemon: :lemon: | . | :cherries: :cherries: | :grapes: :grapes: | :watermelon: :watermelon: | . | :strawberry: :strawberry: | :peach: :peach: | :melon: :melon: | . | :banana: :banana: | :pear: :pear: | :pineapple: :pineapple: | . | :sweet_potato: :sweet_potato: | :eggplant: :eggplant: | :tomato: :tomato: | . | :corn: :corn: |   |   | . Places . | :house: :house: | :house_with_garden: :house_with_garden: | :school: :school: | . | :office: :office: | :post_office: :post_office: | :hospital: :hospital: | . | :bank: :bank: | :convenience_store: :convenience_store: | :love_hotel: :love_hotel: | . | :hotel: :hotel: | :wedding: :wedding: | :church: :church: | . | :department_store: :department_store: | :european_post_office: :european_post_office: | :city_sunrise: :city_sunrise: | . | :city_sunset: :city_sunset: | :japanese_castle: :japanese_castle: | :european_castle: :european_castle: | . | :tent: :tent: | :factory: :factory: | :tokyo_tower: :tokyo_tower: | . | :japan: :japan: | :mount_fuji: :mount_fuji: | :sunrise_over_mountains: :sunrise_over_mountains: | . | :sunrise: :sunrise: | :stars: :stars: | :statue_of_liberty: :statue_of_liberty: | . | :bridge_at_night: :bridge_at_night: | :carousel_horse: :carousel_horse: | :rainbow: :rainbow: | . | :ferris_wheel: :ferris_wheel: | :fountain: :fountain: | :roller_coaster: :roller_coaster: | . | :ship: :ship: | :speedboat: :speedboat: | :boat: :boat: | . | :sailboat: :sailboat: | :rowboat: :rowboat: | :anchor: :anchor: | . | :rocket: :rocket: | :airplane: :airplane: | :helicopter: :helicopter: | . | :steam_locomotive: :steam_locomotive: | :tram: :tram: | :mountain_railway: :mountain_railway: | . | :bike: :bike: | :aerial_tramway: :aerial_tramway: | :suspension_railway: :suspension_railway: | . | :mountain_cableway: :mountain_cableway: | :tractor: :tractor: | :blue_car: :blue_car: | . | :oncoming_automobile: :oncoming_automobile: | :car: :car: | :red_car: :red_car: | . | :taxi: :taxi: | :oncoming_taxi: :oncoming_taxi: | :articulated_lorry: :articulated_lorry: | . | :bus: :bus: | :oncoming_bus: :oncoming_bus: | :rotating_light: :rotating_light: | . | :police_car: :police_car: | :oncoming_police_car: :oncoming_police_car: | :fire_engine: :fire_engine: | . | :ambulance: :ambulance: | :minibus: :minibus: | :truck: :truck: | . | :train: :train: | :station: :station: | :train2: :train2: | . | :bullettrain_front: :bullettrain_front: | :bullettrain_side: :bullettrain_side: | :light_rail: :light_rail: | . | :monorail: :monorail: | :railway_car: :railway_car: | :trolleybus: :trolleybus: | . | :ticket: :ticket: | :fuelpump: :fuelpump: | :vertical_traffic_light: :vertical_traffic_light: | . | :traffic_light: :traffic_light: | :warning: :warning: | :construction: :construction: | . | :beginner: :beginner: | :atm: :atm: | :slot_machine: :slot_machine: | . | :busstop: :busstop: | :barber: :barber: | :hotsprings: :hotsprings: | . | :checkered_flag: :checkered_flag: | :crossed_flags: :crossed_flags: | :izakaya_lantern: :izakaya_lantern: | . | :moyai: :moyai: | :circus_tent: :circus_tent: | :performing_arts: :performing_arts: | . | :round_pushpin: :round_pushpin: | :triangular_flag_on_post: :triangular_flag_on_post: | :jp: :jp: | . | :kr: :kr: | :cn: :cn: | :us: :us: | . | :fr: :fr: | :es: :es: | :it: :it: | . | :ru: :ru: | :gb: :gb: | :uk: :uk: | . | :de: :de: |   |   | . Symbols . | :one: :one: | :two: :two: | :three: :three: | . | :four: :four: | :five: :five: | :six: :six: | . | :seven: :seven: | :eight: :eight: | :nine: :nine: | . | :keycap_ten: :keycap_ten: | :1234: :1234: | :zero: :zero: | . | :hash: :hash: | :symbols: :symbols: | :arrow_backward: :arrow_backward: | . | :arrow_down: :arrow_down: | :arrow_forward: :arrow_forward: | :arrow_left: :arrow_left: | . | :capital_abcd: :capital_abcd: | :abcd: :abcd: | :abc: :abc: | . | :arrow_lower_left: :arrow_lower_left: | :arrow_lower_right: :arrow_lower_right: | :arrow_right: :arrow_right: | . | :arrow_up: :arrow_up: | :arrow_upper_left: :arrow_upper_left: | :arrow_upper_right: :arrow_upper_right: | . | :arrow_double_down: :arrow_double_down: | :arrow_double_up: :arrow_double_up: | :arrow_down_small: :arrow_down_small: | . | :arrow_heading_down: :arrow_heading_down: | :arrow_heading_up: :arrow_heading_up: | :leftwards_arrow_with_hook: :leftwards_arrow_with_hook: | . | :arrow_right_hook: :arrow_right_hook: | :left_right_arrow: :left_right_arrow: | :arrow_up_down: :arrow_up_down: | . | :arrow_up_small: :arrow_up_small: | :arrows_clockwise: :arrows_clockwise: | :arrows_counterclockwise: :arrows_counterclockwise: | . | :rewind: :rewind: | :fast_forward: :fast_forward: | :information_source: :information_source: | . | :ok: :ok: | :twisted_rightwards_arrows: :twisted_rightwards_arrows: | :repeat: :repeat: | . | :repeat_one: :repeat_one: | :new: :new: | :top: :top: | . | :up: :up: | :cool: :cool: | :free: :free: | . | :ng: :ng: | :cinema: :cinema: | :koko: :koko: | . | :signal_strength: :signal_strength: | :u5272: :u5272: | :u5408: :u5408: | . | :u55b6: :u55b6: | :u6307: :u6307: | :u6708: :u6708: | . | :u6709: :u6709: | :u6e80: :u6e80: | :u7121: :u7121: | . | :u7533: :u7533: | :u7a7a: :u7a7a: | :u7981: :u7981: | . | :sa: :sa: | :restroom: :restroom: | :mens: :mens: | . | :womens: :womens: | :baby_symbol: :baby_symbol: | :no_smoking: :no_smoking: | . | :parking: :parking: | :wheelchair: :wheelchair: | :metro: :metro: | . | :baggage_claim: :baggage_claim: | :accept: :accept: | :wc: :wc: | . | :potable_water: :potable_water: | :put_litter_in_its_place: :put_litter_in_its_place: | :secret: :secret: | . | :congratulations: :congratulations: | :m: :m: | :passport_control: :passport_control: | . | :left_luggage: :left_luggage: | :customs: :customs: | :ideograph_advantage: :ideograph_advantage: | . | :cl: :cl: | :sos: :sos: | :id: :id: | . | :no_entry_sign: :no_entry_sign: | :underage: :underage: | :no_mobile_phones: :no_mobile_phones: | . | :do_not_litter: :do_not_litter: | :non-potable_water: :non-potable_water: | :no_bicycles: :no_bicycles: | . | :no_pedestrians: :no_pedestrians: | :children_crossing: :children_crossing: | :no_entry: :no_entry: | . | :eight_spoked_asterisk: :eight_spoked_asterisk: | :eight_pointed_black_star: :eight_pointed_black_star: | :heart_decoration: :heart_decoration: | . | :vs: :vs: | :vibration_mode: :vibration_mode: | :mobile_phone_off: :mobile_phone_off: | . | :chart: :chart: | :currency_exchange: :currency_exchange: | :aries: :aries: | . | :taurus: :taurus: | :gemini: :gemini: | :cancer: :cancer: | . | :leo: :leo: | :virgo: :virgo: | :libra: :libra: | . | :scorpius: :scorpius: | :sagittarius: :sagittarius: | :capricorn: :capricorn: | . | :aquarius: :aquarius: | :pisces: :pisces: | :ophiuchus: :ophiuchus: | . | :six_pointed_star: :six_pointed_star: | :negative_squared_cross_mark: :negative_squared_cross_mark: | :a: :a: | . | :b: :b: | :ab: :ab: | :o2: :o2: | . | :diamond_shape_with_a_dot_inside: :diamond_shape_with_a_dot_inside: | :recycle: :recycle: | :end: :end: | . | :on: :on: | :soon: :soon: | :clock1: :clock1: | . | :clock130: :clock130: | :clock10: :clock10: | :clock1030: :clock1030: | . | :clock11: :clock11: | :clock1130: :clock1130: | :clock12: :clock12: | . | :clock1230: :clock1230: | :clock2: :clock2: | :clock230: :clock230: | . | :clock3: :clock3: | :clock330: :clock330: | :clock4: :clock4: | . | :clock430: :clock430: | :clock5: :clock5: | :clock530: :clock530: | . | :clock6: :clock6: | :clock630: :clock630: | :clock7: :clock7: | . | :clock730: :clock730: | :clock8: :clock8: | :clock830: :clock830: | . | :clock9: :clock9: | :clock930: :clock930: | :heavy_dollar_sign: :heavy_dollar_sign: | . | :copyright: :copyright: | :registered: :registered: | :tm: :tm: | . | :x: :x: | :heavy_exclamation_mark: :heavy_exclamation_mark: | :bangbang: :bangbang: | . | :interrobang: :interrobang: | :o: :o: | :heavy_multiplication_x: :heavy_multiplication_x: | . | :heavy_plus_sign: :heavy_plus_sign: | :heavy_minus_sign: :heavy_minus_sign: | :heavy_division_sign: :heavy_division_sign: | . | :white_flower: :white_flower: | :100: :100: | :heavy_check_mark: :heavy_check_mark: | . | :ballot_box_with_check: :ballot_box_with_check: | :radio_button: :radio_button: | :link: :link: | . | :curly_loop: :curly_loop: | :wavy_dash: :wavy_dash: | :part_alternation_mark: :part_alternation_mark: | . | :trident: :trident: | :black_square: :black_square: | :white_square: :white_square: | . | :white_check_mark: :white_check_mark: | :black_square_button: :black_square_button: | :white_square_button: :white_square_button: | . | :black_circle: :black_circle: | :white_circle: :white_circle: | :red_circle: :red_circle: | . | :large_blue_circle: :large_blue_circle: | :large_blue_diamond: :large_blue_diamond: | :large_orange_diamond: :large_orange_diamond: | . | :small_blue_diamond: :small_blue_diamond: | :small_orange_diamond: :small_orange_diamond: | :small_red_triangle: :small_red_triangle: | . | :small_red_triangle_down: :small_red_triangle_down: | :shipit: :shipit: |   | . ",
+    "url": "http://localhost:4000/Markdown/markdown-emoji.html#emojis-for-markdown",
+    "relUrl": "/Markdown/markdown-emoji.html#emojis-for-markdown"
+  },"188": {
+    "doc": "Emojo for markdown",
+    "title": "Emojo for markdown",
+    "content": " ",
+    "url": "http://localhost:4000/Markdown/markdown-emoji.html",
+    "relUrl": "/Markdown/markdown-emoji.html"
+  },"189": {
     "doc": "MEAN",
     "title": "MEAN (Mongo DB, Express, Angular and  Node)",
     "content": " ",
     "url": "http://localhost:4000/the-basics/mean.html#mean-mongo-db-express-angular-and--node",
     "relUrl": "/the-basics/mean.html#mean-mongo-db-express-angular-and--node"
-  },"188": {
+  },"190": {
     "doc": "MEAN",
     "title": "MEAN",
     "content": " ",
     "url": "http://localhost:4000/the-basics/mean.html",
     "relUrl": "/the-basics/mean.html"
-  },"189": {
+  },"191": {
     "doc": "Moodle",
     "title": "Moodle",
     "content": " ",
     "url": "http://localhost:4000/LMS/moodle.html",
     "relUrl": "/LMS/moodle.html"
-  },"190": {
+  },"192": {
     "doc": "Multiple remotes",
     "title": "Working with Git multiple remotes",
     "content": "Working in between two big companies that have their own environments and each using different pipelines put me in to a situation where I have to understand and work with two git remotes, one with Github and the other with Gitlab . So the structure will be like this for example: . $git remote -v origin git@github.com:company1/project-name.git (fetch) origin git@github.com:company1/project-name.git (push) upstream git@gitlab.com:company2/project-name.git (fetch) upstream git@gitlab.com:company2/project-name.git (push) . Each company will have different environment setup altough this result in one production environment. ",
     "url": "http://localhost:4000/Git/multiple-remotes.html#working-with-git-multiple-remotes",
     "relUrl": "/Git/multiple-remotes.html#working-with-git-multiple-remotes"
-  },"191": {
+  },"193": {
     "doc": "Multiple remotes",
     "title": "Multiple remotes",
     "content": " ",
     "url": "http://localhost:4000/Git/multiple-remotes.html",
     "relUrl": "/Git/multiple-remotes.html"
-  },"192": {
+  },"194": {
     "doc": "NPM",
     "title": "NPM",
     "content": ". | What is NPM? | Installation | Check version | Check for hints of usage | Starting the package | Then you can change the config details | check and remove default configuration | Install package . | Locally | Install globally (in the machine and not only in current folder) | . | Remove or uninstall module | Install module with version and upate | To check the root folder of global install | Remove global package | To show the installed packages | . ",
     "url": "http://localhost:4000/tools/npm.html",
     "relUrl": "/tools/npm.html"
-  },"193": {
+  },"195": {
     "doc": "NPM",
     "title": "What is NPM?",
     "content": "npm is the world’s largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well. See more details on About NPM . ",
     "url": "http://localhost:4000/tools/npm.html#what-is-npm",
     "relUrl": "/tools/npm.html#what-is-npm"
-  },"194": {
+  },"196": {
     "doc": "NPM",
     "title": "Installation",
     "content": "Install the npm with NodeJS by downloading it on the download page. It is strongly recommended to install Nodejs and npm with version manager like nvm . ",
     "url": "http://localhost:4000/tools/npm.html#installation",
     "relUrl": "/tools/npm.html#installation"
-  },"195": {
+  },"197": {
     "doc": "NPM",
     "title": "Check version",
     "content": "Once the npm is installed, check the version by running: . npm -v (or --version) . ",
     "url": "http://localhost:4000/tools/npm.html#check-version",
     "relUrl": "/tools/npm.html#check-version"
-  },"196": {
+  },"198": {
     "doc": "NPM",
     "title": "Check for hints of usage",
     "content": "npm help . ",
     "url": "http://localhost:4000/tools/npm.html#check-for-hints-of-usage",
     "relUrl": "/tools/npm.html#check-for-hints-of-usage"
-  },"197": {
+  },"199": {
     "doc": "NPM",
     "title": "Starting the package",
     "content": "Run npm init to start the use and it will create folder node_module and file called package.json. It will ask question in steps about the details. If you wish to use all defauylt options, add -y or --yes . npm init -y (or --yes) . The default package.json will look lik this: . \"name\": \"package-name\", \"version\": \"1.0.0\", \"main\": \"index.js\", \"scripts\": { \"test\": \"echo \\\"Error: no test specified\\\" &amp;&amp; exit 1\" }, \"keywords\": [], \"author\": \"\", \"license\": \"ISC\", \"description\": \"\", } } . ",
     "url": "http://localhost:4000/tools/npm.html#starting-the-package",
     "relUrl": "/tools/npm.html#starting-the-package"
-  },"198": {
+  },"200": {
     "doc": "NPM",
     "title": "Then you can change the config details",
     "content": "Example . npm config set init-author-name \"Irawan\" npm set init-license \"MIT\" . Then it will look like this: . \"name\": \"package-name\", \"version\": \"1.0.0\", \"main\": \"index.js\", \"scripts\": { \"test\": \"gulp test\", \"start\": \"gulp serve\", \"build\": \"gulp build\" }, \"keywords\": [], \"author\": \"Irawan\", \"license\": \"MIT\", \"description\": \"\", \"dependencies\": { \"gulp\": \"^4.0.2\", \"lodash\": \"^4.17.3\" } } . ",
     "url": "http://localhost:4000/tools/npm.html#then-you-can-change-the-config-details",
     "relUrl": "/tools/npm.html#then-you-can-change-the-config-details"
-  },"199": {
+  },"201": {
     "doc": "NPM",
     "title": "check and remove default configuration",
     "content": "To check the configuration details, run the following: . npm config get init-author-name npm get init-license . to remove details; . npm config delete init-author-name npm delete init-license . ",
     "url": "http://localhost:4000/tools/npm.html#check-and-remove-default-configuration",
     "relUrl": "/tools/npm.html#check-and-remove-default-configuration"
-  },"200": {
+  },"202": {
     "doc": "NPM",
     "title": "Install package",
     "content": " ",
     "url": "http://localhost:4000/tools/npm.html#install-package",
     "relUrl": "/tools/npm.html#install-package"
-  },"201": {
+  },"203": {
     "doc": "NPM",
     "title": "Locally",
     "content": "E.g installing gulp-sass . npm install gulp gulp-sass --save-dev . Always use --save-dev to ensure that the changes is saved in the package.json file. ",
     "url": "http://localhost:4000/tools/npm.html#locally",
     "relUrl": "/tools/npm.html#locally"
-  },"202": {
+  },"204": {
     "doc": "NPM",
     "title": "Install globally (in the machine and not only in current folder)",
     "content": "npm install -g nodemon npm install -g live-server . ",
     "url": "http://localhost:4000/tools/npm.html#install-globally-in-the-machine-and-not-only-in-current-folder",
     "relUrl": "/tools/npm.html#install-globally-in-the-machine-and-not-only-in-current-folder"
-  },"203": {
+  },"205": {
     "doc": "NPM",
     "title": "Remove or uninstall module",
     "content": "npm uninstall gulp-sass --save-dev # or npm remove gulp --save-dev #or npm rm gulp-sass --save-dev . ",
     "url": "http://localhost:4000/tools/npm.html#remove-or-uninstall-module",
     "relUrl": "/tools/npm.html#remove-or-uninstall-module"
-  },"204": {
+  },"206": {
     "doc": "NPM",
     "title": "Install module with version and upate",
     "content": "npm install gulp-sas@5.5.5 --save # to update # UPDATE npm update lodash --sav . ",
     "url": "http://localhost:4000/tools/npm.html#install-module-with-version-and-upate",
     "relUrl": "/tools/npm.html#install-module-with-version-and-upate"
-  },"205": {
+  },"207": {
     "doc": "NPM",
     "title": "To check the root folder of global install",
     "content": "npm root -g . ",
     "url": "http://localhost:4000/tools/npm.html#to-check-the-root-folder-of-global-install",
     "relUrl": "/tools/npm.html#to-check-the-root-folder-of-global-install"
-  },"206": {
+  },"208": {
     "doc": "NPM",
     "title": "Remove global package",
     "content": "npm remove -g gulp-sass . ",
     "url": "http://localhost:4000/tools/npm.html#remove-global-package",
     "relUrl": "/tools/npm.html#remove-global-package"
-  },"207": {
+  },"209": {
     "doc": "NPM",
     "title": "To show the installed packages",
     "content": "#Main modules only: npm list #result: ╰─ npm list user@1.0.0 /Users/project-name ├── gulp-cli@2.3.0 ├── gulp-sass@5.1.0 ├── gulp@4.0.2 └── lodash@4.17.21 # Main modules with the direct dependencies: npm list --depth 0 #Main modules with the dependencies next level npm list --depth 1 # the most important part of the package.json is the `scripts` ```json \"scripts\": { \"test\": \"gulp test\", \"start\": \"gulp serve\", \"build\": \"gulp build\" }, . When you run the scripts e.g npm start it will run the module gulp serve . ",
     "url": "http://localhost:4000/tools/npm.html#to-show-the-installed-packages",
     "relUrl": "/tools/npm.html#to-show-the-installed-packages"
-  },"208": {
+  },"210": {
     "doc": "Paragraph",
     "title": "Paragraphs",
     "content": "Notes: . | To create paragraphs, use a blank line to separate one or more lines of text. | Don’t ident paragraphs with spaces or tabs | . Markdown . This is the first paragraph. This is the second paragraph . Rendered output: . This is the first paragraph. This is the second paragraph . ",
     "url": "http://localhost:4000/Markdown/paragraph.html#paragraphs",
     "relUrl": "/Markdown/paragraph.html#paragraphs"
-  },"209": {
+  },"211": {
     "doc": "Paragraph",
     "title": "Paragraph",
     "content": " ",
     "url": "http://localhost:4000/Markdown/paragraph.html",
     "relUrl": "/Markdown/paragraph.html"
-  },"210": {
+  },"212": {
     "doc": "PHP",
     "title": "PHP and Object-oriented programming (OOP)",
     "content": " ",
     "url": "http://localhost:4000/the-languages/php.html#php-and-object-oriented-programming-oop",
     "relUrl": "/the-languages/php.html#php-and-object-oriented-programming-oop"
-  },"211": {
+  },"213": {
     "doc": "PHP",
     "title": "PHP",
     "content": " ",
     "url": "http://localhost:4000/the-languages/php.html",
     "relUrl": "/the-languages/php.html"
-  },"212": {
+  },"214": {
     "doc": "Publish to Netlify CMS",
     "title": "Publish to Netlify CMS",
     "content": " ",
     "url": "http://localhost:4000/Static/Gatsby/publish-netlify-cms.html",
     "relUrl": "/Static/Gatsby/publish-netlify-cms.html"
-  },"213": {
+  },"215": {
     "doc": "Deploy",
     "title": "Deployment",
     "content": "Once you push the changes to your Github account and make it as Github page, it the page URL will be yourusername.github.io/reponame. Then we have an option to set the custom domain through the repo Settings or via Netlify . ",
     "url": "http://localhost:4000/Static/jekyll/publish-to-netlify.html#deployment",
     "relUrl": "/Static/jekyll/publish-to-netlify.html#deployment"
-  },"214": {
+  },"216": {
     "doc": "Deploy",
     "title": "Deploy",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/publish-to-netlify.html",
     "relUrl": "/Static/jekyll/publish-to-netlify.html"
-  },"215": {
+  },"217": {
     "doc": "Jekyll",
     "title": "Jekyll",
     "content": "This Dokumentasi website is an example of my Jekyll install. Following are the steps I took to build this. ",
     "url": "http://localhost:4000/Static/jekyll/",
     "relUrl": "/Static/jekyll/"
-  },"216": {
+  },"218": {
     "doc": "REST",
     "title": "REST/RESTful API",
     "content": "Stands for Represenational State Transfer . ",
     "url": "http://localhost:4000/API/rest-api.html#restrestful-api",
     "relUrl": "/API/rest-api.html#restrestful-api"
-  },"217": {
+  },"219": {
     "doc": "REST",
     "title": "REST",
     "content": " ",
     "url": "http://localhost:4000/API/rest-api.html",
     "relUrl": "/API/rest-api.html"
-  },"218": {
+  },"220": {
     "doc": "Running WP CLI",
     "title": "Running WP CLI",
     "content": "When all setup with the WP CLI, you can use command started with wp followed by the subcommands. To see the list of subcommands, just type wp or wp --help or if you wish to know the list of sub-sub-commands, for example wp user run wp user --help and it will list the sub sub commands. For example, if I want to see the list of themes installed on my WP build, I just type the wp followed with subcommand theme then the task command list : . wp theme list . It will give you list of the theme: . +-----------------+----------+--------+---------+ | name | status | update | version | +-----------------+----------+--------+---------+ | twentyeleven | inactive | none | 3.6 | twentyfifteen | inactive | none | 2.8 | twentyfourteen | inactive | none | 3.0 | twentynineteen | inactive | none | 1.9 | twentyseventeen | inactive | none | 2.5 | twentysixteen | inactive | none | 2.3 | twentyten | inactive | none | 3.2 | twentythirteen | inactive | none | 3.2 | twentytwelve | inactive | none | 3.3 | twentytwenty | inactive | none | 1.6 | nasigoreng | active | none | 1.1 | +-----------------+----------+--------+---------+ . To activate or deactivate theme: wp followed with sub command theme then the task command activate then the object which is the theme name e.g. twentytwenty . wp theme activate twentytwenty . It will switch the theme from twentytwentyone to twentytwenty . Success: Switched to 'Twenty Twenty' theme. Running in DDEV environment . If you are running the WP install in DDEV environment, add ddev before wp . ddev wp theme activate twentytwenty . Or else if will return error connecting database: . Error: Error establishing a database connection. ",
     "url": "http://localhost:4000/CMS/Wordpress/running-wp-cli.html",
     "relUrl": "/CMS/Wordpress/running-wp-cli.html"
-  },"219": {
+  },"221": {
     "doc": "Running WP CLI",
     "title": "wp scaffold",
     "content": "wp scaffold will help us create some codes for creating: . | child theme | post types | custom plugins starter | taxonomy | created theme based on Underscores | . To use the wp scaffold just add the subcommands and the name. Example below is creating child theme from twentytwenty: . wp scaffold child-theme nasi-goreng --parent_theme=twentytwenty . To create a custom theme starter based on _s Undrescore, theme name nasi-goreng: . wp scaffold _s my-theme --theme_name=\"Nasi Goreng\" --author=\"Emperor Nasi Goreng\" . If the command above didn’t work and give you this message ; . Error: Could not decompress your theme files ('/tmp/underscores-aede5jGF.tmp') at '/path-to-your-folder/wp/wp-content/themes': Incompatible Archive. just go to the Underscores website and generate it from the form, then download and install like a usual WP theme install. ",
     "url": "http://localhost:4000/CMS/Wordpress/running-wp-cli.html#wp-scaffold",
     "relUrl": "/CMS/Wordpress/running-wp-cli.html#wp-scaffold"
-  },"220": {
+  },"222": {
     "doc": "Running WP CLI",
     "title": "wp search-replace",
     "content": "This will search through the database rows of tables and replace the first string with second one. This command uses tables that are registerd in $wpdb . Example, I want to replace all nasi terms and replace them with goreng: . wp search-replace nasi goreng . Recommended to use --dry run to be sure of what you are doing, just to show you the changes that will be made before confirming the action. And it will show you the number of changes made: . +------------------+-----------------------+--------------+------+ | Table | Column | Replacements | Type | +------------------+-----------------------+--------------+------+ | woop_commentmeta | meta_key | 0 | SQL | woop_commentmeta | meta_value | 0 | SQL | woop_comments | comment_author | 0 | SQL | woop_comments | comment_author_email | 0 | SQL | woop_comments | comment_author_url | 0 | SQL | woop_comments | comment_author_IP | 0 | SQL | woop_comments | comment_content | 0 | SQL | woop_comments | comment_approved | 0 | SQL | woop_comments | comment_agent | 0 | SQL | woop_comments | comment_type | 0 | SQL | woop_links | link_url | 0 | SQL | woop_links | link_name | 0 | SQL | woop_links | link_image | 0 | SQL | woop_links | link_target | 0 | SQL | woop_links | link_description | 0 | SQL | woop_links | link_visible | 0 | SQL | woop_links | link_rel | 0 | SQL | woop_links | link_notes | 0 | SQL | woop_links | link_rss | 0 | SQL | woop_options | option_name | 0 | SQL | woop_options | option_value | 8 | PHP | woop_options | autoload | 0 | SQL | woop_postmeta | meta_key | 0 | SQL | woop_postmeta | meta_value | 0 | SQL | woop_posts | post_content | 2 | SQL | woop_posts | post_title | 0 | SQL | woop_posts | post_excerpt | 0 | SQL | woop_posts | post_status | 0 | SQL | woop_posts | comment_status | 0 | SQL | woop_posts | ping_status | 0 | SQL | woop_posts | post_password | 0 | SQL | woop_posts | post_name | 0 | SQL | woop_posts | to_ping | 0 | SQL | woop_posts | pinged | 0 | SQL | woop_posts | post_content_filtered | 0 | SQL | woop_posts | guid | 4 | SQL | woop_posts | post_type | 0 | SQL | woop_posts | post_mime_type | 0 | SQL | woop_term_taxonomy | taxonomy | 0 | SQL | woop_term_taxonomy | description | 0 | SQL | woop_termmeta | meta_key | 0 | SQL | woop_termmeta | meta_value | 0 | SQL | woop_terms | name | 0 | SQL | woop_terms | slug | 0 | SQL | woop_usermeta | meta_key | 0 | SQL | woop_usermeta | meta_value | 0 | PHP | woop_users | user_login | 0 | SQL | woop_users | user_nicename | 0 | SQL | woop_users | user_email | 0 | SQL | woop_users | user_url | 1 | SQL | woop_users | user_activation_key | 0 | SQL | woop_users | display_name | 0 | SQL | +------------------+-----------------------+--------------+------+ Success: Made 15 replacements. ",
     "url": "http://localhost:4000/CMS/Wordpress/running-wp-cli.html#wp-search-replace",
     "relUrl": "/CMS/Wordpress/running-wp-cli.html#wp-search-replace"
-  },"221": {
+  },"223": {
     "doc": "Running WP CLI",
     "title": "Create admin user withwp user",
     "content": "Create user with the role: . wp user create name name@email.com --role=administrator #this will create user Success: Created user 2. #and default password Password: ^oRY2M$GgElWjhan^(FEsrD5TD . Then you can reset pasword: . wp user reset-password &lt;user&gt;... [--skip-email] . To add admin user from existing, change the role: . wp user set-role &lt;user&gt; [&lt;role&gt;] . ",
     "url": "http://localhost:4000/CMS/Wordpress/running-wp-cli.html#create-admin-user-withwp-user",
     "relUrl": "/CMS/Wordpress/running-wp-cli.html#create-admin-user-withwp-user"
-  },"222": {
+  },"224": {
     "doc": "Running Codeigniter4",
     "title": "Running your app",
     "content": "+There are three ways of running Codeigniter4 . | hosted on web server | using visualisation | using Codeigniter CLI for testing | . It is recommended to read the user guide if you are new to building a dynamic PHP aplication . ",
     "url": "http://localhost:4000/php-ramework/Codeigniter/running.html#running-your-app",
     "relUrl": "/php-ramework/Codeigniter/running.html#running-your-app"
-  },"223": {
+  },"225": {
     "doc": "Running Codeigniter4",
     "title": "Local development settings",
     "content": "CodeIgniter 4 comes with a local development server, leveraging PHP’s built-in web server with CodeIgniter routing. You can use the serve script to launch it, with the following command line in the main directory: . php spark serve . ",
     "url": "http://localhost:4000/php-ramework/Codeigniter/running.html#local-development-settings",
     "relUrl": "/php-ramework/Codeigniter/running.html#local-development-settings"
-  },"224": {
+  },"226": {
     "doc": "Running Codeigniter4",
     "title": "Running Codeigniter4",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Codeigniter/running.html",
     "relUrl": "/php-ramework/Codeigniter/running.html"
-  },"225": {
+  },"227": {
     "doc": "Sail",
     "title": "Sail",
     "content": "Sail is the drush or wp-cli equivalent for Laravel which is a light-weight CLI. sail is stored in the docker-compose.yml in the project root. ",
     "url": "http://localhost:4000/php-ramework/Laravel/sail.html",
     "relUrl": "/php-ramework/Laravel/sail.html"
-  },"226": {
+  },"228": {
     "doc": "Sail",
     "title": "Install",
     "content": "Install sail with Composer: . composer require laravel/sail --dev . After Sail has been installed, you may run the sail:install Artisan command. This command will publish Sail’s docker-compose.yml file to the root of your application: . php artisan sail:install . By default, to run the sail it’s : .vendor/bin/sail up -d . ",
     "url": "http://localhost:4000/php-ramework/Laravel/sail.html#install",
     "relUrl": "/php-ramework/Laravel/sail.html#install"
-  },"227": {
+  },"229": {
     "doc": "Sail",
     "title": "Setup alias",
     "content": "Instead of typing all those path, you should make an alias on the bash profile. Run these command and you don’t have to edit the .bash profile: . export COMPOSE_FILE=docker-compose.yml alias sail='bash vendor/bin/sail' . ",
     "url": "http://localhost:4000/php-ramework/Laravel/sail.html#setup-alias",
     "relUrl": "/php-ramework/Laravel/sail.html#setup-alias"
-  },"228": {
+  },"230": {
     "doc": "Sail",
     "title": "Commands",
     "content": "Start &amp; stop . Start: . sail up . Start with detached mode: . sail up -d . That should give you the location of your development site, most likely on http://0.0.0.0:80: . nt server: http://0.0.0.0:80 laravel.test_1 | [Wed Mar 17 03:04:28 2021] PHP 8.0.1 Development Server (http://0.0.0.0:80) started . To stop all containers: . sail down . ",
     "url": "http://localhost:4000/php-ramework/Laravel/sail.html#commands",
     "relUrl": "/php-ramework/Laravel/sail.html#commands"
-  },"229": {
+  },"231": {
     "doc": "Server",
     "title": "Server",
     "content": " ",
     "url": "http://localhost:4000/the-basics/server.html",
     "relUrl": "/the-basics/server.html"
-  },"230": {
+  },"232": {
     "doc": "Docker setup",
     "title": "Setup and Installation",
     "content": "Here’s documentation from Docker site . ",
     "url": "http://localhost:4000/Docker/setup.html#setup-and-installation",
     "relUrl": "/Docker/setup.html#setup-and-installation"
-  },"231": {
+  },"233": {
     "doc": "Docker setup",
     "title": "Docker setup",
     "content": " ",
     "url": "http://localhost:4000/Docker/setup.html",
     "relUrl": "/Docker/setup.html"
-  },"232": {
+  },"234": {
     "doc": "Tables",
     "title": "Table styles on Markdown",
     "content": " ",
     "url": "http://localhost:4000/Markdown/tables.html#table-styles-on-markdown",
     "relUrl": "/Markdown/tables.html#table-styles-on-markdown"
-  },"233": {
+  },"235": {
     "doc": "Tables",
     "title": "Headers",
     "content": "Markdown . | Header Column One | Header Column Two | Header Column Three | Header Column Four | . ",
     "url": "http://localhost:4000/Markdown/tables.html#headers",
     "relUrl": "/Markdown/tables.html#headers"
-  },"234": {
+  },"236": {
     "doc": "Tables",
     "title": "Alignments",
     "content": "Left align: :-- or three dashes --- Right align: --: Centre align: :-: . Place those alignment within pipes in the respective columns. Markdown . | Default Header | Left Align | Right Align | Center Align | --- | :-- | --: | :-: | . ",
     "url": "http://localhost:4000/Markdown/tables.html#alignments",
     "relUrl": "/Markdown/tables.html#alignments"
-  },"235": {
+  },"237": {
     "doc": "Tables",
     "title": "Table contents",
     "content": "Every columns is separated with pipe | and every row is placed in different lines: . Markdown . | Column 1 Header | Column 2 Header | Column 3 Header | --------------- | --------------- | --------------- | Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 | Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 | Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 | . Output . | Column 1 Header | Column 2 Header | Column 3 Header | . | Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 | . | Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 | . | Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 | . ",
     "url": "http://localhost:4000/Markdown/tables.html#table-contents",
     "relUrl": "/Markdown/tables.html#table-contents"
-  },"236": {
+  },"238": {
     "doc": "Tables",
     "title": "Tables",
     "content": " ",
     "url": "http://localhost:4000/Markdown/tables.html",
     "relUrl": "/Markdown/tables.html"
-  },"237": {
+  },"239": {
     "doc": "The look",
     "title": "Bash terminal themes",
     "content": "This is the least important thing on working with command line but might be useful for you with a pretty colorful code linting the languages with custom theme you like. I use Powerlevel9k for the pretty look. ",
     "url": "http://localhost:4000/osx-cli/the-look.html#bash-terminal-themes",
     "relUrl": "/osx-cli/the-look.html#bash-terminal-themes"
-  },"238": {
+  },"240": {
     "doc": "The look",
     "title": "The look",
     "content": " ",
     "url": "http://localhost:4000/osx-cli/the-look.html",
     "relUrl": "/osx-cli/the-look.html"
-  },"239": {
+  },"241": {
     "doc": "Theme",
     "title": "Theme",
     "content": " ",
     "url": "http://localhost:4000/Static/jekyll/theme.html",
     "relUrl": "/Static/jekyll/theme.html"
-  },"240": {
+  },"242": {
     "doc": "Theme",
     "title": "Installing Jekyll theme",
     "content": "There are two common ways to install themes in Jekyll: . | Fork the Github repo - this will have to fork on git clone the repo and use this theme as starting point of your Jekyll install | Use Ruby gem - you can install this on the existing Jekyll install ** pick the theme you like and get the gem slug to put on the Gemfile e.g: gem \"minimal-mistakes-jekyll\" ** change the theme name on Gemfile and update the theme on _config.yml files ** run bundle ** check your new theme by running bundle exec jekyll serve . | . And you should see the theme has changed. Please be aware that you may have some Build warnings because themes have different layouts and may scream that the layout required didn’t exist. ",
     "url": "http://localhost:4000/Static/jekyll/theme.html#installing-jekyll-theme",
     "relUrl": "/Static/jekyll/theme.html#installing-jekyll-theme"
-  },"241": {
+  },"243": {
     "doc": "Tree",
     "title": "Tree",
     "content": "Shows you the file structure with tree lines. ",
     "url": "http://localhost:4000/osx-cli/tree.html",
     "relUrl": "/osx-cli/tree.html"
-  },"242": {
+  },"244": {
     "doc": "Tree",
     "title": "Install",
     "content": "Install with homebrew: . brew install tree . Install with Macports: . sudo port install tree . If you have Fink: . fink install tree . ",
     "url": "http://localhost:4000/osx-cli/tree.html#install",
     "relUrl": "/osx-cli/tree.html#install"
-  },"243": {
+  },"245": {
     "doc": "Tree",
     "title": "Using tree",
     "content": "Example below, in static-sites folder, run: . tree . Then it will show you the file structure: . static-sites ├── Gatsby │   ├── README.md │   ├── building-site.md │   ├── install.md │   └── publish-netlify-cms.md ├── Hugo │   └── README.md ├── README.md └── jekyll ├── building-contents.md ├── configure.md ├── custom-domain.md ├── front-matter.md ├── google-analytics.md ├── install.md ├── publish-to-netlify.md ├── readme.md └── theme.md . ",
     "url": "http://localhost:4000/osx-cli/tree.html#using-tree",
     "relUrl": "/osx-cli/tree.html#using-tree"
-  },"244": {
+  },"246": {
     "doc": "Twig on Drupal",
     "title": "Understanding Twig",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Drupal/twig.html#understanding-twig",
     "relUrl": "/php-ramework/Drupal/twig.html#understanding-twig"
-  },"245": {
+  },"247": {
     "doc": "Twig on Drupal",
     "title": "Twig on Drupal",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Drupal/twig.html",
     "relUrl": "/php-ramework/Drupal/twig.html"
-  },"246": {
+  },"248": {
     "doc": "Using drush",
     "title": "Using drush command",
     "content": "For a complete use of drush commands run drush list or visit documentation page on Command list Following are some random use of drush I picked up, for complete list check out their website. ",
     "url": "http://localhost:4000/php-ramework/Drupal/using-drush.html#using-drush-command",
     "relUrl": "/php-ramework/Drupal/using-drush.html#using-drush-command"
-  },"247": {
+  },"249": {
     "doc": "Using drush",
     "title": "Drush list user",
     "content": "Not like WP CLI, Drush doesnt have the command to list all users but there’s a way to list based on the role. For example if you wish to list all of the administrator users: . drush uinf --uid=$(drush sqlq \"SELECT GROUP_CONCAT(entity_id) FROM user__roles WHERE roles_target_id = 'administrator'\") . That will give you table of all administrator user role. To list users from range of ID nubers e.g. 1-200: . drush user:information --uid=\"$(echo {1..200},|sed -e 's/ //g')\" . ",
     "url": "http://localhost:4000/php-ramework/Drupal/using-drush.html#drush-list-user",
     "relUrl": "/php-ramework/Drupal/using-drush.html#drush-list-user"
-  },"248": {
+  },"250": {
     "doc": "Using drush",
     "title": "Using drush within DDEV system",
     "content": "If you are working on local with DDEV, you will have to add ddev at the front of drush`: . ddev drush pm:list . Otherwise it will return error connecting database: . Command pm:list was not found. Drush was unable to query the database. As a result, many commands are unavailable. Re-run your command with --debug to see relevant log messages. ",
     "url": "http://localhost:4000/php-ramework/Drupal/using-drush.html#using-drush-within-ddev-system",
     "relUrl": "/php-ramework/Drupal/using-drush.html#using-drush-within-ddev-system"
-  },"249": {
+  },"251": {
     "doc": "Using drush",
     "title": "Using  drush sql-cli",
     "content": "drush sql-cli or drush sqlc give you a session on the SQL query and search on the tables available. To use the local drush session use the following: ./bin/drush sql-cli # instead of just drush sql-cli . This will give you the SQL session: . Reading table information for completion of table and column names You can turn off this feature to get a quicker startup with -A Welcome to the MariaDB monitor. Commands end with ; or \\g. Your MariaDB connection id is 10380892 Server version: 10.3.27-MariaDB MariaDB Server Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others. Type 'help;' or '\\h' for help. Type '\\c' to clear the current input statement. Start searching with some genral SQL queries . to list all table: . show tables; . Note that this will be a very big list if you have a big website . to search table with some terms use like '%[term]%'; . show tables like '%path%'; . If you are looking for any tables that contains url term on them. Dont miss the semicolon (;) The result should be a list tables with url on them . +--------------------------------------------+ | Tables_in_wi_cdu_sandbox (%path%) | +--------------------------------------------+ | path_table_set | irawan_path__background_colour | irawan__table_with_path | path_alias | path_alias_revision | +--------------------------------------------+ 5 rows in set (0.00 sec) . to see the list a specific table . Listing all of path_alias or URL on the website . select*from path_alias . Then you will have the list of all of the URLs on your website. You can narrow it down by selecting the type with CONCAT Listing all URL with content types: . select nid, type, alias from node_field_data nfd inner join path_alias ua on CONCAT('/node/', nid) = path; . Result: . +-------+--------------------+-------------------------------------+ | nid | type | alias | +-------+--------------------+-------------------------------------+ | 391 | basic | /home | 443 | basic | /about | 444 | basic | /contact | 445 | blog | /the-healthy-nasi-goreng | 447 | blog | /my-experience-eating-nasi-goreng | 391 | blog | /nasi-goreng-is-great | 443 | blog | /about-nasi-goreng | 444 | blog | /where-can-i-buy-nasi-goreng | 445 | blog | /the-healthy-nasi-goreng | 447 | blog | /my-experience-eating-nasi-goreng | +-----+--------------------+---------------------------------------+ . Choose . ",
     "url": "http://localhost:4000/php-ramework/Drupal/using-drush.html#using--drush-sql-cli",
     "relUrl": "/php-ramework/Drupal/using-drush.html#using--drush-sql-cli"
-  },"250": {
+  },"252": {
     "doc": "Using drush",
     "title": "Using drush",
     "content": " ",
     "url": "http://localhost:4000/php-ramework/Drupal/using-drush.html",
     "relUrl": "/php-ramework/Drupal/using-drush.html"
-  },"251": {
+  },"253": {
     "doc": "WP CLI",
     "title": "WP-CLI - Wordpress Command Line Interface",
     "content": "With WP-CLI you can manage and update core, plugins, users, themes and many more without using browsers. Requirements . | UNIX-like environment | PHP 5.6 or later | WP core version 3.7 or later | . ",
     "url": "http://localhost:4000/CMS/Wordpress/wp-cli.html#wp-cli---wordpress-command-line-interface",
     "relUrl": "/CMS/Wordpress/wp-cli.html#wp-cli---wordpress-command-line-interface"
-  },"252": {
+  },"254": {
     "doc": "WP CLI",
     "title": "Installation",
     "content": "Donwload the wp-cli.phar file: . curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar . Check if it’s working: . php wp-cli.phar --info . To be able to use the command: wp, make this file executable: . chmod +x wp-cli.phar . Move it in your working file somewhere: . sudo mv wp-cli.phar /usr/local/bin/wp . Check if it works: . wp --info . Or check your WP version . wp core version . Note . If you are working on a shared hosting where you don’t have the sudo access to the root and they don’t install WP-CLI, you still can use this but not with wp alias. Use the following for this example wp core version : . php wp-cli.phar core version . ",
     "url": "http://localhost:4000/CMS/Wordpress/wp-cli.html#installation",
     "relUrl": "/CMS/Wordpress/wp-cli.html#installation"
-  },"253": {
+  },"255": {
     "doc": "WP CLI",
     "title": "WP CLI",
     "content": " ",
     "url": "http://localhost:4000/CMS/Wordpress/wp-cli.html",
     "relUrl": "/CMS/Wordpress/wp-cli.html"
-  },"254": {
+  },"256": {
     "doc": "YML files",
     "title": "YML files",
     "content": " ",
