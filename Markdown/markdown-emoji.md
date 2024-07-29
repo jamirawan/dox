@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Emojo for markdown
+title: Emojis for markdown
 parent: Markdown
 nav_order: 10
 has_children: false
@@ -57,7 +57,6 @@ People
 | :two_men_holding_hands: `:two_men_holding_hands:` | :two_women_holding_hands: `:two_women_holding_hands:` | :dancer: `:dancer:` |
 | :dancers: `:dancers:` | :ok_woman: `:ok_woman:` | :no_good: `:no_good:` |
 | :information_desk_person: `:information_desk_person:` | :raising_hand: `:raising_hand:` | :bride_with_veil: `:bride_with_veil:` |
-| :person_with_pouting_face: `:person_with_pouting_face:` | :person_frowning: `:person_frowning:` | :bow: `:bow:` |
 | :couplekiss: `:couplekiss:` | :couple_with_heart: `:couple_with_heart:` | :massage: `:massage:` |
 | :haircut: `:haircut:` | :nail_care: `:nail_care:` | :boy: `:boy:` |
 | :girl: `:girl:` | :woman: `:woman:` | :man: `:man:` |
