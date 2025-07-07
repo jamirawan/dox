@@ -1,0 +1,25 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "--- layout: home title: About description: Irawan Broome Website Designer - 'Dokumentasi' is about web dev documentation I know and practiced over the years. Darwin and Broome Kimberleys  Australia website designer since 2009. nav_order: 1 has_children: false",
+  "homepage": "https://github.com/jamirawan/docs#readme",
+  "bugs": {
+    "url": "https://github.com/jamirawan/docs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamirawan/docs.git"
+  },
+  "license": "MIT",
+  "author": "Irawan",
+  "type": "commonjs",
+  "main": "404-script.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "bundle exec jekyll serve",
+    "start": "bundler exec jekyll serve",
+    "build": "bundler exec jekyll build"
+  }
+}
