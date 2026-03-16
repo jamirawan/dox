@@ -1,7 +1,7 @@
 ---
 layout: home
-title: About
-description: Irawan Broome Website Designer - 'Dokumentasi' is about web dev documentation I know and practiced over the years. Darwin and Broome Kimberleys  Australia website designer since 2009.
+title: About Irawan Darwin
+description: Irawan Darwin - website developer - digital optimisation- content producer - 'Dokumentasi' is about web dev documentation I know and practiced over the years. Website developer since 2009.
 nav_order: 1
 has_children: false
 
@@ -301,15 +301,15 @@ has_children: false
 
 # Web dev documentation
 
-> **Websites are always in progress.**
+> **Websites are always in progress...**
 
 This **Dokumentasi** is my personal collection of manuals on how to do stuff in web development. I have been making websites since 2004 since Adobe Fireworks was still popular, Goecities era and web layout was in tables.
 
 2. This page is built based on what I know and been through with issues or steps I did during web development and documented them for my own reference and others may find these useful too
-3. This Dokumentasi is assuming that you know the basic of web development: HTML, PHP, CSS, Javascript and SQL and using command line. Also only for Mac OSX for the moment.
+3. This Dokumentasi is assuming that you know the basic of web development: HTML, PHP, CSS, Javascript and SQL and using command line. 
 5. You may find that some pages are not finished as I update this on my spare time between full-time job, having a baby and doing my freelance webdesign work at home
 7. I also do some digital visual stuff such as photography, Adobe Illustrator, Premiere Pro and a bit of After Effects. Visit [my landing page](https://irawan.io) for my other profiles and portfolios or my [blog](https://irawans.com), for some fun stuff
-7. Spare time is a luxury at the moment but I love kayaking in Darwin's epipelagic zone  and Broome Roebuck Bay just floating around or playing my DJ controller mixing stuff up.
+7. Spare time is a luxury at the moment but I love kayaking around Australian water like Darwin's epipelagic zone, Broome Roebuck Bay and Bunbury WA andjust floating around or playing my DJ controller mixing and messing stuff up.
 
 
 |:-:|
